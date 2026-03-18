@@ -1,0 +1,5 @@
+{
+  "name": "战舰世界平衡性调整查询",
+  "description": "查询战舰世界历史版本中各艘战舰的平衡性调整记录，支持从Excel快速导入更新数据。",
+  "requestFramePermissions": []
+}
