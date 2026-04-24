@@ -1,43 +1,40 @@
-import { BalanceChange, ChangeCategory } from '../types';
+import { RAW_BALANCE_COLUMNS } from '../data/schema.ts';
+import type { BalanceChange, RawBalanceRow } from '../types.ts';
 
-export function parseTSV(tsv: string, category: ChangeCategory): BalanceChange[] {
-  const lines = tsv.trim().split('\n');
-  if (lines.length < 1) return [];
+function escapeCell(value: string): string {
+  return value.replaceAll('\t', ' ').replaceAll('\r', ' ').replaceAll('\n', ' ');
+}
 
-  const data: BalanceChange[] = [];
-  
-  // Skip header if it contains common header keywords
-  let startIndex = 0;
-  if (lines[0].includes('船名') || lines[0].includes('名称') || lines[0].includes('机制')) {
-    startIndex = 1;
-  }
+function rowToColumns(row: RawBalanceRow): string[] {
+  return RAW_BALANCE_COLUMNS.map((column) => escapeCell(row[column] ?? ''));
+}
 
-  for (let i = startIndex; i < lines.length; i++) {
-    const cols = lines[i].split('\t').map(c => c.trim());
-    if (cols.length >= 8) {
-      data.push({
-        id: Math.random().toString(36).substr(2, 9),
-        category,
-        targetName: cols[0] || '',
-        nation: cols[1] || '',
-        tier: cols[2] || '',
-        type: cols[3] || '',
-        attribute: cols[4] || '',
-        oldValue: cols[5] || '',
-        newValue: cols[6] || '',
-        version: cols[7] || '',
-        notes: cols[8] || '',
-        trend: 'adjustment'
-      });
-    }
-  }
-  return data;
+export function toRawBalanceRow(item: BalanceChange): RawBalanceRow {
+  return {
+    targetName: item.targetName,
+    canonicalName: item.canonicalName,
+    previousNames: item.previousNames.join('|'),
+    nation: item.nation,
+    tier: item.tier,
+    type: item.type,
+    attribute: item.attribute,
+    oldValue: item.oldValue,
+    newValue: item.newValue,
+    version: item.version,
+    notes: item.notes,
+    trend: item.trend,
+    shipStatus: item.shipStatus,
+    tags: item.tags.join('|'),
+    sourceSheet: item.sourceSheet,
+  };
+}
+
+export function generateRawTSV(rows: RawBalanceRow[]): string {
+  const header = RAW_BALANCE_COLUMNS.join('\t');
+  const body = rows.map((row) => rowToColumns(row).join('\t'));
+  return [header, ...body].join('\n');
 }
 
 export function generateTSV(data: BalanceChange[]): string {
-  const header = ['名称/船名', '系别', '等级', '类型/舰种', '属性', '修改前数值', '修改后数值', '改动版本', '备注'].join('\t');
-  const rows = data.map(d => [
-    d.targetName, d.nation, d.tier, d.type, d.attribute, d.oldValue, d.newValue, d.version, d.notes
-  ].join('\t'));
-  return [header, ...rows].join('\n');
+  return generateRawTSV(data.map(toRawBalanceRow));
 }

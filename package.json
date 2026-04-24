@@ -5,6 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
+    "data:import:excel": "node --experimental-strip-types scripts/import-excel.ts",
+    "data:validate": "node --experimental-strip-types scripts/validate-data.ts",
+    "data:build": "node --experimental-strip-types scripts/build-data.ts",
+    "data:bundle": "node --experimental-strip-types scripts/bundle-update.ts",
+    "prebuild": "npm run data:validate && npm run data:build",
     "build": "vite build",
     "preview": "vite preview",
     "clean": "rm -rf dist",

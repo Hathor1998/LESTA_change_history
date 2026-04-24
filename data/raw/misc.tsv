@@ -1,0 +1,5 @@
+targetName	canonicalName	previousNames	nation	tier	type	attribute	oldValue	newValue	version	notes	trend	shipStatus	tags	sourceSheet
+吕特晏斯 (传奇舰长)	吕特晏斯 (传奇舰长)		德国		舰长	副炮天赋触发条件	100次副炮命中	150次副炮命中	12.10	削弱了副炮流触发速度	nerf	unknown		Migrated Data
+哈尔西 (传奇舰长)	哈尔西 (传奇舰长)		美国		舰长	隐蔽专家技能加成	-10%	-11.5%	12.9	强化了专属技能	buff	unknown		Migrated Data
+得梅因 (传奇插)	得梅因 (传奇插)		美国	10	传奇插	雷达持续时间惩罚	-10%	-20%	12.9	进一步限制了雷达时间	nerf	unknown		Migrated Data
+大和 (传奇插)	大和 (传奇插)		日本	10	传奇插	主炮装填时间收益	-6%	-5%	13.1		nerf	unknown		Migrated Data

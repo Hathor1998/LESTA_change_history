@@ -1,0 +1,4 @@
+targetName	canonicalName	previousNames	nation	tier	type	attribute	oldValue	newValue	version	notes	trend	shipStatus	tags	sourceSheet
+潜艇下潜机制	潜艇下潜机制				全局机制	被发现时下潜能力消耗	1单位/秒	1.5单位/秒	13.1	加快潜艇被点亮时的消耗	nerf	unknown		Migrated Data
+副炮精度机制	副炮精度机制				全局机制	基础散布公式	标准散布	随距离线性衰减	13.0	近距离副炮更准	adjustment	unknown		Migrated Data
+航母视野机制	航母视野机制				全局机制	飞机点亮水面舰艇	全队共享视野	仅小地图共享 (测试)	13.2	视野机制重大重做	adjustment	unknown		Migrated Data

@@ -1,10 +1,59 @@
-import React, { useState, useMemo } from 'react';
-import { Search, Filter, ChevronDown, ChevronUp } from 'lucide-react';
-import { BalanceChange, ChangeCategory } from '../types';
+import React, { useMemo, useState } from 'react';
+import { ChevronDown, ChevronUp, Filter, Search } from 'lucide-react';
+import {
+  CATEGORY_LABELS,
+  CHANGE_TAG_LABELS,
+  SHIP_STATUS_LABELS,
+} from '../data/schema.ts';
+import type { BalanceChange, ChangeCategory, ChangeTag, ShipStatus } from '../types.ts';
 
 interface GroupedDataViewProps {
   data: BalanceChange[];
   category: ChangeCategory;
+}
+
+function compareVersionsDesc(left: string, right: string): number {
+  const leftParts = left.split('.').map((part) => Number.parseInt(part, 10) || 0);
+  const rightParts = right.split('.').map((part) => Number.parseInt(part, 10) || 0);
+  const length = Math.max(leftParts.length, rightParts.length);
+
+  for (let index = 0; index < length; index += 1) {
+    const delta = (rightParts[index] ?? 0) - (leftParts[index] ?? 0);
+    if (delta !== 0) {
+      return delta;
+    }
+  }
+
+  return 0;
+}
+
+function uniqueStrings(values: string[]): string[] {
+  return Array.from(new Set(values.filter(Boolean)));
+}
+
+function trendTone(trend: BalanceChange['trend']): string {
+  switch (trend) {
+    case 'buff':
+      return 'text-emerald-600 font-semibold';
+    case 'nerf':
+      return 'text-red-600 font-semibold';
+    case 'neutral':
+      return 'text-slate-600 font-medium';
+    default:
+      return 'text-slate-900 font-medium';
+  }
+}
+
+function filterVisibleTags(tags: ChangeTag[], shipStatus: ShipStatus): ChangeTag[] {
+  return tags.filter((tag) => {
+    if (shipStatus === 'released' && tag === 'released-ship') {
+      return false;
+    }
+    if (shipStatus === 'test' && tag === 'test-ship') {
+      return false;
+    }
+    return true;
+  });
 }
 
 export default function GroupedDataView({ data, category }: GroupedDataViewProps) {
@@ -13,196 +62,213 @@ export default function GroupedDataView({ data, category }: GroupedDataViewProps
   const [tierFilter, setTierFilter] = useState('');
   const [typeFilter, setTypeFilter] = useState('');
   const [versionFilter, setVersionFilter] = useState('');
+  const [shipStatusFilter, setShipStatusFilter] = useState<ShipStatus | ''>('');
   const [expandedGroups, setExpandedGroups] = useState<Record<string, boolean>>({});
 
-  // Filter data for the current category
-  const categoryData = useMemo(() => data.filter(d => d.category === category), [data, category]);
+  const categoryData = useMemo(() => data.filter((item) => item.category === category), [category, data]);
+  const nations = useMemo(() => uniqueStrings(categoryData.map((item) => item.nation)).sort((a, b) => a.localeCompare(b, 'zh-CN')), [categoryData]);
+  const tiers = useMemo(() => uniqueStrings(categoryData.map((item) => item.tier)).sort((a, b) => Number.parseInt(a, 10) - Number.parseInt(b, 10)), [categoryData]);
+  const types = useMemo(() => uniqueStrings(categoryData.map((item) => item.type)).sort((a, b) => a.localeCompare(b, 'zh-CN')), [categoryData]);
+  const versions = useMemo(() => uniqueStrings(categoryData.map((item) => item.version)).sort(compareVersionsDesc), [categoryData]);
 
-  // Extract unique values for filters
-  const nations = useMemo(() => Array.from(new Set(categoryData.map(d => d.nation))).filter(Boolean).sort(), [categoryData]);
-  const tiers = useMemo(() => Array.from(new Set(categoryData.map(d => d.tier))).filter(Boolean).sort((a, b) => parseInt(a) - parseInt(b)), [categoryData]);
-  const types = useMemo(() => Array.from(new Set(categoryData.map(d => d.type))).filter(Boolean).sort(), [categoryData]);
-  const versions = useMemo(() => Array.from(new Set(categoryData.map(d => d.version))).filter(Boolean).sort((a, b) => parseFloat(b) - parseFloat(a)), [categoryData]);
-
-  // Apply filters
   const filteredData = useMemo(() => {
-    return categoryData.filter(item => {
-      const matchSearch = item.targetName.toLowerCase().includes(searchTerm.toLowerCase()) || 
-                          item.attribute.toLowerCase().includes(searchTerm.toLowerCase());
-      const matchNation = nationFilter ? item.nation === nationFilter : true;
-      const matchTier = tierFilter ? item.tier === tierFilter : true;
-      const matchType = typeFilter ? item.type === typeFilter : true;
-      const matchVersion = versionFilter ? item.version === versionFilter : true;
+    const keyword = searchTerm.trim().toLowerCase();
 
-      return matchSearch && matchNation && matchTier && matchType && matchVersion;
-    });
-  }, [categoryData, searchTerm, nationFilter, tierFilter, typeFilter, versionFilter]);
+    return categoryData.filter((item) => {
+      const searchableText = [
+        item.targetName,
+        item.canonicalName,
+        item.previousNames.join(' '),
+        item.attribute,
+        item.notes,
+      ].join(' ').toLowerCase();
 
-  // Group by targetName
-  const groupedData = useMemo(() => {
-    const groups: Record<string, BalanceChange[]> = {};
-    filteredData.forEach(item => {
-      if (!groups[item.targetName]) {
-        groups[item.targetName] = [];
-      }
-      groups[item.targetName].push(item);
+      const matchesSearch = !keyword || searchableText.includes(keyword);
+      const matchesNation = nationFilter ? item.nation === nationFilter : true;
+      const matchesTier = tierFilter ? item.tier === tierFilter : true;
+      const matchesType = typeFilter ? item.type === typeFilter : true;
+      const matchesVersion = versionFilter ? item.version === versionFilter : true;
+      const matchesShipStatus = shipStatusFilter ? item.shipStatus === shipStatusFilter : true;
+
+      return matchesSearch && matchesNation && matchesTier && matchesType && matchesVersion && matchesShipStatus;
     });
-    return groups;
+  }, [categoryData, nationFilter, searchTerm, shipStatusFilter, tierFilter, typeFilter, versionFilter]);
+
+  const groupedEntries = useMemo(() => {
+    const groups = new Map<string, BalanceChange[]>();
+    filteredData.forEach((item) => {
+      const key = item.canonicalName || item.targetName;
+      const existing = groups.get(key) ?? [];
+      existing.push(item);
+      groups.set(key, existing);
+    });
+
+    return [...groups.entries()].map(([groupName, changes]) => [groupName, changes.sort((left, right) => compareVersionsDesc(left.version, right.version))] as const);
   }, [filteredData]);
 
-  const toggleGroup = (name: string) => {
-    setExpandedGroups(prev => ({ ...prev, [name]: !prev[name] }));
+  const toggleGroup = (groupName: string) => {
+    setExpandedGroups((current) => ({ ...current, [groupName]: !current[groupName] }));
   };
-
-  const getTrendColor = (trend?: string) => {
-    switch (trend) {
-      case 'buff': return 'text-emerald-600 font-medium';
-      case 'nerf': return 'text-red-600 font-medium';
-      case 'neutral': return 'text-gray-600';
-      default: return 'text-gray-900';
-    }
-  };
-
-  const showNationAndTier = category === 'ship' || nations.length > 0 || tiers.length > 0;
 
   return (
-    <div className="flex flex-col h-full space-y-6">
-      {/* Filters Section */}
+    <div className="space-y-6">
       <div className="bg-white p-4 rounded-xl shadow-sm border border-slate-200">
-        <div className="flex flex-col md:flex-row gap-4">
+        <div className="flex flex-col lg:flex-row gap-4">
           <div className="flex-1 relative">
-            <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-              <Search className="h-5 w-5 text-slate-400" />
-            </div>
+            <Search className="h-5 w-5 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
             <input
               type="text"
-              className="block w-full pl-10 pr-3 py-2 border border-slate-300 rounded-lg leading-5 bg-white placeholder-slate-500 focus:outline-none focus:placeholder-slate-400 focus:ring-1 focus:ring-blue-500 focus:border-blue-500 sm:text-sm transition-colors"
-              placeholder={`搜索${category === 'ship' ? '船名' : category === 'mechanic' ? '机制' : '名称'}或属性...`}
+              className="block w-full pl-10 pr-3 py-2 border border-slate-300 rounded-lg bg-white text-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500"
+              placeholder={`搜索${CATEGORY_LABELS[category]}的规范名、曾用名或属性`}
               value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
+              onChange={(event) => setSearchTerm(event.target.value)}
             />
           </div>
-          
-          <div className="flex gap-2 overflow-x-auto pb-2 md:pb-0">
-            {showNationAndTier && (
-              <>
-                <select
-                  className="block w-32 pl-3 pr-10 py-2 text-base border border-slate-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm rounded-lg"
-                  value={nationFilter}
-                  onChange={(e) => setNationFilter(e.target.value)}
-                >
-                  <option value="">所有系别</option>
-                  {nations.map(n => <option key={n} value={n}>{n}</option>)}
-                </select>
 
-                <select
-                  className="block w-28 pl-3 pr-10 py-2 text-base border border-slate-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm rounded-lg"
-                  value={tierFilter}
-                  onChange={(e) => setTierFilter(e.target.value)}
-                >
-                  <option value="">所有等级</option>
-                  {tiers.map(t => <option key={t} value={t}>{t}级</option>)}
-                </select>
-              </>
-            )}
-
-            {types.length > 0 && (
-              <select
-                className="block w-32 pl-3 pr-10 py-2 text-base border border-slate-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm rounded-lg"
-                value={typeFilter}
-                onChange={(e) => setTypeFilter(e.target.value)}
-              >
-                <option value="">所有类型</option>
-                {types.map(t => <option key={t} value={t}>{t}</option>)}
+          <div className="flex gap-2 overflow-x-auto pb-2 lg:pb-0">
+            {nations.length > 0 && (
+              <select className="block w-32 border border-slate-300 rounded-lg px-3 py-2 text-sm bg-white" value={nationFilter} onChange={(event) => setNationFilter(event.target.value)}>
+                <option value="">全部国籍</option>
+                {nations.map((nation) => (
+                  <option key={nation} value={nation}>{nation}</option>
+                ))}
               </select>
             )}
 
-            <select
-              className="block w-32 pl-3 pr-10 py-2 text-base border border-slate-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm rounded-lg"
-              value={versionFilter}
-              onChange={(e) => setVersionFilter(e.target.value)}
-            >
-              <option value="">所有版本</option>
-              {versions.map(v => <option key={v} value={v}>{v}</option>)}
-            </select>
+            {tiers.length > 0 && (
+              <select className="block w-24 border border-slate-300 rounded-lg px-3 py-2 text-sm bg-white" value={tierFilter} onChange={(event) => setTierFilter(event.target.value)}>
+                <option value="">全部等级</option>
+                {tiers.map((tier) => (
+                  <option key={tier} value={tier}>{tier}</option>
+                ))}
+              </select>
+            )}
+
+            {types.length > 0 && (
+              <select className="block w-32 border border-slate-300 rounded-lg px-3 py-2 text-sm bg-white" value={typeFilter} onChange={(event) => setTypeFilter(event.target.value)}>
+                <option value="">全部舰种</option>
+                {types.map((type) => (
+                  <option key={type} value={type}>{type}</option>
+                ))}
+              </select>
+            )}
+
+            {category === 'ship' && (
+              <select className="block w-32 border border-slate-300 rounded-lg px-3 py-2 text-sm bg-white" value={shipStatusFilter} onChange={(event) => setShipStatusFilter(event.target.value as ShipStatus | '')}>
+                <option value="">全部状态</option>
+                <option value="released">正式船</option>
+                <option value="test">测试船</option>
+                <option value="unknown">未知状态</option>
+              </select>
+            )}
+
+            {versions.length > 0 && (
+              <select className="block w-28 border border-slate-300 rounded-lg px-3 py-2 text-sm bg-white" value={versionFilter} onChange={(event) => setVersionFilter(event.target.value)}>
+                <option value="">全部版本</option>
+                {versions.map((version) => (
+                  <option key={version} value={version}>{version}</option>
+                ))}
+              </select>
+            )}
           </div>
         </div>
       </div>
 
-      {/* Grouped Cards Section */}
-      <div className="flex-1 overflow-y-auto pb-8">
-        {Object.keys(groupedData).length > 0 ? (
-          <div className="grid grid-cols-1 gap-6">
-            {Object.entries(groupedData).map(([targetName, changes]) => {
-              const isExpanded = expandedGroups[targetName] !== false; // Default to expanded
-              const firstItem = changes[0];
-              
-              return (
-                <div key={targetName} className="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden transition-all duration-200">
-                  {/* Card Header */}
-                  <div 
-                    className="bg-slate-50 px-6 py-4 border-b border-slate-200 flex justify-between items-center cursor-pointer hover:bg-slate-100 transition-colors"
-                    onClick={() => toggleGroup(targetName)}
-                  >
-                    <div className="flex items-center gap-4 flex-wrap">
-                      <h3 className="text-lg font-bold text-slate-900">{targetName}</h3>
-                      <div className="flex gap-2 text-xs font-medium text-slate-600">
-                        {firstItem.tier && <span className="bg-slate-200/80 px-2.5 py-1 rounded-md">{firstItem.tier}级</span>}
-                        {firstItem.nation && <span className="bg-slate-200/80 px-2.5 py-1 rounded-md">{firstItem.nation}</span>}
-                        {firstItem.type && <span className="bg-slate-200/80 px-2.5 py-1 rounded-md">{firstItem.type}</span>}
+      {groupedEntries.length > 0 ? (
+        <div className="grid grid-cols-1 gap-6">
+          {groupedEntries.map(([groupName, changes]) => {
+            const isExpanded = expandedGroups[groupName] !== false;
+            const firstItem = changes[0];
+            const aliases = uniqueStrings(
+              changes.flatMap((item) => [item.targetName, ...item.previousNames]).filter((name) => name !== groupName),
+            );
+            const tags = filterVisibleTags(uniqueStrings(changes.flatMap((item) => item.tags)) as ChangeTag[], firstItem.shipStatus);
+
+            return (
+              <div key={groupName} className="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
+                <div className="bg-slate-50 px-6 py-4 border-b border-slate-200 flex justify-between items-center cursor-pointer hover:bg-slate-100 transition-colors" onClick={() => toggleGroup(groupName)}>
+                  <div className="space-y-2">
+                    <div className="flex items-center gap-3 flex-wrap">
+                      <h3 className="text-lg font-bold text-slate-900">{groupName}</h3>
+                      {firstItem.nation && <span className="bg-white px-2.5 py-1 rounded-md border border-slate-200 text-xs text-slate-600">{firstItem.nation}</span>}
+                      {firstItem.tier && <span className="bg-white px-2.5 py-1 rounded-md border border-slate-200 text-xs text-slate-600">{firstItem.tier} 级</span>}
+                      {firstItem.type && <span className="bg-white px-2.5 py-1 rounded-md border border-slate-200 text-xs text-slate-600">{firstItem.type}</span>}
+                      {category === 'ship' && (
+                        <span className="bg-blue-50 px-2.5 py-1 rounded-md border border-blue-100 text-xs text-blue-700">
+                          {SHIP_STATUS_LABELS[firstItem.shipStatus]}
+                        </span>
+                      )}
+                    </div>
+                    {(aliases.length > 0 || tags.length > 0) && (
+                      <div className="flex flex-wrap items-center gap-2 text-xs text-slate-500">
+                        {aliases.length > 0 && <span>曾用名：{aliases.join(' / ')}</span>}
+                        {tags.map((tag) => (
+                          <span key={tag} className="px-2 py-0.5 rounded-full bg-white border border-slate-200 text-slate-600">
+                            {CHANGE_TAG_LABELS[tag]}
+                          </span>
+                        ))}
                       </div>
-                    </div>
-                    <div className="flex items-center gap-3">
-                      <span className="text-xs text-slate-500 font-medium bg-white px-2 py-1 rounded border border-slate-200">
-                        {changes.length} 项改动
-                      </span>
-                      {isExpanded ? <ChevronUp className="w-5 h-5 text-slate-400" /> : <ChevronDown className="w-5 h-5 text-slate-400" />}
-                    </div>
+                    )}
                   </div>
 
-                  {/* Card Body (Table) */}
-                  {isExpanded && (
-                    <div className="overflow-x-auto">
-                      <table className="min-w-full divide-y divide-slate-200">
-                        <thead className="bg-white">
-                          <tr>
-                            <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-slate-500 uppercase tracking-wider w-1/4">属性</th>
-                            <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-slate-500 uppercase tracking-wider w-1/5">修改前数值</th>
-                            <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-slate-500 uppercase tracking-wider w-1/5">修改后数值</th>
-                            <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-slate-500 uppercase tracking-wider w-24">版本</th>
-                            <th scope="col" className="px-6 py-3 text-left text-xs font-medium text-slate-500 uppercase tracking-wider">备注</th>
-                          </tr>
-                        </thead>
-                        <tbody className="bg-white divide-y divide-slate-100">
-                          {changes.map((item) => (
-                            <tr key={item.id} className="hover:bg-slate-50/50 transition-colors">
-                              <td className="px-6 py-3 text-sm text-slate-900 font-medium">{item.attribute}</td>
-                              <td className="px-6 py-3 text-sm text-slate-500">{item.oldValue}</td>
-                              <td className={`px-6 py-3 text-sm ${getTrendColor(item.trend)}`}>{item.newValue}</td>
-                              <td className="px-6 py-3 text-sm text-slate-500">
-                                <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-blue-50 text-blue-700 border border-blue-100">
-                                  {item.version}
-                                </span>
-                              </td>
-                              <td className="px-6 py-3 text-sm text-slate-500">{item.notes}</td>
-                            </tr>
-                          ))}
-                        </tbody>
-                      </table>
-                    </div>
-                  )}
+                  <div className="flex items-center gap-3">
+                    <span className="text-xs text-slate-500 font-medium bg-white px-2 py-1 rounded border border-slate-200">
+                      {changes.length} 条记录
+                    </span>
+                    {isExpanded ? <ChevronUp className="w-5 h-5 text-slate-400" /> : <ChevronDown className="w-5 h-5 text-slate-400" />}
+                  </div>
                 </div>
-              );
-            })}
-          </div>
-        ) : (
-          <div className="bg-white rounded-xl shadow-sm border border-slate-200 p-12 flex flex-col items-center justify-center text-slate-500">
-            <Filter className="h-10 w-10 text-slate-300 mb-3" />
-            <p className="text-lg font-medium text-slate-600">没有找到符合条件的记录</p>
-            <p className="text-sm mt-1">请尝试调整筛选条件，或在“数据管理”中导入数据</p>
-          </div>
-        )}
-      </div>
+
+                {isExpanded && (
+                  <div className="overflow-x-auto">
+                    <table className="min-w-full divide-y divide-slate-200">
+                      <thead className="bg-white">
+                        <tr>
+                          <th className="px-6 py-3 text-left text-xs font-medium text-slate-500 uppercase tracking-wider">显示名</th>
+                          <th className="px-6 py-3 text-left text-xs font-medium text-slate-500 uppercase tracking-wider">属性</th>
+                          <th className="px-6 py-3 text-left text-xs font-medium text-slate-500 uppercase tracking-wider">原始值</th>
+                          <th className="px-6 py-3 text-left text-xs font-medium text-slate-500 uppercase tracking-wider">改后数值</th>
+                          <th className="px-6 py-3 text-left text-xs font-medium text-slate-500 uppercase tracking-wider">版本</th>
+                          <th className="px-6 py-3 text-left text-xs font-medium text-slate-500 uppercase tracking-wider">备注</th>
+                        </tr>
+                      </thead>
+                      <tbody className="bg-white divide-y divide-slate-100">
+                        {changes.map((item) => (
+                          <tr key={item.id} className="hover:bg-slate-50 transition-colors">
+                            <td className="px-6 py-4 text-sm text-slate-900">
+                              <div className="font-medium">{item.targetName}</div>
+                              {item.targetName !== item.canonicalName && (
+                                <div className="text-xs text-slate-500 mt-1">规范名：{item.canonicalName}</div>
+                              )}
+                            </td>
+                            <td className="px-6 py-4 text-sm text-slate-900 font-medium">{item.attribute}</td>
+                            <td className="px-6 py-4 text-sm text-slate-500">{item.oldValue}</td>
+                            <td className="px-6 py-4 text-sm">
+                              <div className={trendTone(item.trend)}>{item.newValue}</div>
+                            </td>
+                            <td className="px-6 py-4 text-sm text-slate-500">
+                              <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-blue-50 text-blue-700 border border-blue-100">
+                                {item.version}
+                              </span>
+                            </td>
+                            <td className="px-6 py-4 text-sm text-slate-500">{item.notes || '-'}</td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                )}
+              </div>
+            );
+          })}
+        </div>
+      ) : (
+        <div className="bg-white rounded-xl shadow-sm border border-slate-200 p-12 flex flex-col items-center justify-center text-slate-500">
+          <Filter className="h-10 w-10 text-slate-300 mb-3" />
+          <p className="text-lg font-medium text-slate-600">没有找到符合筛选条件的记录</p>
+          <p className="text-sm mt-1">可以尝试清空搜索词、版本或状态筛选后再查看。</p>
+        </div>
+      )}
     </div>
   );
 }

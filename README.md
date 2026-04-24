@@ -1,20 +1,49 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# WoWS Balance Change Workbench
 
-# Run and deploy your AI Studio app
+中文说明见 [README.zh-CN.md](./README.zh-CN.md)  
+English guide: [README.en.md](./README.en.md)
 
-This contains everything you need to run your app locally.
+## Overview
 
-View your app in AI Studio: https://ai.studio/apps/05e8a262-668c-42ec-b149-59db6dc00a9b
+This repository is a local-first World of Warships / Lesta balance change archive.
 
-## Run Locally
+- Production build: read-only viewer published from `docs/`
+- Local development build: adds `数据导入` and `数据管理` tools for reviewing updates, maintaining raw source files, and exporting update bundles
+- Source of truth: `data/raw/*.tsv` and `data/config/site.json`
+- Generated frontend payload: `src/data/generated/balanceChanges.json`
 
-**Prerequisites:**  Node.js
+## Quick Commands
 
+```bash
+npm install
+npm run data:import:excel
+npm run data:validate
+npm run data:build
+npm run dev
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Local Verification
+
+```bash
+npm run lint
+npm run data:import:excel
+npm run data:validate
+npm run data:build
+npm run build
+npm run data:bundle
+```
+
+## Core Files
+
+- `data/raw/ship.tsv`
+- `data/raw/mechanic.tsv`
+- `data/raw/misc.tsv`
+- `data/config/site.json`
+- `src/data/generated/balanceChanges.json`
+- `scripts/import-excel.ts`
+- `scripts/bundle-update.ts`
+
+## Deployment Note
+
+GitHub Pages should publish from `docs/`.  
+Before deployment, confirm the `base` value in `vite.config.ts` matches your repository path.
