@@ -27,6 +27,7 @@ try {
   const config = await readSiteConfig();
   const bundleRelativePaths = [
     'data/raw',
+    'data/database',
     'data/config/site.json',
     'src/data/generated/balanceChanges.json',
     'docs',

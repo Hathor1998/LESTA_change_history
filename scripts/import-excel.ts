@@ -3,19 +3,28 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { TREND_VALUES } from '../src/data/schema.ts';
 import { parseWorkbookBuffer } from '../src/utils/xlsx.ts';
-import type { ChangeTrend, RawBalanceRow, SiteConfig } from '../src/types.ts';
-import { readSiteConfig, writeCategoryRows, writeSiteConfig } from './data-lib.ts';
+import type { ChangeTrend, RawBalanceRow } from '../src/types.ts';
+import { writeCategoryRows } from './data-lib.ts';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const repoRoot = path.resolve(__dirname, '..');
 
-const QUERY_SHEET_NAME = '查询';
-const RELEASED_SHIP_SHEET_NAME = '非测试舰船';
-const TEST_SHIP_SHEET_NAME = '测试舰船';
-const EXPECTED_HEADERS = ['船名', '国籍', '等级', '舰种', '属性', '原始值', '改后数值', '改动版本', '备注', 'FLAG'];
-const QUERY_DATA_START_COLUMN = 15;
-const QUERY_DATA_END_COLUMN = 25;
+const PRIMARY_WORKBOOK_PATTERN = /1\.xlsx$/i;
+const FALLBACK_WORKBOOK_PATTERN = /lesta/i;
+const DEFAULT_SHEET_NAME = 'Sheet1';
+const EXPECTED_HEADERS = [
+  '船名',
+  '国籍',
+  '等级',
+  '舰种',
+  '属性',
+  '原始值',
+  '改后数值',
+  '改动版本',
+  '备注',
+  'FLAG',
+];
 
 function normalizeCell(value: string | undefined): string {
   return (value ?? '').trim();
@@ -33,36 +42,21 @@ function normalizeRows(rows: string[][]): string[][] {
     .filter((row) => row.some(Boolean));
 }
 
+function normalizeHeader(value: string): string {
+  return value.trim().replace(/[\s()/_-]+/g, '').toLowerCase();
+}
+
 function findWorkbookPath(fileNames: string[]): string {
   const xlsxFiles = fileNames.filter((fileName) => fileName.toLowerCase().endsWith('.xlsx'));
   if (xlsxFiles.length === 0) {
-    throw new Error('项目根目录下未找到任何 .xlsx 工作簿。');
+    throw new Error('项目根目录中没有找到可用的 .xlsx 数据源文件。');
   }
 
-  const preferred = xlsxFiles.find((fileName) => /lesta/i.test(fileName)) ?? xlsxFiles[0];
+  const preferred = xlsxFiles.find((fileName) => PRIMARY_WORKBOOK_PATTERN.test(fileName))
+    ?? xlsxFiles.find((fileName) => FALLBACK_WORKBOOK_PATTERN.test(fileName))
+    ?? xlsxFiles[0];
+
   return path.join(repoRoot, preferred);
-}
-
-function findHeaderIndex(rows: string[][]): number {
-  return rows.findIndex((row) => {
-    const firstCell = normalizeCell(row[0]);
-    if (firstCell !== EXPECTED_HEADERS[0]) {
-      return false;
-    }
-
-    if (row.length === 1) {
-      return true;
-    }
-
-    return EXPECTED_HEADERS.every((header, index) => !row[index] || normalizeCell(row[index]) === header);
-  });
-}
-
-function findHeaderIndexInSlice(rows: string[][], start: number, end: number): number {
-  return rows.findIndex((row) => {
-    const columns = row.slice(start, end).map((cell) => normalizeCell(cell));
-    return EXPECTED_HEADERS.every((header, index) => columns[index] === header);
-  });
 }
 
 function splitAliases(targetName: string): { canonicalName: string; previousNames: string[] } {
@@ -85,11 +79,11 @@ function normalizeTrend(rawValue: string): ChangeTrend {
   const normalized = rawValue.trim().toLowerCase();
 
   if (normalized === '1') {
-    return 'buff';
+    return 'nerf';
   }
 
   if (normalized === '0') {
-    return 'nerf';
+    return 'buff';
   }
 
   if (normalized === '2') {
@@ -100,11 +94,11 @@ function normalizeTrend(rawValue: string): ChangeTrend {
     return normalized as ChangeTrend;
   }
 
-  if (/(削弱|降低|nerf)/i.test(rawValue)) {
+  if (/(削弱|nerf)/i.test(rawValue)) {
     return 'nerf';
   }
 
-  if (/(加强|增强|提升|buff)/i.test(rawValue)) {
+  if (/(加强|buff)/i.test(rawValue)) {
     return 'buff';
   }
 
@@ -127,11 +121,11 @@ function mapExcelRecord(row: string[]): Pick<RawBalanceRow, 'attribute' | 'oldVa
   const notes = normalizeCell(row[8]);
   const trend = normalizeTrend(normalizeCell(row[9]));
 
-  if (attribute || oldValue) {
+  if (attribute || oldValue || newValue || version || notes) {
     return {
       attribute,
-      oldValue,
-      newValue,
+      oldValue: oldValue || '-',
+      newValue: newValue || '-',
       version,
       notes,
       trend,
@@ -149,17 +143,17 @@ function mapExcelRecord(row: string[]): Pick<RawBalanceRow, 'attribute' | 'oldVa
         oldValue: sparseValue,
         newValue: '-',
         version: sparseVersion,
-        notes: '来自稀疏 Excel 行，建议人工复核',
+        notes: '原始 Excel 行存在稀疏列，已按兼容规则导入，建议人工复核。',
         trend,
       };
     }
 
     return {
-      attribute: sparseValue,
+      attribute: sparseValue || sparseText,
       oldValue: '-',
       newValue: sparseText || '-',
       version: sparseVersion,
-      notes: '来自稀疏 Excel 行，建议人工复核',
+      notes: '原始 Excel 行存在稀疏列，已按兼容规则导入，建议人工复核。',
       trend,
     };
   }
@@ -174,67 +168,23 @@ function mapExcelRecord(row: string[]): Pick<RawBalanceRow, 'attribute' | 'oldVa
   };
 }
 
-function extractCurrentVersion(rows: string[][], fallback: SiteConfig): SiteConfig {
-  const versionPattern = /^\d+(?:\.\d+)+$/;
-
-  for (let rowIndex = 0; rowIndex < rows.length; rowIndex += 1) {
-    for (let columnIndex = 0; columnIndex < rows[rowIndex].length; columnIndex += 1) {
-      const cell = normalizeCell(rows[rowIndex][columnIndex]);
-      if (!cell.includes('当前版本')) {
-        continue;
-      }
-
-      const candidates = [
-        rows[rowIndex][columnIndex + 1],
-        rows[rowIndex + 1]?.[columnIndex],
-        rows[rowIndex + 1]?.[columnIndex + 1],
-      ]
-        .map((candidate) => normalizeCell(candidate))
-        .filter(Boolean);
-
-      const matched = candidates.find((candidate) => versionPattern.test(candidate));
-      if (matched) {
-        return {
-          currentVersion: matched,
-          lastUpdated: fallback.lastUpdated,
-        };
-      }
-    }
-  }
-
-  return fallback;
+function findHeaderIndex(rows: string[][]): number {
+  const normalizedExpected = EXPECTED_HEADERS.map(normalizeHeader);
+  return rows.findIndex((row) => {
+    const normalizedRow = row.slice(0, EXPECTED_HEADERS.length).map(normalizeHeader);
+    return normalizedExpected.every((header, index) => normalizedRow[index] === header);
+  });
 }
 
-async function main(): Promise<void> {
-  const workbookPath = findWorkbookPath(await readdir(repoRoot));
-  const buffer = await readFile(workbookPath);
-  const workbook = await parseWorkbookBuffer(
-    buffer.buffer.slice(buffer.byteOffset, buffer.byteOffset + buffer.byteLength),
-  );
-
-  const querySheet = workbook.sheets.find((sheet) => sheet.name === QUERY_SHEET_NAME);
-  const releasedSheet = workbook.sheets.find((sheet) => sheet.name === RELEASED_SHIP_SHEET_NAME);
-  const testSheet = workbook.sheets.find((sheet) => sheet.name === TEST_SHIP_SHEET_NAME);
-
-  if (!releasedSheet) {
-    throw new Error(`Excel 工作簿缺少 "${RELEASED_SHIP_SHEET_NAME}" sheet。`);
+function mapSheetRowsToShipRows(rows: string[][], workbookName: string, sheetName: string): RawBalanceRow[] {
+  const normalizedRows = normalizeRows(rows);
+  const headerIndex = findHeaderIndex(normalizedRows);
+  if (headerIndex < 0) {
+    throw new Error(`文件 ${workbookName} 的 ${sheetName} 未找到可识别的表头。`);
   }
 
-  if (testSheet && normalizeRows(testSheet.rows).length > 0) {
-    console.log(`检测到 "${TEST_SHIP_SHEET_NAME}" sheet 有内容，本次仍只覆盖正式舰船真源。`);
-  }
-
-  const normalizedQueryRows = normalizeRows(querySheet?.rows ?? []);
-  const queryHeaderIndex = findHeaderIndexInSlice(normalizedQueryRows, QUERY_DATA_START_COLUMN, QUERY_DATA_END_COLUMN);
-  if (queryHeaderIndex < 0) {
-    throw new Error(`在 "${QUERY_SHEET_NAME}" 中未找到平铺数据表头。`);
-  }
-
-  const flattenedRows = normalizedQueryRows
-    .slice(queryHeaderIndex + 1)
-    .map((row) => row.slice(QUERY_DATA_START_COLUMN, QUERY_DATA_END_COLUMN).map((cell) => normalizeCell(cell)));
-
-  const shipRows: RawBalanceRow[] = flattenedRows
+  return normalizedRows
+    .slice(headerIndex + 1)
     .filter((row) => normalizeCell(row[0]).length > 0)
     .filter((row) => [row[4], row[5], row[6], row[7], row[8]].some((value) => normalizeCell(value).length > 0))
     .map((row) => {
@@ -257,18 +207,29 @@ async function main(): Promise<void> {
         trend: mapped.trend,
         shipStatus: 'released',
         tags: 'released-ship',
-        sourceSheet: RELEASED_SHIP_SHEET_NAME,
+        sourceSheet: sheetName,
       };
     });
+}
 
+async function main(): Promise<void> {
+  const workbookPath = findWorkbookPath(await readdir(repoRoot));
+  const workbookName = path.basename(workbookPath);
+  const buffer = await readFile(workbookPath);
+  const workbook = await parseWorkbookBuffer(
+    buffer.buffer.slice(buffer.byteOffset, buffer.byteOffset + buffer.byteLength),
+  );
+
+  const targetSheet = workbook.sheets.find((sheet) => sheet.name === DEFAULT_SHEET_NAME) ?? workbook.sheets[0];
+  if (!targetSheet) {
+    throw new Error(`文件 ${workbookName} 中没有可用的工作表。`);
+  }
+
+  const shipRows = mapSheetRowsToShipRows(targetSheet.rows, workbookName, targetSheet.name);
   await writeCategoryRows('ship', shipRows);
 
-  const existingConfig = await readSiteConfig();
-  const nextConfig = extractCurrentVersion(normalizeRows(querySheet?.rows ?? []), existingConfig);
-  await writeSiteConfig(nextConfig);
-
-  console.log(`已从 ${path.basename(workbookPath)} 导入 ${shipRows.length} 条正式舰船记录。`);
-  console.log(`当前版本号已设置为 ${nextConfig.currentVersion}。`);
+  console.log(`已使用 ${workbookName} 的 ${targetSheet.name} 导入 ${shipRows.length} 条正式舰船记录。`);
+  console.log('当前版本号继续使用 data/config/site.json，不再从该 Excel 自动提取。');
 }
 
 try {

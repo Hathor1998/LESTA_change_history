@@ -55,6 +55,13 @@ export interface BuildMeta {
   categoryCounts: Record<ChangeCategory, number>;
   shipStatusCounts: Record<ShipStatus, number>;
   tagCounts: Partial<Record<ChangeTag, number>>;
+  trendCounts: Record<ChangeTrend, number>;
+  officialData?: {
+    announcementCount: number;
+    rangeStart: string;
+    rangeEnd: string;
+    syncedAt: string;
+  };
 }
 
 export interface GeneratedBalanceData {
@@ -99,6 +106,38 @@ export interface UpdateBundleManifest {
   bundleCreatedAt: string;
   currentVersion: string;
   includedFiles: string[];
+}
+
+export type OfficialAnalysisConfidence = 'high' | 'medium' | 'low';
+
+export interface OfficialAnnouncement {
+  id: string;
+  url: string;
+  title: string;
+  publishedAt: string;
+  contentHash: string;
+  recordIds: string[];
+}
+
+export interface OfficialBalanceRecord extends RawBalanceRow {
+  id: string;
+  category: ChangeCategory;
+  announcementId: string;
+  sourceUrl: string;
+  publishedAt: string;
+  originalText: string;
+  analysisRule: string;
+  analysisConfidence: OfficialAnalysisConfidence;
+}
+
+export interface OfficialBalanceDatabase {
+  schemaVersion: 1;
+  source: 'blog.korabli.su';
+  syncedAt: string;
+  rangeStart: string;
+  rangeEnd: string;
+  announcements: OfficialAnnouncement[];
+  records: OfficialBalanceRecord[];
 }
 
 export interface LocalToolDraft {

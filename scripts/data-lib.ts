@@ -375,9 +375,16 @@ export function buildGeneratedData(records: BalanceChange[], siteConfig: SiteCon
     unknown: 0,
   };
   const tagCounts: GeneratedBalanceData['meta']['tagCounts'] = {};
+  const trendCounts: GeneratedBalanceData['meta']['trendCounts'] = {
+    buff: 0,
+    nerf: 0,
+    neutral: 0,
+    adjustment: 0,
+  };
 
   records.forEach((record) => {
     categoryCounts[record.category] += 1;
+    trendCounts[record.trend] += 1;
     shipStatusCounts[record.shipStatus] += 1;
     record.tags.forEach((tag) => {
       tagCounts[tag] = (tagCounts[tag] ?? 0) + 1;
@@ -394,6 +401,7 @@ export function buildGeneratedData(records: BalanceChange[], siteConfig: SiteCon
       categoryCounts,
       shipStatusCounts,
       tagCounts,
+      trendCounts,
     },
   };
 }

@@ -1,49 +1,35 @@
-# WoWS Balance Change Workbench
+# WoWS Balance Change Archive
 
-中文说明见 [README.zh-CN.md](./README.zh-CN.md)  
-English guide: [README.en.md](./README.en.md)
+[简体中文说明](./README.zh-CN.md) | [English guide](./README.en.md)
 
-## Overview
+## Data Sources
 
-This repository is a local-first World of Warships / Lesta balance change archive.
-
-- Production build: read-only viewer published from `docs/`
-- Local development build: adds `数据导入` and `数据管理` tools for reviewing updates, maintaining raw source files, and exporting update bundles
-- Source of truth: `data/raw/*.tsv` and `data/config/site.json`
+- Official two-year announcement database: `data/database/korabli-official.json`
+- Build-compatible TSV mirrors: `data/raw/*.tsv`
+- Site configuration: `data/config/site.json`
 - Generated frontend payload: `src/data/generated/balanceChanges.json`
 
-## Quick Commands
+`npm run data:sync:official` fetches and parses recent official Korabli development-blog balance announcements. Every record retains its original announcement URL, text, analysis rule, and confidence in the versioned JSON database. The script then refreshes the TSV mirrors used by the site.
+
+## Core Commands
 
 ```bash
 npm install
-npm run data:import:excel
+npm run data:sync:official
 npm run data:validate
-npm run data:build
-npm run dev
+npm run build
 ```
 
-## Local Verification
+The production site is a read-only GitHub Pages viewer published from `main` branch `/docs`. Local development also exposes the import and data-management tools.
+
+## Automatic Website Updates
+
+`.github/workflows/refresh-data.yml` rebuilds `docs/` whenever a data package is pushed. It also runs daily and can be started manually from GitHub Actions to fetch the official blog, rebuild the data package, and commit the result. Enable repository Actions write permission if GitHub asks for it.
+
+After a local update, publish it with:
 
 ```bash
-npm run lint
-npm run data:import:excel
-npm run data:validate
-npm run data:build
-npm run build
-npm run data:bundle
+git add data/database data/raw data/config src/data/generated docs scripts .github README.md README.zh-CN.md README.en.md package.json
+git commit -m "Update balance data"
+git push origin main
 ```
-
-## Core Files
-
-- `data/raw/ship.tsv`
-- `data/raw/mechanic.tsv`
-- `data/raw/misc.tsv`
-- `data/config/site.json`
-- `src/data/generated/balanceChanges.json`
-- `scripts/import-excel.ts`
-- `scripts/bundle-update.ts`
-
-## Deployment Note
-
-GitHub Pages should publish from `docs/`.  
-Before deployment, confirm the `base` value in `vite.config.ts` matches your repository path.

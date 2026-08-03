@@ -102,11 +102,11 @@ function normalizeTrend(rawValue: string): ChangeTrend {
   const normalized = rawValue.trim().toLowerCase();
 
   if (normalized === '1') {
-    return 'buff';
+    return 'nerf';
   }
 
   if (normalized === '0') {
-    return 'nerf';
+    return 'buff';
   }
 
   if (normalized === '2') {
