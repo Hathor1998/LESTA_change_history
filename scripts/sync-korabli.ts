@@ -2,7 +2,7 @@ import { createHash } from 'node:crypto';
 import { mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { writeCategoryRows } from './data-lib.ts';
+import { readSiteConfig, writeCategoryRows, writeSiteConfig } from './data-lib.ts';
 import type {
   ChangeCategory,
   ChangeTrend,
@@ -116,6 +116,10 @@ function isBalanceAnnouncement(title: string): boolean {
 function versionFromTitle(title: string, publishedAt: string): string {
   const version = title.match(/(?:обновление|версия|тестирование|общий тест|закрытое тестирование)\s+(\d{2}\.\d{1,2})/i)?.[1];
   return version ?? publishedAt.slice(0, 7).replace('-', '.');
+}
+
+function releasedVersionFromTitle(title: string): string | null {
+  return title.match(/^\s*(?:обновление|версия)\s+(\d{2}\.\d{1,2})/i)?.[1] ?? null;
 }
 
 function parseNumber(value: string): number | null {
@@ -320,6 +324,15 @@ async function main(): Promise<void> {
     categories[category].push(raw);
   });
   await Promise.all((Object.keys(categories) as ChangeCategory[]).map((category) => writeCategoryRows(category, categories[category])));
+
+  // Keep the viewer summary aligned with the newest released update, not a future test build.
+  const latestReleasedVersion = articles.map((article) => releasedVersionFromTitle(article.title)).find(Boolean);
+  const siteConfig = await readSiteConfig();
+  await writeSiteConfig({
+    ...siteConfig,
+    currentVersion: latestReleasedVersion ?? siteConfig.currentVersion,
+    lastUpdated: rangeEnd.toISOString().slice(0, 10),
+  });
 
   const trends = uniqueRecords.reduce<Record<ChangeTrend, number>>((counts, record) => {
     counts[record.trend] += 1;
