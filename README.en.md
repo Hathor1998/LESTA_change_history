@@ -23,6 +23,7 @@ The sync script also writes the three TSV mirrors under `data/raw/`, keeping the
 ```bash
 npm install
 npm run data:sync:official
+npm run data:translate:zh
 npm run data:validate
 npm run lint
 npm run build
@@ -30,6 +31,8 @@ npm run data:bundle
 ```
 
 `npm run data:sync:official` fetches the last 730 days by default. Override the range when necessary, for example: `KORABLI_DAYS=365 npm run data:sync:official`.
+
+`npm run data:translate:zh` first reads ship names from the local `global.mo`, then translates remaining display fields through the DeepSeek-compatible gateway configured by local Claude settings. Credentials are only read locally and are never committed; GitHub Actions uses the committed translation package.
 
 `npm run data:import:excel` remains available for the curated Excel ship log. An official sync regenerates all three TSV mirrors, so choose one primary source for a single release.
 

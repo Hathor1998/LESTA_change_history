@@ -140,6 +140,14 @@ export interface OfficialBalanceDatabase {
   records: OfficialBalanceRecord[];
 }
 
+export interface ChineseTranslationDatabase {
+  schemaVersion: 1;
+  provider: 'deepseek-claude-gateway';
+  generatedAt: string;
+  translations: Record<string, string>;
+  untranslated: string[];
+}
+
 export interface LocalToolDraft {
   version: number;
   savedAt: string;

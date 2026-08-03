@@ -23,6 +23,7 @@
 ```bash
 npm install
 npm run data:sync:official
+npm run data:translate:zh
 npm run data:validate
 npm run lint
 npm run build
@@ -30,6 +31,8 @@ npm run data:bundle
 ```
 
 `npm run data:sync:official` 默认抓取最近 730 天。可通过环境变量调整范围，例如 `KORABLI_DAYS=365 npm run data:sync:official`。同步需要访问官方站点；脚本有分页边界、并发限制和三次重试，避免无控制地抓取。
+
+`npm run data:translate:zh` 会优先读取本机 `global.mo` 的舰船中文名，再通过本机 Claude 配置中的 DeepSeek 兼容网关翻译其余展示字段。凭据只在本机读取，绝不写入仓库；GitHub Actions 只使用已提交的翻译数据包。
 
 如果需要继续使用整理好的 Excel 舰船日志，可运行 `npm run data:import:excel`。官方同步会以公告数据库重新生成三类 TSV，因此两种来源请在一次发布中择一作为主来源。
 

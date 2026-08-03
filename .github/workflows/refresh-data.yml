@@ -1,4 +1,4 @@
-name: 更新平衡数据
+name: Refresh balance data
 
 on:
   push:
@@ -14,7 +14,7 @@ on:
   workflow_dispatch:
     inputs:
       sync_official:
-        description: '构建前同步最新 Korabli 官方公告'
+        description: 'Fetch official Korabli announcements before building'
         required: false
         default: true
         type: boolean
@@ -24,30 +24,24 @@ permissions:
 
 jobs:
   build-and-publish:
-    name: 构建并发布
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
-      - name: 检出仓库代码
-        uses: actions/checkout@v4
-      - name: 配置 Node.js 环境
-        uses: actions/setup-node@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
-      - name: 安装项目依赖
-        run: npm ci
-      - name: 同步官方公告
+      - run: npm ci
+      - name: Sync official announcements
         if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.sync_official)
         run: npm run data:sync:official
-      - name: 执行类型检查
-        run: npm run lint
-      - name: 构建 GitHub Pages 网站
-        run: npm run build
-      - name: 提交生成的数据和页面产物
+      - run: npm run lint
+      - run: npm run build
+      - name: Commit generated data and Pages output
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/database data/raw src/data/generated docs
-          git diff --cached --quiet || git commit -m "更新自动同步的平衡数据"
+          git add data/config data/database data/raw src/data/generated docs
+          git diff --cached --quiet || git commit -m "chore: refresh balance data"
           git push
