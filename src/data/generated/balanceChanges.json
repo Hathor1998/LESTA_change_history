@@ -21522,27 +21522,6 @@
       "sourceSheet": "Korabli #559"
     },
     {
-      "id": "0752b7897c48",
-      "category": "ship",
-      "targetName": "Ōyodo",
-      "canonicalName": "Ōyodo",
-      "previousNames": [],
-      "nation": "日本",
-      "tier": "6",
-      "type": "巡洋舰",
-      "attribute": "Особый командир Turry со специальной озвучкой. Вы сможете самостоятельно выбрать нацию и специализацию для него. Командир добавлен в игру в качестве награды за участие в одном из проходивших ранее конкурсов",
-      "oldValue": "—",
-      "newValue": "—",
-      "version": "13.8",
-      "notes": "官方公告：https://blog.korabli.su/blog/556",
-      "trend": "adjustment",
-      "shipStatus": "released",
-      "tags": [
-        "released-ship"
-      ],
-      "sourceSheet": "Korabli #556"
-    },
-    {
       "id": "276e858dd3cc",
       "category": "ship",
       "targetName": "Plymouth",
@@ -24276,36 +24255,36 @@
     }
   ],
   "meta": {
-    "generatedAt": "2026-08-03T05:42:57.054Z",
+    "generatedAt": "2026-08-03T05:44:41.788Z",
     "currentVersion": "25.2",
     "lastUpdated": "2026-04-24",
-    "recordCount": 1161,
+    "recordCount": 1160,
     "categoryCounts": {
-      "ship": 1067,
+      "ship": 1066,
       "mechanic": 22,
       "misc": 72
     },
     "shipStatusCounts": {
       "test": 558,
-      "released": 509,
+      "released": 508,
       "unknown": 94
     },
     "tagCounts": {
       "test-ship": 558,
-      "released-ship": 509,
+      "released-ship": 508,
       "converted-from-test": 81
     },
     "trendCounts": {
       "buff": 554,
       "nerf": 245,
       "neutral": 5,
-      "adjustment": 357
+      "adjustment": 356
     },
     "officialData": {
-      "announcementCount": 73,
-      "rangeStart": "2024-08-02T15:13:34.255Z",
-      "rangeEnd": "2026-08-02T15:13:34.255Z",
-      "syncedAt": "2026-08-02T15:13:34.255Z"
+      "announcementCount": 72,
+      "rangeStart": "2024-08-03T05:44:14.707Z",
+      "rangeEnd": "2026-08-03T05:44:14.707Z",
+      "syncedAt": "2026-08-03T05:44:14.707Z"
     }
   }
 }

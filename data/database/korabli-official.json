@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "source": "blog.korabli.su",
-  "syncedAt": "2026-08-02T15:13:34.255Z",
-  "rangeStart": "2024-08-02T15:13:34.255Z",
-  "rangeEnd": "2026-08-02T15:13:34.255Z",
+  "syncedAt": "2026-08-03T05:44:14.707Z",
+  "rangeStart": "2024-08-03T05:44:14.707Z",
+  "rangeEnd": "2026-08-03T05:44:14.707Z",
   "announcements": [
     {
       "id": "693",
@@ -1807,16 +1807,6 @@
         "acead0f26f9ee39f",
         "fb35f28b16fd8303",
         "7b652e59eb657ffa"
-      ]
-    },
-    {
-      "id": "556",
-      "url": "https://blog.korabli.su/blog/556",
-      "title": "Закрытое тестирование 13.8 — День рождения «Мира кораблей», возвращение «Асимметричного боя», новая Верфь, изменения боевой экономики и другое",
-      "publishedAt": "2024-08-02T17:00:00.000Z",
-      "contentHash": "b27b8a9d80ade4427de610dfc5e228978a5c564dcc059edcfd727eafc5a72673",
-      "recordIds": [
-        "742c7de035f26df8"
       ]
     }
   ],
@@ -30820,31 +30810,6 @@
       "originalText": "Урон от разрывов снарядов ПВО увеличен с 1610 до 1680",
       "analysisRule": "numeric-higher-is-better",
       "analysisConfidence": "high"
-    },
-    {
-      "targetName": "Ōyodo",
-      "canonicalName": "Ōyodo",
-      "previousNames": "",
-      "nation": "日本",
-      "tier": "6",
-      "type": "巡洋舰",
-      "attribute": "Особый командир Turry со специальной озвучкой. Вы сможете самостоятельно выбрать нацию и специализацию для него. Командир добавлен в игру в качестве награды за участие в одном из проходивших ранее конкурсов",
-      "oldValue": "—",
-      "newValue": "—",
-      "version": "13.8",
-      "notes": "官方公告：https://blog.korabli.su/blog/556",
-      "trend": "adjustment",
-      "shipStatus": "released",
-      "tags": "",
-      "sourceSheet": "Korabli #556",
-      "id": "742c7de035f26df8",
-      "category": "ship",
-      "announcementId": "556",
-      "sourceUrl": "https://blog.korabli.su/blog/556",
-      "publishedAt": "2024-08-02T17:00:00.000Z",
-      "originalText": "Особый командир Turry со специальной озвучкой. Вы сможете самостоятельно выбрать нацию и специализацию для него. Командир добавлен в игру в качестве награды за участие в одном из проходивших ранее конкурсов.",
-      "analysisRule": "non-numeric-adjustment",
-      "analysisConfidence": "medium"
     }
   ]
 }
