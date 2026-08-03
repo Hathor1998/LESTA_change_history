@@ -35,6 +35,18 @@ const typeLabels: Record<string, string> = {
   destroyer: '驱逐舰', cruiser: '巡洋舰', battleship: '战列舰', carrier: '航空母舰', submarine: '潜艇',
 };
 
+const russianNationPrefixes: Array<[string, string]> = [
+  ['американ', '美国'], ['британ', '英国'], ['немец', '德国'], ['япон', '日本'], ['совет', '苏联'],
+  ['россий', '苏联'], ['француз', '法国'], ['итальян', '意大利'], ['паназиат', '泛亚'],
+  ['панамерикан', '泛美'], ['европей', '欧洲'], ['нидерланд', '荷兰'], ['испан', '西班牙'],
+  ['содружеств', '英联邦'], ['польск', '波兰'],
+];
+
+const russianTypeLabels: Array<[string, string]> = [
+  ['подводная лодка', '潜艇'], ['подлодка', '潜艇'], ['авианосец', '航空母舰'], ['эсминец', '驱逐舰'],
+  ['крейсер', '巡洋舰'], ['линкор', '战列舰'],
+];
+
 const lowerIsBetter = [
   'перезаряд', 'заметност', 'разброс', 'время подготовки', 'время поворота', 'время перекладки',
   'время восстановления', 'время действия пожара', 'время действия затопления', 'радиус циркуляции',
@@ -42,7 +54,7 @@ const lowerIsBetter = [
 
 const higherIsBetter = [
   'урон', 'бронепробит', 'скорост', 'дальност', 'боеспособност', 'количеств', 'шанс', 'пво',
-  'живучест', 'мощност', 'точност', 'эффективност', 'время работы', 'время действия',
+  'живучест', 'мощност', 'точност', 'сигм', 'эффективност', 'время работы', 'время действия',
 ];
 
 function hash(value: string): string {
@@ -175,16 +187,27 @@ function shouldKeepLine(value: string): boolean {
 
 function parseShipContext(html: string, status: ShipStatus): ShipContext | null {
   const ship = html.match(/<span\b[^>]*class="ship"[^>]*>[\s\S]*?<\/span>/i)?.[0];
-  if (!ship) return null;
-  const name = textFromHtml(ship).replace(/^(?:I|V|X|L|C|D|M)+\s+/i, '').trim();
-  if (!name) return null;
-  return {
-    name,
-    nation: nationLabels[attributeValue(ship, 'data-nation')] ?? '',
-    tier: attributeValue(ship, 'data-level'),
-    type: typeLabels[attributeValue(ship, 'data-type')] ?? '',
-    status,
-  };
+  if (ship) {
+    const name = textFromHtml(ship).replace(/^(?:I|V|X|L|C|D|M)+\s+/i, '').trim();
+    if (!name) return null;
+    return {
+      name,
+      nation: nationLabels[attributeValue(ship, 'data-nation')] ?? '',
+      tier: attributeValue(ship, 'data-level'),
+      type: typeLabels[attributeValue(ship, 'data-type')] ?? '',
+      status,
+    };
+  }
+
+  // Some published announcements use only bold prose instead of the structured ship span.
+  const plain = textFromHtml(html);
+  const fallback = plain.match(/^([А-ЯЁа-яё]+)\s+(подводная лодка|подлодка|авианосец|эсминец|крейсер|линкор)\s+(.+?)\s*,\s*([IVXLCDMХ]+)\s+уров(?:ень|ня)/i);
+  if (!fallback) return null;
+  const nation = russianNationPrefixes.find(([prefix]) => fallback[1].toLowerCase().startsWith(prefix))?.[1] ?? '';
+  const type = russianTypeLabels.find(([label]) => fallback[2].toLowerCase() === label)?.[1] ?? '';
+  const name = fallback[3].trim();
+  if (!nation || !type || !name) return null;
+  return { name, nation, tier: fallback[4].toUpperCase().replace(/Х/g, 'X'), type, status };
 }
 
 function parseAnnouncement(article: ListedArticle, html: string): { announcement: OfficialAnnouncement; records: OfficialBalanceRecord[] } {
