@@ -31,6 +31,18 @@ function uniqueStrings(values: string[]): string[] {
   return Array.from(new Set(values.filter(Boolean)));
 }
 
+const romanTiers = ['', 'I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X'];
+
+function formatTier(tier: string): string {
+  const value = Number.parseInt(tier, 10);
+  if (value === 11) return '⭐';
+  return romanTiers[value] ?? tier;
+}
+
+function isGameVersion(version: string): boolean {
+  return /^\d{1,2}\.\d{1,2}$/.test(version);
+}
+
 function trendTone(trend: BalanceChange['trend']): string {
   switch (trend) {
     case 'buff':
@@ -67,9 +79,9 @@ export default function GroupedDataView({ data, category }: GroupedDataViewProps
 
   const categoryData = useMemo(() => data.filter((item) => item.category === category), [category, data]);
   const nations = useMemo(() => uniqueStrings(categoryData.map((item) => item.nation)).sort((a, b) => a.localeCompare(b, 'zh-CN')), [categoryData]);
-  const tiers = useMemo(() => uniqueStrings(categoryData.map((item) => item.tier)).sort((a, b) => Number.parseInt(a, 10) - Number.parseInt(b, 10)), [categoryData]);
+  const tiers = useMemo(() => uniqueStrings(categoryData.map((item) => item.tier)).filter((tier) => /^\d{1,2}$/.test(tier)).sort((a, b) => Number.parseInt(a, 10) - Number.parseInt(b, 10)), [categoryData]);
   const types = useMemo(() => uniqueStrings(categoryData.map((item) => item.type)).sort((a, b) => a.localeCompare(b, 'zh-CN')), [categoryData]);
-  const versions = useMemo(() => uniqueStrings(categoryData.map((item) => item.version)).sort(compareVersionsDesc), [categoryData]);
+  const versions = useMemo(() => uniqueStrings(categoryData.map((item) => item.version)).filter(isGameVersion).sort(compareVersionsDesc), [categoryData]);
 
   const filteredData = useMemo(() => {
     const keyword = searchTerm.trim().toLowerCase();
@@ -139,7 +151,7 @@ export default function GroupedDataView({ data, category }: GroupedDataViewProps
               <select className="block w-24 border border-slate-300 rounded-lg px-3 py-2 text-sm bg-white" value={tierFilter} onChange={(event) => setTierFilter(event.target.value)}>
                 <option value="">全部等级</option>
                 {tiers.map((tier) => (
-                  <option key={tier} value={tier}>{tier}</option>
+                  <option key={tier} value={tier}>{formatTier(tier)}</option>
                 ))}
               </select>
             )}
@@ -191,7 +203,7 @@ export default function GroupedDataView({ data, category }: GroupedDataViewProps
                     <div className="flex items-center gap-3 flex-wrap">
                       <h3 className="text-lg font-bold text-slate-900">{groupName}</h3>
                       {firstItem.nation && <span className="bg-white px-2.5 py-1 rounded-md border border-slate-200 text-xs text-slate-600">{firstItem.nation}</span>}
-                      {firstItem.tier && <span className="bg-white px-2.5 py-1 rounded-md border border-slate-200 text-xs text-slate-600">{firstItem.tier} 级</span>}
+                      {firstItem.tier && <span className="bg-white px-2.5 py-1 rounded-md border border-slate-200 text-xs text-slate-600">{formatTier(firstItem.tier)}</span>}
                       {firstItem.type && <span className="bg-white px-2.5 py-1 rounded-md border border-slate-200 text-xs text-slate-600">{firstItem.type}</span>}
                       {category === 'ship' && (
                         <span className="bg-blue-50 px-2.5 py-1 rounded-md border border-blue-100 text-xs text-blue-700">
