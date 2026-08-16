@@ -3,6 +3,7 @@ import { mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { readSiteConfig, writeCategoryRows, writeSiteConfig } from './data-lib.ts';
+import { manualAnnouncements, manualRecords } from './manual-updates.ts';
 import type {
   ChangeCategory,
   ChangeTrend,
@@ -167,10 +168,10 @@ function inferTrend(attribute: string, oldValue: string, newValue: string, origi
 
 function parseChangeLine(value: string): { attribute: string; oldValue: string; newValue: string } {
   const normalized = value.replace(/\s+/g, ' ').trim().replace(/[.]$/, '');
-  const ranged = normalized.match(/^(.+?)\s+(?:уменьшен[аоы]?|увеличен[аоы]?|снижен[аоы]?|повышен[аоы]?|изменен[аоы]?|изменён[аоы]?)\s+с\s+(.+?)\s+до\s+(.+?)(?:\.|$)/i);
+  const ranged = normalized.match(/^(.+?)\s+(?:уменьшен[аоы]?|увеличен[аоы]?|снижен[аоы]?|повышен[аоы]?|изменен[аоы]?|изменён[аоы]?)\s+с\s+(.+?)\s+до\s+(.+?)(?:\.(?!\d)|$)/i);
   if (ranged) return { attribute: ranged[1].trim(), oldValue: ranged[2].trim(), newValue: ranged[3].trim() };
 
-  const changed = normalized.match(/^(.+?)\s+(?:изменен[аоы]?|изменён[аоы]?)\s+с\s+(.+?)\s+на\s+(.+?)(?:\.|$)/i);
+  const changed = normalized.match(/^(.+?)\s+(?:изменен[аоы]?|изменён[аоы]?)\s+с\s+(.+?)\s+на\s+(.+?)(?:\.(?!\d)|$)/i);
   if (changed) return { attribute: changed[1].trim(), oldValue: changed[2].trim(), newValue: changed[3].trim() };
   return { attribute: normalized, oldValue: '—', newValue: '—' };
 }
@@ -325,8 +326,8 @@ async function main(): Promise<void> {
     const html = await fetchText(article.url);
     return parseAnnouncement(article, html);
   });
-  const announcements = parsed.map((entry) => entry.announcement);
-  const records = parsed.flatMap((entry) => entry.records);
+  const announcements = [...parsed.map((entry) => entry.announcement), ...manualAnnouncements];
+  const records = [...parsed.flatMap((entry) => entry.records), ...manualRecords];
   const uniqueRecords = [...new Map(records.map((record) => [record.id, record])).values()];
 
   const database: OfficialBalanceDatabase = {

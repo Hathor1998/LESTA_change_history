@@ -1,5 +1,5 @@
 targetName	canonicalName	previousNames	nation	tier	type	attribute	oldValue	newValue	version	notes	trend	shipStatus	tags	sourceSheet
-Budapest	Budapest		欧洲	9	战列舰	Дальность стрельбы ГК	19.2	19	26.8	官方公告：https://blog.korabli.su/blog/693	nerf	test		Korabli #693
+Budapest	Budapest		欧洲	9	战列舰	Дальность стрельбы ГК	19.2	19.8 км	26.8	官方公告：https://blog.korabli.su/blog/693	buff	test		Korabli #693
 Hakusan	Hakusan		日本	9	战列舰	Параметр сигма орудий ГК	1,8	1,75	26.8	官方公告：https://blog.korabli.su/blog/693	nerf	test		Korabli #693
 Hakusan	Hakusan		日本	9	战列舰	Время перезарядки орудий ГК	31,5	32 с	26.8	官方公告：https://blog.korabli.su/blog/693	nerf	test		Korabli #693
 Hakusan	Hakusan		日本	9	战列舰	Время перезарядки 140-мм орудий ПМК	5,0	5,3 с	26.8	官方公告：https://blog.korabli.su/blog/693	nerf	test		Korabli #693
@@ -40,7 +40,7 @@ Akagi	Akagi		日本	8		Максимальный урон ББ-ракет так�
 Wotan	Wotan		德国	10	巡洋舰	Время перезарядки орудий ГК	30	29 с	26.7	官方公告：https://blog.korabli.su/blog/689	buff	test		Korabli #689
 New Jersey	New Jersey		美国	10	战列舰	Время перезарядки орудий ГК	30	29 с	26.7	官方公告：https://blog.korabli.su/blog/689	buff	test		Korabli #689
 Virginia	Virginia		美国	11	战列舰	Заметность с кораблей	14,8	15,0 км	26.7	官方公告：https://blog.korabli.su/blog/689	nerf	test		Korabli #689
-Chōkai	Chōkai		日本	9	巡洋舰	Время перезарядки орудий ГК	15	16	26.7	官方公告：https://blog.korabli.su/blog/689	nerf	test		Korabli #689
+Chōkai	Chōkai		日本	9	巡洋舰	Время перезарядки орудий ГК	15	16.5 с	26.7	官方公告：https://blog.korabli.su/blog/689	nerf	test		Korabli #689
 Sim&oacute;n Bol&iacute;var	Sim&oacute;n Bol&iacute;var		泛美	10	巡洋舰	Исправлена ошибка, из-за которой в редких ситуациях (например, в режиме «Гонка вооружений») крейсер получал слишком пониженный урон в уничтоженные части корабля (то есть даже меньше, чем 1/10 от урона снаряда)	—	—	26.7	官方公告：https://blog.korabli.su/blog/689	adjustment	test		Korabli #689
 Sim&oacute;n Bol&iacute;var	Sim&oacute;n Bol&iacute;var		泛美	10	巡洋舰	Учёт урона для восстановления боеспособности у снаряжения «Боевой ремонт»	50	60%	26.7	官方公告：https://blog.korabli.su/blog/689	buff	test		Korabli #689
 Наварин	Наварин		苏联	9	战列舰	Исправлена ошибка, из-за которой разные типы установок ПМК у линкора «Наварин» имели одинаковые снаряды. В связи с этим спаренные 130-м установки корабля получили новый ОФ-снаряд со следующими настройками: Урон снаряда: 1900 ед	—	—	26.7	官方公告：https://blog.korabli.su/blog/689	adjustment	test		Korabli #689
@@ -214,9 +214,9 @@ Wotan	Wotan		德国	10	巡洋舰	Время перекладки руля	15,2	1
 Wotan	Wotan		德国	10	巡洋舰	Заметность с кораблей	16,5	15,7 км	26.5	官方公告：https://blog.korabli.su/blog/678	buff	test		Korabli #678
 Wotan	Wotan		德国	10	巡洋舰	Количество зарядов снаряжения «Аварийное подразделение»	4	6	26.5	官方公告：https://blog.korabli.su/blog/678	buff	test		Korabli #678
 Connecticut	Connecticut		美国	7	战列舰	Максимальный урон ПББ-снаряда ПМК	2700	2400 ед	26.5	官方公告：https://blog.korabli.su/blog/678	nerf	test		Korabli #678
-Connecticut	Connecticut		美国	7	战列舰	Время перезарядки орудий ПМК	4	4	26.5	官方公告：https://blog.korabli.su/blog/678	neutral	test		Korabli #678
+Connecticut	Connecticut		美国	7	战列舰	Время перезарядки орудий ПМК	4	4.2 с	26.5	官方公告：https://blog.korabli.su/blog/678	nerf	test		Korabli #678
 Washington	Washington		美国	8	战列舰	Максимальный урон ПББ-снаряда ПМК	2700	2400 ед	26.5	官方公告：https://blog.korabli.su/blog/678	nerf	test		Korabli #678
-Washington	Washington		美国	8	战列舰	Время перезарядки орудий ПМК	5	5	26.5	官方公告：https://blog.korabli.su/blog/678	neutral	test		Korabli #678
+Washington	Washington		美国	8	战列舰	Время перезарядки орудий ПМК	5	5.3 с	26.5	官方公告：https://blog.korabli.su/blog/678	nerf	test		Korabli #678
 Indiana	Indiana		美国	9	战列舰	Максимальный урон ПББ-снаряда ПМК	2700	2400 ед	26.5	官方公告：https://blog.korabli.su/blog/678	nerf	test		Korabli #678
 Indiana	Indiana		美国	9	战列舰	Время перезарядки орудий ПМК	4.8	5 с	26.5	官方公告：https://blog.korabli.su/blog/678	nerf	test		Korabli #678
 Indiana	Indiana		美国	9	战列舰	Время перезарядки снаряжения «Ремонтная команда»	80	60 с	26.5	官方公告：https://blog.korabli.su/blog/678	buff	test		Korabli #678
@@ -237,14 +237,14 @@ Wotan	Wotan		德国	10	巡洋舰	Восстановление боеспособ
 Парижская коммуна	Парижская коммуна		苏联	5	战列舰	Время перезарядки орудий ГК	40	38 с	26.4	官方公告：https://blog.korabli.su/blog/677	buff	test		Korabli #677
 Jellicoe	Jellicoe		英国	10	战列舰	Время перезарядки орудий ГК	28	30 с	26.4	官方公告：https://blog.korabli.su/blog/674	nerf	test		Korabli #674
 Stonewall	Stonewall		美国	11	驱逐舰	Время перезарядки орудий ГК	7.5	7 с	26.4	官方公告：https://blog.korabli.su/blog/674	buff	test		Korabli #674
-Stonewall	Stonewall		美国	11	驱逐舰	Заметность с кораблей	10.3	9	26.4	官方公告：https://blog.korabli.su/blog/674	buff	test		Korabli #674
-Stonewall	Stonewall		美国	11	驱逐舰	Восстановление боеспособности в секунду при активации таланта «Указания по ремонту»	0.4%	0	26.4	官方公告：https://blog.korabli.su/blog/674	nerf	test		Korabli #674
+Stonewall	Stonewall		美国	11	驱逐舰	Заметность с кораблей	10.3	9.3 км	26.4	官方公告：https://blog.korabli.su/blog/674	buff	test		Korabli #674
+Stonewall	Stonewall		美国	11	驱逐舰	Восстановление боеспособности в секунду при активации таланта «Указания по ремонту»	0.4%	0.35%	26.4	官方公告：https://blog.korabli.su/blog/674	nerf	test		Korabli #674
 Carvajal	Carvajal		泛美	8	驱逐舰	Прогресс за временной интервал	10	20%	26.4	官方公告：https://blog.korabli.su/blog/674	adjustment	test		Korabli #674
 Carvajal	Carvajal		泛美	8	驱逐舰	Временной интервал (время, которое нужно оставаться обнаруженным для увеличения прогресса)	6	7 с	26.4	官方公告：https://blog.korabli.su/blog/674	adjustment	test		Korabli #674
-Carvajal	Carvajal		泛美	8	驱逐舰	Время перезарядки ГК	3.0	3	26.4	官方公告：https://blog.korabli.su/blog/674	neutral	test		Korabli #674
-Par&aacute;	Par&aacute;		泛美	9	驱逐舰	Время перезарядки ГК	3.1	3	26.4	官方公告：https://blog.korabli.su/blog/674	buff	test		Korabli #674
-Nueva Esparta	Nueva Esparta		泛美	10	驱逐舰	Время перезарядки ГК	3.2	3	26.4	官方公告：https://blog.korabli.su/blog/674	buff	test		Korabli #674
-20 de Julio	20 de Julio		泛美	11	驱逐舰	Время перезарядки ГК	2.9	3	26.4	官方公告：https://blog.korabli.su/blog/674	nerf	test		Korabli #674
+Carvajal	Carvajal		泛美	8	驱逐舰	Время перезарядки ГК	3.0	3.3 c	26.4	官方公告：https://blog.korabli.su/blog/674	nerf	test		Korabli #674
+Par&aacute;	Par&aacute;		泛美	9	驱逐舰	Время перезарядки ГК	3.1	3.3 c	26.4	官方公告：https://blog.korabli.su/blog/674	nerf	test		Korabli #674
+Nueva Esparta	Nueva Esparta		泛美	10	驱逐舰	Время перезарядки ГК	3.2	3.55 с	26.4	官方公告：https://blog.korabli.su/blog/674	nerf	test		Korabli #674
+20 de Julio	20 de Julio		泛美	11	驱逐舰	Время перезарядки ГК	2.9	3.2 с	26.4	官方公告：https://blog.korabli.su/blog/674	nerf	test		Korabli #674
 20 de Julio	20 de Julio		泛美	11	驱逐舰	Количество зарядов снаряжения «Поисковая РЛС»	3	2	26.4	官方公告：https://blog.korabli.su/blog/674	nerf	test		Korabli #674
 20 de Julio	20 de Julio		泛美	11	驱逐舰	Время работы снаряжения	20	15 с	26.4	官方公告：https://blog.korabli.su/blog/674	nerf	test		Korabli #674
 Stonewall	Stonewall		美国	11	驱逐舰	Время перезарядки орудий ГК	8	7,5 с	26.4	官方公告：https://blog.korabli.su/blog/673	buff	test		Korabli #673
@@ -371,7 +371,7 @@ Karl von Sch&ouml;nberg	Karl von Sch&ouml;nberg		德国	6	驱逐舰	Измене
 Karl von Sch&ouml;nberg	Karl von Sch&ouml;nberg		德国	6	驱逐舰	Шанс поджога ОФ-снарядом	11%	12%	25.12	官方公告：https://blog.korabli.su/blog/654	buff	released		Korabli #654
 Karl von Sch&ouml;nberg	Karl von Sch&ouml;nberg		德国	6	驱逐舰	Бронепробитие ББ-снарядов увеличено примерно на 30%	—	—	25.12	官方公告：https://blog.korabli.su/blog/654	adjustment	released		Korabli #654
 Karl von Sch&ouml;nberg	Karl von Sch&ouml;nberg		德国	6	驱逐舰	Улучшены углы рикошета ББ-снарядов: Угол, при котором снаряд начинает проверку на рикошет,	45	60 градусов	25.12	官方公告：https://blog.korabli.su/blog/654	adjustment	released		Korabli #654
-Karl von Sch&ouml;nberg	Karl von Sch&ouml;nberg		德国	6	驱逐舰	Угол гарантированного рикошета	60	67	25.12	官方公告：https://blog.korabli.su/blog/654	adjustment	released		Korabli #654
+Karl von Sch&ouml;nberg	Karl von Sch&ouml;nberg		德国	6	驱逐舰	Угол гарантированного рикошета	60	67.5 градусов	25.12	官方公告：https://blog.korabli.su/blog/654	adjustment	released		Korabli #654
 Gallant	Gallant		英国	6	驱逐舰	Дальность хода торпед	8	9 км	25.12	官方公告：https://blog.korabli.su/blog/654	buff	released		Korabli #654
 Gallant	Gallant		英国	6	驱逐舰	Роль кораблей	«Универсал»	«Торпедный эсминец»	25.12	官方公告：https://blog.korabli.su/blog/654	adjustment	released		Korabli #654
 Z-33	Z-33		德国	8	驱逐舰	Время перезарядки орудий ГК	5,4	5,7 с	25.12	官方公告：https://blog.korabli.su/blog/654	nerf	released		Korabli #654
@@ -431,7 +431,7 @@ Rahmat	Rahmat		泛亚	6	巡洋舰	Время перезарядки глубин
 Marco Aurelio	Marco Aurelio		意大利	8	巡洋舰	Количество зарядов глубинных бомб	2	3	25.12	官方公告：https://blog.korabli.su/blog/654	buff	released		Korabli #654
 Karl von Sch&ouml;nberg	Karl von Sch&ouml;nberg		德国	6	驱逐舰	Количество зарядов глубинных бомб	3	2	25.12	官方公告：https://blog.korabli.su/blog/654	nerf	released		Korabli #654
 Karl von Sch&ouml;nberg	Karl von Sch&ouml;nberg		德国	6	驱逐舰	Время перезарядки глубинных бомб	40	90	25.12	官方公告：https://blog.korabli.su/blog/654	nerf	released		Korabli #654
-Огненный	Огненный		苏联	9	驱逐舰	Время перезарядки орудий ГК	5	4	25.11	官方公告：https://blog.korabli.su/blog/650	buff	test		Korabli #650
+Огненный	Огненный		苏联	9	驱逐舰	Время перезарядки орудий ГК	5	4.5 с	25.11	官方公告：https://blog.korabli.su/blog/650	buff	test		Korabli #650
 Огненный	Огненный		苏联	9	驱逐舰	Время перезарядки ТА уменьшено со 131 до 111 с	—	—	25.11	官方公告：https://blog.korabli.su/blog/650	adjustment	test		Korabli #650
 Constitution	Constitution		美国	8	巡洋舰	Время перезарядки орудий ГК	20	22 с	25.11	官方公告：https://blog.korabli.su/blog/650	nerf	test		Korabli #650
 Constitution	Constitution		美国	8	巡洋舰	Дальность хода торпед	6,7	8,5 км	25.11	官方公告：https://blog.korabli.su/blog/650	buff	test		Korabli #650
@@ -545,7 +545,7 @@ Constitution	Constitution		美国	8	巡洋舰	Дальность стрельб�
 Constitution	Constitution		美国	8	巡洋舰	Время перезарядки ГК	25	20 с	25.9	官方公告：https://blog.korabli.su/blog/641	buff	test		Korabli #641
 Constitution	Constitution		美国	8	巡洋舰	Количество урона, восстанавливаемого всеми частями корабля, увеличено до 85%	—	—	25.9	官方公告：https://blog.korabli.su/blog/641	adjustment	test		Korabli #641
 Julang	Julang		泛亚	9	战列舰	Время перезарядки орудий ГК	25	24 с	25.9	官方公告：https://blog.korabli.su/blog/638	buff	test		Korabli #638
-Aurelio Diocleziano	Aurelio Diocleziano		意大利	6	巡洋舰	Время перезарядки орудий ГК	7,5	8	25.9	官方公告：https://blog.korabli.su/blog/638	nerf	test		Korabli #638
+Aurelio Diocleziano	Aurelio Diocleziano		意大利	6	巡洋舰	Время перезарядки орудий ГК	7,5	8.0 с	25.9	官方公告：https://blog.korabli.su/blog/638	nerf	test		Korabli #638
 Aurelio Diocleziano	Aurelio Diocleziano		意大利	6	巡洋舰	Макимальный урон торпед	17490	14520	25.9	官方公告：https://blog.korabli.su/blog/638	nerf	test		Korabli #638
 Aurelio Diocleziano	Aurelio Diocleziano		意大利	6	巡洋舰	Шанс затопления торпед	406%	263%	25.9	官方公告：https://blog.korabli.su/blog/638	nerf	test		Korabli #638
 Valerio Constantino	Valerio Constantino		意大利	7	巡洋舰	Макcимальный урон торпед	17490	14520	25.9	官方公告：https://blog.korabli.su/blog/638	nerf	test		Korabli #638
@@ -597,7 +597,7 @@ President	President		美国	X	战列舰	Максимальная дальнос�
 Venezia Test	Venezia Test		欧洲	X	巡洋舰	Время перезарядки орудий ГК	15	16 с	25.8	官方公告：https://blog.korabli.su/blog/628	nerf	test		Korabli #628
 Venezia Test	Venezia Test		欧洲	X	巡洋舰	Время перезарядки снаряжения «Боевой форсаж»	90	120 с	25.8	官方公告：https://blog.korabli.su/blog/628	nerf	test		Korabli #628
 Venezia Test	Venezia Test		欧洲	X	巡洋舰	Время работы снаряжения «Боевой форсаж»	60	45 с	25.8	官方公告：https://blog.korabli.su/blog/628	nerf	test		Korabli #628
-Halland Test	Halland Test		法国	X	驱逐舰	Дальность стрельбы ГК	12	12	25.8	官方公告：https://blog.korabli.su/blog/628	neutral	test		Korabli #628
+Halland Test	Halland Test		法国	X	驱逐舰	Дальность стрельбы ГК	12	12.8 км	25.8	官方公告：https://blog.korabli.su/blog/628	buff	test		Korabli #628
 Halland Test	Halland Test		法国	X	驱逐舰	Время перезарядки орудий ГК	28,6	24 с	25.8	官方公告：https://blog.korabli.su/blog/628	buff	test		Korabli #628
 Danzig	Danzig		德国	IX	巡洋舰	Минимальный интервал между залпами	3	4 с	25.8	官方公告：https://blog.korabli.su/blog/628	adjustment	test		Korabli #628
 Impero	Impero		意大利	IX	战列舰	Время перезарядки орудий ГК	24	25 с	25.8	官方公告：https://blog.korabli.su/blog/628	nerf	test		Korabli #628
@@ -947,7 +947,7 @@ Sekiryu	Sekiryu		日本	11		Время подготовки тактически
 Dalarna	Dalarna		欧洲	11	驱逐舰	Время перезарядки орудий ГК	2,8	2,7 с	13.11	官方公告：https://blog.korabli.su/blog/574	buff	released		Korabli #574
 Dalarna	Dalarna		欧洲	11	驱逐舰	Дальность хода альтернативных торпед	8	10 км	13.11	官方公告：https://blog.korabli.su/blog/574	buff	released		Korabli #574
 Kunming	Kunming		泛亚	11	驱逐舰	Заметность с кораблей	7,8	7,5 км	13.11	官方公告：https://blog.korabli.su/blog/574	buff	released		Korabli #574
-Yamagiri	Yamagiri		日本	11	驱逐舰	Время перезарядки орудий ГК	4.5	4	13.11	官方公告：https://blog.korabli.su/blog/574	buff	released		Korabli #574
+Yamagiri	Yamagiri		日本	11	驱逐舰	Время перезарядки орудий ГК	4.5	4.0 с	13.11	官方公告：https://blog.korabli.su/blog/574	buff	released		Korabli #574
 Joshua Humphreys	Joshua Humphreys		美国	11	驱逐舰	Теперь орудия ГК могут вращаться на 360 градусов. В связи с этим углы наведения орудий ГК были незначительно снижены	—	—	13.11	官方公告：https://blog.korabli.su/blog/574	adjustment	released		Korabli #574
 Joshua Humphreys	Joshua Humphreys		美国	11	驱逐舰	Вероятность поджога ОФ-снарядом	5%	9%	13.11	官方公告：https://blog.korabli.su/blog/574	adjustment	released		Korabli #574
 Joshua Humphreys	Joshua Humphreys		美国	11	驱逐舰	Радиус циркуляции корабля	750	680м	13.11	官方公告：https://blog.korabli.su/blog/574	buff	released		Korabli #574
@@ -982,8 +982,8 @@ Surcouf	Surcouf		法国	10	潜艇	Бонус к точности стрельб�
 Natsukaze	Natsukaze		日本	10	驱逐舰	Заметность Natsukaze с кораблей	7	7,1 км	13.9	官方公告：https://blog.korabli.su/blog/568	nerf	test		Korabli #568
 Natsukaze	Natsukaze		日本	10	驱逐舰	Заметность торпед	2,5	2,8 км	13.9	官方公告：https://blog.korabli.su/blog/568	nerf	test		Korabli #568
 Hertha	Hertha		德国	8	巡洋舰	Изменены параметры снаряжения «Ремонтная команда»: Время работы снаряжения	28	14 с	13.9	官方公告：https://blog.korabli.su/blog/568	nerf	test		Korabli #568
-Hertha	Hertha		德国	8	巡洋舰	Количество восстанавливаемых в секунду очков боеспособности	0.6%	1	13.9	官方公告：https://blog.korabli.su/blog/568	buff	test		Korabli #568
-Otto Weddigen	Otto Weddigen		德国	11	驱逐舰	Время перезарядки орудий ГК	4	4	13.9	官方公告：https://blog.korabli.su/blog/568	neutral	test		Korabli #568
+Hertha	Hertha		德国	8	巡洋舰	Количество восстанавливаемых в секунду очков боеспособности	0.6%	1.2%	13.9	官方公告：https://blog.korabli.su/blog/568	buff	test		Korabli #568
+Otto Weddigen	Otto Weddigen		德国	11	驱逐舰	Время перезарядки орудий ГК	4	4.2 с	13.9	官方公告：https://blog.korabli.su/blog/568	nerf	test		Korabli #568
 Kortenaer	Kortenaer		荷兰	6	驱逐舰	Показатели дальности хода торпед, стрельбы орудий ГК и применения авиаудара	8	9 км	13.9	官方公告：https://blog.korabli.su/blog/568	buff	test		Korabli #568
 Новик	Новик		苏联	2	巡洋舰	Время перезарядки орудий ГК	5	4,5 с	13.10	官方公告：https://blog.korabli.su/blog/567	buff	released		Korabli #567
 Богатырь	Богатырь		苏联	3	巡洋舰	Время перезарядки орудий ГК	8	7,5 с	13.10	官方公告：https://blog.korabli.su/blog/567	buff	released		Korabli #567
@@ -1094,7 +1094,7 @@ Błyskawica	Błyskawica		欧洲	7	驱逐舰	Заметность с корабл
 Tulsa	Tulsa		美国	9	巡洋舰	Дальность стрельбы ГК	14,9	15,3 км	13.8	官方公告：https://blog.korabli.su/blog/558	buff	released		Korabli #558
 Tulsa	Tulsa		美国	9	巡洋舰	Время перезарядки орудий ГК	5,8	5,5 с	13.8	官方公告：https://blog.korabli.su/blog/558	buff	released		Korabli #558
 ZF-6	ZF-6		德国	9	驱逐舰	Время поворота орудий ГК на 180 градусов	18	10 с	13.8	官方公告：https://blog.korabli.su/blog/558	buff	released		Korabli #558
-ZF-6	ZF-6		德国	9	驱逐舰	Время перезарядки орудий ГК	4	3	13.8	官方公告：https://blog.korabli.su/blog/558	buff	released		Korabli #558
+ZF-6	ZF-6		德国	9	驱逐舰	Время перезарядки орудий ГК	4	3.8 с	13.8	官方公告：https://blog.korabli.su/blog/558	buff	released		Korabli #558
 Florida	Florida		美国	7	战列舰	Время перезарядки ГК	33,5	31 с	13.8	官方公告：https://blog.korabli.su/blog/558	buff	released		Korabli #558
 Z-44	Z-44		德国	9	驱逐舰	Время перезарядки ТА	85	80 с	13.8	官方公告：https://blog.korabli.su/blog/558	buff	released		Korabli #558
 Collingwood	Collingwood		英国	7	战列舰	Толщина обшивки и палубы в центральной части корпуса	26	30 мм	13.8	官方公告：https://blog.korabli.su/blog/558	adjustment	released		Korabli #558
@@ -1147,3 +1147,96 @@ Mecklenburg	Mecklenburg		德国	10	战列舰	Урон от разрывов сн
 Preussen	Preussen		德国	10	战列舰	Постоянный урон ПВО дальнего действия	140	189	13.8	官方公告：https://blog.korabli.su/blog/558	buff	released		Korabli #558
 Preussen	Preussen		德国	10	战列舰	Количество разрывов снарядов ПВО в залпе	6	8	13.8	官方公告：https://blog.korabli.su/blog/558	buff	released		Korabli #558
 Preussen	Preussen		德国	10	战列舰	Урон от разрывов снарядов ПВО	1610	1680	13.8	官方公告：https://blog.korabli.su/blog/558	buff	released		Korabli #558
+布达佩斯	布达佩斯		欧洲	9	战列舰	鱼雷发射角度（每侧）	—	减少3度	26.8	人工录入：用户提供，待官方公告核验	nerf	test		Manual 26.8
+白山	白山		日本	9	战列舰	鱼雷发射角度（每侧）	—	增加10度	26.8	人工录入：用户提供，待官方公告核验	buff	test		Manual 26.8
+民主德国	民主德国		苏联	10	战列舰	主炮射击模式	常规射击	仅连发射击：连发2次，单轮装填27秒，开火间隔6秒	26.8	人工录入：用户提供，待官方公告核验	adjustment	test		Manual 26.8
+民主德国	民主德国		苏联	10	战列舰	鱼雷发射器机制	装填手和单点发射能力	移除；改为常规鱼雷发射器机制	26.8	人工录入：用户提供，待官方公告核验	adjustment	test		Manual 26.8
+民主德国	民主德国		苏联	10	战列舰	鱼雷装填时间	—	80秒	26.8	人工录入：用户提供，待官方公告核验	adjustment	test		Manual 26.8
+民主德国	民主德国		苏联	10	战列舰	“维修小组”可用数量	3	4	26.8	人工录入：用户提供，待官方公告核验	buff	test		Manual 26.8
+迪米特里·顿斯科伊	迪米特里·顿斯科伊		苏联	9	巡洋舰	主炮装填时间	12.5秒	10.5秒	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+塔尔萨	塔尔萨		美国	9	巡洋舰	主炮精度	—	提升至同级驱逐舰平均水平	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+里加	里加		苏联	9	巡洋舰	对海隐蔽	14.9公里	14.5公里	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+欧根亲王	欧根亲王		德国	8	巡洋舰	主炮精度	—	提升至同级驱逐舰平均水平	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+欧根亲王	欧根亲王		德国	8	巡洋舰	主炮装填时间	13秒	12秒	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+新罕布什尔	新罕布什尔		美国	10	战列舰	主炮第1、4座炮塔旋转角度	受限	全角度旋转	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+新罕布什尔	新罕布什尔		美国	10	战列舰	穿甲弹参数	—	与得梅因穿甲弹相同	26.9	人工录入：用户提供，待官方公告核验	adjustment	released		Manual 26.9
+让·巴尔 '43	让·巴尔 '43		法国	9	战列舰	副炮（127毫米）射程	13公里	14公里	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+让·巴尔 '43	让·巴尔 '43		法国	9	战列舰	副炮（127毫米）弹道	—	更平直，最大射程飞行时间不变	26.9	人工录入：用户提供，待官方公告核验	adjustment	released		Manual 26.9
+祖国	祖国		法国	11	战列舰	“引擎增压”消耗品作用时间	120秒	180秒	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+肥前	肥前		日本	9	战列舰	穿甲弹参数	—	与出云穿甲弹相同	26.9	人工录入：用户提供，待官方公告核验	adjustment	released		Manual 26.9
+肥前	肥前		日本	9	战列舰	主炮装填时间	35秒	34秒	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+八戒	八戒		泛亚	9	战列舰	主炮装填时间	32秒	31秒	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+萨摩	萨摩		日本	11	战列舰	主炮装填时间	35秒	34秒	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+波多黎各	波多黎各		美国	10	巡洋舰	主炮装填时间	22秒	20.5秒	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+奥丁	奥丁		德国	8	战列舰	血量	52800	58700	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+白龙	白龙		日本	10	航空母舰	可研发轰炸机血量	1790	2000	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+射水鱼	射水鱼		美国	10	潜艇	声导鱼雷最大伤害	11913	13497	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+U-4501	U-4501		德国	10	潜艇	声导鱼雷最大伤害	11055	12540	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+乌拉尔	乌拉尔		苏联	9	巡洋舰	“主炮装填助推器”可用次数	—	增加1次	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+乌拉尔	乌拉尔		苏联	9	巡洋舰	“主炮装填助推器”作用时间	15秒	20秒	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+柴郡	柴郡		英国	8	巡洋舰	主炮射程	16.1公里	16.9公里	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+柴郡	柴郡		英国	8	巡洋舰	主炮精度	—	提升至炽热水平	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+乌尔皮乌斯·图拉真	乌尔皮乌斯·图拉真		意大利	10	巡洋舰	“维修小组”可用次数	—	增加1次	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+乌尔皮乌斯·图拉真	乌尔皮乌斯·图拉真		意大利	10	巡洋舰	主炮炮弹弹道	—	更平直	26.9	人工录入：用户提供，待官方公告核验	adjustment	released		Manual 26.9
+乌尔皮乌斯·图拉真	乌尔皮乌斯·图拉真		意大利	10	巡洋舰	主炮射程	14.8公里	15.5公里	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+哈巴罗夫斯克	哈巴罗夫斯克		苏联	10	驱逐舰	鱼雷射程	6公里	8.5公里	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+哈巴罗夫斯克	哈巴罗夫斯克		苏联	10	驱逐舰	鱼雷装填时间	127秒	145秒	26.9	人工录入：用户提供，待官方公告核验	nerf	released		Manual 26.9
+哈巴罗夫斯克	哈巴罗夫斯克		苏联	10	驱逐舰	方向舵换挡时间	11.1秒	6.7秒	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+巨浪	巨浪		泛亚	9	战列舰	主炮射程	18.4公里	19.2公里	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+巨浪	巨浪		泛亚	9	战列舰	主炮装填时间	24秒	22秒	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+巴塔哥尼亚	巴塔哥尼亚		泛美	9	巡洋舰	主炮炮弹弹着群系数	1.6	1.7	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+卡瓦哈尔	卡瓦哈尔		泛美	8	巡洋舰	“维修小组”可用次数	—	增加1次	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+新埃斯帕塔	新埃斯帕塔		泛美	10	驱逐舰	消耗品栏位	“鱼雷装填助推器”	新增“监视雷达”，参数与七月二十日相同	26.9	人工录入：用户提供，待官方公告核验	adjustment	released		Manual 26.9
+黎塞留	黎塞留		法国	8	战列舰	“引擎增压”航速加成	8%	15%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+阿尔萨斯	阿尔萨斯		法国	9	战列舰	“引擎增压”航速加成	8%	15%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+悟净	悟净		泛亚	9	战列舰	“引擎增压”航速加成	8%	15%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+共和国	共和国		法国	10	战列舰	“引擎增压”航速加成	8%	15%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+香槟	香槟		法国	8	战列舰	“引擎增压”航速加成	8%	15%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+加斯科涅	加斯科涅		法国	8	战列舰	“引擎增压”航速加成	8%	15%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+让·巴尔	让·巴尔		法国	9	战列舰	“引擎增压”航速加成	8%	15%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+让·巴尔 '43	让·巴尔 '43		法国	9	战列舰	“引擎增压”航速加成	8%	15%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+河内	河内		日本	3	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+妙义	妙义		日本	4	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+金刚	金刚		日本	5	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+扶桑	扶桑		日本	6	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+长门	长门		日本	7	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+天城	天城		日本	8	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+出云	出云		日本	9	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+八戒	八戒		泛亚	9	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+弓张	弓张		日本	8	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+安达太良	安达太良		日本	9	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+丰后	丰后		日本	10	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+三笠	三笠		日本	2	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+石槌	石槌		日本	4	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+陆奥	陆奥		日本	6	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+伊势	伊势		日本	6	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+日向	日向		日本	7	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+天城	天城		日本	7	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+纪伊	纪伊		日本	8	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+武藏	武藏		日本	9	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+肥前	肥前		日本	9	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+大山	大山		日本	9	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+石见	石见		日本	9	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+大和	大和		日本	10	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+敷岛	敷岛		日本	10	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+雷兽	雷兽		日本	10	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+萨摩	萨摩		日本	11	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+天城	天城		日本	8	战列舰	主炮装填时间	30秒	29秒	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+出云	出云		日本	9	战列舰	主炮装填时间	30秒	29秒	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+大和	大和		日本	10	战列舰	主炮装填时间	30秒	29秒	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+西雅图	西雅图		美国	9	巡洋舰	主炮炮弹弹道	—	更平直	26.9	人工录入：用户提供，待官方公告核验	adjustment	released		Manual 26.9
+伍斯特	伍斯特		美国	10	巡洋舰	主炮炮弹弹道	—	更平直	26.9	人工录入：用户提供，待官方公告核验	adjustment	released		Manual 26.9
+翔鹤	翔鹤		日本	8	航空母舰	基础鱼雷机血量	1600	1730	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+翔鹤	翔鹤		日本	8	航空母舰	可研发鱼雷机血量	1670	1800	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+翔鹤	翔鹤		日本	8	航空母舰	基础轰炸机血量	1580	1710	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+翔鹤	翔鹤		日本	8	航空母舰	可研发轰炸机血量	1650	1780	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+天龙	天龙		日本	3	巡洋舰	装甲区甲板装甲	—	增加至40毫米	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+卡利登	卡利登		英国	3	巡洋舰	装甲区甲板装甲	—	增加至40毫米	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+岩木A	岩木A		日本	4	巡洋舰	装甲区甲板装甲	—	增加至40毫米	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+夕张	夕张		日本	4	巡洋舰	装甲区甲板装甲	—	增加至40毫米	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+球磨	球磨		日本	4	巡洋舰	装甲区甲板装甲	—	增加至40毫米	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+达娜厄	达娜厄		英国	4	巡洋舰	装甲区甲板装甲	—	增加至40毫米	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+翡翠	翡翠		英国	5	巡洋舰	装甲区甲板装甲	—	增加至40毫米	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+科尔多瓦	科尔多瓦		泛美	4	巡洋舰	装甲区甲板装甲	—	增加至40毫米	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+塞尔韦拉上将	塞尔韦拉上将		泛美	4	巡洋舰	装甲区甲板装甲	—	增加至40毫米	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+加利西亚	加利西亚		泛美	5	巡洋舰	装甲区甲板装甲	—	增加至40毫米	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9

@@ -17,7 +17,7 @@ async function validateOfficialDatabase(): Promise<OfficialBalanceDatabase> {
   }
   const ids = new Set<string>();
   database.records.forEach((record) => {
-    if (!record.id || !record.sourceUrl.startsWith('https://blog.korabli.su/blog/')) {
+    if (!record.id || (!record.sourceUrl.startsWith('https://blog.korabli.su/blog/') && !record.sourceUrl.startsWith('manual://user-provided/'))) {
       throw new Error(`Official database contains an invalid record source: ${record.id || '(missing id)'}.`);
     }
     if (ids.has(record.id)) throw new Error(`Official database contains duplicate record id ${record.id}.`);

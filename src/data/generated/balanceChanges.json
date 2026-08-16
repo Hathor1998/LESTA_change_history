@@ -1786,7 +1786,1961 @@
       "sourceSheet": "Korabli #564"
     },
     {
-      "id": "d50914c23a0d",
+      "id": "445ae8622c29",
+      "category": "ship",
+      "targetName": "阿尔萨斯",
+      "canonicalName": "阿尔萨斯",
+      "previousNames": [],
+      "nation": "法国",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "“引擎增压”航速加成",
+      "oldValue": "8%",
+      "newValue": "15%",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "fd0768e5c69d",
+      "category": "ship",
+      "targetName": "安达太良",
+      "canonicalName": "安达太良",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "主炮炮弹散布投影面积",
+      "oldValue": "—",
+      "newValue": "减少约10%",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "e8cf9bf703a6",
+      "category": "ship",
+      "targetName": "奥丁",
+      "canonicalName": "奥丁",
+      "previousNames": [],
+      "nation": "德国",
+      "tier": "8",
+      "type": "战列舰",
+      "attribute": "血量",
+      "oldValue": "52800",
+      "newValue": "58700",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "acb24aaf6b8c",
+      "category": "ship",
+      "targetName": "八戒",
+      "canonicalName": "八戒",
+      "previousNames": [],
+      "nation": "泛亚",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "主炮炮弹散布投影面积",
+      "oldValue": "—",
+      "newValue": "减少约10%",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "f6ecb5e9c484",
+      "category": "ship",
+      "targetName": "八戒",
+      "canonicalName": "八戒",
+      "previousNames": [],
+      "nation": "泛亚",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "主炮装填时间",
+      "oldValue": "32秒",
+      "newValue": "31秒",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "588741729a7c",
+      "category": "ship",
+      "targetName": "巴塔哥尼亚",
+      "canonicalName": "巴塔哥尼亚",
+      "previousNames": [],
+      "nation": "泛美",
+      "tier": "9",
+      "type": "巡洋舰",
+      "attribute": "主炮炮弹弹着群系数",
+      "oldValue": "1.6",
+      "newValue": "1.7",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "89d88b56039b",
+      "category": "ship",
+      "targetName": "白龙",
+      "canonicalName": "白龙",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "10",
+      "type": "航空母舰",
+      "attribute": "可研发轰炸机血量",
+      "oldValue": "1790",
+      "newValue": "2000",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "bf5c25682e2c",
+      "category": "ship",
+      "targetName": "波多黎各",
+      "canonicalName": "波多黎各",
+      "previousNames": [],
+      "nation": "美国",
+      "tier": "10",
+      "type": "巡洋舰",
+      "attribute": "主炮装填时间",
+      "oldValue": "22秒",
+      "newValue": "20.5秒",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "d03da61c401b",
+      "category": "ship",
+      "targetName": "柴郡",
+      "canonicalName": "柴郡",
+      "previousNames": [],
+      "nation": "英国",
+      "tier": "8",
+      "type": "巡洋舰",
+      "attribute": "主炮精度",
+      "oldValue": "—",
+      "newValue": "提升至炽热水平",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "0fb3f006b250",
+      "category": "ship",
+      "targetName": "柴郡",
+      "canonicalName": "柴郡",
+      "previousNames": [],
+      "nation": "英国",
+      "tier": "8",
+      "type": "巡洋舰",
+      "attribute": "主炮射程",
+      "oldValue": "16.1公里",
+      "newValue": "16.9公里",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "84ab066ebd39",
+      "category": "ship",
+      "targetName": "出云",
+      "canonicalName": "出云",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "主炮炮弹散布投影面积",
+      "oldValue": "—",
+      "newValue": "减少约10%",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "f0d1cefa3e48",
+      "category": "ship",
+      "targetName": "出云",
+      "canonicalName": "出云",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "主炮装填时间",
+      "oldValue": "30秒",
+      "newValue": "29秒",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "424e53d54272",
+      "category": "ship",
+      "targetName": "达娜厄",
+      "canonicalName": "达娜厄",
+      "previousNames": [],
+      "nation": "英国",
+      "tier": "4",
+      "type": "巡洋舰",
+      "attribute": "装甲区甲板装甲",
+      "oldValue": "—",
+      "newValue": "增加至40毫米",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "57c542dc8b42",
+      "category": "ship",
+      "targetName": "大和",
+      "canonicalName": "大和",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "10",
+      "type": "战列舰",
+      "attribute": "主炮炮弹散布投影面积",
+      "oldValue": "—",
+      "newValue": "减少约10%",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "15ed5b6f029a",
+      "category": "ship",
+      "targetName": "大和",
+      "canonicalName": "大和",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "10",
+      "type": "战列舰",
+      "attribute": "主炮装填时间",
+      "oldValue": "30秒",
+      "newValue": "29秒",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "c9bc43f1b766",
+      "category": "ship",
+      "targetName": "大山",
+      "canonicalName": "大山",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "主炮炮弹散布投影面积",
+      "oldValue": "—",
+      "newValue": "减少约10%",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "af1a5f2f8a08",
+      "category": "ship",
+      "targetName": "迪米特里·顿斯科伊",
+      "canonicalName": "迪米特里·顿斯科伊",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "9",
+      "type": "巡洋舰",
+      "attribute": "主炮装填时间",
+      "oldValue": "12.5秒",
+      "newValue": "10.5秒",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "0f5eac643625",
+      "category": "ship",
+      "targetName": "肥前",
+      "canonicalName": "肥前",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "穿甲弹参数",
+      "oldValue": "—",
+      "newValue": "与出云穿甲弹相同",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "adjustment",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "6624b506822a",
+      "category": "ship",
+      "targetName": "肥前",
+      "canonicalName": "肥前",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "主炮炮弹散布投影面积",
+      "oldValue": "—",
+      "newValue": "减少约10%",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "9cf67bb2aace",
+      "category": "ship",
+      "targetName": "肥前",
+      "canonicalName": "肥前",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "主炮装填时间",
+      "oldValue": "35秒",
+      "newValue": "34秒",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "cdd6d1bf9773",
+      "category": "ship",
+      "targetName": "翡翠",
+      "canonicalName": "翡翠",
+      "previousNames": [],
+      "nation": "英国",
+      "tier": "5",
+      "type": "巡洋舰",
+      "attribute": "装甲区甲板装甲",
+      "oldValue": "—",
+      "newValue": "增加至40毫米",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "15177e1ca4cd",
+      "category": "ship",
+      "targetName": "丰后",
+      "canonicalName": "丰后",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "10",
+      "type": "战列舰",
+      "attribute": "主炮炮弹散布投影面积",
+      "oldValue": "—",
+      "newValue": "减少约10%",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "7972a180a3c2",
+      "category": "ship",
+      "targetName": "敷岛",
+      "canonicalName": "敷岛",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "10",
+      "type": "战列舰",
+      "attribute": "主炮炮弹散布投影面积",
+      "oldValue": "—",
+      "newValue": "减少约10%",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "ff2e10896330",
+      "category": "ship",
+      "targetName": "扶桑",
+      "canonicalName": "扶桑",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "6",
+      "type": "战列舰",
+      "attribute": "主炮炮弹散布投影面积",
+      "oldValue": "—",
+      "newValue": "减少约10%",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "bf3e7df5ddaa",
+      "category": "ship",
+      "targetName": "弓张",
+      "canonicalName": "弓张",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "8",
+      "type": "战列舰",
+      "attribute": "主炮炮弹散布投影面积",
+      "oldValue": "—",
+      "newValue": "减少约10%",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "0622c2b0e320",
+      "category": "ship",
+      "targetName": "共和国",
+      "canonicalName": "共和国",
+      "previousNames": [],
+      "nation": "法国",
+      "tier": "10",
+      "type": "战列舰",
+      "attribute": "“引擎增压”航速加成",
+      "oldValue": "8%",
+      "newValue": "15%",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "55c10826c51b",
+      "category": "ship",
+      "targetName": "哈巴罗夫斯克",
+      "canonicalName": "哈巴罗夫斯克",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "10",
+      "type": "驱逐舰",
+      "attribute": "方向舵换挡时间",
+      "oldValue": "11.1秒",
+      "newValue": "6.7秒",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "91f8295237f1",
+      "category": "ship",
+      "targetName": "哈巴罗夫斯克",
+      "canonicalName": "哈巴罗夫斯克",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "10",
+      "type": "驱逐舰",
+      "attribute": "鱼雷射程",
+      "oldValue": "6公里",
+      "newValue": "8.5公里",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "43a72dba6b8d",
+      "category": "ship",
+      "targetName": "哈巴罗夫斯克",
+      "canonicalName": "哈巴罗夫斯克",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "10",
+      "type": "驱逐舰",
+      "attribute": "鱼雷装填时间",
+      "oldValue": "127秒",
+      "newValue": "145秒",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "nerf",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "a680a1653322",
+      "category": "ship",
+      "targetName": "河内",
+      "canonicalName": "河内",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "3",
+      "type": "战列舰",
+      "attribute": "主炮炮弹散布投影面积",
+      "oldValue": "—",
+      "newValue": "减少约10%",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "792dc9f82e86",
+      "category": "ship",
+      "targetName": "纪伊",
+      "canonicalName": "纪伊",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "8",
+      "type": "战列舰",
+      "attribute": "主炮炮弹散布投影面积",
+      "oldValue": "—",
+      "newValue": "减少约10%",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "d5cd3ae87ce7",
+      "category": "ship",
+      "targetName": "加利西亚",
+      "canonicalName": "加利西亚",
+      "previousNames": [],
+      "nation": "泛美",
+      "tier": "5",
+      "type": "巡洋舰",
+      "attribute": "装甲区甲板装甲",
+      "oldValue": "—",
+      "newValue": "增加至40毫米",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "6a8ec3ccf06b",
+      "category": "ship",
+      "targetName": "加斯科涅",
+      "canonicalName": "加斯科涅",
+      "previousNames": [],
+      "nation": "法国",
+      "tier": "8",
+      "type": "战列舰",
+      "attribute": "“引擎增压”航速加成",
+      "oldValue": "8%",
+      "newValue": "15%",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "200fcc5b59d3",
+      "category": "ship",
+      "targetName": "金刚",
+      "canonicalName": "金刚",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "5",
+      "type": "战列舰",
+      "attribute": "主炮炮弹散布投影面积",
+      "oldValue": "—",
+      "newValue": "减少约10%",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "6996e1b82269",
+      "category": "ship",
+      "targetName": "巨浪",
+      "canonicalName": "巨浪",
+      "previousNames": [],
+      "nation": "泛亚",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "主炮射程",
+      "oldValue": "18.4公里",
+      "newValue": "19.2公里",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "84c0d89adb4d",
+      "category": "ship",
+      "targetName": "巨浪",
+      "canonicalName": "巨浪",
+      "previousNames": [],
+      "nation": "泛亚",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "主炮装填时间",
+      "oldValue": "24秒",
+      "newValue": "22秒",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "c1998fd82712",
+      "category": "ship",
+      "targetName": "卡利登",
+      "canonicalName": "卡利登",
+      "previousNames": [],
+      "nation": "英国",
+      "tier": "3",
+      "type": "巡洋舰",
+      "attribute": "装甲区甲板装甲",
+      "oldValue": "—",
+      "newValue": "增加至40毫米",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "d16b32a781c5",
+      "category": "ship",
+      "targetName": "卡瓦哈尔",
+      "canonicalName": "卡瓦哈尔",
+      "previousNames": [],
+      "nation": "泛美",
+      "tier": "8",
+      "type": "巡洋舰",
+      "attribute": "“维修小组”可用次数",
+      "oldValue": "—",
+      "newValue": "增加1次",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "c67cbf35e846",
+      "category": "ship",
+      "targetName": "科尔多瓦",
+      "canonicalName": "科尔多瓦",
+      "previousNames": [],
+      "nation": "泛美",
+      "tier": "4",
+      "type": "巡洋舰",
+      "attribute": "装甲区甲板装甲",
+      "oldValue": "—",
+      "newValue": "增加至40毫米",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "fad048aa8eb9",
+      "category": "ship",
+      "targetName": "雷兽",
+      "canonicalName": "雷兽",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "10",
+      "type": "战列舰",
+      "attribute": "主炮炮弹散布投影面积",
+      "oldValue": "—",
+      "newValue": "减少约10%",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "b70cfda3f852",
+      "category": "ship",
+      "targetName": "黎塞留",
+      "canonicalName": "黎塞留",
+      "previousNames": [],
+      "nation": "法国",
+      "tier": "8",
+      "type": "战列舰",
+      "attribute": "“引擎增压”航速加成",
+      "oldValue": "8%",
+      "newValue": "15%",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "4abe8c2a66b3",
+      "category": "ship",
+      "targetName": "里加",
+      "canonicalName": "里加",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "9",
+      "type": "巡洋舰",
+      "attribute": "对海隐蔽",
+      "oldValue": "14.9公里",
+      "newValue": "14.5公里",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "7bf9c5968234",
+      "category": "ship",
+      "targetName": "陆奥",
+      "canonicalName": "陆奥",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "6",
+      "type": "战列舰",
+      "attribute": "主炮炮弹散布投影面积",
+      "oldValue": "—",
+      "newValue": "减少约10%",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "b8e65b89a566",
+      "category": "ship",
+      "targetName": "妙义",
+      "canonicalName": "妙义",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "4",
+      "type": "战列舰",
+      "attribute": "主炮炮弹散布投影面积",
+      "oldValue": "—",
+      "newValue": "减少约10%",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "eab84adc8745",
+      "category": "ship",
+      "targetName": "欧根亲王",
+      "canonicalName": "欧根亲王",
+      "previousNames": [],
+      "nation": "德国",
+      "tier": "8",
+      "type": "巡洋舰",
+      "attribute": "主炮精度",
+      "oldValue": "—",
+      "newValue": "提升至同级驱逐舰平均水平",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "75e9d345d3f1",
+      "category": "ship",
+      "targetName": "欧根亲王",
+      "canonicalName": "欧根亲王",
+      "previousNames": [],
+      "nation": "德国",
+      "tier": "8",
+      "type": "巡洋舰",
+      "attribute": "主炮装填时间",
+      "oldValue": "13秒",
+      "newValue": "12秒",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "8282e65d59e6",
+      "category": "ship",
+      "targetName": "球磨",
+      "canonicalName": "球磨",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "4",
+      "type": "巡洋舰",
+      "attribute": "装甲区甲板装甲",
+      "oldValue": "—",
+      "newValue": "增加至40毫米",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "1def766f23c3",
+      "category": "ship",
+      "targetName": "让·巴尔",
+      "canonicalName": "让·巴尔",
+      "previousNames": [],
+      "nation": "法国",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "“引擎增压”航速加成",
+      "oldValue": "8%",
+      "newValue": "15%",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "859d7d577d9e",
+      "category": "ship",
+      "targetName": "让·巴尔 '43",
+      "canonicalName": "让·巴尔 '43",
+      "previousNames": [],
+      "nation": "法国",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "“引擎增压”航速加成",
+      "oldValue": "8%",
+      "newValue": "15%",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "8945ae8d5117",
+      "category": "ship",
+      "targetName": "让·巴尔 '43",
+      "canonicalName": "让·巴尔 '43",
+      "previousNames": [],
+      "nation": "法国",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "副炮（127毫米）弹道",
+      "oldValue": "—",
+      "newValue": "更平直，最大射程飞行时间不变",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "adjustment",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "8660841e752a",
+      "category": "ship",
+      "targetName": "让·巴尔 '43",
+      "canonicalName": "让·巴尔 '43",
+      "previousNames": [],
+      "nation": "法国",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "副炮（127毫米）射程",
+      "oldValue": "13公里",
+      "newValue": "14公里",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "f15a225d659c",
+      "category": "ship",
+      "targetName": "日向",
+      "canonicalName": "日向",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "7",
+      "type": "战列舰",
+      "attribute": "主炮炮弹散布投影面积",
+      "oldValue": "—",
+      "newValue": "减少约10%",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "91bc65a5e781",
+      "category": "ship",
+      "targetName": "萨摩",
+      "canonicalName": "萨摩",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "11",
+      "type": "战列舰",
+      "attribute": "主炮炮弹散布投影面积",
+      "oldValue": "—",
+      "newValue": "减少约10%",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "31da39107c40",
+      "category": "ship",
+      "targetName": "萨摩",
+      "canonicalName": "萨摩",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "11",
+      "type": "战列舰",
+      "attribute": "主炮装填时间",
+      "oldValue": "35秒",
+      "newValue": "34秒",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "4d16ef0ffd75",
+      "category": "ship",
+      "targetName": "塞尔韦拉上将",
+      "canonicalName": "塞尔韦拉上将",
+      "previousNames": [],
+      "nation": "泛美",
+      "tier": "4",
+      "type": "巡洋舰",
+      "attribute": "装甲区甲板装甲",
+      "oldValue": "—",
+      "newValue": "增加至40毫米",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "5bced306986a",
+      "category": "ship",
+      "targetName": "三笠",
+      "canonicalName": "三笠",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "2",
+      "type": "战列舰",
+      "attribute": "主炮炮弹散布投影面积",
+      "oldValue": "—",
+      "newValue": "减少约10%",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "c95576209ad2",
+      "category": "ship",
+      "targetName": "射水鱼",
+      "canonicalName": "射水鱼",
+      "previousNames": [],
+      "nation": "美国",
+      "tier": "10",
+      "type": "潜艇",
+      "attribute": "声导鱼雷最大伤害",
+      "oldValue": "11913",
+      "newValue": "13497",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "a28094387a98",
+      "category": "ship",
+      "targetName": "石槌",
+      "canonicalName": "石槌",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "4",
+      "type": "战列舰",
+      "attribute": "主炮炮弹散布投影面积",
+      "oldValue": "—",
+      "newValue": "减少约10%",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "86a490400460",
+      "category": "ship",
+      "targetName": "石见",
+      "canonicalName": "石见",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "主炮炮弹散布投影面积",
+      "oldValue": "—",
+      "newValue": "减少约10%",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "e31f9c35b69d",
+      "category": "ship",
+      "targetName": "塔尔萨",
+      "canonicalName": "塔尔萨",
+      "previousNames": [],
+      "nation": "美国",
+      "tier": "9",
+      "type": "巡洋舰",
+      "attribute": "主炮精度",
+      "oldValue": "—",
+      "newValue": "提升至同级驱逐舰平均水平",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "0311f46a6828",
+      "category": "ship",
+      "targetName": "天城",
+      "canonicalName": "天城",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "8",
+      "type": "战列舰",
+      "attribute": "主炮炮弹散布投影面积",
+      "oldValue": "—",
+      "newValue": "减少约10%",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "cccc4af4980d",
+      "category": "ship",
+      "targetName": "天城",
+      "canonicalName": "天城",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "7",
+      "type": "战列舰",
+      "attribute": "主炮炮弹散布投影面积",
+      "oldValue": "—",
+      "newValue": "减少约10%",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "8801b3c5287f",
+      "category": "ship",
+      "targetName": "天城",
+      "canonicalName": "天城",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "8",
+      "type": "战列舰",
+      "attribute": "主炮装填时间",
+      "oldValue": "30秒",
+      "newValue": "29秒",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "2a59e807b0fa",
+      "category": "ship",
+      "targetName": "天龙",
+      "canonicalName": "天龙",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "3",
+      "type": "巡洋舰",
+      "attribute": "装甲区甲板装甲",
+      "oldValue": "—",
+      "newValue": "增加至40毫米",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "5c0baf698382",
+      "category": "ship",
+      "targetName": "乌尔皮乌斯·图拉真",
+      "canonicalName": "乌尔皮乌斯·图拉真",
+      "previousNames": [],
+      "nation": "意大利",
+      "tier": "10",
+      "type": "巡洋舰",
+      "attribute": "“维修小组”可用次数",
+      "oldValue": "—",
+      "newValue": "增加1次",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "b5580afca665",
+      "category": "ship",
+      "targetName": "乌尔皮乌斯·图拉真",
+      "canonicalName": "乌尔皮乌斯·图拉真",
+      "previousNames": [],
+      "nation": "意大利",
+      "tier": "10",
+      "type": "巡洋舰",
+      "attribute": "主炮炮弹弹道",
+      "oldValue": "—",
+      "newValue": "更平直",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "adjustment",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "b74468ca8f25",
+      "category": "ship",
+      "targetName": "乌尔皮乌斯·图拉真",
+      "canonicalName": "乌尔皮乌斯·图拉真",
+      "previousNames": [],
+      "nation": "意大利",
+      "tier": "10",
+      "type": "巡洋舰",
+      "attribute": "主炮射程",
+      "oldValue": "14.8公里",
+      "newValue": "15.5公里",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "df3aec3d04fd",
+      "category": "ship",
+      "targetName": "乌拉尔",
+      "canonicalName": "乌拉尔",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "9",
+      "type": "巡洋舰",
+      "attribute": "“主炮装填助推器”可用次数",
+      "oldValue": "—",
+      "newValue": "增加1次",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "ed94c9e6112b",
+      "category": "ship",
+      "targetName": "乌拉尔",
+      "canonicalName": "乌拉尔",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "9",
+      "type": "巡洋舰",
+      "attribute": "“主炮装填助推器”作用时间",
+      "oldValue": "15秒",
+      "newValue": "20秒",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "ff529cc0c796",
+      "category": "ship",
+      "targetName": "伍斯特",
+      "canonicalName": "伍斯特",
+      "previousNames": [],
+      "nation": "美国",
+      "tier": "10",
+      "type": "巡洋舰",
+      "attribute": "主炮炮弹弹道",
+      "oldValue": "—",
+      "newValue": "更平直",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "adjustment",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "89cb49ad512d",
+      "category": "ship",
+      "targetName": "武藏",
+      "canonicalName": "武藏",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "主炮炮弹散布投影面积",
+      "oldValue": "—",
+      "newValue": "减少约10%",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "7716dca2b93a",
+      "category": "ship",
+      "targetName": "悟净",
+      "canonicalName": "悟净",
+      "previousNames": [],
+      "nation": "泛亚",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "“引擎增压”航速加成",
+      "oldValue": "8%",
+      "newValue": "15%",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "a83756a69777",
+      "category": "ship",
+      "targetName": "夕张",
+      "canonicalName": "夕张",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "4",
+      "type": "巡洋舰",
+      "attribute": "装甲区甲板装甲",
+      "oldValue": "—",
+      "newValue": "增加至40毫米",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "d249aa756f37",
+      "category": "ship",
+      "targetName": "西雅图",
+      "canonicalName": "西雅图",
+      "previousNames": [],
+      "nation": "美国",
+      "tier": "9",
+      "type": "巡洋舰",
+      "attribute": "主炮炮弹弹道",
+      "oldValue": "—",
+      "newValue": "更平直",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "adjustment",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "39b4cc56a50f",
+      "category": "ship",
+      "targetName": "香槟",
+      "canonicalName": "香槟",
+      "previousNames": [],
+      "nation": "法国",
+      "tier": "8",
+      "type": "战列舰",
+      "attribute": "“引擎增压”航速加成",
+      "oldValue": "8%",
+      "newValue": "15%",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "7d642dec9384",
+      "category": "ship",
+      "targetName": "翔鹤",
+      "canonicalName": "翔鹤",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "8",
+      "type": "航空母舰",
+      "attribute": "基础轰炸机血量",
+      "oldValue": "1580",
+      "newValue": "1710",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "9ba004a72d54",
+      "category": "ship",
+      "targetName": "翔鹤",
+      "canonicalName": "翔鹤",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "8",
+      "type": "航空母舰",
+      "attribute": "基础鱼雷机血量",
+      "oldValue": "1600",
+      "newValue": "1730",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "c1431cd7f441",
+      "category": "ship",
+      "targetName": "翔鹤",
+      "canonicalName": "翔鹤",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "8",
+      "type": "航空母舰",
+      "attribute": "可研发轰炸机血量",
+      "oldValue": "1650",
+      "newValue": "1780",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "58810b22941c",
+      "category": "ship",
+      "targetName": "翔鹤",
+      "canonicalName": "翔鹤",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "8",
+      "type": "航空母舰",
+      "attribute": "可研发鱼雷机血量",
+      "oldValue": "1670",
+      "newValue": "1800",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "79e3b80c4fe8",
+      "category": "ship",
+      "targetName": "新埃斯帕塔",
+      "canonicalName": "新埃斯帕塔",
+      "previousNames": [],
+      "nation": "泛美",
+      "tier": "10",
+      "type": "驱逐舰",
+      "attribute": "消耗品栏位",
+      "oldValue": "“鱼雷装填助推器”",
+      "newValue": "新增“监视雷达”，参数与七月二十日相同",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "adjustment",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "648841264e3a",
+      "category": "ship",
+      "targetName": "新罕布什尔",
+      "canonicalName": "新罕布什尔",
+      "previousNames": [],
+      "nation": "美国",
+      "tier": "10",
+      "type": "战列舰",
+      "attribute": "穿甲弹参数",
+      "oldValue": "—",
+      "newValue": "与得梅因穿甲弹相同",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "adjustment",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "c056ede6d936",
+      "category": "ship",
+      "targetName": "新罕布什尔",
+      "canonicalName": "新罕布什尔",
+      "previousNames": [],
+      "nation": "美国",
+      "tier": "10",
+      "type": "战列舰",
+      "attribute": "主炮第1、4座炮塔旋转角度",
+      "oldValue": "受限",
+      "newValue": "全角度旋转",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "1f364d622f92",
+      "category": "ship",
+      "targetName": "岩木A",
+      "canonicalName": "岩木A",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "4",
+      "type": "巡洋舰",
+      "attribute": "装甲区甲板装甲",
+      "oldValue": "—",
+      "newValue": "增加至40毫米",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "0800ca18715b",
+      "category": "ship",
+      "targetName": "伊势",
+      "canonicalName": "伊势",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "6",
+      "type": "战列舰",
+      "attribute": "主炮炮弹散布投影面积",
+      "oldValue": "—",
+      "newValue": "减少约10%",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "cdea3dc20182",
+      "category": "ship",
+      "targetName": "长门",
+      "canonicalName": "长门",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "7",
+      "type": "战列舰",
+      "attribute": "主炮炮弹散布投影面积",
+      "oldValue": "—",
+      "newValue": "减少约10%",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "18c129891c2d",
+      "category": "ship",
+      "targetName": "祖国",
+      "canonicalName": "祖国",
+      "previousNames": [],
+      "nation": "法国",
+      "tier": "11",
+      "type": "战列舰",
+      "attribute": "“引擎增压”消耗品作用时间",
+      "oldValue": "120秒",
+      "newValue": "180秒",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "24a9161865d7",
+      "category": "ship",
+      "targetName": "U-4501",
+      "canonicalName": "U-4501",
+      "previousNames": [],
+      "nation": "德国",
+      "tier": "10",
+      "type": "潜艇",
+      "attribute": "声导鱼雷最大伤害",
+      "oldValue": "11055",
+      "newValue": "12540",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship",
+        "converted-from-test"
+      ],
+      "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "f9598c6b3926",
+      "category": "ship",
+      "targetName": "白山",
+      "canonicalName": "白山",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "鱼雷发射角度（每侧）",
+      "oldValue": "—",
+      "newValue": "增加10度",
+      "version": "26.8",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "Manual 26.8"
+    },
+    {
+      "id": "98a60465fca3",
+      "category": "ship",
+      "targetName": "布达佩斯",
+      "canonicalName": "布达佩斯",
+      "previousNames": [],
+      "nation": "欧洲",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "鱼雷发射角度（每侧）",
+      "oldValue": "—",
+      "newValue": "减少3度",
+      "version": "26.8",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "nerf",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "Manual 26.8"
+    },
+    {
+      "id": "dadd88a10a2b",
+      "category": "ship",
+      "targetName": "民主德国",
+      "canonicalName": "民主德国",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "10",
+      "type": "战列舰",
+      "attribute": "“维修小组”可用数量",
+      "oldValue": "3",
+      "newValue": "4",
+      "version": "26.8",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "Manual 26.8"
+    },
+    {
+      "id": "8f0647b95eb8",
+      "category": "ship",
+      "targetName": "民主德国",
+      "canonicalName": "民主德国",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "10",
+      "type": "战列舰",
+      "attribute": "鱼雷发射器机制",
+      "oldValue": "装填手和单点发射能力",
+      "newValue": "移除；改为常规鱼雷发射器机制",
+      "version": "26.8",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "adjustment",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "Manual 26.8"
+    },
+    {
+      "id": "ef544dacfe6e",
+      "category": "ship",
+      "targetName": "民主德国",
+      "canonicalName": "民主德国",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "10",
+      "type": "战列舰",
+      "attribute": "鱼雷装填时间",
+      "oldValue": "—",
+      "newValue": "80秒",
+      "version": "26.8",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "adjustment",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "Manual 26.8"
+    },
+    {
+      "id": "bf5dd3cc4042",
+      "category": "ship",
+      "targetName": "民主德国",
+      "canonicalName": "民主德国",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "10",
+      "type": "战列舰",
+      "attribute": "主炮射击模式",
+      "oldValue": "常规射击",
+      "newValue": "仅连发射击：连发2次，单轮装填27秒，开火间隔6秒",
+      "version": "26.8",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "adjustment",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "Manual 26.8"
+    },
+    {
+      "id": "65b1d372038d",
       "category": "ship",
       "targetName": "布达佩斯",
       "canonicalName": "布达佩斯",
@@ -1796,10 +3750,10 @@
       "type": "战列舰",
       "attribute": "主炮射程",
       "oldValue": "19.2",
-      "newValue": "19",
+      "newValue": "19.8公里",
       "version": "26.8",
       "notes": "官方公告：https://blog.korabli.su/blog/693",
-      "trend": "nerf",
+      "trend": "buff",
       "shipStatus": "test",
       "tags": [
         "test-ship"
@@ -2269,7 +4223,7 @@
       "sourceSheet": "Korabli #692"
     },
     {
-      "id": "d80257a078ba",
+      "id": "1432bfa5104a",
       "category": "ship",
       "targetName": "鸟海",
       "canonicalName": "鸟海",
@@ -2279,7 +4233,7 @@
       "type": "巡洋舰",
       "attribute": "主炮装填时间",
       "oldValue": "15",
-      "newValue": "16",
+      "newValue": "16.5秒",
       "version": "26.7",
       "notes": "官方公告：https://blog.korabli.su/blog/689",
       "trend": "nerf",
@@ -5517,7 +7471,7 @@
       "sourceSheet": "Korabli #683"
     },
     {
-      "id": "184ace18f895",
+      "id": "5f550daf9b88",
       "category": "ship",
       "targetName": "康涅狄格",
       "canonicalName": "康涅狄格",
@@ -5527,10 +7481,10 @@
       "type": "战列舰",
       "attribute": "副炮装填时间",
       "oldValue": "4",
-      "newValue": "4",
+      "newValue": "4.2秒",
       "version": "26.5",
       "notes": "官方公告：https://blog.korabli.su/blog/678",
-      "trend": "neutral",
+      "trend": "nerf",
       "shipStatus": "test",
       "tags": [
         "test-ship"
@@ -6273,7 +8227,7 @@
       "sourceSheet": "Korabli #683"
     },
     {
-      "id": "3df4bd6372a5",
+      "id": "53c8a520bf73",
       "category": "ship",
       "targetName": "华盛顿",
       "canonicalName": "华盛顿",
@@ -6283,10 +8237,10 @@
       "type": "战列舰",
       "attribute": "副炮装填时间",
       "oldValue": "5",
-      "newValue": "5",
+      "newValue": "5.3秒",
       "version": "26.5",
       "notes": "官方公告：https://blog.korabli.su/blog/678",
-      "trend": "neutral",
+      "trend": "nerf",
       "shipStatus": "test",
       "tags": [
         "test-ship"
@@ -6525,7 +8479,7 @@
       "sourceSheet": "Korabli #678"
     },
     {
-      "id": "8978f84c4dea",
+      "id": "4436597fc7ca",
       "category": "ship",
       "targetName": "7月20日",
       "canonicalName": "7月20日",
@@ -6535,7 +8489,7 @@
       "type": "驱逐舰",
       "attribute": "主炮装填时间",
       "oldValue": "2.9",
-      "newValue": "3",
+      "newValue": "3.2秒",
       "version": "26.4",
       "notes": "官方公告：https://blog.korabli.su/blog/674",
       "trend": "nerf",
@@ -6651,7 +8605,7 @@
       "sourceSheet": "Korabli #674"
     },
     {
-      "id": "b209681f8433",
+      "id": "2bb7e8046de2",
       "category": "ship",
       "targetName": "卡瓦哈尔",
       "canonicalName": "卡瓦哈尔",
@@ -6661,10 +8615,10 @@
       "type": "驱逐舰",
       "attribute": "主炮装填时间",
       "oldValue": "3.0",
-      "newValue": "3",
+      "newValue": "3.3 c",
       "version": "26.4",
       "notes": "官方公告：https://blog.korabli.su/blog/674",
-      "trend": "neutral",
+      "trend": "nerf",
       "shipStatus": "test",
       "tags": [
         "test-ship"
@@ -6735,7 +8689,7 @@
       "sourceSheet": "Korabli #677"
     },
     {
-      "id": "d171b95551e6",
+      "id": "9722fbac31b0",
       "category": "ship",
       "targetName": "新埃斯帕塔",
       "canonicalName": "新埃斯帕塔",
@@ -6745,10 +8699,10 @@
       "type": "驱逐舰",
       "attribute": "主炮装填时间",
       "oldValue": "3.2",
-      "newValue": "3",
+      "newValue": "3.55秒",
       "version": "26.4",
       "notes": "官方公告：https://blog.korabli.su/blog/674",
-      "trend": "buff",
+      "trend": "nerf",
       "shipStatus": "test",
       "tags": [
         "test-ship"
@@ -6819,7 +8773,7 @@
       "sourceSheet": "Korabli #677"
     },
     {
-      "id": "118df43e81a5",
+      "id": "2fac710541a6",
       "category": "ship",
       "targetName": "帕拉",
       "canonicalName": "帕拉",
@@ -6829,10 +8783,10 @@
       "type": "驱逐舰",
       "attribute": "主炮装填时间",
       "oldValue": "3.1",
-      "newValue": "3",
+      "newValue": "3.3 c",
       "version": "26.4",
       "notes": "官方公告：https://blog.korabli.su/blog/674",
-      "trend": "buff",
+      "trend": "nerf",
       "shipStatus": "test",
       "tags": [
         "test-ship"
@@ -6840,7 +8794,7 @@
       "sourceSheet": "Korabli #674"
     },
     {
-      "id": "5c0254c84f68",
+      "id": "60e867a84afa",
       "category": "ship",
       "targetName": "石墙",
       "canonicalName": "石墙",
@@ -6850,7 +8804,7 @@
       "type": "驱逐舰",
       "attribute": "激活天赋「维修指令」时每秒恢复的生命值",
       "oldValue": "0.4%",
-      "newValue": "0",
+      "newValue": "0.35%",
       "version": "26.4",
       "notes": "官方公告：https://blog.korabli.su/blog/674",
       "trend": "nerf",
@@ -6987,7 +8941,7 @@
       "sourceSheet": "Korabli #677"
     },
     {
-      "id": "c8ecf3da413f",
+      "id": "8012da4aa4de",
       "category": "ship",
       "targetName": "石墙",
       "canonicalName": "石墙",
@@ -6997,7 +8951,7 @@
       "type": "驱逐舰",
       "attribute": "海上被侦测距离",
       "oldValue": "10.3",
-      "newValue": "9",
+      "newValue": "9.3公里",
       "version": "26.4",
       "notes": "官方公告：https://blog.korabli.su/blog/674",
       "trend": "buff",
@@ -9549,7 +11503,7 @@
       "sourceSheet": "Korabli #654"
     },
     {
-      "id": "ae9af20d7ff1",
+      "id": "1f639df8c909",
       "category": "ship",
       "targetName": "卡尔·冯·舍恩贝格",
       "canonicalName": "卡尔·冯·舍恩贝格",
@@ -9559,7 +11513,7 @@
       "type": "驱逐舰",
       "attribute": "绝对跳弹角度",
       "oldValue": "60",
-      "newValue": "67",
+      "newValue": "67.5度",
       "version": "25.12",
       "notes": "官方公告：https://blog.korabli.su/blog/654",
       "trend": "adjustment",
@@ -11093,7 +13047,7 @@
       "sourceSheet": "Korabli #655"
     },
     {
-      "id": "2263f75cc090",
+      "id": "b08fa9aa1a9b",
       "category": "ship",
       "targetName": "炽热",
       "canonicalName": "炽热",
@@ -11103,7 +13057,7 @@
       "type": "驱逐舰",
       "attribute": "主炮装填时间",
       "oldValue": "5",
-      "newValue": "4",
+      "newValue": "4.5秒",
       "version": "25.11",
       "notes": "官方公告：https://blog.korabli.su/blog/650",
       "trend": "buff",
@@ -12899,7 +14853,7 @@
       "sourceSheet": "Korabli #641"
     },
     {
-      "id": "0d1f2deee50c",
+      "id": "911cd78b2d4e",
       "category": "ship",
       "targetName": "奥雷利奥·迪奥克莱齐亚诺",
       "canonicalName": "奥雷利奥·迪奥克莱齐亚诺",
@@ -12909,7 +14863,7 @@
       "type": "巡洋舰",
       "attribute": "主炮装填时间",
       "oldValue": "7,5",
-      "newValue": "8",
+      "newValue": "8.0秒",
       "version": "25.9",
       "notes": "官方公告：https://blog.korabli.su/blog/638",
       "trend": "nerf",
@@ -13978,7 +15932,7 @@
       "sourceSheet": "Korabli #628"
     },
     {
-      "id": "b941ca3e5b08",
+      "id": "637776b85cbb",
       "category": "ship",
       "targetName": "哈兰（测试）",
       "canonicalName": "哈兰（测试）",
@@ -13988,10 +15942,10 @@
       "type": "驱逐舰",
       "attribute": "主炮射程",
       "oldValue": "12",
-      "newValue": "12",
+      "newValue": "12.8公里",
       "version": "25.8",
       "notes": "官方公告：https://blog.korabli.su/blog/628",
-      "trend": "neutral",
+      "trend": "buff",
       "shipStatus": "test",
       "tags": [
         "test-ship"
@@ -20159,7 +22113,7 @@
       "sourceSheet": "Korabli #578"
     },
     {
-      "id": "b227a9b4d9ef",
+      "id": "60005f3c8c3f",
       "category": "ship",
       "targetName": "山雾",
       "canonicalName": "山雾",
@@ -20169,7 +22123,7 @@
       "type": "驱逐舰",
       "attribute": "主炮装填时间",
       "oldValue": "4.5",
-      "newValue": "4",
+      "newValue": "4.0秒",
       "version": "13.11",
       "notes": "官方公告：https://blog.korabli.su/blog/574",
       "trend": "buff",
@@ -21587,7 +23541,7 @@
       "sourceSheet": "Korabli #568"
     },
     {
-      "id": "b1be2931e5f9",
+      "id": "380cf023f5f3",
       "category": "ship",
       "targetName": "赫塔",
       "canonicalName": "赫塔",
@@ -21597,7 +23551,7 @@
       "type": "巡洋舰",
       "attribute": "每秒恢复生命值",
       "oldValue": "0.6%",
-      "newValue": "1",
+      "newValue": "1.2%",
       "version": "13.9",
       "notes": "官方公告：https://blog.korabli.su/blog/568",
       "trend": "buff",
@@ -21671,7 +23625,7 @@
       "sourceSheet": "Korabli #568"
     },
     {
-      "id": "d11a773bf630",
+      "id": "270509e28f07",
       "category": "ship",
       "targetName": "奥托·韦迪根",
       "canonicalName": "奥托·韦迪根",
@@ -21681,10 +23635,10 @@
       "type": "驱逐舰",
       "attribute": "主炮装填时间",
       "oldValue": "4",
-      "newValue": "4",
+      "newValue": "4.2秒",
       "version": "13.9",
       "notes": "官方公告：https://blog.korabli.su/blog/568",
-      "trend": "neutral",
+      "trend": "nerf",
       "shipStatus": "test",
       "tags": [
         "test-ship"
@@ -24024,7 +25978,7 @@
       "sourceSheet": "Korabli #558"
     },
     {
-      "id": "4afac18499b4",
+      "id": "f0dabcea3fca",
       "category": "ship",
       "targetName": "ZF-6",
       "canonicalName": "ZF-6",
@@ -24034,7 +25988,7 @@
       "type": "驱逐舰",
       "attribute": "主炮装填时间",
       "oldValue": "4",
-      "newValue": "3",
+      "newValue": "3.8 秒",
       "version": "13.8",
       "notes": "官方公告：https://blog.korabli.su/blog/558",
       "trend": "buff",
@@ -24228,6 +26182,25 @@
       "shipStatus": "unknown",
       "tags": [],
       "sourceSheet": "Korabli #561"
+    },
+    {
+      "id": "f1302eee23a4",
+      "category": "mechanic",
+      "targetName": "指挥官潜艇技能：深潜大师（4技能点）",
+      "canonicalName": "指挥官潜艇技能：深潜大师（4技能点）",
+      "previousNames": [],
+      "nation": "",
+      "tier": "",
+      "type": "",
+      "attribute": "最大深度时敌方深水炸弹伤害降低",
+      "oldValue": "-50%",
+      "newValue": "-33%",
+      "version": "26.9",
+      "notes": "人工录入：用户提供，待官方公告核验",
+      "trend": "nerf",
+      "shipStatus": "unknown",
+      "tags": [],
+      "sourceSheet": "Manual 26.9"
     },
     {
       "id": "a9a9a026afb9",
@@ -24478,36 +26451,36 @@
     }
   ],
   "meta": {
-    "generatedAt": "2026-08-16T04:06:33.786Z",
+    "generatedAt": "2026-08-16T18:07:04.312Z",
     "currentVersion": "26.7",
     "lastUpdated": "2026-08-16",
-    "recordCount": 1163,
+    "recordCount": 1257,
     "categoryCounts": {
-      "ship": 1148,
-      "mechanic": 8,
+      "ship": 1241,
+      "mechanic": 9,
       "misc": 7
     },
     "shipStatusCounts": {
-      "test": 636,
-      "released": 512,
-      "unknown": 15
+      "test": 642,
+      "released": 599,
+      "unknown": 16
     },
     "tagCounts": {
-      "test-ship": 636,
-      "released-ship": 512,
-      "converted-from-test": 83
+      "test-ship": 642,
+      "released-ship": 599,
+      "converted-from-test": 84
     },
     "trendCounts": {
-      "buff": 570,
-      "nerf": 258,
-      "neutral": 5,
-      "adjustment": 330
+      "buff": 651,
+      "nerf": 266,
+      "neutral": 0,
+      "adjustment": 340
     },
     "officialData": {
-      "announcementCount": 72,
-      "rangeStart": "2024-08-16T04:06:24.188Z",
-      "rangeEnd": "2026-08-16T04:06:24.188Z",
-      "syncedAt": "2026-08-16T04:06:24.188Z"
+      "announcementCount": 74,
+      "rangeStart": "2024-08-16T18:05:27.281Z",
+      "rangeEnd": "2026-08-16T18:05:27.281Z",
+      "syncedAt": "2026-08-16T18:05:27.281Z"
     }
   }
 }
