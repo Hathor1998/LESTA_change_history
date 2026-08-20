@@ -3592,6 +3592,132 @@
       "sourceSheet": "Manual 26.9"
     },
     {
+      "id": "0a867e23560c",
+      "category": "ship",
+      "targetName": "赤城",
+      "canonicalName": "赤城",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "8",
+      "type": "",
+      "attribute": "AP炸弹最大伤害",
+      "oldValue": "4700",
+      "newValue": "4500 点",
+      "version": "26.9",
+      "notes": "官方公告：https://blog.korabli.su/blog/694",
+      "trend": "nerf",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "Korabli #694"
+    },
+    {
+      "id": "c7048a29c8a6",
+      "category": "ship",
+      "targetName": "布达佩斯",
+      "canonicalName": "布达佩斯",
+      "previousNames": [],
+      "nation": "欧洲",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "主炮装填时间",
+      "oldValue": "20",
+      "newValue": "21秒",
+      "version": "26.9",
+      "notes": "官方公告：https://blog.korabli.su/blog/694",
+      "trend": "nerf",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "Korabli #694"
+    },
+    {
+      "id": "f933f75c8785",
+      "category": "ship",
+      "targetName": "Isonzo",
+      "canonicalName": "Isonzo",
+      "previousNames": [],
+      "nation": "意大利",
+      "tier": "9",
+      "type": "巡洋舰",
+      "attribute": "Бронирование обшивки и палубы каземата",
+      "oldValue": "27",
+      "newValue": "30毫米",
+      "version": "26.9",
+      "notes": "官方公告：https://blog.korabli.su/blog/694",
+      "trend": "adjustment",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "Korabli #694"
+    },
+    {
+      "id": "9647aeaaa644",
+      "category": "ship",
+      "targetName": "Isonzo",
+      "canonicalName": "Isonzo",
+      "previousNames": [],
+      "nation": "意大利",
+      "tier": "9",
+      "type": "巡洋舰",
+      "attribute": "主炮180度旋转时间",
+      "oldValue": "45",
+      "newValue": "27,7 秒",
+      "version": "26.9",
+      "notes": "官方公告：https://blog.korabli.su/blog/694",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "Korabli #694"
+    },
+    {
+      "id": "d234a283b294",
+      "category": "ship",
+      "targetName": "詹金斯",
+      "canonicalName": "詹金斯",
+      "previousNames": [],
+      "nation": "美国",
+      "tier": "11",
+      "type": "驱逐舰",
+      "attribute": "Время перезарядки торпед при активации снаряжения «Ускорение перезарядки торпед»",
+      "oldValue": "30",
+      "newValue": "25秒",
+      "version": "26.9",
+      "notes": "官方公告：https://blog.korabli.su/blog/694",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "Korabli #694"
+    },
+    {
+      "id": "a799c7f53080",
+      "category": "ship",
+      "targetName": "San Giorgio",
+      "canonicalName": "San Giorgio",
+      "previousNames": [],
+      "nation": "意大利",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "Параметр сигма орудий среднего калибра (СК)",
+      "oldValue": "1,7",
+      "newValue": "1,6",
+      "version": "26.9",
+      "notes": "官方公告：https://blog.korabli.su/blog/694",
+      "trend": "nerf",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "Korabli #694"
+    },
+    {
       "id": "24a9161865d7",
       "category": "ship",
       "targetName": "U-4501",
@@ -3612,6 +3738,90 @@
         "converted-from-test"
       ],
       "sourceSheet": "Manual 26.9"
+    },
+    {
+      "id": "adf048e7a637",
+      "category": "ship",
+      "targetName": "东德",
+      "canonicalName": "东德",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "10",
+      "type": "战列舰",
+      "attribute": "Запас боеспособности",
+      "oldValue": "86300",
+      "newValue": "90300 点",
+      "version": "26.9",
+      "notes": "官方公告：https://blog.korabli.su/blog/694",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "Korabli #694"
+    },
+    {
+      "id": "d4d6731a4ea8",
+      "category": "ship",
+      "targetName": "Иван Грозный",
+      "canonicalName": "Иван Грозный",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "11",
+      "type": "巡洋舰",
+      "attribute": "Время перезарядки залпов ГК",
+      "oldValue": "21",
+      "newValue": "23 秒",
+      "version": "26.9",
+      "notes": "官方公告：https://blog.korabli.su/blog/694",
+      "trend": "nerf",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "Korabli #694"
+    },
+    {
+      "id": "8decd8f55db1",
+      "category": "ship",
+      "targetName": "Иван Грозный",
+      "canonicalName": "Иван Грозный",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "11",
+      "type": "巡洋舰",
+      "attribute": "Запас боеспособности",
+      "oldValue": "84600",
+      "newValue": "80600 点",
+      "version": "26.9",
+      "notes": "官方公告：https://blog.korabli.su/blog/694",
+      "trend": "nerf",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "Korabli #694"
+    },
+    {
+      "id": "3ec20465bd0c",
+      "category": "ship",
+      "targetName": "Иван Грозный",
+      "canonicalName": "Иван Грозный",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "11",
+      "type": "巡洋舰",
+      "attribute": "Минимальный интервал между залпами ГК",
+      "oldValue": "6",
+      "newValue": "7秒",
+      "version": "26.9",
+      "notes": "官方公告：https://blog.korabli.su/blog/694",
+      "trend": "adjustment",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "Korabli #694"
     },
     {
       "id": "f9598c6b3926",
@@ -26451,36 +26661,36 @@
     }
   ],
   "meta": {
-    "generatedAt": "2026-08-19T04:05:48.333Z",
+    "generatedAt": "2026-08-20T04:06:00.225Z",
     "currentVersion": "26.7",
-    "lastUpdated": "2026-08-19",
-    "recordCount": 1257,
+    "lastUpdated": "2026-08-20",
+    "recordCount": 1267,
     "categoryCounts": {
-      "ship": 1241,
+      "ship": 1251,
       "mechanic": 9,
       "misc": 7
     },
     "shipStatusCounts": {
-      "test": 642,
+      "test": 652,
       "released": 599,
       "unknown": 16
     },
     "tagCounts": {
-      "test-ship": 642,
+      "test-ship": 652,
       "released-ship": 599,
       "converted-from-test": 84
     },
     "trendCounts": {
-      "buff": 651,
-      "nerf": 266,
+      "buff": 654,
+      "nerf": 271,
       "neutral": 0,
-      "adjustment": 340
+      "adjustment": 342
     },
     "officialData": {
-      "announcementCount": 74,
-      "rangeStart": "2024-08-19T04:05:35.749Z",
-      "rangeEnd": "2026-08-19T04:05:35.749Z",
-      "syncedAt": "2026-08-19T04:05:35.749Z"
+      "announcementCount": 75,
+      "rangeStart": "2024-08-20T04:05:49.749Z",
+      "rangeEnd": "2026-08-20T04:05:49.749Z",
+      "syncedAt": "2026-08-20T04:05:49.749Z"
     }
   }
 }

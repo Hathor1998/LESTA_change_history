@@ -1,4 +1,14 @@
 targetName	canonicalName	previousNames	nation	tier	type	attribute	oldValue	newValue	version	notes	trend	shipStatus	tags	sourceSheet
+Jenkins	Jenkins		美国	11	驱逐舰	Время перезарядки торпед при активации снаряжения «Ускорение перезарядки торпед»	30	25 с	26.9	官方公告：https://blog.korabli.su/blog/694	buff	test		Korabli #694
+Isonzo	Isonzo		意大利	9	巡洋舰	Время поворота орудий ГК на 180 градусов	45	27,7 с	26.9	官方公告：https://blog.korabli.su/blog/694	buff	test		Korabli #694
+Isonzo	Isonzo		意大利	9	巡洋舰	Бронирование обшивки и палубы каземата	27	30 мм	26.9	官方公告：https://blog.korabli.su/blog/694	adjustment	test		Korabli #694
+San Giorgio	San Giorgio		意大利	9	战列舰	Параметр сигма орудий среднего калибра (СК)	1,7	1,6	26.9	官方公告：https://blog.korabli.su/blog/694	nerf	test		Korabli #694
+Akagi	Akagi		日本	8		Максимальный урон ББ-бомбы	4700	4500 ед	26.9	官方公告：https://blog.korabli.su/blog/694	nerf	test		Korabli #694
+ГДР	ГДР		苏联	10	战列舰	Запас боеспособности	86300	90300 ед	26.9	官方公告：https://blog.korabli.su/blog/694	buff	test		Korabli #694
+Иван Грозный	Иван Грозный		苏联	11	巡洋舰	Время перезарядки залпов ГК	21	23 с	26.9	官方公告：https://blog.korabli.su/blog/694	nerf	test		Korabli #694
+Иван Грозный	Иван Грозный		苏联	11	巡洋舰	Минимальный интервал между залпами ГК	6	7 с	26.9	官方公告：https://blog.korabli.su/blog/694	adjustment	test		Korabli #694
+Иван Грозный	Иван Грозный		苏联	11	巡洋舰	Запас боеспособности	84600	80600 ед	26.9	官方公告：https://blog.korabli.su/blog/694	nerf	test		Korabli #694
+Budapest	Budapest		欧洲	9	战列舰	Время перезарядки орудий ГК	20	21 с	26.9	官方公告：https://blog.korabli.su/blog/694	nerf	test		Korabli #694
 Budapest	Budapest		欧洲	9	战列舰	Дальность стрельбы ГК	19.2	19.8 км	26.8	官方公告：https://blog.korabli.su/blog/693	buff	test		Korabli #693
 Hakusan	Hakusan		日本	9	战列舰	Параметр сигма орудий ГК	1,8	1,75	26.8	官方公告：https://blog.korabli.su/blog/693	nerf	test		Korabli #693
 Hakusan	Hakusan		日本	9	战列舰	Время перезарядки орудий ГК	31,5	32 с	26.8	官方公告：https://blog.korabli.su/blog/693	nerf	test		Korabli #693
