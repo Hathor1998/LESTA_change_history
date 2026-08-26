@@ -24893,9 +24893,9 @@
     }
   ],
   "meta": {
-    "generatedAt": "2026-08-25T04:07:18.573Z",
+    "generatedAt": "2026-08-26T04:09:08.881Z",
     "currentVersion": "26.7",
-    "lastUpdated": "2026-08-25",
+    "lastUpdated": "2026-08-26",
     "recordCount": 1183,
     "categoryCounts": {
       "ship": 1167,
@@ -24920,9 +24920,9 @@
     },
     "officialData": {
       "announcementCount": 73,
-      "rangeStart": "2024-08-25T04:07:08.882Z",
-      "rangeEnd": "2026-08-25T04:07:08.882Z",
-      "syncedAt": "2026-08-25T04:07:08.882Z"
+      "rangeStart": "2024-08-26T04:08:56.838Z",
+      "rangeEnd": "2026-08-26T04:08:56.838Z",
+      "syncedAt": "2026-08-26T04:08:56.838Z"
     }
   }
 }
