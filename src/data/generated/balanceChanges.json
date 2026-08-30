@@ -24231,90 +24231,6 @@
       "sourceSheet": "Korabli #566"
     },
     {
-      "id": "42134e26641b",
-      "category": "ship",
-      "targetName": "赫塔",
-      "canonicalName": "赫塔",
-      "previousNames": [],
-      "nation": "德国",
-      "tier": "8",
-      "type": "巡洋舰",
-      "attribute": "核心区伤害恢复",
-      "oldValue": "33%",
-      "newValue": "50%",
-      "version": "13.8",
-      "notes": "官方公告：https://blog.korabli.su/blog/560",
-      "trend": "adjustment",
-      "shipStatus": "test",
-      "tags": [
-        "test-ship"
-      ],
-      "sourceSheet": "Korabli #560"
-    },
-    {
-      "id": "86b0cdf29aab",
-      "category": "ship",
-      "targetName": "赫塔",
-      "canonicalName": "赫塔",
-      "previousNames": [],
-      "nation": "德国",
-      "tier": "8",
-      "type": "巡洋舰",
-      "attribute": "新增“维修小组”消耗品，具体参数如下：消耗品数量：3",
-      "oldValue": "—",
-      "newValue": "—",
-      "version": "13.8",
-      "notes": "官方公告：https://blog.korabli.su/blog/560",
-      "trend": "adjustment",
-      "shipStatus": "test",
-      "tags": [
-        "test-ship"
-      ],
-      "sourceSheet": "Korabli #560"
-    },
-    {
-      "id": "8899088d5b88",
-      "category": "ship",
-      "targetName": "赫塔",
-      "canonicalName": "赫塔",
-      "previousNames": [],
-      "nation": "德国",
-      "tier": "8",
-      "type": "巡洋舰",
-      "attribute": "第四座主炮塔向后射击时的允许射界缩小7度，第五座主炮塔缩小4度。此项改动旨在防止主炮塔旋转时炮管模型发生穿模",
-      "oldValue": "—",
-      "newValue": "—",
-      "version": "13.8",
-      "notes": "官方公告：https://blog.korabli.su/blog/560",
-      "trend": "adjustment",
-      "shipStatus": "test",
-      "tags": [
-        "test-ship"
-      ],
-      "sourceSheet": "Korabli #560"
-    },
-    {
-      "id": "e99ca3117b89",
-      "category": "ship",
-      "targetName": "赫塔",
-      "canonicalName": "赫塔",
-      "previousNames": [],
-      "nation": "德国",
-      "tier": "8",
-      "type": "巡洋舰",
-      "attribute": "主炮炮弹弹道已调整：现在弹道更为平直",
-      "oldValue": "—",
-      "newValue": "—",
-      "version": "13.8",
-      "notes": "官方公告：https://blog.korabli.su/blog/560",
-      "trend": "adjustment",
-      "shipStatus": "test",
-      "tags": [
-        "test-ship"
-      ],
-      "sourceSheet": "Korabli #560"
-    },
-    {
       "id": "9effa31effc5",
       "category": "ship",
       "targetName": "赫塔",
@@ -24334,27 +24250,6 @@
         "test-ship"
       ],
       "sourceSheet": "Korabli #566"
-    },
-    {
-      "id": "b6ddee863560",
-      "category": "ship",
-      "targetName": "夏风",
-      "canonicalName": "夏风",
-      "previousNames": [],
-      "nation": "日本",
-      "tier": "10",
-      "type": "驱逐舰",
-      "attribute": "鱼雷造成进水的概率",
-      "oldValue": "135%",
-      "newValue": "75%",
-      "version": "13.8",
-      "notes": "官方公告：https://blog.korabli.su/blog/560",
-      "trend": "adjustment",
-      "shipStatus": "test",
-      "tags": [
-        "test-ship"
-      ],
-      "sourceSheet": "Korabli #560"
     },
     {
       "id": "ec9162dba72d",
@@ -24544,48 +24439,6 @@
         "test-ship"
       ],
       "sourceSheet": "Korabli #566"
-    },
-    {
-      "id": "59e19dd23b26",
-      "category": "ship",
-      "targetName": "虎59",
-      "canonicalName": "虎59",
-      "previousNames": [],
-      "nation": "英国",
-      "tier": "8",
-      "type": "巡洋舰",
-      "attribute": "新增“全循环弹鼓”式“连发射击”机制（仅当所有轮次射击完毕后才会开始装填），具体参数如下：装填时间：17秒",
-      "oldValue": "—",
-      "newValue": "—",
-      "version": "13.8",
-      "notes": "官方公告：https://blog.korabli.su/blog/560",
-      "trend": "adjustment",
-      "shipStatus": "test",
-      "tags": [
-        "test-ship"
-      ],
-      "sourceSheet": "Korabli #560"
-    },
-    {
-      "id": "fe7332cd3f7b",
-      "category": "ship",
-      "targetName": "维内塔",
-      "canonicalName": "维内塔",
-      "previousNames": [],
-      "nation": "德国",
-      "tier": "7",
-      "type": "巡洋舰",
-      "attribute": "主炮炮弹弹道已调整：现在弹道更为平直",
-      "oldValue": "—",
-      "newValue": "—",
-      "version": "13.8",
-      "notes": "官方公告：https://blog.korabli.su/blog/560",
-      "trend": "adjustment",
-      "shipStatus": "test",
-      "tags": [
-        "test-ship"
-      ],
-      "sourceSheet": "Korabli #560"
     },
     {
       "id": "74f6a3771330",
@@ -24893,22 +24746,22 @@
     }
   ],
   "meta": {
-    "generatedAt": "2026-08-29T10:17:09.222Z",
+    "generatedAt": "2026-08-30T09:22:47.911Z",
     "currentVersion": "26.7",
-    "lastUpdated": "2026-08-29",
-    "recordCount": 1183,
+    "lastUpdated": "2026-08-30",
+    "recordCount": 1176,
     "categoryCounts": {
-      "ship": 1167,
+      "ship": 1160,
       "mechanic": 9,
       "misc": 7
     },
     "shipStatusCounts": {
-      "test": 632,
+      "test": 625,
       "released": 535,
       "unknown": 16
     },
     "tagCounts": {
-      "test-ship": 632,
+      "test-ship": 625,
       "released-ship": 535,
       "converted-from-test": 80
     },
@@ -24916,13 +24769,13 @@
       "buff": 592,
       "nerf": 266,
       "neutral": 0,
-      "adjustment": 325
+      "adjustment": 318
     },
     "officialData": {
-      "announcementCount": 73,
-      "rangeStart": "2024-08-29T10:16:59.453Z",
-      "rangeEnd": "2026-08-29T10:16:59.453Z",
-      "syncedAt": "2026-08-29T10:16:59.453Z"
+      "announcementCount": 72,
+      "rangeStart": "2024-08-30T09:22:36.412Z",
+      "rangeEnd": "2026-08-30T09:22:36.412Z",
+      "syncedAt": "2026-08-30T09:22:36.412Z"
     }
   }
 }

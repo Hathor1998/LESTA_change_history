@@ -1066,13 +1066,6 @@ Piemonte	Piemonte		意大利	11	巡洋舰	Время перезарядки ор
 Piemonte	Piemonte		意大利	11	巡洋舰	Количество зарядов снаряжения «Дымогенератор полного хода» увеличено c 2 до 4	—	—	2024.09	官方公告：https://blog.korabli.su/blog/564	adjustment	released		Korabli #564
 Piemonte	Piemonte		意大利	11	巡洋舰	Время перезарядки снаряжения «Дымогенератор полного хода»	160	120 с	2024.09	官方公告：https://blog.korabli.su/blog/564	buff	released		Korabli #564
 Piemonte	Piemonte		意大利	11	巡洋舰	Добавлено снаряжение «Гидроакустический поиск» со следующими характеристиками: количество зарядов: 2	—	—	2024.09	官方公告：https://blog.korabli.su/blog/564	adjustment	released		Korabli #564
-Tiger '59	Tiger '59		英国	8	巡洋舰	Добавлена «Серия залпов» по типу «барабана полного цикла» (перезарядка начнётся, только когда произведены все залпы) со следующими характеристиками: Время перезарядки: 17 с	—	—	13.8	官方公告：https://blog.korabli.su/blog/560	adjustment	test		Korabli #560
-Vineta	Vineta		德国	7	巡洋舰	Изменена баллистика снарядов ГК: теперь они летят по более настильной траектории	—	—	13.8	官方公告：https://blog.korabli.su/blog/560	adjustment	test		Korabli #560
-Hertha	Hertha		德国	8	巡洋舰	Изменена баллистика снарядов ГК: теперь они летят по более настильной траектории	—	—	13.8	官方公告：https://blog.korabli.su/blog/560	adjustment	test		Korabli #560
-Hertha	Hertha		德国	8	巡洋舰	Добавлено снаряжение «Ремонтная команда» со следующими характеристиками: Количество снаряжения: 3	—	—	13.8	官方公告：https://blog.korabli.su/blog/560	adjustment	test		Korabli #560
-Hertha	Hertha		德国	8	巡洋舰	Восстановление повреждений цитадели	33%	50%	13.8	官方公告：https://blog.korabli.su/blog/560	adjustment	test		Korabli #560
-Hertha	Hertha		德国	8	巡洋舰	Допустимый угол наведения при стрельбе назад для четвёртой башни ГК уменьшен на 7 градусов, а для пятой башни — на 4 градуса. Это сделано, чтобы предотвратить пересечение моделей орудий при вращении башен ГК	—	—	13.8	官方公告：https://blog.korabli.su/blog/560	adjustment	test		Korabli #560
-Natsukaze	Natsukaze		日本	10	驱逐舰	Вероятность вызвать затопление у торпед	135%	75%	13.8	官方公告：https://blog.korabli.su/blog/560	adjustment	test		Korabli #560
 布达佩斯	布达佩斯		欧洲	9	战列舰	鱼雷发射角度（每侧）	—	减少3度	26.8	人工录入：用户提供，待官方公告核验	nerf	test		Manual 26.8
 白山	白山		日本	9	战列舰	鱼雷发射角度（每侧）	—	增加10度	26.8	人工录入：用户提供，待官方公告核验	buff	test		Manual 26.8
 民主德国	民主德国		苏联	10	战列舰	主炮射击模式	常规射击	仅连发射击：连发2次，单轮装填27秒，开火间隔6秒	26.8	人工录入：用户提供，待官方公告核验	adjustment	test		Manual 26.8
