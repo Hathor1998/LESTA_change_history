@@ -24441,44 +24441,6 @@
       "sourceSheet": "Korabli #566"
     },
     {
-      "id": "74f6a3771330",
-      "category": "mechanic",
-      "targetName": "升级品改动——新信息",
-      "canonicalName": "升级品改动——新信息",
-      "previousNames": [],
-      "nation": "",
-      "tier": "",
-      "type": "",
-      "attribute": "消耗品作用时间加成",
-      "oldValue": "40%",
-      "newValue": "8秒",
-      "version": "2024.09",
-      "notes": "官方公告：https://blog.korabli.su/blog/561",
-      "trend": "adjustment",
-      "shipStatus": "unknown",
-      "tags": [],
-      "sourceSheet": "Korabli #561"
-    },
-    {
-      "id": "b4ba84e1e2ae",
-      "category": "mechanic",
-      "targetName": "升级品改动——新信息",
-      "canonicalName": "升级品改动——新信息",
-      "previousNames": [],
-      "nation": "",
-      "tier": "",
-      "type": "",
-      "attribute": "新增加成：消耗品冷却时间-30%",
-      "oldValue": "—",
-      "newValue": "—",
-      "version": "2024.09",
-      "notes": "官方公告：https://blog.korabli.su/blog/561",
-      "trend": "adjustment",
-      "shipStatus": "unknown",
-      "tags": [],
-      "sourceSheet": "Korabli #561"
-    },
-    {
       "id": "f1302eee23a4",
       "category": "mechanic",
       "targetName": "指挥官潜艇技能：深潜大师（4技能点）",
@@ -24612,63 +24574,6 @@
       "sourceSheet": "Korabli #570"
     },
     {
-      "id": "263fe9faa2e0",
-      "category": "misc",
-      "targetName": "升级品改动——新信息",
-      "canonicalName": "升级品改动——新信息",
-      "previousNames": [],
-      "nation": "",
-      "tier": "",
-      "type": "",
-      "attribute": "升级品提供的防空伤害加成数值",
-      "oldValue": "百分比",
-      "newValue": "绝对数值（与最初公告一致）",
-      "version": "2024.09",
-      "notes": "官方公告：https://blog.korabli.su/blog/561",
-      "trend": "adjustment",
-      "shipStatus": "unknown",
-      "tags": [],
-      "sourceSheet": "Korabli #561"
-    },
-    {
-      "id": "2270ef40fd5d",
-      "category": "misc",
-      "targetName": "升级品改动——新信息",
-      "canonicalName": "升级品改动——新信息",
-      "previousNames": [],
-      "nation": "",
-      "tier": "",
-      "type": "",
-      "attribute": "超级战舰的升级品已添加至独立的第7个插槽，仅限超级战舰使用",
-      "oldValue": "—",
-      "newValue": "—",
-      "version": "2024.09",
-      "notes": "官方公告：https://blog.korabli.su/blog/561",
-      "trend": "adjustment",
-      "shipStatus": "unknown",
-      "tags": [],
-      "sourceSheet": "Korabli #561"
-    },
-    {
-      "id": "41a3c90e4892",
-      "category": "misc",
-      "targetName": "升级品改动——新信息",
-      "canonicalName": "升级品改动——新信息",
-      "previousNames": [],
-      "nation": "",
-      "tier": "",
-      "type": "",
-      "attribute": "已实装此前预告的第1个插槽中升级品（包括标准升级品和“煤炭”升级品）的改动",
-      "oldValue": "—",
-      "newValue": "—",
-      "version": "2024.09",
-      "notes": "官方公告：https://blog.korabli.su/blog/561",
-      "trend": "adjustment",
-      "shipStatus": "unknown",
-      "tags": [],
-      "sourceSheet": "Korabli #561"
-    },
-    {
       "id": "47ac219b0c29",
       "category": "misc",
       "targetName": "26.7版本更新 — 战斗通行证改动",
@@ -24746,19 +24651,19 @@
     }
   ],
   "meta": {
-    "generatedAt": "2026-09-02T08:01:50.964Z",
+    "generatedAt": "2026-09-03T08:11:49.152Z",
     "currentVersion": "26.7",
-    "lastUpdated": "2026-09-02",
-    "recordCount": 1176,
+    "lastUpdated": "2026-09-03",
+    "recordCount": 1171,
     "categoryCounts": {
       "ship": 1160,
-      "mechanic": 9,
-      "misc": 7
+      "mechanic": 7,
+      "misc": 4
     },
     "shipStatusCounts": {
       "test": 625,
       "released": 535,
-      "unknown": 16
+      "unknown": 11
     },
     "tagCounts": {
       "test-ship": 625,
@@ -24769,13 +24674,13 @@
       "buff": 592,
       "nerf": 266,
       "neutral": 0,
-      "adjustment": 318
+      "adjustment": 313
     },
     "officialData": {
-      "announcementCount": 72,
-      "rangeStart": "2024-09-02T08:01:41.116Z",
-      "rangeEnd": "2026-09-02T08:01:41.116Z",
-      "syncedAt": "2026-09-02T08:01:41.116Z"
+      "announcementCount": 71,
+      "rangeStart": "2024-09-03T08:11:37.136Z",
+      "rangeEnd": "2026-09-03T08:11:37.136Z",
+      "syncedAt": "2026-09-03T08:11:37.136Z"
     }
   }
 }
