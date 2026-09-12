@@ -1681,111 +1681,6 @@
       "sourceSheet": "Korabli #577"
     },
     {
-      "id": "fab81a00b40b",
-      "category": "ship",
-      "targetName": "皮埃蒙特",
-      "canonicalName": "皮埃蒙特",
-      "previousNames": [],
-      "nation": "意大利",
-      "tier": "11",
-      "type": "巡洋舰",
-      "attribute": "主炮装填时间",
-      "oldValue": "21",
-      "newValue": "16秒",
-      "version": "2024.09",
-      "notes": "官方公告：https://blog.korabli.su/blog/564",
-      "trend": "buff",
-      "shipStatus": "released",
-      "tags": [
-        "released-ship"
-      ],
-      "sourceSheet": "Korabli #564"
-    },
-    {
-      "id": "38d3158f40f2",
-      "category": "ship",
-      "targetName": "皮埃蒙特",
-      "canonicalName": "皮埃蒙特",
-      "previousNames": [],
-      "nation": "意大利",
-      "tier": "11",
-      "type": "巡洋舰",
-      "attribute": "“全速航行发烟器”消耗品的冷却时间",
-      "oldValue": "160",
-      "newValue": "120秒",
-      "version": "2024.09",
-      "notes": "官方公告：https://blog.korabli.su/blog/564",
-      "trend": "buff",
-      "shipStatus": "released",
-      "tags": [
-        "released-ship"
-      ],
-      "sourceSheet": "Korabli #564"
-    },
-    {
-      "id": "3a1bd2f9bcc9",
-      "category": "ship",
-      "targetName": "皮埃蒙特",
-      "canonicalName": "皮埃蒙特",
-      "previousNames": [],
-      "nation": "意大利",
-      "tier": "11",
-      "type": "巡洋舰",
-      "attribute": "新增消耗品“水底搜索”，参数如下：装载数：2",
-      "oldValue": "—",
-      "newValue": "—",
-      "version": "2024.09",
-      "notes": "官方公告：https://blog.korabli.su/blog/564",
-      "trend": "adjustment",
-      "shipStatus": "released",
-      "tags": [
-        "released-ship"
-      ],
-      "sourceSheet": "Korabli #564"
-    },
-    {
-      "id": "bacf1a0c870c",
-      "category": "ship",
-      "targetName": "皮埃蒙特",
-      "canonicalName": "皮埃蒙特",
-      "previousNames": [],
-      "nation": "意大利",
-      "tier": "11",
-      "type": "巡洋舰",
-      "attribute": "“全速发烟器”消耗品装载数从2增加至4",
-      "oldValue": "—",
-      "newValue": "—",
-      "version": "2024.09",
-      "notes": "官方公告：https://blog.korabli.su/blog/564",
-      "trend": "adjustment",
-      "shipStatus": "released",
-      "tags": [
-        "released-ship"
-      ],
-      "sourceSheet": "Korabli #564"
-    },
-    {
-      "id": "7268bd958470",
-      "category": "ship",
-      "targetName": "皮埃蒙特",
-      "canonicalName": "皮埃蒙特",
-      "previousNames": [],
-      "nation": "意大利",
-      "tier": "11",
-      "type": "巡洋舰",
-      "attribute": "半穿甲弹替换为高爆弹，参数如下：最大伤害：3450",
-      "oldValue": "—",
-      "newValue": "—",
-      "version": "2024.09",
-      "notes": "官方公告：https://blog.korabli.su/blog/564",
-      "trend": "adjustment",
-      "shipStatus": "released",
-      "tags": [
-        "released-ship"
-      ],
-      "sourceSheet": "Korabli #564"
-    },
-    {
       "id": "445ae8622c29",
       "category": "ship",
       "targetName": "阿尔萨斯",
@@ -24651,36 +24546,36 @@
     }
   ],
   "meta": {
-    "generatedAt": "2026-09-11T08:12:17.013Z",
+    "generatedAt": "2026-09-12T08:02:26.286Z",
     "currentVersion": "26.7",
-    "lastUpdated": "2026-09-11",
-    "recordCount": 1171,
+    "lastUpdated": "2026-09-12",
+    "recordCount": 1166,
     "categoryCounts": {
-      "ship": 1160,
+      "ship": 1155,
       "mechanic": 7,
       "misc": 4
     },
     "shipStatusCounts": {
       "test": 625,
-      "released": 535,
+      "released": 530,
       "unknown": 11
     },
     "tagCounts": {
       "test-ship": 625,
-      "released-ship": 535,
+      "released-ship": 530,
       "converted-from-test": 80
     },
     "trendCounts": {
-      "buff": 592,
+      "buff": 590,
       "nerf": 266,
       "neutral": 0,
-      "adjustment": 313
+      "adjustment": 310
     },
     "officialData": {
-      "announcementCount": 71,
-      "rangeStart": "2024-09-11T08:12:04.666Z",
-      "rangeEnd": "2026-09-11T08:12:04.666Z",
-      "syncedAt": "2026-09-11T08:12:04.666Z"
+      "announcementCount": 70,
+      "rangeStart": "2024-09-12T08:02:15.128Z",
+      "rangeEnd": "2026-09-12T08:02:15.128Z",
+      "syncedAt": "2026-09-12T08:02:15.128Z"
     }
   }
 }

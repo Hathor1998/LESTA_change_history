@@ -1061,11 +1061,6 @@ Surcouf	Surcouf		法国	10	潜艇	Время перезарядки 1-го за�
 Surcouf	Surcouf		法国	10	潜艇	Время перезарядки 2–4-го залпов	12	8 с	13.8	官方公告：https://blog.korabli.su/blog/566	buff	test		Korabli #566
 Surcouf	Surcouf		法国	10	潜艇	Время перекладки рулей глубины	31,4	21 с	13.8	官方公告：https://blog.korabli.su/blog/566	buff	test		Korabli #566
 Surcouf	Surcouf		法国	10	潜艇	Скорость хода торпед	62	66 узлов	13.8	官方公告：https://blog.korabli.su/blog/566	buff	test		Korabli #566
-Piemonte	Piemonte		意大利	11	巡洋舰	ПББ-снаряды заменены на фугасы со следующими характеристиками: максимальный урон: 3450 ед	—	—	2024.09	官方公告：https://blog.korabli.su/blog/564	adjustment	released		Korabli #564
-Piemonte	Piemonte		意大利	11	巡洋舰	Время перезарядки орудий ГК	21	16 с	2024.09	官方公告：https://blog.korabli.su/blog/564	buff	released		Korabli #564
-Piemonte	Piemonte		意大利	11	巡洋舰	Количество зарядов снаряжения «Дымогенератор полного хода» увеличено c 2 до 4	—	—	2024.09	官方公告：https://blog.korabli.su/blog/564	adjustment	released		Korabli #564
-Piemonte	Piemonte		意大利	11	巡洋舰	Время перезарядки снаряжения «Дымогенератор полного хода»	160	120 с	2024.09	官方公告：https://blog.korabli.su/blog/564	buff	released		Korabli #564
-Piemonte	Piemonte		意大利	11	巡洋舰	Добавлено снаряжение «Гидроакустический поиск» со следующими характеристиками: количество зарядов: 2	—	—	2024.09	官方公告：https://blog.korabli.su/blog/564	adjustment	released		Korabli #564
 布达佩斯	布达佩斯		欧洲	9	战列舰	鱼雷发射角度（每侧）	—	减少3度	26.8	人工录入：用户提供，待官方公告核验	nerf	test		Manual 26.8
 白山	白山		日本	9	战列舰	鱼雷发射角度（每侧）	—	增加10度	26.8	人工录入：用户提供，待官方公告核验	buff	test		Manual 26.8
 民主德国	民主德国		苏联	10	战列舰	主炮射击模式	常规射击	仅连发射击：连发2次，单轮装填27秒，开火间隔6秒	26.8	人工录入：用户提供，待官方公告核验	adjustment	test		Manual 26.8
