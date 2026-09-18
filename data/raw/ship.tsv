@@ -1,4 +1,28 @@
 targetName	canonicalName	previousNames	nation	tier	type	attribute	oldValue	newValue	version	notes	trend	shipStatus	tags	sourceSheet
+Иван Грозный	Иван Грозный		苏联	11	巡洋舰	Время перезарядки первого залпа	23	26 с	26.10	官方公告：https://blog.korabli.su/blog/696	nerf	test		Korabli #696
+Моонзунд	Моонзунд		苏联	10	巡洋舰	Изменены параметры точности ГК — она станет лучше на средней дистанции	—	—	26.10	官方公告：https://blog.korabli.su/blog/696	adjustment	test		Korabli #696
+Моонзунд	Моонзунд		苏联	10	巡洋舰	Время перезарядки орудий ГК	19	18 с	26.10	官方公告：https://blog.korabli.su/blog/696	buff	test		Korabli #696
+Моонзунд	Моонзунд		苏联	10	巡洋舰	Восстановление повреждений, полученных частями корабля (без учёта цитадели),	50	60%	26.10	官方公告：https://blog.korabli.su/blog/696	adjustment	test		Korabli #696
+Княгиня Ольга	Княгиня Ольга		苏联	8	巡洋舰	Время перезарядки орудий ГК	9,5	9,8 с	26.10	官方公告：https://blog.korabli.su/blog/696	nerf	test		Korabli #696
+Ханко	Ханко		苏联	7	巡洋舰	Время перезарядки орудий ГК	10,4	8 с	26.10	官方公告：https://blog.korabli.su/blog/696	buff	test		Korabli #696
+Бородино '04	Бородино '04		苏联	3	战列舰	Время перезарядки орудий ГК	20	22 с	26.10	官方公告：https://blog.korabli.su/blog/696	nerf	test		Korabli #696
+Бородино '04	Бородино '04		苏联	3	战列舰	Параметр сигма орудий СК	1,9	1,8	26.10	官方公告：https://blog.korabli.su/blog/696	nerf	test		Korabli #696
+Бородино '04	Бородино '04		苏联	3	战列舰	Интервал между выстрелами серии залпов СК	1,5	2 с	26.10	官方公告：https://blog.korabli.su/blog/696	adjustment	test		Korabli #696
+Mikasa '04	Mikasa '04		日本	3	战列舰	Время перезарядки орудий ГК	19	17 с	26.10	官方公告：https://blog.korabli.su/blog/696	buff	test		Korabli #696
+Mikasa '04	Mikasa '04		日本	3	战列舰	Время перезарядки орудий СК	9	8 с	26.10	官方公告：https://blog.korabli.su/blog/696	buff	test		Korabli #696
+Mikasa '04	Mikasa '04		日本	3	战列舰	Время перезарядки орудий ПМК	12	7 с	26.10	官方公告：https://blog.korabli.su/blog/696	buff	test		Korabli #696
+Mikasa '04	Mikasa '04		日本	3	战列舰	Бронепробитие снаряда ПМК	19	13 мм (является не балансной правкой, а исправлением ошибки с настройками корабля)	26.10	官方公告：https://blog.korabli.su/blog/696	nerf	test		Korabli #696
+Schwaben	Schwaben		德国	11	战列舰	Параметр сигма орудий ГК	1,9	2,0	26.10	官方公告：https://blog.korabli.su/blog/696	buff	test		Korabli #696
+Schwaben	Schwaben		德国	11	战列舰	Время перезарядки орудий ГК	36	37 с	26.10	官方公告：https://blog.korabli.su/blog/696	nerf	test		Korabli #696
+Schwaben	Schwaben		德国	11	战列舰	Задержка до потери прогресса боевых инструкций	60	75 с	26.10	官方公告：https://blog.korabli.su/blog/696	adjustment	test		Korabli #696
+Waterloo	Waterloo		英国	11	驱逐舰	Время перезарядки орудий ГК	4	3,6 с	26.10	官方公告：https://blog.korabli.su/blog/696	buff	test		Korabli #696
+Waterloo	Waterloo		英国	11	驱逐舰	Время поворота орудий ГК на 180 градусов	7,2	6 с	26.10	官方公告：https://blog.korabli.su/blog/696	buff	test		Korabli #696
+San Giorgio	San Giorgio		意大利	9	战列舰	Дальность стрельбы орудий ГК	18,5	19,3 км	26.10	官方公告：https://blog.korabli.su/blog/696	buff	test		Korabli #696
+San Giorgio	San Giorgio		意大利	9	战列舰	Параметр сигма орудий ГК	1,7	1,75	26.10	官方公告：https://blog.korabli.su/blog/696	buff	test		Korabli #696
+San Giorgio	San Giorgio		意大利	9	战列舰	Время перезарядки первого залпа орудий СК	9	9,5 с	26.10	官方公告：https://blog.korabli.su/blog/696	nerf	test		Korabli #696
+Isonzo	Isonzo		意大利	9	巡洋舰	Время перезарядки орудий ГК	27	26 с	26.10	官方公告：https://blog.korabli.su/blog/696	buff	test		Korabli #696
+Isonzo	Isonzo		意大利	9	巡洋舰	Восстановление повреждений цитадели	33	50%	26.10	官方公告：https://blog.korabli.su/blog/696	adjustment	test		Korabli #696
+Isonzo	Isonzo		意大利	9	巡洋舰	Боеспособность бомбардировщиков	1840	2100 ед	26.10	官方公告：https://blog.korabli.su/blog/696	buff	test		Korabli #696
 Jenkins	Jenkins		美国	11	驱逐舰	Время перезарядки торпед при активации снаряжения «Ускорение перезарядки торпед»	30	25 с	26.9	官方公告：https://blog.korabli.su/blog/694	buff	test		Korabli #694
 Isonzo	Isonzo		意大利	9	巡洋舰	Время поворота орудий ГК на 180 градусов	45	27,7 с	26.9	官方公告：https://blog.korabli.su/blog/694	buff	test		Korabli #694
 Isonzo	Isonzo		意大利	9	巡洋舰	Бронирование обшивки и палубы каземата	27	30 мм	26.9	官方公告：https://blog.korabli.su/blog/694	adjustment	test		Korabli #694
