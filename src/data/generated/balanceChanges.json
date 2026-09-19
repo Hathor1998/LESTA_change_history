@@ -16703,8 +16703,7 @@
       "trend": "buff",
       "shipStatus": "released",
       "tags": [
-        "released-ship",
-        "converted-from-test"
+        "released-ship"
       ],
       "sourceSheet": "Korabli #626"
     },
@@ -24588,258 +24587,6 @@
       "sourceSheet": "Korabli #572"
     },
     {
-      "id": "47c4103a16d0",
-      "category": "ship",
-      "targetName": "弗蕾亚",
-      "canonicalName": "弗蕾亚",
-      "previousNames": [],
-      "nation": "德国",
-      "tier": "9",
-      "type": "巡洋舰",
-      "attribute": "海上被侦测距离",
-      "oldValue": "11,9",
-      "newValue": "11.8公里",
-      "version": "13.8",
-      "notes": "官方公告：https://blog.korabli.su/blog/566",
-      "trend": "buff",
-      "shipStatus": "test",
-      "tags": [
-        "test-ship"
-      ],
-      "sourceSheet": "Korabli #566"
-    },
-    {
-      "id": "4b7ac183a0bc",
-      "category": "ship",
-      "targetName": "汉莎",
-      "canonicalName": "汉莎",
-      "previousNames": [],
-      "nation": "德国",
-      "tier": "10",
-      "type": "巡洋舰",
-      "attribute": "海上被侦测距离",
-      "oldValue": "12",
-      "newValue": "11.6公里",
-      "version": "13.8",
-      "notes": "官方公告：https://blog.korabli.su/blog/566",
-      "trend": "buff",
-      "shipStatus": "test",
-      "tags": [
-        "test-ship"
-      ],
-      "sourceSheet": "Korabli #566"
-    },
-    {
-      "id": "9effa31effc5",
-      "category": "ship",
-      "targetName": "赫塔",
-      "canonicalName": "赫塔",
-      "previousNames": [],
-      "nation": "德国",
-      "tier": "8",
-      "type": "巡洋舰",
-      "attribute": "使用“维修小组”时每秒恢复的生命值",
-      "oldValue": "0,5%",
-      "newValue": "0,6%",
-      "version": "13.8",
-      "notes": "官方公告：https://blog.korabli.su/blog/566",
-      "trend": "buff",
-      "shipStatus": "test",
-      "tags": [
-        "test-ship"
-      ],
-      "sourceSheet": "Korabli #566"
-    },
-    {
-      "id": "ec9162dba72d",
-      "category": "ship",
-      "targetName": "夏风",
-      "canonicalName": "夏风",
-      "previousNames": [],
-      "nation": "日本",
-      "tier": "10",
-      "type": "驱逐舰",
-      "attribute": "鱼雷发射管装填时间",
-      "oldValue": "66",
-      "newValue": "72秒",
-      "version": "13.8",
-      "notes": "官方公告：https://blog.korabli.su/blog/566",
-      "trend": "nerf",
-      "shipStatus": "test",
-      "tags": [
-        "test-ship"
-      ],
-      "sourceSheet": "Korabli #566"
-    },
-    {
-      "id": "d9914bac68b2",
-      "category": "ship",
-      "targetName": "夏风",
-      "canonicalName": "夏风",
-      "previousNames": [],
-      "nation": "日本",
-      "tier": "10",
-      "type": "驱逐舰",
-      "attribute": "海上被侦测距离",
-      "oldValue": "6,9",
-      "newValue": "7公里",
-      "version": "13.8",
-      "notes": "官方公告：https://blog.korabli.su/blog/566",
-      "trend": "nerf",
-      "shipStatus": "test",
-      "tags": [
-        "test-ship"
-      ],
-      "sourceSheet": "Korabli #566"
-    },
-    {
-      "id": "250d281d64f0",
-      "category": "ship",
-      "targetName": "抵抗",
-      "canonicalName": "抵抗",
-      "previousNames": [],
-      "nation": "英国",
-      "tier": "9",
-      "type": "巡洋舰",
-      "attribute": "主炮装填时间",
-      "oldValue": "20",
-      "newValue": "21秒",
-      "version": "13.8",
-      "notes": "官方公告：https://blog.korabli.su/blog/566",
-      "trend": "nerf",
-      "shipStatus": "test",
-      "tags": [
-        "test-ship"
-      ],
-      "sourceSheet": "Korabli #566"
-    },
-    {
-      "id": "e732b262191f",
-      "category": "ship",
-      "targetName": "抵抗",
-      "canonicalName": "抵抗",
-      "previousNames": [],
-      "nation": "英国",
-      "tier": "9",
-      "type": "巡洋舰",
-      "attribute": "“近距离水听搜索”消耗品替换为“水听搜索”，参数为该等级标准值",
-      "oldValue": "—",
-      "newValue": "—",
-      "version": "13.8",
-      "notes": "官方公告：https://blog.korabli.su/blog/566",
-      "trend": "adjustment",
-      "shipStatus": "test",
-      "tags": [
-        "test-ship"
-      ],
-      "sourceSheet": "Korabli #566"
-    },
-    {
-      "id": "ebad052493f0",
-      "category": "ship",
-      "targetName": "蓝宝石",
-      "canonicalName": "蓝宝石",
-      "previousNames": [],
-      "nation": "法国",
-      "tier": "6",
-      "type": "潜艇",
-      "attribute": "海上被侦测距离",
-      "oldValue": "5,5",
-      "newValue": "5.6公里",
-      "version": "13.8",
-      "notes": "官方公告：https://blog.korabli.su/blog/566",
-      "trend": "nerf",
-      "shipStatus": "test",
-      "tags": [
-        "test-ship"
-      ],
-      "sourceSheet": "Korabli #566"
-    },
-    {
-      "id": "56126d3f4823",
-      "category": "ship",
-      "targetName": "絮库夫",
-      "canonicalName": "絮库夫",
-      "previousNames": [],
-      "nation": "法国",
-      "tier": "10",
-      "type": "潜艇",
-      "attribute": "第一轮齐射装填时间",
-      "oldValue": "8",
-      "newValue": "4 秒",
-      "version": "13.8",
-      "notes": "官方公告：https://blog.korabli.su/blog/566",
-      "trend": "buff",
-      "shipStatus": "test",
-      "tags": [
-        "test-ship"
-      ],
-      "sourceSheet": "Korabli #566"
-    },
-    {
-      "id": "289d82a2c930",
-      "category": "ship",
-      "targetName": "絮库夫",
-      "canonicalName": "絮库夫",
-      "previousNames": [],
-      "nation": "法国",
-      "tier": "10",
-      "type": "潜艇",
-      "attribute": "第2至第4轮齐射的装填时间",
-      "oldValue": "12",
-      "newValue": "8秒",
-      "version": "13.8",
-      "notes": "官方公告：https://blog.korabli.su/blog/566",
-      "trend": "buff",
-      "shipStatus": "test",
-      "tags": [
-        "test-ship"
-      ],
-      "sourceSheet": "Korabli #566"
-    },
-    {
-      "id": "1994e6c992aa",
-      "category": "ship",
-      "targetName": "絮库夫",
-      "canonicalName": "絮库夫",
-      "previousNames": [],
-      "nation": "法国",
-      "tier": "10",
-      "type": "潜艇",
-      "attribute": "深度舵换挡时间",
-      "oldValue": "31,4",
-      "newValue": "21秒",
-      "version": "13.8",
-      "notes": "官方公告：https://blog.korabli.su/blog/566",
-      "trend": "buff",
-      "shipStatus": "test",
-      "tags": [
-        "test-ship"
-      ],
-      "sourceSheet": "Korabli #566"
-    },
-    {
-      "id": "7f062bd4f0c5",
-      "category": "ship",
-      "targetName": "絮库夫",
-      "canonicalName": "絮库夫",
-      "previousNames": [],
-      "nation": "法国",
-      "tier": "10",
-      "type": "潜艇",
-      "attribute": "鱼雷航速",
-      "oldValue": "62",
-      "newValue": "66节",
-      "version": "13.8",
-      "notes": "官方公告：https://blog.korabli.su/blog/566",
-      "trend": "buff",
-      "shipStatus": "test",
-      "tags": [
-        "test-ship"
-      ],
-      "sourceSheet": "Korabli #566"
-    },
-    {
       "id": "f1302eee23a4",
       "category": "mechanic",
       "targetName": "指挥官潜艇技能：深潜大师（4技能点）",
@@ -25050,36 +24797,36 @@
     }
   ],
   "meta": {
-    "generatedAt": "2026-09-18T08:23:57.162Z",
+    "generatedAt": "2026-09-19T08:11:39.372Z",
     "currentVersion": "26.7",
-    "lastUpdated": "2026-09-18",
-    "recordCount": 1190,
+    "lastUpdated": "2026-09-19",
+    "recordCount": 1178,
     "categoryCounts": {
-      "ship": 1179,
+      "ship": 1167,
       "mechanic": 7,
       "misc": 4
     },
     "shipStatusCounts": {
-      "test": 649,
+      "test": 637,
       "released": 530,
       "unknown": 11
     },
     "tagCounts": {
-      "test-ship": 649,
+      "test-ship": 637,
       "released-ship": 530,
-      "converted-from-test": 80
+      "converted-from-test": 79
     },
     "trendCounts": {
-      "buff": 602,
-      "nerf": 273,
+      "buff": 595,
+      "nerf": 269,
       "neutral": 0,
-      "adjustment": 315
+      "adjustment": 314
     },
     "officialData": {
-      "announcementCount": 71,
-      "rangeStart": "2024-09-18T08:23:46.629Z",
-      "rangeEnd": "2026-09-18T08:23:46.629Z",
-      "syncedAt": "2026-09-18T08:23:46.629Z"
+      "announcementCount": 70,
+      "rangeStart": "2024-09-19T08:11:29.256Z",
+      "rangeEnd": "2026-09-19T08:11:29.256Z",
+      "syncedAt": "2026-09-19T08:11:29.256Z"
     }
   }
 }

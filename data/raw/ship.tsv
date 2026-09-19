@@ -1073,18 +1073,6 @@ Kortenaer	Kortenaer		荷兰	6	驱逐舰	Показатели дальности 
 Измаил	Измаил		苏联	6	战列舰	Время поворота орудий ГК на 180 градусов	60	45 с	13.10	官方公告：https://blog.korabli.su/blog/567	buff	released		Korabli #567
 Ленинград	Ленинград		苏联	7	驱逐舰	Время поворота орудий ГК на 180 градусов	27,7	15,7 с	13.10	官方公告：https://blog.korabli.su/blog/567	buff	released		Korabli #567
 Таллин	Таллин		苏联	8	巡洋舰	Добавлено снаряжение «Ремонтная команда»	—	—	13.10	官方公告：https://blog.korabli.su/blog/567	adjustment	released		Korabli #567
-Hertha	Hertha		德国	8	巡洋舰	Количество восстанавливаемых очков боеспособности в секунду при использовании «Ремонтной команды»	0,5%	0,6%	13.8	官方公告：https://blog.korabli.su/blog/566	buff	test		Korabli #566
-Freya	Freya		德国	9	巡洋舰	Заметность с кораблей	11,9	11,8 км	13.8	官方公告：https://blog.korabli.su/blog/566	buff	test		Korabli #566
-Hansa	Hansa		德国	10	巡洋舰	Заметность с кораблей	12	11,6 км	13.8	官方公告：https://blog.korabli.su/blog/566	buff	test		Korabli #566
-Natsukaze	Natsukaze		日本	10	驱逐舰	Заметность с кораблей	6,9	7 км	13.8	官方公告：https://blog.korabli.su/blog/566	nerf	test		Korabli #566
-Natsukaze	Natsukaze		日本	10	驱逐舰	Время перезарядки ТА	66	72 с	13.8	官方公告：https://blog.korabli.su/blog/566	nerf	test		Korabli #566
-Resistance	Resistance		英国	9	巡洋舰	Время перезарядки орудий ГК	20	21 с	13.8	官方公告：https://blog.korabli.su/blog/566	nerf	test		Korabli #566
-Resistance	Resistance		英国	9	巡洋舰	Снаряжение «Гидроакустический поиск ближнего действия» заменено на «Гидроакустический поиск» со стандартными для уровня характеристиками	—	—	13.8	官方公告：https://blog.korabli.su/blog/566	adjustment	test		Korabli #566
-Saphir	Saphir		法国	6	潜艇	Заметность с кораблей	5,5	5,6 км	13.8	官方公告：https://blog.korabli.su/blog/566	nerf	test		Korabli #566
-Surcouf	Surcouf		法国	10	潜艇	Время перезарядки 1-го залпа	8	4 с	13.8	官方公告：https://blog.korabli.su/blog/566	buff	test		Korabli #566
-Surcouf	Surcouf		法国	10	潜艇	Время перезарядки 2–4-го залпов	12	8 с	13.8	官方公告：https://blog.korabli.su/blog/566	buff	test		Korabli #566
-Surcouf	Surcouf		法国	10	潜艇	Время перекладки рулей глубины	31,4	21 с	13.8	官方公告：https://blog.korabli.su/blog/566	buff	test		Korabli #566
-Surcouf	Surcouf		法国	10	潜艇	Скорость хода торпед	62	66 узлов	13.8	官方公告：https://blog.korabli.su/blog/566	buff	test		Korabli #566
 布达佩斯	布达佩斯		欧洲	9	战列舰	鱼雷发射角度（每侧）	—	减少3度	26.8	人工录入：用户提供，待官方公告核验	nerf	test		Manual 26.8
 白山	白山		日本	9	战列舰	鱼雷发射角度（每侧）	—	增加10度	26.8	人工录入：用户提供，待官方公告核验	buff	test		Manual 26.8
 民主德国	民主德国		苏联	10	战列舰	主炮射击模式	常规射击	仅连发射击：连发2次，单轮装填27秒，开火间隔6秒	26.8	人工录入：用户提供，待官方公告核验	adjustment	test		Manual 26.8
