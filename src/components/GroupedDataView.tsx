@@ -136,7 +136,7 @@ export default function GroupedDataView({ data, category, navigation }: GroupedD
   }, [filteredData]);
 
   const toggleGroup = (groupName: string) => {
-    setExpandedGroups((current) => ({ ...current, [groupName]: !current[groupName] }));
+    setExpandedGroups((current) => ({ ...current, [groupName]: current[groupName] === false }));
   };
 
   return (
@@ -226,7 +226,7 @@ export default function GroupedDataView({ data, category, navigation }: GroupedD
             return (
               <div key={groupKey} className="ship-card bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
                 <div className="ship-card-heading">
-                <div role="button" tabIndex={0} aria-expanded={isExpanded} onKeyDown={e => {if(e.key==='Enter'||e.key===' '){e.preventDefault();toggleGroup(groupKey);}}} className="bg-slate-50 px-6 py-4 border-b border-slate-200 flex justify-between items-center cursor-pointer hover:bg-slate-100 transition-colors" onClick={() => toggleGroup(groupKey)}>
+                <div className="ship-card-identity">
                   <div className="space-y-2">
                     <div className="flex items-center gap-3 flex-wrap">
                       <h3 className="text-lg font-bold text-slate-900">{groupName}</h3>
@@ -252,14 +252,16 @@ export default function GroupedDataView({ data, category, navigation }: GroupedD
                     )}
                   </div>
 
-                  <div className="flex items-center gap-3">
-                    <span className="text-xs text-slate-500 font-medium bg-white px-2 py-1 rounded border border-slate-200">
+                </div>
+                <div className="ship-card-actions">
+                    <span className="record-count">
                       {changes.length} 条记录
                     </span>
-                    {isExpanded ? <ChevronUp className="w-5 h-5 text-slate-400" /> : <ChevronDown className="w-5 h-5 text-slate-400" />}
-                  </div>
-                </div>
                 <button className="card-detail-button" aria-expanded={showDetails} onClick={() => {setDetails(v => ({...v,[groupKey]:!showDetails}));if(!showDetails)setExpandedGroups(v=>({...v,[groupKey]:true}));}}>{showDetails ? '收起详情' : '版本与备注'}</button>
+                <button className="icon-button" aria-label={`${isExpanded ? '收起' : '展开'}${groupName}记录`} aria-expanded={isExpanded} onClick={() => toggleGroup(groupKey)}>
+                  {isExpanded ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
+                </button>
+                </div>
                 </div>
 
                 {isExpanded && (
