@@ -10,6 +10,7 @@ import {
   TREND_VALUES,
 } from '../src/data/schema.ts';
 import { generateRawTSV } from '../src/utils/tsv.ts';
+import { normalizeTier } from '../src/utils/normalization.ts';
 import type {
   BalanceChange,
   ChangeCategory,
@@ -239,7 +240,7 @@ export function toBalanceChange(category: ChangeCategory, row: RawBalanceRow): B
     canonicalName: row.canonicalName.trim() || row.targetName,
     previousNames: splitPipeList(row.previousNames),
     nation: row.nation,
-    tier: row.tier,
+    tier: normalizeTier(row.tier),
     type: row.type,
     attribute: row.attribute,
     oldValue: row.oldValue,

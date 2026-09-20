@@ -1,371 +1,152 @@
-import { createHash } from 'node:crypto';
-import { mkdir, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { readSiteConfig, writeCategoryRows, writeSiteConfig } from './data-lib.ts';
-import { manualAnnouncements, manualRecords } from './manual-updates.ts';
-import type {
-  ChangeCategory,
-  ChangeTrend,
-  OfficialAnalysisConfidence,
-  OfficialAnnouncement,
-  OfficialBalanceDatabase,
-  OfficialBalanceRecord,
-  RawBalanceRow,
-  ShipStatus,
-} from '../src/types.ts';
+import { load } from 'cheerio';
+import { execFile } from 'node:child_process';
+import { promisify } from 'node:util';
+import { writeCategoryRows, readSiteConfig, writeSiteConfig } from './data-lib.ts';
+import { parseOfficial, clean, type Article, type ParseIssue } from './official-parser.ts';
+import { reviewedTranslations } from './official-vocabulary.ts';
+import { reconcile } from './reconcile-official.ts';
+import { coverage } from './coverage.ts';
+import { explicitVersion, normalizeTier } from '../src/utils/normalization.ts';
+import type { OfficialBalanceDatabase, ChineseTranslationDatabase, ChangeCategory } from '../src/types.ts';
 
-const __filename = fileURLToPath(import.meta.url);
-const repoRoot = path.resolve(path.dirname(__filename), '..');
-const databasePath = path.join(repoRoot, 'data', 'database', 'korabli-official.json');
-const blogRoot = 'https://blog.korabli.su';
-const syncDays = Number.parseInt(process.env.KORABLI_DAYS ?? '730', 10);
-const maxPages = Number.parseInt(process.env.KORABLI_MAX_PAGES ?? '80', 10);
-const concurrency = Math.max(1, Number.parseInt(process.env.KORABLI_CONCURRENCY ?? '4', 10));
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const dbPath = path.join(root,'data/database/korabli-official.json');
+const output = path.join(root,'outputs/official-review');
 
-type ListedArticle = { id: string; url: string; title: string; publishedAt: string };
-type ShipContext = { name: string; nation: string; tier: string; type: string; status: ShipStatus };
-
-const nationLabels: Record<string, string> = {
-  usa: '美国', uk: '英国', germany: '德国', japan: '日本', ussr: '苏联', russia: '苏联',
-  france: '法国', italy: '意大利', pan_asia: '泛亚', pan_america: '泛美', europe: '欧洲',
-  netherlands: '荷兰', spain: '西班牙', commonwealth: '英联邦', poland: '波兰',
-};
-
-const typeLabels: Record<string, string> = {
-  destroyer: '驱逐舰', cruiser: '巡洋舰', battleship: '战列舰', carrier: '航空母舰', submarine: '潜艇',
-};
-
-const russianNationPrefixes: Array<[string, string]> = [
-  ['американ', '美国'], ['британ', '英国'], ['немец', '德国'], ['япон', '日本'], ['совет', '苏联'],
-  ['россий', '苏联'], ['француз', '法国'], ['итальян', '意大利'], ['паназиат', '泛亚'],
-  ['панамерикан', '泛美'], ['европей', '欧洲'], ['нидерланд', '荷兰'], ['испан', '西班牙'],
-  ['содружеств', '英联邦'], ['польск', '波兰'],
-];
-
-const russianTypeLabels: Array<[string, string]> = [
-  ['подводная лодка', '潜艇'], ['подлодка', '潜艇'], ['авианосец', '航空母舰'], ['эсминец', '驱逐舰'],
-  ['крейсер', '巡洋舰'], ['линкор', '战列舰'],
-];
-
-const lowerIsBetter = [
-  'перезаряд', 'заметност', 'разброс', 'время подготовки', 'время поворота', 'время перекладки',
-  'время восстановления', 'время действия пожара', 'время действия затопления', 'радиус циркуляции',
-];
-
-const higherIsBetter = [
-  'урон', 'бронепробит', 'скорост', 'дальност', 'боеспособност', 'количеств', 'шанс', 'пво',
-  'живучест', 'мощност', 'точност', 'сигм', 'эффективност', 'время работы', 'время действия',
-];
-
-function hash(value: string): string {
-  return createHash('sha256').update(value).digest('hex');
-}
-
-function decodeHtml(value: string): string {
-  const named: Record<string, string> = {
-    amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ', laquo: '«', raquo: '»',
-    ndash: '–', mdash: '—', hellip: '…', shy: '', copy: '©',
-  };
-
-  return value.replace(/&(#x[0-9a-f]+|#\d+|[a-z]+);/gi, (_, entity: string) => {
-    const lower = entity.toLowerCase();
-    if (lower.startsWith('#x')) return String.fromCodePoint(Number.parseInt(lower.slice(2), 16));
-    if (lower.startsWith('#')) return String.fromCodePoint(Number.parseInt(lower.slice(1), 10));
-    return named[lower] ?? `&${entity};`;
-  });
-}
-
-function textFromHtml(value: string): string {
-  return decodeHtml(value)
-    .replace(/<br\s*\/?>/gi, ' ')
-    .replace(/<[^>]+>/g, ' ')
-    .replace(/\s+/g, ' ')
-    .trim();
-}
-
-function attributeValue(tag: string, attribute: string): string {
-  return tag.match(new RegExp(`${attribute}="([^"]*)"`, 'i'))?.[1] ?? '';
-}
-
-async function fetchText(url: string): Promise<string> {
-  let lastError: unknown;
-  for (let attempt = 1; attempt <= 3; attempt += 1) {
+export async function fetchText(url:string):Promise<string> {
+  let error:unknown;
+  for (let attempt=0;attempt<3;attempt++) {
     try {
-      const response = await fetch(url, {
-        headers: { 'user-agent': 'WoWS-change-history-data-sync/1.0 (+https://github.com/Hathor1998/LESTA_change_history)' },
-      });
-      if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
+      if (process.platform === 'win32') {
+        // Use the Windows system proxy, which Node fetch does not inherit.
+        const {stdout}=await promisify(execFile)('pwsh',['-NoProfile','-Command',
+          '[Console]::OutputEncoding=[Text.UTF8Encoding]::new(); $ErrorActionPreference="Stop"; $r=Invoke-WebRequest -Uri $env:WOWS_FETCH_URL -Headers @{"X-Requested-With"="XMLHttpRequest"} -TimeoutSec 40; if($r.Content -is [byte[]]){[Text.Encoding]::UTF8.GetString($r.Content)}else{$r.Content}'
+        ],{env:{...process.env,WOWS_FETCH_URL:url},windowsHide:true,timeout:45000,maxBuffer:32*1024*1024,encoding:'utf8'});
+        return stdout;
+      }
+      const response = await fetch(url,{headers:{'X-Requested-With':'XMLHttpRequest','User-Agent':'WoWS-change-history/2.0'},signal:AbortSignal.timeout(30000)});
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
       return await response.text();
-    } catch (error) {
-      lastError = error;
-      await new Promise((resolve) => setTimeout(resolve, attempt * 400));
-    }
+    } catch(e) {error=e; if(attempt<2) await new Promise(r=>setTimeout(r,1000*(attempt+1)));}
   }
-  throw new Error(`Unable to fetch ${url}: ${lastError instanceof Error ? lastError.message : String(lastError)}`);
+  throw new Error(`Fetch failed: ${url}: ${String(error)}`);
 }
 
-function dateFromUnixSeconds(value: string): string {
-  return new Date(Number.parseInt(value, 10) * 1000).toISOString();
-}
-
-function listArticles(html: string): ListedArticle[] {
-  const articles: ListedArticle[] = [];
-  for (const match of html.matchAll(/<article\b[\s\S]*?<\/article>/gi)) {
-    const block = match[0];
-    const timestamp = block.match(/<time\s+data-timestamp="(\d+)"/i)?.[1];
-    const link = block.match(/href="(https?:\/\/blog\.korabli\.su\/blog\/(\d+))"/i);
-    const title = block.match(/<h2[^>]*class="article__title"[^>]*>\s*<a[^>]*>([\s\S]*?)<\/a>/i)?.[1];
-    if (!timestamp || !link || !title) continue;
-    articles.push({ id: link[2], url: link[1], title: textFromHtml(title), publishedAt: dateFromUnixSeconds(timestamp) });
-  }
-  return articles;
-}
-
-function isBalanceAnnouncement(title: string): boolean {
-  return /изменени|баланс|ребаланс|правк|донастройк/i.test(title);
-}
-
-function versionFromTitle(title: string, publishedAt: string): string {
-  const version = title.match(/(?:обновление|версия|тестирование|общий тест|закрытое тестирование)\s+(\d{2}\.\d{1,2})/i)?.[1];
-  return version ?? publishedAt.slice(0, 7).replace('-', '.');
-}
-
-function releasedVersionFromTitle(title: string): string | null {
-  return title.match(/^\s*(?:обновление|версия)\s+(\d{2}\.\d{1,2})/i)?.[1] ?? null;
-}
-
-function parseNumber(value: string): number | null {
-  const match = value.replace(/\s/g, '').match(/-?\d+(?:[,.]\d+)?/);
-  return match ? Number.parseFloat(match[0].replace(',', '.')) : null;
-}
-
-function inferTrend(attribute: string, oldValue: string, newValue: string, originalText: string): {
-  trend: ChangeTrend; rule: string; confidence: OfficialAnalysisConfidence;
-} {
-  const normalizedAttribute = attribute.toLowerCase();
-  const oldNumber = parseNumber(oldValue);
-  const newNumber = parseNumber(newValue);
-  if (oldNumber !== null && newNumber !== null && oldNumber === newNumber) {
-    return { trend: 'neutral', rule: 'numeric-equality', confidence: 'high' };
-  }
-
-  const direction = oldNumber !== null && newNumber !== null ? Math.sign(newNumber - oldNumber) : 0;
-  if (direction !== 0) {
-    if (lowerIsBetter.some((term) => normalizedAttribute.includes(term))) {
-      return { trend: direction < 0 ? 'buff' : 'nerf', rule: 'numeric-lower-is-better', confidence: 'high' };
-    }
-    if (higherIsBetter.some((term) => normalizedAttribute.includes(term))) {
-      return { trend: direction > 0 ? 'buff' : 'nerf', rule: 'numeric-higher-is-better', confidence: 'high' };
-    }
-  }
-
-  if (/исправлен|заменен|заменён|добавлен|удален|удалён|переработан/i.test(originalText)) {
-    return { trend: 'adjustment', rule: 'non-numeric-adjustment', confidence: 'medium' };
-  }
-  return { trend: 'adjustment', rule: 'insufficient-metric-context', confidence: 'low' };
-}
-
-function parseChangeLine(value: string): { attribute: string; oldValue: string; newValue: string } {
-  const normalized = value.replace(/\s+/g, ' ').trim().replace(/[.]$/, '');
-  const ranged = normalized.match(/^(.+?)\s+(?:уменьшен[аоы]?|увеличен[аоы]?|снижен[аоы]?|повышен[аоы]?|изменен[аоы]?|изменён[аоы]?)\s+с\s+(.+?)\s+до\s+(.+?)(?:\.(?!\d)|$)/i);
-  if (ranged) return { attribute: ranged[1].trim(), oldValue: ranged[2].trim(), newValue: ranged[3].trim() };
-
-  const changed = normalized.match(/^(.+?)\s+(?:изменен[аоы]?|изменён[аоы]?)\s+с\s+(.+?)\s+на\s+(.+?)(?:\.(?!\d)|$)/i);
-  if (changed) return { attribute: changed[1].trim(), oldValue: changed[2].trim(), newValue: changed[3].trim() };
-  return { attribute: normalized, oldValue: '—', newValue: '—' };
-}
-
-function categoryFor(context: ShipContext | null, title: string, line: string): ChangeCategory {
-  if (context) return 'ship';
-  if (/навык|снаряжени|подлод|пло|командир/i.test(`${title} ${line}`)) return 'mechanic';
-  return 'misc';
-}
-
-function shouldKeepLine(value: string): boolean {
-  return /уменьшен|увеличен|снижен|повышен|изменен|изменён|исправлен|заменен|заменён|добавлен|удален|удалён|переработан/i.test(value);
-}
-
-function parseShipContext(html: string, status: ShipStatus): ShipContext | null {
-  const ship = html.match(/<span\b[^>]*class="ship"[^>]*>[\s\S]*?<\/span>/i)?.[0];
-  if (ship) {
-    const name = textFromHtml(ship).replace(/^(?:I|V|X|L|C|D|M)+\s+/i, '').trim();
-    if (!name) return null;
-    return {
-      name,
-      nation: nationLabels[attributeValue(ship, 'data-nation')] ?? '',
-      tier: attributeValue(ship, 'data-level'),
-      type: typeLabels[attributeValue(ship, 'data-type')] ?? '',
-      status,
-    };
-  }
-
-  // Some published announcements use only bold prose instead of the structured ship span.
-  const plain = textFromHtml(html);
-  const fallback = plain.match(/^([А-ЯЁа-яё]+)\s+(подводная лодка|подлодка|авианосец|эсминец|крейсер|линкор)\s+(.+?)\s*,\s*([IVXLCDMХ]+)\s+уров(?:ень|ня)/i);
-  if (!fallback) return null;
-  const nation = russianNationPrefixes.find(([prefix]) => fallback[1].toLowerCase().startsWith(prefix))?.[1] ?? '';
-  const type = russianTypeLabels.find(([label]) => fallback[2].toLowerCase() === label)?.[1] ?? '';
-  const name = fallback[3].trim();
-  if (!nation || !type || !name) return null;
-  return { name, nation, tier: fallback[4].toUpperCase().replace(/Х/g, 'X'), type, status };
-}
-
-function parseAnnouncement(article: ListedArticle, html: string): { announcement: OfficialAnnouncement; records: OfficialBalanceRecord[] } {
-  const content = html.match(/<div class="article__content">([\s\S]*?)<\/div>\s*<\/article>/i)?.[1] ?? '';
-  const version = versionFromTitle(article.title, article.publishedAt);
-  const records: OfficialBalanceRecord[] = [];
-  let shipStatus: ShipStatus = /тестов/i.test(article.title) ? 'test' : 'released';
-  let context: ShipContext | null = null;
-
-  for (const match of content.matchAll(/<(h[1-6]|p|li)\b[^>]*>([\s\S]*?)<\/\1>/gi)) {
-    const tag = match[1].toLowerCase();
-    const blockHtml = match[2];
-    const line = textFromHtml(blockHtml);
-    if (!line) continue;
-
-    if (tag.startsWith('h')) {
-      if (/тестов/i.test(line)) shipStatus = 'test';
-      if (/основн|релиз|вступят в силу/i.test(line)) shipStatus = 'released';
-      continue;
-    }
-
-    if (tag === 'p') {
-      const parsedContext = parseShipContext(blockHtml, shipStatus);
-      if (parsedContext) context = parsedContext;
-      continue;
-    }
-
-    if (!shouldKeepLine(line)) continue;
-    const change = parseChangeLine(line);
-    const targetName = context?.name ?? article.title;
-    const category = categoryFor(context, article.title, line);
-    const analysis = inferTrend(change.attribute, change.oldValue, change.newValue, line);
-    const raw: RawBalanceRow = {
-      targetName,
-      canonicalName: targetName,
-      previousNames: '',
-      nation: context?.nation ?? '',
-      tier: context?.tier ?? '',
-      type: context?.type ?? '',
-      attribute: change.attribute,
-      oldValue: change.oldValue,
-      newValue: change.newValue,
-      version,
-      notes: `官方公告：${article.url}`,
-      trend: analysis.trend,
-      shipStatus: category === 'ship' ? (context?.status ?? shipStatus) : 'unknown',
-      tags: '',
-      sourceSheet: `Korabli #${article.id}`,
-    };
-    const id = hash([article.id, targetName, change.attribute, change.oldValue, change.newValue, line].join('|')).slice(0, 16);
-    records.push({
-      ...raw,
-      id,
-      category,
-      announcementId: article.id,
-      sourceUrl: article.url,
-      publishedAt: article.publishedAt,
-      originalText: line,
-      analysisRule: analysis.rule,
-      analysisConfidence: analysis.confidence,
+async function discoverBlog(since:Date):Promise<Article[]> {
+  const results = new Map<string,Article>();
+  const max = Number(process.env.KORABLI_MAX_PAGES ?? 80);
+  for(let page=1;page<=max;page++) {
+    const $ = load(await fetchText(`https://blog.korabli.su/?page=${page}`));
+    const cards = $('article');
+    if(!cards.length) throw new Error(`Blog listing is empty or changed (page ${page}); no data written.`);
+    let oldest = Infinity;
+    cards.each((_,el)=>{
+      const card=$(el), url=card.find('a[href*="/blog/"]').first().attr('href');
+      const time=Number(card.find('time').attr('data-timestamp'))*1000;
+      const title=clean(card.find('.article__title').text());
+      if(!url || !Number.isFinite(time)) return;
+      oldest=Math.min(oldest,time);
+      if(time<since.getTime()) return;
+      const id=url.match(/\/blog\/(\d+)/)?.[1];
+      if(id) results.set(id,{id,url:new URL(url,'https://blog.korabli.su').href,title,publishedAt:new Date(time).toISOString(),sourceKind:'blog'});
     });
+    if(oldest<since.getTime()) return [...results.values()];
   }
-
-  return {
-    announcement: {
-      id: article.id,
-      url: article.url,
-      title: article.title,
-      publishedAt: article.publishedAt,
-      contentHash: hash(content),
-      recordIds: records.map((record) => record.id),
-    },
-    records,
-  };
+  throw new Error('Blog discovery hit the page limit before the date boundary.');
 }
 
-async function parallelMap<T, R>(items: T[], mapper: (item: T) => Promise<R>): Promise<R[]> {
-  const results: R[] = [];
-  let nextIndex = 0;
-  async function worker(): Promise<void> {
-    while (nextIndex < items.length) {
-      const index = nextIndex;
-      nextIndex += 1;
-      results[index] = await mapper(items[index]);
+async function discoverPortal():Promise<Article[]> {
+  const result:Article[]=[];
+  for(let page=1;page<=20;page++) {
+    const payload=JSON.parse(await fetchText(`https://korabli.su/ru/news/all/?page=${page}&category=game-updates&initial=true`)) as {news:Array<{id:number;link:string;title:string;publication_start:number}>;has_next:boolean};
+    if(!Array.isArray(payload.news) || !payload.news.length) throw new Error('Portal listing is empty or changed.');
+    let older=false;
+    for(const n of payload.news) {
+      const version=explicitVersion(n.title);
+      if(!version) continue;
+      const [major,minor]=version.split('.').map(Number);
+      if(major<26 || (major===26 && minor<9)) {older=true;continue;}
+      const url=new URL(n.link,'https://korabli.su');
+      if(url.origin!=='https://korabli.su' || !url.pathname.startsWith('/ru/news/game-updates/')) continue;
+      result.push({id:`portal-${n.id}`,url:url.href,title:n.title,publishedAt:new Date(n.publication_start*1000).toISOString(),sourceKind:'portal'});
     }
+    if(older || !payload.has_next) return result;
   }
-  await Promise.all(Array.from({ length: Math.min(concurrency, items.length) }, () => worker()));
-  return results;
+  throw new Error('Portal discovery exceeded the page limit.');
 }
 
-async function discoverArticles(rangeStart: Date): Promise<ListedArticle[]> {
-  const found = new Map<string, ListedArticle>();
-  for (let page = 1; page <= maxPages; page += 1) {
-    const html = await fetchText(`${blogRoot}/?page=${page}`);
-    const articles = listArticles(html);
-    if (articles.length === 0) break;
-    articles.forEach((article) => found.set(article.id, article));
-    const oldest = Math.min(...articles.map((article) => Date.parse(article.publishedAt)));
-    if (oldest < rangeStart.getTime()) break;
+async function main() {
+  const original=JSON.parse(await readFile(process.env.KORABLI_BASELINE ?? dbPath,'utf8')) as OfficialBalanceDatabase;
+  const dictionary=JSON.parse(await readFile(path.join(root,'data/database/korabli-zh.json'),'utf8')) as ChineseTranslationDatabase;
+  const translations={...dictionary.translations,...reviewedTranslations};
+  const now=new Date(); const days=Number(process.env.KORABLI_DAYS ?? 730);
+  if(!Number.isFinite(days) || days<=0) throw new Error('KORABLI_DAYS must be positive.');
+  const since=new Date(now.getTime()-days*86400000);
+  const replay=process.argv.includes('--replay');
+  const replayDir=process.env.KORABLI_REPLAY_DIR ?? output;
+  const articles:Article[]=replay ? JSON.parse(await readFile(path.join(replayDir,'articles.json'),'utf8')) : [...await discoverBlog(since),...await discoverPortal()];
+  console.log(`Discovered ${articles.length} blog/portal announcements.`);
+  const announcements=new Map(original.announcements.map(a=>[a.id,{...a,sourceKind:a.sourceKind ?? (a.url.startsWith('manual:')?'manual' as const:'blog' as const)}]));
+  const baseline=original.records.map(r=>({...r,tier:normalizeTier(r.tier),version:/^\d{4}\./.test(r.version)?explicitVersion(announcements.get(r.announcementId)?.title ?? '') ?? '待确认':r.version}));
+  const incoming:OfficialBalanceDatabase['records']=[];
+  const issues:ParseIssue[]=[];
+  const coverageReport:unknown[]=[];
+  await mkdir(path.join(output,'snapshots'),{recursive:true});
+  if(!replay) await writeFile(path.join(output,'articles.json'),JSON.stringify(articles,null,2),'utf8');
+  if (process.argv.includes('--audit-only')) {
+    let next = 0;
+    await Promise.all(Array.from({length:3},async()=>{
+      while(next<articles.length) {
+        const article=articles[next++];
+        const file=path.join(output,'snapshots',`${article.id}.html`);
+        const url=article.sourceKind==='portal'?`${article.url}?pjax=1&consumer=pc-browser`:article.url;
+        await writeFile(file,await fetchText(url),'utf8');
+        console.log(`Captured ${article.id}: ${article.title}`);
+      }
+    }));
+    console.log('Audit snapshots captured. Source database unchanged.');
+    return;
   }
-  return [...found.values()]
-    .filter((article) => Date.parse(article.publishedAt) >= rangeStart.getTime())
-    .filter((article) => isBalanceAnnouncement(article.title))
-    .sort((left, right) => Date.parse(right.publishedAt) - Date.parse(left.publishedAt));
+  for(const article of articles) {
+    // Keep historical reviewed blog records. Portal corrections are always rechecked.
+    const url=article.sourceKind==='portal'?`${article.url}?pjax=1&consumer=pc-browser`:article.url;
+    const html=replay ? await readFile(path.join(replayDir,'snapshots',`${article.id}.html`),'utf8') : await fetchText(url);
+    const parsed=parseOfficial(article,html,baseline,translations);
+    coverageReport.push({article,blocks:coverage(article,html,parsed.records)});
+    await writeFile(path.join(output,'snapshots',`${article.id}.html`),html,'utf8');
+    announcements.set(article.id,{...parsed.announcement,sourceKind:article.sourceKind,parserVersion:3});
+    incoming.push(...parsed.records); issues.push(...parsed.issues);
+    console.log(`${article.id}: ${parsed.records.length} candidate records, ${parsed.issues.length} issues`);
+  }
+  const result=reconcile(baseline,incoming,translations);
+  await writeFile(path.join(output,'coverage.json'),JSON.stringify(coverageReport,null,2)+'\n','utf8');
+  if(process.argv.includes('--review-only')) {
+    await writeFile(path.join(output,'audit-candidates.json'),JSON.stringify(result,null,2)+'\n','utf8');
+    console.log(`Review only: ${result.added.length} new candidates; ${result.conflicts.length} conflicts. Source unchanged.`);
+    return;
+  }
+  // Re-parsing old HTML can expose differently segmented historical changes.
+  // Never publish these as new events until the candidate is reviewed.
+  const unreviewed=result.added.filter(r=>r.announcementId!=='695');
+  const heldIds=new Set(unreviewed.map(r=>r.id));
+  result.records=result.records.filter(r=>!heldIds.has(r.id));
+  result.added=result.added.filter(r=>!heldIds.has(r.id));
+  result.pending.push(...unreviewed.map(candidate=>({candidate,reason:'全量复查新增候选：需确认漏项/拆分/重复及翻译后再入库'})));
+  for(const a of announcements.values()) {
+    a.recordIds=result.records.filter(r=>r.announcementId===a.id || r.sources?.some(s=>s.announcementId===a.id)).map(r=>r.id);
+  }
+  const database:OfficialBalanceDatabase={...original,schemaVersion:2,source:'korabli-multi-source',syncedAt:now.toISOString(),rangeEnd:now.toISOString(),announcements:[...announcements.values()],records:result.records};
+  const report={generatedAt:now.toISOString(),scope:'Portal 26.9+; blog existing two-year range; local only',baselineCount:original.records.length,recordCount:result.records.length,added:result.added,merged:result.merged,conflicts:result.conflicts,pending:result.pending,parseIssues:issues,analysisReview:result.added.filter(r=>r.analysisConfidence!=='high'),legacyUnknownVersions:baseline.filter(r=>r.version==='待确认').map(r=>r.id)};
+  // Finish every network read and reconciliation before replacing source files.
+  await writeFile(path.join(output,'review.json'),JSON.stringify(report,null,2)+'\n','utf8');
+  await writeFile(dbPath,JSON.stringify(database,null,2)+'\n','utf8');
+  for(const category of ['ship','mechanic','misc'] as ChangeCategory[]) await writeCategoryRows(category,database.records.filter(r=>r.category===category));
+  const site=await readSiteConfig();
+  await writeSiteConfig({...site,lastUpdated:new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Shanghai'}).format(now)});
+  console.log(`Local sync: ${result.added.length} added; ${result.merged.length} merged; ${result.conflicts.length} conflicts; ${result.pending.length} pending. Report: outputs/official-review/review.json`);
 }
 
-async function main(): Promise<void> {
-  if (!Number.isFinite(syncDays) || syncDays <= 0) throw new Error('KORABLI_DAYS must be a positive number.');
-  const rangeEnd = new Date();
-  const rangeStart = new Date(rangeEnd.getTime() - syncDays * 24 * 60 * 60 * 1000);
-  const articles = await discoverArticles(rangeStart);
-  console.log(`Found ${articles.length} official balance announcements since ${rangeStart.toISOString().slice(0, 10)}.`);
-
-  const parsed = await parallelMap(articles, async (article) => {
-    const html = await fetchText(article.url);
-    return parseAnnouncement(article, html);
-  });
-  const announcements = [...parsed.map((entry) => entry.announcement), ...manualAnnouncements];
-  const records = [...parsed.flatMap((entry) => entry.records), ...manualRecords];
-  const uniqueRecords = [...new Map(records.map((record) => [record.id, record])).values()];
-
-  const database: OfficialBalanceDatabase = {
-    schemaVersion: 1,
-    source: 'blog.korabli.su',
-    syncedAt: rangeEnd.toISOString(),
-    rangeStart: rangeStart.toISOString(),
-    rangeEnd: rangeEnd.toISOString(),
-    announcements,
-    records: uniqueRecords,
-  };
-  await mkdir(path.dirname(databasePath), { recursive: true });
-  await writeFile(databasePath, `${JSON.stringify(database, null, 2)}\n`, 'utf8');
-
-  const categories: Record<ChangeCategory, RawBalanceRow[]> = { ship: [], mechanic: [], misc: [] };
-  uniqueRecords.forEach((record) => {
-    const { id: _id, category, announcementId: _announcementId, sourceUrl: _sourceUrl, publishedAt: _publishedAt, originalText: _originalText, analysisRule: _analysisRule, analysisConfidence: _analysisConfidence, ...raw } = record;
-    categories[category].push(raw);
-  });
-  await Promise.all((Object.keys(categories) as ChangeCategory[]).map((category) => writeCategoryRows(category, categories[category])));
-
-  // Keep the viewer summary aligned with the newest released update, not a future test build.
-  const latestReleasedVersion = articles.map((article) => releasedVersionFromTitle(article.title)).find(Boolean);
-  const siteConfig = await readSiteConfig();
-  await writeSiteConfig({
-    ...siteConfig,
-    currentVersion: latestReleasedVersion ?? siteConfig.currentVersion,
-    lastUpdated: rangeEnd.toISOString().slice(0, 10),
-  });
-
-  const trends = uniqueRecords.reduce<Record<ChangeTrend, number>>((counts, record) => {
-    counts[record.trend] += 1;
-    return counts;
-  }, { buff: 0, nerf: 0, neutral: 0, adjustment: 0 });
-  console.log(`Wrote ${uniqueRecords.length} records to data/database and raw TSV mirrors. ${JSON.stringify(trends)}`);
-}
-
-main().catch((error) => {
-  console.error(error instanceof Error ? error.stack ?? error.message : error);
-  process.exitCode = 1;
-});
+if(process.argv[1] && path.resolve(process.argv[1])===fileURLToPath(import.meta.url)) main().catch(e=>{console.error(e);process.exitCode=1;});

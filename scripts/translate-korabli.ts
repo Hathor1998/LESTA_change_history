@@ -2,6 +2,7 @@ import { access, mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import type { ChineseTranslationDatabase, OfficialBalanceDatabase } from '../src/types.ts';
+import { reviewedTranslations } from './official-vocabulary.ts';
 
 const __filename = fileURLToPath(import.meta.url);
 const repoRoot = path.join(path.dirname(__filename), '..');
@@ -62,7 +63,9 @@ function parseMoShipTranslations(buffer: Buffer): Record<string, string> {
 }
 
 async function resolveMoPath(): Promise<string> {
-  const candidates = [process.env.WOWS_GLOBAL_MO_PATH, defaultMoPath].filter((value): value is string => Boolean(value));
+  const candidates = [process.env.WOWS_GLOBAL_MO_PATH, defaultMoPath,
+    'E:/wows/WoWS-GameParams-master/WoWS-GameParams-master/shared/game_data/localization/26.7/global.mo',
+  ].filter((value): value is string => Boolean(value));
   for (const candidate of candidates) {
     try {
       await access(candidate);
@@ -150,10 +153,12 @@ async function main(): Promise<void> {
   ]);
   const moShipTranslations = parseMoShipTranslations(await readFile(moPath));
   const values = new Set<string>();
-  const translations: Record<string, string> = { ...cachedTranslations, ...approvedOverrides };
+  const translations: Record<string, string> = { ...cachedTranslations, ...approvedOverrides, ...reviewedTranslations };
 
   officialDatabase.records.forEach((record) => {
     [record.targetName, record.canonicalName, ...record.previousNames.split('|')].filter(Boolean).forEach((name) => {
+      if (/[\u3400-\u9fff]/.test(name) && !/[\u0400-\u04ff]/.test(name)) return;
+      if (translations[name]) return;
       const gameTranslation = moShipTranslations[normalizeShipCode(name)];
       if (gameTranslation) translations[name] = gameTranslation;
       else values.add(name);
@@ -182,6 +187,7 @@ async function main(): Promise<void> {
     console.log(`Translated batch ${index + 1}/${Math.ceil(pending.length / batchSize)}.`);
   }
   console.log(`Saved ${Object.keys(translations).length} translations; ${untranslated.length} items need review.`);
+  await writeDatabase(translations, untranslated);
   if (failedBatches > 0) process.exitCode = 1;
 }
 

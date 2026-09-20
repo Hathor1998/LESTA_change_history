@@ -1,0 +1,4701 @@
+[
+  {
+    "shipId": "e45b8b48d19ed1f7",
+    "name": "卡萨比安卡",
+    "originalNames": [
+      "Casabianca"
+    ],
+    "searchAliases": [
+      "Casabianca"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "6da98aee51f2168b",
+    "name": "伊松佐",
+    "originalNames": [
+      "Isonzo"
+    ],
+    "searchAliases": [
+      "Isonzo"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "f9faf4f644b283c7",
+    "name": "阿芙利加人",
+    "originalNames": [
+      "L'Africaine",
+      "L`Africaine"
+    ],
+    "searchAliases": [
+      "L'Africaine",
+      "L`Africaine"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "4e9c03dbb8872ba0",
+    "name": "三笠1904",
+    "originalNames": [
+      "Mikasa '04"
+    ],
+    "searchAliases": [
+      "三笠 '04",
+      "Mikasa '04"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "4ac349bafe9468c8",
+    "name": "圣乔治奥",
+    "originalNames": [
+      "San Giorgio"
+    ],
+    "searchAliases": [
+      "圣乔治",
+      "San Giorgio"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "7c351e849414aa2b",
+    "name": "施瓦本",
+    "originalNames": [
+      "Schwaben"
+    ],
+    "searchAliases": [
+      "Schwaben"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "da1cbe533c756799",
+    "name": "U-2501",
+    "originalNames": [
+      "U-2501"
+    ],
+    "searchAliases": [],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "1f662010daa2564a",
+    "name": "U-796",
+    "originalNames": [
+      "U-796"
+    ],
+    "searchAliases": [],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "4251e26114a0a914",
+    "name": "滑铁卢",
+    "originalNames": [
+      "Waterloo"
+    ],
+    "searchAliases": [
+      "Waterloo"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "bade1674c9973259",
+    "name": "B-4",
+    "originalNames": [
+      "Б-4"
+    ],
+    "searchAliases": [
+      "Б-4"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "04a903b7f164ec7a",
+    "name": "博罗季诺 '04",
+    "originalNames": [
+      "Бородино '04"
+    ],
+    "searchAliases": [
+      "Бородино '04"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "c2b0189c90a5d642",
+    "name": "伊凡·格罗兹尼",
+    "originalNames": [
+      "Иван Грозный"
+    ],
+    "searchAliases": [
+      "Иван Грозный"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "4678ecc8cfc9b0c8",
+    "name": "K-1",
+    "originalNames": [
+      "К-1"
+    ],
+    "searchAliases": [
+      "К-1"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "96f48335eb4e0a9b",
+    "name": "奥尔加女大公",
+    "originalNames": [
+      "Княгиня Ольга"
+    ],
+    "searchAliases": [
+      "Княгиня Ольга"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "001883f82117ff9c",
+    "name": "L-20",
+    "originalNames": [
+      "Л-20"
+    ],
+    "searchAliases": [
+      "Л-20"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "04c4a88356355bfc",
+    "name": "蒙海峡",
+    "originalNames": [
+      "Моонзунд"
+    ],
+    "searchAliases": [
+      "Моонзунд"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "a7a7882e2933a94b",
+    "name": "S-1",
+    "originalNames": [
+      "С-1"
+    ],
+    "searchAliases": [
+      "С-1"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "86ac7865b462fa72",
+    "name": "汉科",
+    "originalNames": [
+      "Ханко"
+    ],
+    "searchAliases": [
+      "Ханко"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "54c271e499ebe14c",
+    "name": "阿尔萨斯",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "f4e3ee57bd66c06b",
+    "name": "安达太良",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "3b442a679cdd805d",
+    "name": "奥丁",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "dd1bba1debe5aea6",
+    "name": "八戒",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "7ef652bcaf06b9f6",
+    "name": "巴塔哥尼亚",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "4069dbf7425daade",
+    "name": "白龙",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "9b0c5314f0a232cc",
+    "name": "波多黎各",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "6186e345aa92da88",
+    "name": "柴郡",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "76c654252e2f34a8",
+    "name": "出云",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "3fdebff9485e9946",
+    "name": "达娜厄",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "1735da64ef06ed5f",
+    "name": "大和",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "2551a191642a26b3",
+    "name": "大山",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "274ae5dd1cfd2460",
+    "name": "迪米特里·顿斯科伊",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "4910f0f00aa0d3d0",
+    "name": "肥前",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "eb2a5ce678f31127",
+    "name": "翡翠",
+    "originalNames": [
+      "Emerald"
+    ],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "ddd08b3ddabaf5b4",
+    "name": "丰后",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "47d38937e4e8b75d",
+    "name": "敷岛",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "357d1088ddac1014",
+    "name": "扶桑",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "cfe8280da8945138",
+    "name": "弓张",
+    "originalNames": [
+      "Yumihari"
+    ],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "b92bcf977169b217",
+    "name": "共和国",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "ce5af9a6bc39477c",
+    "name": "哈巴罗夫斯克",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "d45527495aa9c449",
+    "name": "河内",
+    "originalNames": [
+      "Kawachi"
+    ],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "62c71b1ed9535679",
+    "name": "纪伊",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "2463c887212cd1eb",
+    "name": "加利西亚",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "df333d157764a271",
+    "name": "加斯科涅",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "89a3b33acc1937aa",
+    "name": "金刚",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "af55e0e18e22fe0e",
+    "name": "巨浪",
+    "originalNames": [
+      "Julang"
+    ],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "a0c1117323be525d",
+    "name": "卡利登",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "d1fe8917c723aa5b",
+    "name": "卡瓦哈尔",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "08ff09c2b67ae3e0",
+    "name": "科尔多瓦",
+    "originalNames": [
+      "C&oacute;rdoba"
+    ],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "d495a97831b8a42f",
+    "name": "雷兽",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "25448711af52d70f",
+    "name": "黎塞留",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "d7d731bba8a4a4bc",
+    "name": "里加",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "e42d71cfe1556ab7",
+    "name": "陆奥",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "252ac801ddcb0bb6",
+    "name": "妙义",
+    "originalNames": [
+      "Myōgi"
+    ],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "71df3defb8bc821a",
+    "name": "欧根亲王",
+    "originalNames": [
+      "Prinz Eugen"
+    ],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "81561c1f6152e708",
+    "name": "球磨",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "f8bb410aca359f1a",
+    "name": "让·巴尔",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "0f4e95a2cdbb10cd",
+    "name": "让·巴尔 '43",
+    "originalNames": [
+      "Jean Bart '43"
+    ],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "648e9061d8bb76a9",
+    "name": "日向",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "b08185446f829a0b",
+    "name": "萨摩",
+    "originalNames": [
+      "Satsuma"
+    ],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "0110698bac7edab8",
+    "name": "塞尔韦拉上将",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "def9960d214ca21c",
+    "name": "三笠",
+    "originalNames": [
+      "Mikasa"
+    ],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "5ec3b34fdf44459b",
+    "name": "射水鱼",
+    "originalNames": [
+      "Archerfish"
+    ],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "424dd367f4fd801e",
+    "name": "石槌",
+    "originalNames": [
+      "Ishizuchi"
+    ],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "2205f22865ef37c5",
+    "name": "石见",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "2ee74e98071ef20c",
+    "name": "塔尔萨",
+    "originalNames": [
+      "Tulsa"
+    ],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "30b73eafc04c3a90",
+    "name": "天城",
+    "originalNames": [
+      "Amagi"
+    ],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "52abb61853da9df5",
+    "name": "爱鹰",
+    "originalNames": [
+      "Ashitaka"
+    ],
+    "searchAliases": [
+      "天城"
+    ],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "8b3165378b8a48bc",
+    "name": "天龙",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "61a66b75f1f532b5",
+    "name": "乌尔皮乌斯·图拉真",
+    "originalNames": [
+      "Ulpio Traiano"
+    ],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "710fdfff9146e388",
+    "name": "乌拉尔",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "01b7b5532a013c82",
+    "name": "伍斯特",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "38dffcedebd6dc6c",
+    "name": "武藏",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "1cde3020db36c826",
+    "name": "悟净",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "a0a229f4e893f0e6",
+    "name": "夕张",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "19ff9c0bfec0faa7",
+    "name": "西雅图",
+    "originalNames": [
+      "Seattle"
+    ],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "e0777e31dff44e5a",
+    "name": "香槟",
+    "originalNames": [
+      "Champagne"
+    ],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "1a6fa9e96a29403b",
+    "name": "翔鹤",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "47452244d8deeb44",
+    "name": "新埃斯帕塔",
+    "originalNames": [
+      "Nueva Esparta"
+    ],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "91f4cd19ef74b62f",
+    "name": "新罕布什尔",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "ece183a48c5e505c",
+    "name": "岩木A",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "2c49457f88110519",
+    "name": "伊势",
+    "originalNames": [
+      "Ise"
+    ],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "28bedf27e66143cb",
+    "name": "长门",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "74bb4c6af8804484",
+    "name": "祖国",
+    "originalNames": [],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "3eb50709bb7568e6",
+    "name": "赤城",
+    "originalNames": [
+      "Akagi"
+    ],
+    "searchAliases": [
+      "Akagi"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "d144931d3a8d0d37",
+    "name": "布达佩斯",
+    "originalNames": [
+      "Budapest"
+    ],
+    "searchAliases": [
+      "Budapest"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "b4f05d6f1dbc5304",
+    "name": "詹金斯",
+    "originalNames": [
+      "Jenkins"
+    ],
+    "searchAliases": [
+      "Jenkins"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "a6c9d957e50cf6f2",
+    "name": "U-4501",
+    "originalNames": [
+      "U-4501"
+    ],
+    "searchAliases": [],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
+    ]
+  },
+  {
+    "shipId": "59f24a38e00836e8",
+    "name": "东德",
+    "originalNames": [
+      "ГДР",
+      "«ГДР»"
+    ],
+    "searchAliases": [
+      "ГДР",
+      "«ГДР»"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "9cb9059cc800aa8d",
+    "name": "白山",
+    "originalNames": [
+      "Hakusan"
+    ],
+    "searchAliases": [
+      "Hakusan"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "234d6f7770a1a8c5",
+    "name": "鸟海",
+    "originalNames": [
+      "Chōkai"
+    ],
+    "searchAliases": [
+      "Chōkai"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "64947db65b690d4e",
+    "name": "赤城",
+    "originalNames": [
+      "Akagi"
+    ],
+    "searchAliases": [
+      "Akagi"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "fa6a367992a59dd6",
+    "name": "但泽",
+    "originalNames": [
+      "Danzig"
+    ],
+    "searchAliases": [
+      "Danzig"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "72c86bbbab9b33cc",
+    "name": "海门",
+    "originalNames": [
+      "Kaimon"
+    ],
+    "searchAliases": [
+      "Kaimon"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "c7757062ed2c1d0c",
+    "name": "新泽西",
+    "originalNames": [
+      "New Jersey"
+    ],
+    "searchAliases": [
+      "New Jersey"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "ba615d82a78a83a0",
+    "name": "谢南多厄",
+    "originalNames": [
+      "Shenandoah"
+    ],
+    "searchAliases": [
+      "Shenandoah"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "c09375c55b897962",
+    "name": "西蒙·玻利瓦尔",
+    "originalNames": [
+      "Sim&oacute;n Bol&iacute;var"
+    ],
+    "searchAliases": [
+      "Sim&oacute;n Bol&iacute;var"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "fef94b23b8f26a5c",
+    "name": "弗吉尼亚",
+    "originalNames": [
+      "Virginia"
+    ],
+    "searchAliases": [
+      "Virginia"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "49d0cb5741a82c52",
+    "name": "沃坦",
+    "originalNames": [
+      "Wotan"
+    ],
+    "searchAliases": [
+      "Wotan"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "708ed13e6d83e78d",
+    "name": "纳瓦林",
+    "originalNames": [
+      "Наварин"
+    ],
+    "searchAliases": [
+      "Наварин"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "7885d465bbb99431",
+    "name": "安达卢西亚",
+    "originalNames": [
+      "Andaluc&iacute;a"
+    ],
+    "searchAliases": [
+      "Andaluc&iacute;a"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "e60431915ccf96d3",
+    "name": "阿斯图里亚斯",
+    "originalNames": [
+      "Asturias"
+    ],
+    "searchAliases": [
+      "Asturias"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "678a14738274c6d1",
+    "name": "贝尔法斯特 '43",
+    "originalNames": [
+      "Belfast '43"
+    ],
+    "searchAliases": [
+      "Belfast '43"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "045636c1ac23efb1",
+    "name": "贝尔纳多特",
+    "originalNames": [
+      "Bernadotte"
+    ],
+    "searchAliases": [
+      "Bernadotte"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "e09d6fc5f81d2eef",
+    "name": "闪电 '63",
+    "originalNames": [
+      "Błyskawica '63"
+    ],
+    "searchAliases": [
+      "Błyskawica '63"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "e269ea5bd26869c0",
+    "name": "科尔多瓦",
+    "originalNames": [
+      "C&oacute;rdoba"
+    ],
+    "searchAliases": [
+      "C&oacute;rdoba"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "ac4c0de0a6e69bf8",
+    "name": "卡斯蒂利亚",
+    "originalNames": [
+      "Castilla"
+    ],
+    "searchAliases": [
+      "Castilla"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "757b08854c894fb0",
+    "name": "加泰罗尼亚",
+    "originalNames": [
+      "Catalu&ntilde;a"
+    ],
+    "searchAliases": [
+      "Catalu&ntilde;a"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "263934608dad8672",
+    "name": "查理·马特",
+    "originalNames": [
+      "Charles Martel"
+    ],
+    "searchAliases": [
+      "Charles Martel"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "80ca6712bd37b922",
+    "name": "春蓬",
+    "originalNames": [
+      "Chumphon"
+    ],
+    "searchAliases": [
+      "Chumphon"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "a05e1e1a224f0b68",
+    "name": "重庆",
+    "originalNames": [
+      "Chungking"
+    ],
+    "searchAliases": [
+      "Chungking"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "e1e9149fd6f39090",
+    "name": "孔代",
+    "originalNames": [
+      "Cond&eacute;"
+    ],
+    "searchAliases": [
+      "Cond&eacute;"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "69abae6b2b8be814",
+    "name": "康涅狄格",
+    "originalNames": [
+      "Connecticut"
+    ],
+    "searchAliases": [
+      "Connecticut"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "76c215e69842ee75",
+    "name": "博洛涅西上校",
+    "originalNames": [
+      "Coronel Bolognesi"
+    ],
+    "searchAliases": [
+      "Coronel Bolognesi"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "916149372020bceb",
+    "name": "特拉华",
+    "originalNames": [
+      "Delaware"
+    ],
+    "searchAliases": [
+      "Delaware"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "7c09abd907216b1e",
+    "name": "爱丁堡",
+    "originalNames": [
+      "Edinburgh"
+    ],
+    "searchAliases": [
+      "Edinburgh"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "6ae4b7e8a515f2fc",
+    "name": "哈尔福德",
+    "originalNames": [
+      "Halford"
+    ],
+    "searchAliases": [
+      "Halford"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "bd3b50b22402a6d8",
+    "name": "哈尔滨",
+    "originalNames": [
+      "Harbin"
+    ],
+    "searchAliases": [
+      "Harbin"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "5c06f854a424cdc1",
+    "name": "霍克",
+    "originalNames": [
+      "Hawke"
+    ],
+    "searchAliases": [
+      "Hawke"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "5679f55f74a68bd1",
+    "name": "亨利四世",
+    "originalNames": [
+      "Henri IV"
+    ],
+    "searchAliases": [
+      "Henri IV"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "f3901377d4eeab27",
+    "name": "伊格纳西奥·阿连德",
+    "originalNames": [
+      "Ignacio Allende"
+    ],
+    "searchAliases": [
+      "Ignacio Allende"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "dae2288544e907b2",
+    "name": "印第安纳",
+    "originalNames": [
+      "Indiana"
+    ],
+    "searchAliases": [
+      "Indiana"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "2d9fccd66d3c131a",
+    "name": "不挠",
+    "originalNames": [
+      "Indomitable"
+    ],
+    "searchAliases": [
+      "Indomitable"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "539ea6d8e1ba6b77",
+    "name": "伊势",
+    "originalNames": [
+      "Ise"
+    ],
+    "searchAliases": [
+      "Ise"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "77cb96368d4e98b0",
+    "name": "利安得",
+    "originalNames": [
+      "Leander"
+    ],
+    "searchAliases": [
+      "Leander"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "83c47bfbf9131da4",
+    "name": "路易斯安那",
+    "originalNames": [
+      "Louisiana"
+    ],
+    "searchAliases": [
+      "Louisiana"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "231ba53fe1e95e22",
+    "name": "内布拉斯加",
+    "originalNames": [
+      "Nebraska"
+    ],
+    "searchAliases": [
+      "Nebraska"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "6aae59e9054e5d58",
+    "name": "北卡罗来纳",
+    "originalNames": [
+      "North Carolina"
+    ],
+    "searchAliases": [
+      "North Carolina"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "2b68783e4eaa54c4",
+    "name": "北安普敦",
+    "originalNames": [
+      "Northampton"
+    ],
+    "searchAliases": [
+      "北安普顿",
+      "Northampton"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "345d34b5dd9fe9df",
+    "name": "俄勒冈",
+    "originalNames": [
+      "Oregon"
+    ],
+    "searchAliases": [
+      "Oregon"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "634dfff9ff116b10",
+    "name": "欧根亲王",
+    "originalNames": [
+      "Prinz Eugen"
+    ],
+    "searchAliases": [
+      "Prinz Eugen"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "39e2d02b349f5ca6",
+    "name": "拉赫马特",
+    "originalNames": [
+      "Rahmat"
+    ],
+    "searchAliases": [
+      "Rahmat"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "25756cc08b58fe8d",
+    "name": "鲁杰罗·迪·劳里亚",
+    "originalNames": [
+      "Ruggiero di Lauria"
+    ],
+    "searchAliases": [
+      "Ruggiero di Lauria"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "da1869501e73a386",
+    "name": "圣路易斯",
+    "originalNames": [
+      "Saint-Louis"
+    ],
+    "searchAliases": [
+      "Saint-Louis"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "aa8521b931828134",
+    "name": "圣马丁",
+    "originalNames": [
+      "San Mart&iacute;n"
+    ],
+    "searchAliases": [
+      "San Mart&iacute;n"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "dd825e5736fd3b02",
+    "name": "桑坦德",
+    "originalNames": [
+      "Santander"
+    ],
+    "searchAliases": [
+      "Santander"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "06d74e47fa286b3d",
+    "name": "世宗",
+    "originalNames": [
+      "Sejong"
+    ],
+    "searchAliases": [
+      "Sejong"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "43762650e7e1f1aa",
+    "name": "利根",
+    "originalNames": [
+      "Tone"
+    ],
+    "searchAliases": [
+      "Tone"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "5d6a68eb4f047754",
+    "name": "腾跃兵",
+    "originalNames": [
+      "Voltigeur"
+    ],
+    "searchAliases": [
+      "Voltigeur"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "5908d1abb2001d25",
+    "name": "华盛顿",
+    "originalNames": [
+      "Washington"
+    ],
+    "searchAliases": [
+      "Washington"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "63ee281b741fac91",
+    "name": "魏玛",
+    "originalNames": [
+      "Weimar"
+    ],
+    "searchAliases": [
+      "Weimar"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "2b047bf368bf52bb",
+    "name": "悟空",
+    "originalNames": [
+      "Wukong"
+    ],
+    "searchAliases": [
+      "Wukong"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "1ae3c1feb6e1a0b4",
+    "name": "ZF-6",
+    "originalNames": [
+      "ZF-6"
+    ],
+    "searchAliases": [],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "ec60648207271735",
+    "name": "轰鸣",
+    "originalNames": [
+      "Грем"
+    ],
+    "searchAliases": [
+      "Грем"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "7e64f0857264bf6e",
+    "name": "沃坦号巡洋舰",
+    "originalNames": [
+      "крейсер Wotan"
+    ],
+    "searchAliases": [
+      "крейсер Wotan"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "1628096e97468d41",
+    "name": "米高扬",
+    "originalNames": [
+      "Микоян"
+    ],
+    "searchAliases": [
+      "Микоян"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "8d19d79ba0bd1882",
+    "name": "新罗西斯克",
+    "originalNames": [
+      "Новороссийск"
+    ],
+    "searchAliases": [
+      "Новороссийск"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "6339c21df905d92b",
+    "name": "北莫尔斯克",
+    "originalNames": [
+      "Североморск"
+    ],
+    "searchAliases": [
+      "Североморск"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "a5a0f8e5da991da1",
+    "name": "布里斯班",
+    "originalNames": [
+      "Brisbane"
+    ],
+    "searchAliases": [
+      "Brisbane"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "da10f3a634bf1178",
+    "name": "普利茅斯",
+    "originalNames": [
+      "Plymouth"
+    ],
+    "searchAliases": [
+      "Plymouth"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "0ddeb09302ade993",
+    "name": "石墙",
+    "originalNames": [
+      "Stonewall"
+    ],
+    "searchAliases": [
+      "Stonewall"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "cf0e8d4b1cd29963",
+    "name": "7月20日",
+    "originalNames": [
+      "20 de Julio"
+    ],
+    "searchAliases": [
+      "20 de Julio"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "1347eb7dd78c5129",
+    "name": "阿图瓦",
+    "originalNames": [
+      "Artois"
+    ],
+    "searchAliases": [
+      "Artois"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "623dc047fd64e3a1",
+    "name": "卡瓦哈尔",
+    "originalNames": [
+      "Carvajal"
+    ],
+    "searchAliases": [
+      "Carvajal"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "9a259f50c42d7163",
+    "name": "杰利科",
+    "originalNames": [
+      "Jellicoe"
+    ],
+    "searchAliases": [
+      "Jellicoe"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "920708bc85d20825",
+    "name": "新埃斯帕塔",
+    "originalNames": [
+      "Nueva Esparta"
+    ],
+    "searchAliases": [
+      "Nueva Esparta"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "fbe4c3f835ae5cc9",
+    "name": "帕拉",
+    "originalNames": [
+      "Par&aacute;"
+    ],
+    "searchAliases": [
+      "Par&aacute;"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "9088b0f1796d9c6a",
+    "name": "巴黎公社",
+    "originalNames": [
+      "Парижская коммуна"
+    ],
+    "searchAliases": [
+      "Парижская коммуна"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "0f28a6f993f9521f",
+    "name": "阿克里",
+    "originalNames": [
+      "Acre"
+    ],
+    "searchAliases": [
+      "Acre"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "b33bd483f0f13356",
+    "name": "鲁登道夫",
+    "originalNames": [
+      "Ludendorff"
+    ],
+    "searchAliases": [
+      "Ludendorff"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "32198f17d8cfd010",
+    "name": "进攻之月",
+    "originalNames": [
+      "Saldıray"
+    ],
+    "searchAliases": [
+      "萨尔迪雷",
+      "Saldıray"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "3a0373b553ae1d28",
+    "name": "苏维埃国家",
+    "originalNames": [
+      "«Страна советов»",
+      "Страна Советов"
+    ],
+    "searchAliases": [
+      "«Страна советов»",
+      "Страна Советов"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "18225c059d8380dc",
+    "name": "德·格拉斯'56",
+    "originalNames": [
+      "De Grasse '56"
+    ],
+    "searchAliases": [
+      "德格拉斯 '56",
+      "De Grasse '56"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "d4bc12b5b69e6ff4",
+    "name": "塞拉诺",
+    "originalNames": [
+      "Serrano"
+    ],
+    "searchAliases": [
+      "Serrano"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "ee29a0015ad057aa",
+    "name": "乌拉尔",
+    "originalNames": [
+      "Урал"
+    ],
+    "searchAliases": [
+      "Урал"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "e761742ead4e4dac",
+    "name": "埃塞克斯",
+    "originalNames": [
+      "Essex"
+    ],
+    "searchAliases": [
+      "Essex"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "7eae22f1715ea35e",
+    "name": "独立",
+    "originalNames": [
+      "Independence"
+    ],
+    "searchAliases": [
+      "Independence"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "c3c1850ead8552d9",
+    "name": "独立",
+    "originalNames": [
+      "Independence"
+    ],
+    "searchAliases": [
+      "Independence"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "50f29640d44cd016",
+    "name": "让·巴尔 '43",
+    "originalNames": [
+      "Jean Bart '43"
+    ],
+    "searchAliases": [
+      "Jean Bart '43"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "bbf53e45715f15b0",
+    "name": "利古里亚",
+    "originalNames": [
+      "Liguria"
+    ],
+    "searchAliases": [
+      "Liguria"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "b79504f2b61ec1c4",
+    "name": "约克城",
+    "originalNames": [
+      "Yorktown"
+    ],
+    "searchAliases": [
+      "Yorktown"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "131f7511c34a1409",
+    "name": "纳希莫夫海军上将",
+    "originalNames": [
+      "Адмирал Нахимов"
+    ],
+    "searchAliases": [
+      "Адмирал Нахимов"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "5e0150201018d06e",
+    "name": "炽热",
+    "originalNames": [
+      "Огненный"
+    ],
+    "searchAliases": [
+      "Огненный"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "4c75d6c72aab0bef",
+    "name": "绍武勉",
+    "originalNames": [
+      "Шаумян"
+    ],
+    "searchAliases": [
+      "Шаумян"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "da756b422f056084",
+    "name": "联盟",
+    "originalNames": [
+      "Alliance"
+    ],
+    "searchAliases": [
+      "Alliance"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "cae95a4c96973ee5",
+    "name": "阿基坦",
+    "originalNames": [
+      "Aquitaine"
+    ],
+    "searchAliases": [
+      "Aquitaine"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "2e727183ea4ef546",
+    "name": "射水鱼",
+    "originalNames": [
+      "Archerfish"
+    ],
+    "searchAliases": [
+      "Archerfish"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "9513d830e4aceab1",
+    "name": "香槟",
+    "originalNames": [
+      "Champagne"
+    ],
+    "searchAliases": [
+      "Champagne"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "336e4c10188b7fdc",
+    "name": "宪法",
+    "originalNames": [
+      "Constitution"
+    ],
+    "searchAliases": [
+      "Constitution"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "4bc0b6779bd39d30",
+    "name": "黛朵",
+    "originalNames": [
+      "Dido"
+    ],
+    "searchAliases": [
+      "Dido"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "2bc7a91da60e5375",
+    "name": "埃德加",
+    "originalNames": [
+      "Edgar"
+    ],
+    "searchAliases": [
+      "Edgar"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "6302ae72796f73c1",
+    "name": "埃利",
+    "originalNames": [
+      "Elli"
+    ],
+    "searchAliases": [
+      "Elli"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "0fdac3f8e008f17d",
+    "name": "翡翠",
+    "originalNames": [
+      "Emerald"
+    ],
+    "searchAliases": [
+      "Emerald"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "349795c27281655d",
+    "name": "斐济",
+    "originalNames": [
+      "Fiji"
+    ],
+    "searchAliases": [
+      "Fiji"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "ecf83d2beb7132f7",
+    "name": "福雷斯特·谢尔曼",
+    "originalNames": [
+      "Forrest Sherman"
+    ],
+    "searchAliases": [
+      "Forrest Sherman"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "5081ae49cef9b948",
+    "name": "英勇",
+    "originalNames": [
+      "Gallant"
+    ],
+    "searchAliases": [
+      "Gallant"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "3b5b74bd516bf148",
+    "name": "直布罗陀",
+    "originalNames": [
+      "Gibraltar"
+    ],
+    "searchAliases": [
+      "Gibraltar"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "da17f2bc52793171",
+    "name": "哈勒姆",
+    "originalNames": [
+      "Haarlem"
+    ],
+    "searchAliases": [
+      "Haarlem"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "2310b33dc45aefa1",
+    "name": "黄河",
+    "originalNames": [
+      "Huanghe"
+    ],
+    "searchAliases": [
+      "Huanghe"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "7ee5bde94a6f0bd4",
+    "name": "卡尔·冯·舍恩贝格",
+    "originalNames": [
+      "Karl von Sch&ouml;nberg"
+    ],
+    "searchAliases": [
+      "Karl von Sch&ouml;nberg"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "c4abcc0847fbedd5",
+    "name": "林奇",
+    "originalNames": [
+      "Lynch"
+    ],
+    "searchAliases": [
+      "Lynch"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "a5b4fba62000d2c4",
+    "name": "慕尼黑",
+    "originalNames": [
+      "M&uuml;nchen"
+    ],
+    "searchAliases": [
+      "M&uuml;nchen"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "3808e8c6635bc45d",
+    "name": "美因茨",
+    "originalNames": [
+      "Mainz"
+    ],
+    "searchAliases": [
+      "Mainz"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "1bcf6ad9a2b76fbd",
+    "name": "马可·奥雷利奥",
+    "originalNames": [
+      "Marco Aurelio"
+    ],
+    "searchAliases": [
+      "Marco Aurelio"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "b237cb5895758c2a",
+    "name": "马尔博罗",
+    "originalNames": [
+      "Marlborough"
+    ],
+    "searchAliases": [
+      "马尔伯勒",
+      "Marlborough"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "d8b97d9994c1c6bd",
+    "name": "海王星",
+    "originalNames": [
+      "Neptune"
+    ],
+    "searchAliases": [
+      "Neptune"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "815feb9e39fc93dc",
+    "name": "奥托·韦迪根",
+    "originalNames": [
+      "Otto Weddigen"
+    ],
+    "searchAliases": [
+      "Otto Weddigen"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "b36adb51b653c1f4",
+    "name": "总统",
+    "originalNames": [
+      "President"
+    ],
+    "searchAliases": [
+      "President"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "4f25333cf10eb818",
+    "name": "信浓",
+    "originalNames": [
+      "Shinano"
+    ],
+    "searchAliases": [
+      "Shinano"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "daef14b0c02f6ada",
+    "name": "吸血鬼 II",
+    "originalNames": [
+      "Vampire II"
+    ],
+    "searchAliases": [
+      "Vampire II"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "7d0a9734a2e232c2",
+    "name": "贝洛斯",
+    "originalNames": [
+      "Velos"
+    ],
+    "searchAliases": [
+      "Velos"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "4ddd89a345b7d8f2",
+    "name": "先登",
+    "originalNames": [
+      "Xian Deng"
+    ],
+    "searchAliases": [
+      "Xian Deng"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "5e1351475e512783",
+    "name": "Z-33",
+    "originalNames": [
+      "Z-33"
+    ],
+    "searchAliases": [],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "7ba03f0ff7cf039d",
+    "name": "Z-38",
+    "originalNames": [
+      "Z-38"
+    ],
+    "searchAliases": [],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "1627fdef44a6a37f",
+    "name": "乌沙科夫海军上将",
+    "originalNames": [
+      "Адмирал Ушаков"
+    ],
+    "searchAliases": [
+      "Адмирал Ушаков"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "93726986f7fb8f5f",
+    "name": "刻赤",
+    "originalNames": [
+      "Керчь"
+    ],
+    "searchAliases": [
+      "Керчь"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "fc138d735dd3d32a",
+    "name": "红色克里米亚",
+    "originalNames": [
+      "Красный Крым"
+    ],
+    "searchAliases": [
+      "Красный Крым"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "762058c14bb593e7",
+    "name": "波德沃伊斯基",
+    "originalNames": [
+      "Подвойский"
+    ],
+    "searchAliases": [
+      "Подвойский"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "c4e05940088cf605",
+    "name": "光荣",
+    "originalNames": [
+      "Слава"
+    ],
+    "searchAliases": [
+      "Слава"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "dd72ff16e7514d90",
+    "name": "现代",
+    "originalNames": [
+      "Современный"
+    ],
+    "searchAliases": [
+      "Современный"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "759ab1318d81cd15",
+    "name": "塔林",
+    "originalNames": [
+      "Таллин"
+    ],
+    "searchAliases": [
+      "Таллин"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "a30ba874f7daf53e",
+    "name": "恰巴耶夫",
+    "originalNames": [
+      "Чапаев"
+    ],
+    "searchAliases": [
+      "Чапаев"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "993db1e228fdf733",
+    "name": "埃塞克斯",
+    "originalNames": [
+      "Essex"
+    ],
+    "searchAliases": [
+      "Essex"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "61ffaead62dec31c",
+    "name": "约克城",
+    "originalNames": [
+      "Yorktown"
+    ],
+    "searchAliases": [
+      "Yorktown"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "2aec7132c84c6502",
+    "name": "阿肯色 Beta",
+    "originalNames": [
+      "Arkansas Beta"
+    ],
+    "searchAliases": [
+      "Arkansas Beta"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "d9c49d48a4b1616e",
+    "name": "贝勒罗丰",
+    "originalNames": [
+      "Bellerophon"
+    ],
+    "searchAliases": [
+      "Bellerophon"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "362cea5bd71a054d",
+    "name": "布列塔尼",
+    "originalNames": [
+      "Bretagne"
+    ],
+    "searchAliases": [
+      "Bretagne"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "3108504fa38247ca",
+    "name": "加富尔伯爵",
+    "originalNames": [
+      "Conte di Cavour"
+    ],
+    "searchAliases": [
+      "Conte di Cavour"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "2962479aeaf99c2b",
+    "name": "孤拔",
+    "originalNames": [
+      "Courbet"
+    ],
+    "searchAliases": [
+      "Courbet"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "79e69b5afd340634",
+    "name": "但丁·阿利吉耶里",
+    "originalNames": [
+      "Dante Alighieri"
+    ],
+    "searchAliases": [
+      "Dante Alighieri"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "1fa7dfbdd17672ae",
+    "name": "防卫",
+    "originalNames": [
+      "Defence"
+    ],
+    "searchAliases": [
+      "Defence"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "4fe1f59fa1786d47",
+    "name": "德弗林格尔",
+    "originalNames": [
+      "Derfflinger"
+    ],
+    "searchAliases": [
+      "Derfflinger"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "49b850b275eabe95",
+    "name": "无畏",
+    "originalNames": [
+      "Dreadnought"
+    ],
+    "searchAliases": [
+      "Dreadnought"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "1d2191ce81c5240d",
+    "name": "埃利奥·阿德里亚诺",
+    "originalNames": [
+      "Elio Adriano"
+    ],
+    "searchAliases": [
+      "Elio Adriano"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "a86ba35e70d2ebfd",
+    "name": "不倦",
+    "originalNames": [
+      "Indefatigable"
+    ],
+    "searchAliases": [
+      "Indefatigable"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "a69f4cdba8374638",
+    "name": "铁公爵",
+    "originalNames": [
+      "Iron Duke"
+    ],
+    "searchAliases": [
+      "Iron Duke"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "871740aa270c4a6e",
+    "name": "石槌",
+    "originalNames": [
+      "Ishizuchi"
+    ],
+    "searchAliases": [
+      "Ishizuchi"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "e2ed5b3169ddb4a0",
+    "name": "国王",
+    "originalNames": [
+      "K&ouml;nig"
+    ],
+    "searchAliases": [
+      "K&ouml;nig"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "2269b77f6eb9025a",
+    "name": "皇帝",
+    "originalNames": [
+      "Kaiser"
+    ],
+    "searchAliases": [
+      "Kaiser"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "e539052521b7de37",
+    "name": "河内",
+    "originalNames": [
+      "Kawachi"
+    ],
+    "searchAliases": [
+      "Kawachi"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "8aca1caaf8495f51",
+    "name": "三笠",
+    "originalNames": [
+      "Mikasa"
+    ],
+    "searchAliases": [
+      "Mikasa"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "afa4b2e45b52790d",
+    "name": "毛奇",
+    "originalNames": [
+      "Moltke"
+    ],
+    "searchAliases": [
+      "Moltke"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "81c85ecea8574c99",
+    "name": "妙义",
+    "originalNames": [
+      "Myōgi"
+    ],
+    "searchAliases": [
+      "Myōgi"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "cb64c68a522c4e79",
+    "name": "拿骚",
+    "originalNames": [
+      "Nassau"
+    ],
+    "searchAliases": [
+      "Nassau"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "5dcddd78ed418f46",
+    "name": "纽约",
+    "originalNames": [
+      "New York"
+    ],
+    "searchAliases": [
+      "New York"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "76d4c3acad47185c",
+    "name": "俄克拉荷马",
+    "originalNames": [
+      "Oklahoma"
+    ],
+    "searchAliases": [
+      "Oklahoma"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "3370542f08feb888",
+    "name": "猎户座",
+    "originalNames": [
+      "Orion"
+    ],
+    "searchAliases": [
+      "Orion"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "afa508ffd0935cc1",
+    "name": "玛丽女王",
+    "originalNames": [
+      "Queen Mary"
+    ],
+    "searchAliases": [
+      "Queen Mary"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "13354fa2db154bcc",
+    "name": "南卡罗来纳",
+    "originalNames": [
+      "South Carolina"
+    ],
+    "searchAliases": [
+      "South Carolina"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "bee8a6501522ea8f",
+    "name": "得克萨斯",
+    "originalNames": [
+      "Texas"
+    ],
+    "searchAliases": [
+      "Texas"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "bf37fb96d211451d",
+    "name": "虎",
+    "originalNames": [
+      "Tiger"
+    ],
+    "searchAliases": [
+      "Tiger"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "94249e9c3adc695f",
+    "name": "蒂雷纳",
+    "originalNames": [
+      "Turenne"
+    ],
+    "searchAliases": [
+      "Turenne"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "15689a5b12f6839e",
+    "name": "威尼斯测试",
+    "originalNames": [
+      "Venezia Test"
+    ],
+    "searchAliases": [
+      "Venezia Test"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "b7e5389b3806bbde",
+    "name": "冯·德·坦恩",
+    "originalNames": [
+      "Von der Tann"
+    ],
+    "searchAliases": [
+      "Von der Tann"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "6b7aca8b8a7feda1",
+    "name": "威廉·R·拉什",
+    "originalNames": [
+      "William R. Rush"
+    ],
+    "searchAliases": [
+      "William R. Rush"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "28fc111a8152b866",
+    "name": "怀俄明",
+    "originalNames": [
+      "Wyoming"
+    ],
+    "searchAliases": [
+      "Wyoming"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "05db5220b4bb2c32",
+    "name": "甘古特",
+    "originalNames": [
+      "Гангут"
+    ],
+    "searchAliases": [
+      "Гангут"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "5bcaa200e778c035",
+    "name": "苏沃洛夫公爵",
+    "originalNames": [
+      "Князь Суворов"
+    ],
+    "searchAliases": [
+      "Князь Суворов"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "cb237c5802c55b5c",
+    "name": "奥雷利奥·迪奥克莱齐亚诺",
+    "originalNames": [
+      "Aurelio Diocleziano"
+    ],
+    "searchAliases": [
+      "Aurelio Diocleziano"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "2fe4997be1846e65",
+    "name": "哈兰（测试）",
+    "originalNames": [
+      "Halland Test"
+    ],
+    "searchAliases": [
+      "Halland Test"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "ee6d39115c9e1e57",
+    "name": "I-2",
+    "originalNames": [
+      "I-2"
+    ],
+    "searchAliases": [],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "cd343b1dc65fc2ac",
+    "name": "巨浪",
+    "originalNames": [
+      "Julang"
+    ],
+    "searchAliases": [
+      "Julang"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "3d8c95cfeb1959a4",
+    "name": "帕索帕蒂",
+    "originalNames": [
+      "Pasopati"
+    ],
+    "searchAliases": [
+      "Pasopati"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "07946872eb27a751",
+    "name": "U-69",
+    "originalNames": [
+      "U-69"
+    ],
+    "searchAliases": [],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "b094426f2dd6566c",
+    "name": "乌尔皮乌斯·图拉真",
+    "originalNames": [
+      "Ulpio Traiano"
+    ],
+    "searchAliases": [
+      "Ulpio Traiano"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "d0c238b8b46f5770",
+    "name": "瓦莱里奥·科斯坦蒂诺",
+    "originalNames": [
+      "Valerio Constantino"
+    ],
+    "searchAliases": [
+      "Valerio Constantino"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "98866f3fd00d6c60",
+    "name": "拉扎列夫 Test",
+    "originalNames": [
+      "Лазарев Test",
+      "«Лазарев Test»"
+    ],
+    "searchAliases": [
+      "Лазарев Test",
+      "«Лазарев Test»"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "6ffa44a4e368788d",
+    "name": "钱斯勒斯维尔",
+    "originalNames": [
+      "Chancellorsville"
+    ],
+    "searchAliases": [
+      "Chancellorsville"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "8b4da44f897d8a5e",
+    "name": "黛安",
+    "originalNames": [
+      "Diane"
+    ],
+    "searchAliases": [
+      "Diane"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "76bddfc42b34b9a3",
+    "name": "猫鲨",
+    "originalNames": [
+      "Gato"
+    ],
+    "searchAliases": [
+      "加托",
+      "Gato"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "6bc1caedf56ec80d",
+    "name": "贾科莫·纳尼",
+    "originalNames": [
+      "Giacomo Nani"
+    ],
+    "searchAliases": [
+      "Giacomo Nani"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "07a93748c9af73f1",
+    "name": "伊-56",
+    "originalNames": [
+      "I-56"
+    ],
+    "searchAliases": [
+      "I-56"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "fb65c3fd9f78072c",
+    "name": "帝国",
+    "originalNames": [
+      "Impero"
+    ],
+    "searchAliases": [
+      "Impero"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "e922e4e047191f11",
+    "name": "鲑鱼",
+    "originalNames": [
+      "Salmon"
+    ],
+    "searchAliases": [
+      "Salmon"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "407e8abb30542901",
+    "name": "蓝宝石",
+    "originalNames": [
+      "Saphir"
+    ],
+    "searchAliases": [
+      "Saphir"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "529c80f1264e3969",
+    "name": "U-190",
+    "originalNames": [
+      "U-190"
+    ],
+    "searchAliases": [],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "043ffbed784abff1",
+    "name": "温蒂妮",
+    "originalNames": [
+      "Undine"
+    ],
+    "searchAliases": [
+      "Undine"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "e61dfd534d3974b4",
+    "name": "S-189",
+    "originalNames": [
+      "С-189"
+    ],
+    "searchAliases": [
+      "С-189"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "4421a8d58b3e625c",
+    "name": "阿贺野",
+    "originalNames": [
+      "Agano"
+    ],
+    "searchAliases": [
+      "Agano"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "1ce356ca15b49082",
+    "name": "阿尔伯马尔",
+    "originalNames": [
+      "Albemarle"
+    ],
+    "searchAliases": [
+      "Albemarle"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "5b70f0bb73676d44",
+    "name": "筑后",
+    "originalNames": [
+      "Chikugo"
+    ],
+    "searchAliases": [
+      "Chikugo"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "1fce2fb70eeddcf8",
+    "name": "德文郡",
+    "originalNames": [
+      "Devonshire"
+    ],
+    "searchAliases": [
+      "Devonshire"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "2bd38a971e08e3c2",
+    "name": "德雷克",
+    "originalNames": [
+      "Drake"
+    ],
+    "searchAliases": [
+      "Drake"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "bc22e790ab8e0a85",
+    "name": "歌利亚",
+    "originalNames": [
+      "Goliath"
+    ],
+    "searchAliases": [
+      "Goliath"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "2e562935730fd465",
+    "name": "雷鸣",
+    "originalNames": [
+      "Grom"
+    ],
+    "searchAliases": [
+      "Grom"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "c28184a69057aec2",
+    "name": "霍金斯",
+    "originalNames": [
+      "Hawkins"
+    ],
+    "searchAliases": [
+      "Hawkins"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "ef45ff38fe5920fe",
+    "name": "伊-54",
+    "originalNames": [
+      "I-54"
+    ],
+    "searchAliases": [
+      "I-54"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "692989d762fc3714",
+    "name": "拉齐奥",
+    "originalNames": [
+      "Lazio"
+    ],
+    "searchAliases": [
+      "Lazio"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "d2f19176c2b91859",
+    "name": "穆阿维内特",
+    "originalNames": [
+      "Muavenet"
+    ],
+    "searchAliases": [
+      "Muavenet"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "b3b50e83b84aa024",
+    "name": "抵抗",
+    "originalNames": [
+      "Resistance"
+    ],
+    "searchAliases": [
+      "Resistance"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "c0f23eacc2c13173",
+    "name": "罗伯斯庇尔",
+    "originalNames": [
+      "Robespierre"
+    ],
+    "searchAliases": [
+      "Robespierre"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "4d45d4e26bc675fe",
+    "name": "四万十",
+    "originalNames": [
+      "Shimanto"
+    ],
+    "searchAliases": [
+      "Shimanto"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "31de56d948a38682",
+    "name": "斯普利特",
+    "originalNames": [
+      "Split"
+    ],
+    "searchAliases": [
+      "Split"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "7f181b2ef029a45b",
+    "name": "萨里",
+    "originalNames": [
+      "Surrey"
+    ],
+    "searchAliases": [
+      "Surrey"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "f08ce7027836960b",
+    "name": "淀",
+    "originalNames": [
+      "Yodo"
+    ],
+    "searchAliases": [
+      "Yodo"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "eab0e6ef91bf5437",
+    "name": "红旗",
+    "originalNames": [
+      "Красное Знамя"
+    ],
+    "searchAliases": [
+      "Красное Знамя"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "61d198f37b97a4d1",
+    "name": "迪佩雷",
+    "originalNames": [
+      "Duperr&eacute;"
+    ],
+    "searchAliases": [
+      "Duperr&eacute;"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "7430ebd4877b5b44",
+    "name": "福尔班",
+    "originalNames": [
+      "Forbin"
+    ],
+    "searchAliases": [
+      "Forbin"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "e7bb6f6553211271",
+    "name": "老练",
+    "originalNames": [
+      "«Опытный»",
+      "Опытный"
+    ],
+    "searchAliases": [
+      "«Опытный»",
+      "Опытный"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "a3b503dc235200e0",
+    "name": "法金汉",
+    "originalNames": [
+      "Falkenhayn"
+    ],
+    "searchAliases": [
+      "Falkenhayn"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "ac27731a3de7e7ca",
+    "name": "马德里",
+    "originalNames": [
+      "Madrid"
+    ],
+    "searchAliases": [
+      "Madrid"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "a2ce47e8f70121c7",
+    "name": "安森",
+    "originalNames": [
+      "Anson"
+    ],
+    "searchAliases": [
+      "Anson"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "d025adfbaec2c55a",
+    "name": "青叶",
+    "originalNames": [
+      "Aoba"
+    ],
+    "searchAliases": [
+      "Aoba"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "c95b1b9d86a95995",
+    "name": "法拉格特",
+    "originalNames": [
+      "Farragut"
+    ],
+    "searchAliases": [
+      "Farragut"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "1342d49b225d372b",
+    "name": "基林",
+    "originalNames": [
+      "Gearing"
+    ],
+    "searchAliases": [
+      "Gearing"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "dd3cfc70e642bcd8",
+    "name": "兴登堡",
+    "originalNames": [
+      "Hindenburg"
+    ],
+    "searchAliases": [
+      "Hindenburg"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "d8ee66babcbd140a",
+    "name": "耶格尔",
+    "originalNames": [
+      "J&auml;ger"
+    ],
+    "searchAliases": [
+      "J&auml;ger"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "8dd5f4e105d6cddb",
+    "name": "堪萨斯",
+    "originalNames": [
+      "Kansas"
+    ],
+    "searchAliases": [
+      "Kansas"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "62fad512de78771e",
+    "name": "莱伯雷希特·马斯",
+    "originalNames": [
+      "Leberecht Maass"
+    ],
+    "searchAliases": [
+      "Leberecht Maass"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "37f25d6d0a242a8f",
+    "name": "马汉",
+    "originalNames": [
+      "Mahan"
+    ],
+    "searchAliases": [
+      "Mahan"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "b9c93a3e1dcabf29",
+    "name": "明尼苏达",
+    "originalNames": [
+      "Minnesota"
+    ],
+    "searchAliases": [
+      "Minnesota"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "5ca65ad536b37002",
+    "name": "蒙大拿",
+    "originalNames": [
+      "Montana"
+    ],
+    "searchAliases": [
+      "Montana"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "a4737557bbed1174",
+    "name": "尼古拉斯",
+    "originalNames": [
+      "Nicholas"
+    ],
+    "searchAliases": [
+      "Nicholas"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "5b1a87f9a760f3b4",
+    "name": "巴塔哥尼亚",
+    "originalNames": [
+      "Patagonia"
+    ],
+    "searchAliases": [
+      "Patagonia"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "2495d6473c2ab81d",
+    "name": "T-22",
+    "originalNames": [
+      "T-22"
+    ],
+    "searchAliases": [],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "ad744ad4653a2796",
+    "name": "瓦列霍",
+    "originalNames": [
+      "Vallejo"
+    ],
+    "searchAliases": [
+      "Vallejo"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "a6368191411744a3",
+    "name": "Z-23",
+    "originalNames": [
+      "Z-23"
+    ],
+    "searchAliases": [],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "62f70c6c1e482934",
+    "name": "Z-35",
+    "originalNames": [
+      "Z-35"
+    ],
+    "searchAliases": [],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "b659967e625b4492",
+    "name": "Z-46",
+    "originalNames": [
+      "Z-46"
+    ],
+    "searchAliases": [],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "8c7ca0b8dec474b8",
+    "name": "Z-52",
+    "originalNames": [
+      "Z-52"
+    ],
+    "searchAliases": [],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "e68caabcac7777f1",
+    "name": "博罗季诺",
+    "originalNames": [
+      "Бородино"
+    ],
+    "searchAliases": [
+      "Бородино"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "03c2661b6fec21a9",
+    "name": "审慎",
+    "originalNames": [
+      "Осмотрительный"
+    ],
+    "searchAliases": [
+      "Осмотрительный"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "4a73892e9ccf65d3",
+    "name": "奥恰科夫",
+    "originalNames": [
+      "Очаков"
+    ],
+    "searchAliases": [
+      "Очаков"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "f87cf7a2ecc86fd6",
+    "name": "勇猛",
+    "originalNames": [
+      "Смелый"
+    ],
+    "searchAliases": [
+      "Смелый"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "811f31898acc77fe",
+    "name": "机敏",
+    "originalNames": [
+      "Сообразительный"
+    ],
+    "searchAliases": [
+      "Сообразительный"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "19fb773bc645ffa3",
+    "name": "斗舰",
+    "originalNames": [
+      "Dou Jian"
+    ],
+    "searchAliases": [
+      "Dou Jian"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "8a9ec99f51356fd6",
+    "name": "九头龙",
+    "originalNames": [
+      "Kuzuryū"
+    ],
+    "searchAliases": [
+      "Kuzuryū"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "d33038255baf266a",
+    "name": "梅奥",
+    "originalNames": [
+      "Mayo"
+    ],
+    "searchAliases": [
+      "Mayo"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "590c2b94f5fe260b",
+    "name": "高傲",
+    "originalNames": [
+      "Горделивый"
+    ],
+    "searchAliases": [
+      "Горделивый"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "2daacf32566e89b3",
+    "name": "乌里扬诺夫斯克",
+    "originalNames": [
+      "Ульяновск"
+    ],
+    "searchAliases": [
+      "Ульяновск"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "28c2908e5777a631",
+    "name": "伏龙芝",
+    "originalNames": [
+      "Фрунзе"
+    ],
+    "searchAliases": [
+      "Фрунзе"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "c7d138a7307f89e3",
+    "name": "尤里·多尔戈鲁基",
+    "originalNames": [
+      "Юрий Долгорукий"
+    ],
+    "searchAliases": [
+      "Юрий Долгорукий"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "55f2b3a76dc5a813",
+    "name": "查克里",
+    "originalNames": [
+      "Chakri"
+    ],
+    "searchAliases": [
+      "Chakri"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "ba14854b8ef4c68a",
+    "name": "河内",
+    "originalNames": [
+      "Hanoi"
+    ],
+    "searchAliases": [
+      "Hanoi"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "2d8fd682fd5b2af9",
+    "name": "天宫",
+    "originalNames": [
+      "Tiangong"
+    ],
+    "searchAliases": [
+      "Tiangong"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "8d597b6f6108bb53",
+    "name": "安纳波利斯",
+    "originalNames": [
+      "Annapolis"
+    ],
+    "searchAliases": [
+      "Annapolis"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "f6214e7cfef8c32e",
+    "name": "达拉纳",
+    "originalNames": [
+      "Dalarna"
+    ],
+    "searchAliases": [
+      "Dalarna"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "afec73329961e1ac",
+    "name": "毁灭",
+    "originalNames": [
+      "Devastation"
+    ],
+    "searchAliases": [
+      "Devastation"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "87d35e57c30ee4c7",
+    "name": "东风",
+    "originalNames": [
+      "Dongfeng"
+    ],
+    "searchAliases": [
+      "Dongfeng"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "afac0c7e3e8c5256",
+    "name": "汉诺威",
+    "originalNames": [
+      "Hannover"
+    ],
+    "searchAliases": [
+      "Hannover"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "bb56cda16b8e6ae4",
+    "name": "衡水",
+    "originalNames": [
+      "Hengshui"
+    ],
+    "searchAliases": [
+      "Hengshui"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "0673191edbf643d7",
+    "name": "约书亚·汉弗莱斯",
+    "originalNames": [
+      "Joshua Humphreys"
+    ],
+    "searchAliases": [
+      "Joshua Humphreys"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "0f654d2a2e94c943",
+    "name": "昆明",
+    "originalNames": [
+      "Kunming"
+    ],
+    "searchAliases": [
+      "Kunming"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "e9381f29067304ed",
+    "name": "赤龙",
+    "originalNames": [
+      "Sekiryu"
+    ],
+    "searchAliases": [
+      "Sekiryu"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "ecb8fb46ee6b615f",
+    "name": "山雾",
+    "originalNames": [
+      "Yamagiri"
+    ],
+    "searchAliases": [
+      "Yamagiri"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "06bb2d3cfb9a9bea",
+    "name": "佐勒菲卡尔",
+    "originalNames": [
+      "Zulfiqar"
+    ],
+    "searchAliases": [
+      "Zulfiqar"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "516b694fd4187162",
+    "name": "佐尔基",
+    "originalNames": [
+      "Зоркий"
+    ],
+    "searchAliases": [
+      "Зоркий"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "63b9e47c0c753cc5",
+    "name": "信浓",
+    "originalNames": [
+      "Shinano"
+    ],
+    "searchAliases": [
+      "Shinano"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "071d33307381be73",
+    "name": "博加特里",
+    "originalNames": [
+      "Богатырь"
+    ],
+    "searchAliases": [
+      "Богатырь"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "6dfb4bdbee27bd98",
+    "name": "布琼尼",
+    "originalNames": [
+      "Будённый"
+    ],
+    "searchAliases": [
+      "Будённый"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "fb0663857d6e8cc0",
+    "name": "愤怒",
+    "originalNames": [
+      "Гневный"
+    ],
+    "searchAliases": [
+      "Гневный"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "4f1236b5ef89d306",
+    "name": "灵巧",
+    "originalNames": [
+      "Дельный"
+    ],
+    "searchAliases": [
+      "Дельный"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "d33444b37eeffc77",
+    "name": "大胆",
+    "originalNames": [
+      "Дерзкий"
+    ],
+    "searchAliases": [
+      "Дерзкий"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "8e097db2df0499e4",
+    "name": "伊兹梅尔",
+    "originalNames": [
+      "Измаил"
+    ],
+    "searchAliases": [
+      "Измаил"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "6e54e42d12fcf399",
+    "name": "伊贾斯拉夫",
+    "originalNames": [
+      "Изяслав"
+    ],
+    "searchAliases": [
+      "Изяслав"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "94164b431ce48c00",
+    "name": "基辅",
+    "originalNames": [
+      "Киев"
+    ],
+    "searchAliases": [
+      "Киев"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "9d32fd1db7a4ed1d",
+    "name": "科托夫斯基",
+    "originalNames": [
+      "Котовский"
+    ],
+    "searchAliases": [
+      "Котовский"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "47eb74bca9437a82",
+    "name": "列宁格勒",
+    "originalNames": [
+      "Ленинград"
+    ],
+    "searchAliases": [
+      "Ленинград"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "180535a08e2331bf",
+    "name": "明斯克",
+    "originalNames": [
+      "Минск"
+    ],
+    "searchAliases": [
+      "Минск"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "85657c66490d04b6",
+    "name": "诺维克",
+    "originalNames": [
+      "Новик"
+    ],
+    "searchAliases": [
+      "Новик"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "28e254b30c3e035a",
+    "name": "彼得大帝",
+    "originalNames": [
+      "Пётр Великий"
+    ],
+    "searchAliases": [
+      "Пётр Великий"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "2fc09e4c38413a75",
+    "name": "斯维特拉娜",
+    "originalNames": [
+      "Светлана"
+    ],
+    "searchAliases": [
+      "Светлана"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "7a49938ea71aec02",
+    "name": "警戒",
+    "originalNames": [
+      "Сторожевой"
+    ],
+    "searchAliases": [
+      "Сторожевой"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "3ecc6078c65b3fd1",
+    "name": "塔什干",
+    "originalNames": [
+      "Ташкент"
+    ],
+    "searchAliases": [
+      "Ташкент"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "5b13d7cb83f07b94",
+    "name": "赫塔",
+    "originalNames": [
+      "Hertha"
+    ],
+    "searchAliases": [
+      "Hertha"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "16fd1ac52362348c",
+    "name": "科顿艾尔",
+    "originalNames": [
+      "Kortenaer"
+    ],
+    "searchAliases": [
+      "Kortenaer"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "597ba61557aa4ec9",
+    "name": "夏风",
+    "originalNames": [
+      "Natsukaze"
+    ],
+    "searchAliases": [
+      "Natsukaze"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "5154235bb2b31980",
+    "name": "絮库夫",
+    "originalNames": [
+      "Surcouf"
+    ],
+    "searchAliases": [
+      "Surcouf"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "0660fb5b90aa0d0a",
+    "name": "西安",
+    "originalNames": [
+      "Xi'an"
+    ],
+    "searchAliases": [
+      "Xi'an"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "f0762c9cd62886ea",
+    "name": "斯维尔德洛夫斯克",
+    "originalNames": [
+      "Свердловск"
+    ],
+    "searchAliases": [
+      "Свердловск"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "973ce6b2a55274da",
+    "name": "闪电",
+    "originalNames": [
+      "Błyskawica"
+    ],
+    "searchAliases": [
+      "Błyskawica"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "d822602137429b29",
+    "name": "水牛城",
+    "originalNames": [
+      "Buffalo"
+    ],
+    "searchAliases": [
+      "Buffalo"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "6069a16a8cf16f55",
+    "name": "克劳塞维茨",
+    "originalNames": [
+      "Clausewitz"
+    ],
+    "searchAliases": [
+      "Clausewitz"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "180f774815469c38",
+    "name": "科林伍德",
+    "originalNames": [
+      "Collingwood"
+    ],
+    "searchAliases": [
+      "Collingwood"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "d5ae740240387431",
+    "name": "巨像",
+    "originalNames": [
+      "Colossus"
+    ],
+    "searchAliases": [
+      "Colossus"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "fcb18a49c242abf0",
+    "name": "美洲狮",
+    "originalNames": [
+      "Cougar"
+    ],
+    "searchAliases": [
+      "Cougar"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "c693cc1c026d32a9",
+    "name": "费利克斯·舒尔茨",
+    "originalNames": [
+      "Felix Schultz"
+    ],
+    "searchAliases": [
+      "Felix Schultz"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "bdd39ba1e3694743",
+    "name": "佛罗里达",
+    "originalNames": [
+      "Florida"
+    ],
+    "searchAliases": [
+      "Florida"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "9fcf9e69321b7b8f",
+    "name": "FR25",
+    "originalNames": [
+      "FR25"
+    ],
+    "searchAliases": [],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "b26026ae167b4fc8",
+    "name": "弗蕾亚",
+    "originalNames": [
+      "Freya"
+    ],
+    "searchAliases": [
+      "Freya"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "69943fc52af72982",
+    "name": "腓特烈大帝",
+    "originalNames": [
+      "Friedrich der Grosse"
+    ],
+    "searchAliases": [
+      "Friedrich der Grosse"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "01114db50dbd1cf9",
+    "name": "汉莎",
+    "originalNames": [
+      "Hansa"
+    ],
+    "searchAliases": [
+      "Hansa"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "7b2b632b664e1324",
+    "name": "飞龙",
+    "originalNames": [
+      "Hiryū"
+    ],
+    "searchAliases": [
+      "Hiryū"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "bf038ae3a55d0fb7",
+    "name": "衣阿华",
+    "originalNames": [
+      "Iowa"
+    ],
+    "searchAliases": [
+      "Iowa"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "d388e5a690835c9f",
+    "name": "兰布罗斯·卡措尼斯",
+    "originalNames": [
+      "Lambros Katsonis"
+    ],
+    "searchAliases": [
+      "Lambros Katsonis"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "6c63e2309116af8e",
+    "name": "狮",
+    "originalNames": [
+      "Lion"
+    ],
+    "searchAliases": [
+      "Lion"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "3586bbad0a69a6b8",
+    "name": "洛特林根",
+    "originalNames": [
+      "Lothringen"
+    ],
+    "searchAliases": [
+      "洛林",
+      "Lothringen"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "9e54077079359c89",
+    "name": "梅克伦堡",
+    "originalNames": [
+      "Mecklenburg"
+    ],
+    "searchAliases": [
+      "Mecklenburg"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "0a37ff2a2ae78289",
+    "name": "普鲁士",
+    "originalNames": [
+      "Preussen"
+    ],
+    "searchAliases": [
+      "Preussen"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "1066fbc2b4e5b1c9",
+    "name": "反击",
+    "originalNames": [
+      "Repulse"
+    ],
+    "searchAliases": [
+      "Repulse"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "e1e179477325ee13",
+    "name": "萨摩",
+    "originalNames": [
+      "Satsuma"
+    ],
+    "searchAliases": [
+      "Satsuma"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "05c8ef0f6906094d",
+    "name": "西雅图",
+    "originalNames": [
+      "Seattle"
+    ],
+    "searchAliases": [
+      "Seattle"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "192652c2a76f994b",
+    "name": "西利旺义",
+    "originalNames": [
+      "Siliwangi"
+    ],
+    "searchAliases": [
+      "Siliwangi"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "28eb58198f5aad48",
+    "name": "西姆斯",
+    "originalNames": [
+      "Sims"
+    ],
+    "searchAliases": [
+      "Sims"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "848caefe97c430be",
+    "name": "虎'59",
+    "originalNames": [
+      "Tiger '59"
+    ],
+    "searchAliases": [
+      "虎59",
+      "Tiger '59"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "7d5109f7a5fae7f6",
+    "name": "剑",
+    "originalNames": [
+      "Tsurugi"
+    ],
+    "searchAliases": [
+      "Tsurugi"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "c2963c8989f70d4e",
+    "name": "塔尔萨",
+    "originalNames": [
+      "Tulsa"
+    ],
+    "searchAliases": [
+      "Tulsa"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "f052ab3853b83c2e",
+    "name": "前卫",
+    "originalNames": [
+      "Vanguard"
+    ],
+    "searchAliases": [
+      "Vanguard"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "e36313d3ee831c6b",
+    "name": "维内塔",
+    "originalNames": [
+      "Vineta"
+    ],
+    "searchAliases": [
+      "Vineta"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "0d5d87bf7682037e",
+    "name": "弓张",
+    "originalNames": [
+      "Yumihari"
+    ],
+    "searchAliases": [
+      "Yumihari"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "cd47004b63aab5b2",
+    "name": "Z-32",
+    "originalNames": [
+      "Z-32"
+    ],
+    "searchAliases": [],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "107d6c4e59894120",
+    "name": "Z-44",
+    "originalNames": [
+      "Z-44"
+    ],
+    "searchAliases": [],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "7e3f8448b7121a3d",
+    "name": "瑞凤",
+    "originalNames": [
+      "Zuihō"
+    ],
+    "searchAliases": [
+      "Zuihō"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "8f27b79bfeb6d98a",
+    "name": "彼得·巴格拉季昂",
+    "originalNames": [
+      "Пётр Багратион"
+    ],
+    "searchAliases": [
+      "Пётр Багратион"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "21cbc8cd7208fc99",
+    "name": "大胆",
+    "originalNames": [
+      "Удалой"
+    ],
+    "searchAliases": [
+      "Удалой"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "1102dc124ce9ee7e",
+    "name": "A. 戴克里先",
+    "originalNames": [
+      "A. Diocleziano"
+    ],
+    "searchAliases": [
+      "A. Diocleziano"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "2255f11925353765",
+    "name": "皮埃蒙特",
+    "originalNames": [
+      "Piemonte"
+    ],
+    "searchAliases": [
+      "Piemonte"
+    ],
+    "currentShipStatus": "unknown",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "8caa952f274a2058",
+    "name": "V. 君士坦丁",
+    "originalNames": [
+      "V. Constantino"
+    ],
+    "searchAliases": [
+      "V. Constantino"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "4dff395ae2cceefc",
+    "name": "先登",
+    "originalNames": [
+      "Xian Deng"
+    ],
+    "searchAliases": [
+      "Xian Deng"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "694882f6de594b32",
+    "name": "沉着",
+    "originalNames": [
+      "Спокойный"
+    ],
+    "searchAliases": [
+      "Спокойный"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "9eeb0f8b47bd459e",
+    "name": "塔什干 '39",
+    "originalNames": [
+      "Ташкент '39"
+    ],
+    "searchAliases": [
+      "Ташкент '39"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  }
+]

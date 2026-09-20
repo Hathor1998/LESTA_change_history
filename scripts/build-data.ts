@@ -3,6 +3,8 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { buildGeneratedData, loadBalanceChanges, readSiteConfig, writeGeneratedData } from './data-lib.ts';
 import type { ChineseTranslationDatabase, OfficialBalanceDatabase } from '../src/types.ts';
+import { translationLookup } from './official-vocabulary.ts';
+import { enrichShips } from './ship-localization.ts';
 
 const __filename = fileURLToPath(import.meta.url);
 const databasePath = path.join(path.dirname(__filename), '..', 'data', 'database', 'korabli-official.json');
@@ -21,8 +23,7 @@ function localizeUnits(value: string): string {
 }
 
 function applyChineseTranslations(records: Awaited<ReturnType<typeof loadBalanceChanges>>, translations: Record<string, string>) {
-  const normalizedTranslations = new Map(Object.entries(translations).map(([source, translation]) => [source.trim(), translation]));
-  const translate = (value: string) => translations[value] ?? normalizedTranslations.get(value.trim()) ?? value;
+  const translate = translationLookup(translations);
   return records.map((record) => ({
     ...record,
     targetName: translate(record.targetName),
@@ -42,7 +43,9 @@ try {
     readFile(databasePath, 'utf8').then((source) => JSON.parse(source) as OfficialBalanceDatabase),
     readFile(translationPath, 'utf8').then((source) => JSON.parse(source) as ChineseTranslationDatabase),
   ]);
-  const data = buildGeneratedData(applyChineseTranslations(records, translationDatabase.translations), siteConfig);
+  const staged=records.map(r=>({...r,changeStage:officialDatabase.records.find(o=>o.targetName===r.targetName&&o.attribute===r.attribute&&o.version===r.version&&o.sourceSheet===r.sourceSheet)?.changeStage}));
+  const enriched=await enrichShips(staged,officialDatabase.records,translationLookup(translationDatabase.translations));
+  const data = buildGeneratedData(applyChineseTranslations(enriched, translationDatabase.translations), siteConfig);
   data.meta.officialData = {
     announcementCount: officialDatabase.announcements.length,
     rangeStart: officialDatabase.rangeStart,

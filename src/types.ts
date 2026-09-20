@@ -5,6 +5,11 @@ export type ChangeTag = 'test-ship' | 'released-ship' | 'converted-from-test' | 
 export type ImportParseMode = 'structured-table' | 'announcement-block';
 
 export interface BalanceChange {
+  changeStage?: 'public-test';
+  shipId?: string;
+  originalNames?: string[];
+  searchAliases?: string[];
+  currentShipStatus?: ShipStatus;
   id: string;
   category: ChangeCategory;
   targetName: string;
@@ -111,6 +116,8 @@ export interface UpdateBundleManifest {
 export type OfficialAnalysisConfidence = 'high' | 'medium' | 'low';
 
 export interface OfficialAnnouncement {
+  parserVersion?: number;
+  sourceKind?: 'blog' | 'portal' | 'manual';
   id: string;
   url: string;
   title: string;
@@ -120,6 +127,9 @@ export interface OfficialAnnouncement {
 }
 
 export interface OfficialBalanceRecord extends RawBalanceRow {
+  changeStage?: 'public-test';
+  entityId?: string;
+  sources?: Array<{ announcementId: string; url: string; originalText: string; notes?: string }>;
   id: string;
   category: ChangeCategory;
   announcementId: string;
@@ -131,8 +141,8 @@ export interface OfficialBalanceRecord extends RawBalanceRow {
 }
 
 export interface OfficialBalanceDatabase {
-  schemaVersion: 1;
-  source: 'blog.korabli.su';
+  schemaVersion: 1 | 2;
+  source: 'blog.korabli.su' | 'korabli-multi-source';
   syncedAt: string;
   rangeStart: string;
   rangeEnd: string;

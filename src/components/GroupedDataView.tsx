@@ -1,4 +1,5 @@
-import React, { useMemo, useState } from 'react';
+import React, { useEffect, useRef, useMemo, useState } from 'react';
+import BottomDock from './BottomDock';
 import { ChevronDown, ChevronUp, Filter, Search } from 'lucide-react';
 import {
   CATEGORY_LABELS,
@@ -10,6 +11,7 @@ import type { BalanceChange, ChangeCategory, ChangeTag, ShipStatus } from '../ty
 interface GroupedDataViewProps {
   data: BalanceChange[];
   category: ChangeCategory;
+  navigation: React.ReactNode;
 }
 
 function compareVersionsDesc(left: string, right: string): number {
@@ -40,7 +42,7 @@ function formatTier(tier: string): string {
 }
 
 function isGameVersion(version: string): boolean {
-  return /^\d{1,2}\.\d{1,2}$/.test(version);
+  return /^\d{1,2}\.\d{1,2}$/.test(version) || version === '待确认';
 }
 
 function trendTone(trend: BalanceChange['trend']): string {
@@ -68,7 +70,7 @@ function filterVisibleTags(tags: ChangeTag[], shipStatus: ShipStatus): ChangeTag
   });
 }
 
-export default function GroupedDataView({ data, category }: GroupedDataViewProps) {
+export default function GroupedDataView({ data, category, navigation }: GroupedDataViewProps) {
   const [searchTerm, setSearchTerm] = useState('');
   const [nationFilter, setNationFilter] = useState('');
   const [tierFilter, setTierFilter] = useState('');
@@ -76,6 +78,19 @@ export default function GroupedDataView({ data, category }: GroupedDataViewProps
   const [versionFilter, setVersionFilter] = useState('');
   const [shipStatusFilter, setShipStatusFilter] = useState<ShipStatus | ''>('');
   const [expandedGroups, setExpandedGroups] = useState<Record<string, boolean>>({});
+  const [allDetails, setAllDetails] = useState(false);
+  const [details, setDetails] = useState<Record<string, boolean>>({});
+  const dialog = useRef<HTMLDialogElement>(null);
+  const trigger = useRef<HTMLButtonElement>(null);
+  useEffect(() => {
+    const viewport = window.visualViewport;
+    const resize = () => {
+      dialog.current?.style.setProperty('--available-height', `${viewport?.height ?? window.innerHeight}px`);
+      dialog.current?.style.setProperty('--keyboard-inset', `${Math.max(0,window.innerHeight-(viewport?.height??window.innerHeight)-(viewport?.offsetTop??0))}px`);
+    };
+    resize(); viewport?.addEventListener('resize', resize); viewport?.addEventListener('scroll', resize);
+    return () => {viewport?.removeEventListener('resize', resize);viewport?.removeEventListener('scroll', resize);};
+  }, []);
 
   const categoryData = useMemo(() => data.filter((item) => item.category === category), [category, data]);
   const nations = useMemo(() => uniqueStrings(categoryData.map((item) => item.nation)).sort((a, b) => a.localeCompare(b, 'zh-CN')), [categoryData]);
@@ -91,6 +106,8 @@ export default function GroupedDataView({ data, category }: GroupedDataViewProps
         item.targetName,
         item.canonicalName,
         item.previousNames.join(' '),
+        ...(item.originalNames ?? []),
+        ...(item.searchAliases ?? []),
         item.attribute,
         item.notes,
       ].join(' ').toLowerCase();
@@ -100,7 +117,7 @@ export default function GroupedDataView({ data, category }: GroupedDataViewProps
       const matchesTier = tierFilter ? item.tier === tierFilter : true;
       const matchesType = typeFilter ? item.type === typeFilter : true;
       const matchesVersion = versionFilter ? item.version === versionFilter : true;
-      const matchesShipStatus = shipStatusFilter ? item.shipStatus === shipStatusFilter : true;
+      const matchesShipStatus = shipStatusFilter ? (item.currentShipStatus ?? item.shipStatus) === shipStatusFilter : true;
 
       return matchesSearch && matchesNation && matchesTier && matchesType && matchesVersion && matchesShipStatus;
     });
@@ -109,13 +126,13 @@ export default function GroupedDataView({ data, category }: GroupedDataViewProps
   const groupedEntries = useMemo(() => {
     const groups = new Map<string, BalanceChange[]>();
     filteredData.forEach((item) => {
-      const key = item.canonicalName || item.targetName;
+      const key = item.shipId ?? [item.canonicalName || item.targetName, item.nation, item.tier, item.type].join('|');
       const existing = groups.get(key) ?? [];
       existing.push(item);
       groups.set(key, existing);
     });
 
-    return [...groups.entries()].map(([groupName, changes]) => [groupName, changes.sort((left, right) => compareVersionsDesc(left.version, right.version))] as const);
+    return [...groups.entries()].map(([groupKey, changes]) => [groupKey, changes.sort((left, right) => compareVersionsDesc(left.version, right.version))] as const);
   }, [filteredData]);
 
   const toggleGroup = (groupName: string) => {
@@ -124,22 +141,26 @@ export default function GroupedDataView({ data, category }: GroupedDataViewProps
 
   return (
     <div className="space-y-6">
-      <div className="bg-white p-4 rounded-xl shadow-sm border border-slate-200">
+      <BottomDock>{navigation}<button ref={trigger} className="search-dock" onClick={() => {dialog.current?.showModal();dialog.current?.querySelector('input')?.focus();}}><Search size={20} /> 搜索 / 筛选 <span>{[searchTerm,nationFilter,tierFilter,typeFilter,versionFilter,shipStatusFilter].filter(Boolean).length || ''}</span></button></BottomDock>
+      <dialog ref={dialog} className="filter-dialog glass" onClick={e => {if(e.target === dialog.current) dialog.current.close();}} onClose={() => trigger.current?.focus()} aria-label="搜索与筛选">
+      <div className="p-4">
+        <div className="panel-heading"><strong>搜索与筛选 · {filteredData.length} 条</strong><button className="text-button" onClick={() => dialog.current?.close()}>完成</button></div>
         <div className="flex flex-col lg:flex-row gap-4">
           <div className="flex-1 relative">
             <Search className="h-5 w-5 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
             <input
               type="text"
+              aria-label="搜索舰船、原文名或属性"
               className="block w-full pl-10 pr-3 py-2 border border-slate-300 rounded-lg bg-white text-sm focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500"
-              placeholder={`搜索${CATEGORY_LABELS[category]}的规范名、曾用名或属性`}
+              placeholder={`搜索${CATEGORY_LABELS[category]}：中文、原文、旧译名或属性`}
               value={searchTerm}
               onChange={(event) => setSearchTerm(event.target.value)}
             />
           </div>
 
-          <div className="flex gap-2 overflow-x-auto pb-2 lg:pb-0">
+          <div className="flex gap-2 flex-wrap pb-2 lg:pb-0">
             {nations.length > 0 && (
-              <select className="block w-32 border border-slate-300 rounded-lg px-3 py-2 text-sm bg-white" value={nationFilter} onChange={(event) => setNationFilter(event.target.value)}>
+              <select aria-label="国籍" className="block w-32 border border-slate-300 rounded-lg px-3 py-2 text-sm bg-white" value={nationFilter} onChange={(event) => setNationFilter(event.target.value)}>
                 <option value="">全部国籍</option>
                 {nations.map((nation) => (
                   <option key={nation} value={nation}>{nation}</option>
@@ -148,7 +169,7 @@ export default function GroupedDataView({ data, category }: GroupedDataViewProps
             )}
 
             {tiers.length > 0 && (
-              <select className="block w-24 border border-slate-300 rounded-lg px-3 py-2 text-sm bg-white" value={tierFilter} onChange={(event) => setTierFilter(event.target.value)}>
+              <select aria-label="等级" className="block w-24 border border-slate-300 rounded-lg px-3 py-2 text-sm bg-white" value={tierFilter} onChange={(event) => setTierFilter(event.target.value)}>
                 <option value="">全部等级</option>
                 {tiers.map((tier) => (
                   <option key={tier} value={tier}>{formatTier(tier)}</option>
@@ -157,7 +178,7 @@ export default function GroupedDataView({ data, category }: GroupedDataViewProps
             )}
 
             {types.length > 0 && (
-              <select className="block w-32 border border-slate-300 rounded-lg px-3 py-2 text-sm bg-white" value={typeFilter} onChange={(event) => setTypeFilter(event.target.value)}>
+              <select aria-label="舰种" className="block w-32 border border-slate-300 rounded-lg px-3 py-2 text-sm bg-white" value={typeFilter} onChange={(event) => setTypeFilter(event.target.value)}>
                 <option value="">全部舰种</option>
                 {types.map((type) => (
                   <option key={type} value={type}>{type}</option>
@@ -166,7 +187,7 @@ export default function GroupedDataView({ data, category }: GroupedDataViewProps
             )}
 
             {category === 'ship' && (
-              <select className="block w-32 border border-slate-300 rounded-lg px-3 py-2 text-sm bg-white" value={shipStatusFilter} onChange={(event) => setShipStatusFilter(event.target.value as ShipStatus | '')}>
+              <select aria-label="舰船状态" className="block w-32 border border-slate-300 rounded-lg px-3 py-2 text-sm bg-white" value={shipStatusFilter} onChange={(event) => setShipStatusFilter(event.target.value as ShipStatus | '')}>
                 <option value="">全部状态</option>
                 <option value="released">正式船</option>
                 <option value="test">测试船</option>
@@ -175,7 +196,7 @@ export default function GroupedDataView({ data, category }: GroupedDataViewProps
             )}
 
             {versions.length > 0 && (
-              <select className="block w-28 border border-slate-300 rounded-lg px-3 py-2 text-sm bg-white" value={versionFilter} onChange={(event) => setVersionFilter(event.target.value)}>
+              <select aria-label="版本" className="block w-28 border border-slate-300 rounded-lg px-3 py-2 text-sm bg-white" value={versionFilter} onChange={(event) => setVersionFilter(event.target.value)}>
                 <option value="">全部版本</option>
                 {versions.map((version) => (
                   <option key={version} value={version}>{version}</option>
@@ -184,21 +205,28 @@ export default function GroupedDataView({ data, category }: GroupedDataViewProps
             )}
           </div>
         </div>
+        <button className="mt-4 text-blue-700" onClick={() => {setSearchTerm('');setNationFilter('');setTierFilter('');setTypeFilter('');setVersionFilter('');setShipStatusFilter('');}}>清空条件</button>
       </div>
+      </dialog>
+      <div className="results-toolbar"><span>{groupedEntries.length} 个对象 · {filteredData.length} 条记录</span><button className="text-button" onClick={() => {setAllDetails(!allDetails);setDetails({});}}>{allDetails ? '全部收起版本与备注' : '全部展开版本与备注'}</button></div>
 
       {groupedEntries.length > 0 ? (
         <div className="grid grid-cols-1 gap-6">
-          {groupedEntries.map(([groupName, changes]) => {
-            const isExpanded = expandedGroups[groupName] !== false;
+          {groupedEntries.map(([groupKey, changes]) => {
+            const groupName = changes[0].canonicalName || changes[0].targetName;
+            const isExpanded = expandedGroups[groupKey] !== false;
             const firstItem = changes[0];
+            const showDetails = details[groupKey] ?? allDetails;
+            const originals = uniqueStrings(changes.flatMap(item => item.originalNames ?? [])).filter(n => n !== groupName);
             const aliases = uniqueStrings(
               changes.flatMap((item) => [item.targetName, ...item.previousNames]).filter((name) => name !== groupName),
             );
-            const tags = filterVisibleTags(uniqueStrings(changes.flatMap((item) => item.tags)) as ChangeTag[], firstItem.shipStatus);
+            const tags = filterVisibleTags(uniqueStrings(changes.flatMap((item) => item.tags)) as ChangeTag[], firstItem.shipStatus).filter(t => t !== 'test-ship' && t !== 'released-ship');
 
             return (
-              <div key={groupName} className="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
-                <div className="bg-slate-50 px-6 py-4 border-b border-slate-200 flex justify-between items-center cursor-pointer hover:bg-slate-100 transition-colors" onClick={() => toggleGroup(groupName)}>
+              <div key={groupKey} className="ship-card bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
+                <div className="ship-card-heading">
+                <div role="button" tabIndex={0} aria-expanded={isExpanded} onKeyDown={e => {if(e.key==='Enter'||e.key===' '){e.preventDefault();toggleGroup(groupKey);}}} className="bg-slate-50 px-6 py-4 border-b border-slate-200 flex justify-between items-center cursor-pointer hover:bg-slate-100 transition-colors" onClick={() => toggleGroup(groupKey)}>
                   <div className="space-y-2">
                     <div className="flex items-center gap-3 flex-wrap">
                       <h3 className="text-lg font-bold text-slate-900">{groupName}</h3>
@@ -207,10 +235,11 @@ export default function GroupedDataView({ data, category }: GroupedDataViewProps
                       {firstItem.type && <span className="bg-white px-2.5 py-1 rounded-md border border-slate-200 text-xs text-slate-600">{firstItem.type}</span>}
                       {category === 'ship' && (
                         <span className="bg-blue-50 px-2.5 py-1 rounded-md border border-blue-100 text-xs text-blue-700">
-                          {SHIP_STATUS_LABELS[firstItem.shipStatus]}
+                          {SHIP_STATUS_LABELS[firstItem.currentShipStatus ?? firstItem.shipStatus]}
                         </span>
                       )}
                     </div>
+                    {originals.length > 0 && <p className="text-sm text-slate-500">{originals.join(' / ')}</p>}
                     {(aliases.length > 0 || tags.length > 0) && (
                       <div className="flex flex-wrap items-center gap-2 text-xs text-slate-500">
                         {aliases.length > 0 && <span>曾用名：{aliases.join(' / ')}</span>}
@@ -230,41 +259,33 @@ export default function GroupedDataView({ data, category }: GroupedDataViewProps
                     {isExpanded ? <ChevronUp className="w-5 h-5 text-slate-400" /> : <ChevronDown className="w-5 h-5 text-slate-400" />}
                   </div>
                 </div>
+                <button className="card-detail-button" aria-expanded={showDetails} onClick={() => {setDetails(v => ({...v,[groupKey]:!showDetails}));if(!showDetails)setExpandedGroups(v=>({...v,[groupKey]:true}));}}>{showDetails ? '收起详情' : '版本与备注'}</button>
+                </div>
 
                 {isExpanded && (
                   <div className="overflow-x-auto">
                     <table className="min-w-full divide-y divide-slate-200">
                       <thead className="bg-white">
                         <tr>
-                          <th className="px-6 py-3 text-left text-xs font-medium text-slate-500 uppercase tracking-wider">显示名</th>
                           <th className="px-6 py-3 text-left text-xs font-medium text-slate-500 uppercase tracking-wider">属性</th>
                           <th className="px-6 py-3 text-left text-xs font-medium text-slate-500 uppercase tracking-wider">原始值</th>
                           <th className="px-6 py-3 text-left text-xs font-medium text-slate-500 uppercase tracking-wider">改后数值</th>
-                          <th className="px-6 py-3 text-left text-xs font-medium text-slate-500 uppercase tracking-wider">版本</th>
-                          <th className="px-6 py-3 text-left text-xs font-medium text-slate-500 uppercase tracking-wider">备注</th>
                         </tr>
                       </thead>
                       <tbody className="bg-white divide-y divide-slate-100">
                         {changes.map((item) => (
-                          <tr key={item.id} className="hover:bg-slate-50 transition-colors">
-                            <td className="px-6 py-4 text-sm text-slate-900">
-                              <div className="font-medium">{item.targetName}</div>
-                              {item.targetName !== item.canonicalName && (
-                                <div className="text-xs text-slate-500 mt-1">规范名：{item.canonicalName}</div>
-                              )}
-                            </td>
-                            <td className="px-6 py-4 text-sm text-slate-900 font-medium">{item.attribute}</td>
+                          <React.Fragment key={item.id}><tr className="hover:bg-slate-50 transition-colors">
+                            <td className="px-6 py-4 text-sm text-slate-900 font-medium">{item.attribute}{item.changeStage==='public-test' && <span className="block mt-1 text-xs font-normal text-amber-700">26.10 公测 · 非正式服生效确认</span>}</td>
                             <td className="px-6 py-4 text-sm text-slate-500">{item.oldValue}</td>
                             <td className="px-6 py-4 text-sm">
                               <div className={trendTone(item.trend)}>{item.newValue}</div>
                             </td>
-                            <td className="px-6 py-4 text-sm text-slate-500">
+                          </tr>{showDetails && <tr><td colSpan={3} className="px-6 py-3 text-xs text-slate-500 break-words">
                               <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-blue-50 text-blue-700 border border-blue-100">
                                 {item.version}
                               </span>
-                            </td>
-                            <td className="px-6 py-4 text-sm text-slate-500">{item.notes || '-'}</td>
-                          </tr>
+                              <span className="ml-3">改动阶段：{item.changeStage==='public-test'?'公测':SHIP_STATUS_LABELS[item.shipStatus]}</span><p className="mt-2">{item.notes || '-'}</p>
+                            </td></tr>}</React.Fragment>
                         ))}
                       </tbody>
                     </table>

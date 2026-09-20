@@ -17,11 +17,11 @@ Danzig	Danzig		德国	9	巡洋舰	Минимальный интервал меж
 Danzig	Danzig		德国	9	巡洋舰	Время перезарядки серии залпов	25	27 с	26.7	官方公告：https://blog.korabli.su/blog/692	nerf	test		Korabli #692
 Budapest	Budapest		欧洲	9	战列舰	Время перезарядки ГК	22	20 с	26.7	官方公告：https://blog.korabli.su/blog/692	buff	test		Korabli #692
 Budapest	Budapest		欧洲	9	战列舰	Время действия снаряжения «Корректировщик огня»	100	180 с	26.7	官方公告：https://blog.korabli.su/blog/692	buff	test		Korabli #692
-Akagi	Akagi		日本	8		Урон ББ-бомбы	5500	4700	26.7	官方公告：https://blog.korabli.su/blog/692	nerf	test		Korabli #692
-Akagi	Akagi		日本	8		Запас боеспособности бомбардировщиков и тактических бомбардировщиков	1350	1270	26.7	官方公告：https://blog.korabli.su/blog/692	nerf	test		Korabli #692
-Akagi	Akagi		日本	8		Запас боеспособности штурмовиков и тактических штурмовиков	1300	1350	26.7	官方公告：https://blog.korabli.su/blog/692	buff	test		Korabli #692
-Akagi	Akagi		日本	8		Скорость штурмовиков и тактических штурмовиков	140	155 узлов	26.7	官方公告：https://blog.korabli.su/blog/692	buff	test		Korabli #692
-Akagi	Akagi		日本	8		Максимальная скорость штурмовиков и тактических штурмовиков	174	193 узлов	26.7	官方公告：https://blog.korabli.su/blog/692	buff	test		Korabli #692
+Akagi	Akagi		日本	8	航空母舰	Урон ББ-бомбы	5500	4700	26.7	官方公告：https://blog.korabli.su/blog/692	nerf	test		Korabli #692
+Akagi	Akagi		日本	8	航空母舰	Запас боеспособности бомбардировщиков и тактических бомбардировщиков	1350	1270	26.7	官方公告：https://blog.korabli.su/blog/692	nerf	test		Korabli #692
+Akagi	Akagi		日本	8	航空母舰	Запас боеспособности штурмовиков и тактических штурмовиков	1300	1350	26.7	官方公告：https://blog.korabli.su/blog/692	buff	test		Korabli #692
+Akagi	Akagi		日本	8	航空母舰	Скорость штурмовиков и тактических штурмовиков	140	155 узлов	26.7	官方公告：https://blog.korabli.su/blog/692	buff	test		Korabli #692
+Akagi	Akagi		日本	8	航空母舰	Максимальная скорость штурмовиков и тактических штурмовиков	174	193 узлов	26.7	官方公告：https://blog.korabli.su/blog/692	buff	test		Korabli #692
 New Jersey	New Jersey		美国	10	战列舰	Количество очков боеспособности	79700	84700 ед	26.7	官方公告：https://blog.korabli.su/blog/690	buff	test		Korabli #690
 Virginia	Virginia		美国	11	战列舰	Время перезарядки орудий ГК	31,5	32 с	26.7	官方公告：https://blog.korabli.su/blog/690	nerf	test		Korabli #690
 Shenandoah	Shenandoah		美国	10	巡洋舰	Дальность стрельбы орудий ГК	16	16,2 км	26.7	官方公告：https://blog.korabli.su/blog/690	buff	test		Korabli #690
@@ -30,11 +30,11 @@ Shenandoah	Shenandoah		美国	10	巡洋舰	Время перезарядки 2�
 Shenandoah	Shenandoah		美国	10	巡洋舰	Заметность с кораблей	11,6	11,4 км	26.7	官方公告：https://blog.korabli.su/blog/690	buff	test		Korabli #690
 Jenkins	Jenkins		美国	11	驱逐舰	Время перезарядки торпедных аппаратов	140	150 с	26.7	官方公告：https://blog.korabli.su/blog/690	nerf	test		Korabli #690
 Akagi	Akagi		日本	8		Изменены параметры стандартных бомбардировщиков Снижена точность сброса бомб примерно на 20%	—	—	26.7	官方公告：https://blog.korabli.su/blog/690	adjustment	test		Korabli #690
-Akagi	Akagi		日本	8		Максимальный урон ББ-бомбы	5900	5500 ед	26.7	官方公告：https://blog.korabli.su/blog/690	nerf	test		Korabli #690
+Akagi	Akagi		日本	8	航空母舰	Максимальный урон ББ-бомбы	5900	5500 ед	26.7	官方公告：https://blog.korabli.su/blog/690	nerf	test		Korabli #690
 Akagi	Akagi		日本	8		Крейсерская скорость стандартных и тактических бомбардировщиков увеличена со 120 до 130 уз	—	—	26.7	官方公告：https://blog.korabli.su/blog/690	adjustment	test		Korabli #690
 Akagi	Akagi		日本	8		Крейсерская скорость стандартных и тактических штурмовиков увеличена со 135 до 140 уз	—	—	26.7	官方公告：https://blog.korabli.su/blog/690	adjustment	test		Korabli #690
-Akagi	Akagi		日本	8		Максимальный урон ОФ-ракет стандартных штурмовиков	3150	3500 ед	26.7	官方公告：https://blog.korabli.su/blog/690	buff	test		Korabli #690
-Akagi	Akagi		日本	8		Максимальный урон ББ-ракет тактических штурмовиков	2500	2200 ед	26.7	官方公告：https://blog.korabli.su/blog/690	nerf	test		Korabli #690
+Akagi	Akagi		日本	8	航空母舰	Максимальный урон ОФ-ракет стандартных штурмовиков	3150	3500 ед	26.7	官方公告：https://blog.korabli.su/blog/690	buff	test		Korabli #690
+Akagi	Akagi		日本	8	航空母舰	Максимальный урон ББ-ракет тактических штурмовиков	2500	2200 ед	26.7	官方公告：https://blog.korabli.su/blog/690	nerf	test		Korabli #690
 ГДР	ГДР		苏联	10	战列舰	Заметность с кораблей	16,5	15,0 км	26.7	官方公告：https://blog.korabli.su/blog/690	buff	test		Korabli #690
 ГДР	ГДР		苏联	10	战列舰	Дальность хода торпед	14	15 км	26.7	官方公告：https://blog.korabli.su/blog/690	buff	test		Korabli #690
 Wotan	Wotan		德国	10	巡洋舰	Время перезарядки орудий ГК	30	29 с	26.7	官方公告：https://blog.korabli.su/blog/689	buff	test		Korabli #689
@@ -44,33 +44,33 @@ Chōkai	Chōkai		日本	9	巡洋舰	Время перезарядки оруди
 Sim&oacute;n Bol&iacute;var	Sim&oacute;n Bol&iacute;var		泛美	10	巡洋舰	Исправлена ошибка, из-за которой в редких ситуациях (например, в режиме «Гонка вооружений») крейсер получал слишком пониженный урон в уничтоженные части корабля (то есть даже меньше, чем 1/10 от урона снаряда)	—	—	26.7	官方公告：https://blog.korabli.su/blog/689	adjustment	test		Korabli #689
 Sim&oacute;n Bol&iacute;var	Sim&oacute;n Bol&iacute;var		泛美	10	巡洋舰	Учёт урона для восстановления боеспособности у снаряжения «Боевой ремонт»	50	60%	26.7	官方公告：https://blog.korabli.su/blog/689	buff	test		Korabli #689
 Наварин	Наварин		苏联	9	战列舰	Исправлена ошибка, из-за которой разные типы установок ПМК у линкора «Наварин» имели одинаковые снаряды. В связи с этим спаренные 130-м установки корабля получили новый ОФ-снаряд со следующими настройками: Урон снаряда: 1900 ед	—	—	26.7	官方公告：https://blog.korabli.su/blog/689	adjustment	test		Korabli #689
-Akagi	Akagi		日本	VIII	航空母舰	Количество снаряжения эскадрилий «Ремонт»	4	5	26.6	官方公告：https://blog.korabli.su/blog/685	buff	test		Korabli #685
-Akagi	Akagi		日本	VIII	航空母舰	Скорость стандартных и тактических штурмовиков	125	135 уз	26.6	官方公告：https://blog.korabli.su/blog/685	buff	test		Korabli #685
-Akagi	Akagi		日本	VIII	航空母舰	Скорость стандартных и тактических бомбардировщиков	110	120 уз	26.6	官方公告：https://blog.korabli.su/blog/685	buff	test		Korabli #685
-Akagi	Akagi		日本	VIII	航空母舰	Разброс бомб тактических бомбардировщиков уменьшен на ~28%	—	—	26.6	官方公告：https://blog.korabli.su/blog/685	adjustment	test		Korabli #685
-Akagi	Akagi		日本	VIII	航空母舰	Изменены параметры стандартных бомбардировщиков: Изменена формация: теперь эскадрилья состоит из двух атакующих звеньев по 5 самолётов	—	—	26.6	官方公告：https://blog.korabli.su/blog/685	adjustment	test		Korabli #685
-Akagi	Akagi		日本	VIII	航空母舰	Количество самолётов на палубе	23	26	26.6	官方公告：https://blog.korabli.su/blog/685	buff	test		Korabli #685
-Akagi	Akagi		日本	VIII	航空母舰	Максимальный урон ББ-бомбы	6200	5900 ед	26.6	官方公告：https://blog.korabli.su/blog/685	nerf	test		Korabli #685
-крейсер Wotan	крейсер Wotan		德国	X	战列舰	Параметр сигма орудий ГК	2,05	2,15	26.6	官方公告：https://blog.korabli.su/blog/685	buff	test		Korabli #685
-крейсер Wotan	крейсер Wotan		德国	X	战列舰	Время перезарядки орудий ГК	28	30 с	26.6	官方公告：https://blog.korabli.su/blog/685	nerf	test		Korabli #685
-крейсер Wotan	крейсер Wotan		德国	X	战列舰	Изменены параметры ББ-снарядов: Пробитие увеличено на ~5%	—	—	26.6	官方公告：https://blog.korabli.su/blog/685	adjustment	test		Korabli #685
-крейсер Wotan	крейсер Wotan		德国	X	战列舰	Минимальный угол, при котором начинается проверка на рикошет, увеличен на 5 градусов. Теперь по этому показателю ББ-снаряды Wotan аналогичны снарядам крейсера «Сталинград»	—	—	26.6	官方公告：https://blog.korabli.su/blog/685	adjustment	test		Korabli #685
-крейсер Wotan	крейсер Wotan		德国	X	战列舰	Максимальный урон	11000	10500 ед	26.6	官方公告：https://blog.korabli.su/blog/685	nerf	test		Korabli #685
-«ГДР»	«ГДР»		苏联	X	战列舰	Углы поворота носовой башни ГК увеличены 9 градусов в каждом направлении. Таким образом углы поворота этой башни станут аналогичны крейсеру Wotan	—	—	26.6	官方公告：https://blog.korabli.su/blog/685	adjustment	test		Korabli #685
-«ГДР»	«ГДР»		苏联	X	战列舰	Заметность с кораблей	6,6	7,1 км	26.6	官方公告：https://blog.korabli.su/blog/685	nerf	test		Korabli #685
-«ГДР»	«ГДР»		苏联	X	战列舰	Изменены параметры глубинных бомб: Количество зарядов	3	2	26.6	官方公告：https://blog.korabli.su/blog/685	nerf	test		Korabli #685
-«ГДР»	«ГДР»		苏联	X	战列舰	Время перезарядки уменьшено со 120 до 90 с	—	—	26.6	官方公告：https://blog.korabli.su/blog/685	adjustment	test		Korabli #685
-Oregon	Oregon		美国	VIII	战列舰	Параметр сигма орудий ГК	1,9	1,8	26.6	官方公告：https://blog.korabli.su/blog/685	nerf	test		Korabli #685
-Connecticut	Connecticut		美国	VII	战列舰	Бонус к скорости у снаряжения «Форсаж»	15	8%	26.6	官方公告：https://blog.korabli.su/blog/685	nerf	test		Korabli #685
-Washington	Washington		美国	VIII	战列舰	Бонус к скорости у снаряжения «Форсаж»	15	8%	26.6	官方公告：https://blog.korabli.su/blog/685	nerf	test		Korabli #685
-Washington	Washington		美国	VIII	战列舰	Время перезарядки орудий ПМК	5,1	5,5 с	26.6	官方公告：https://blog.korabli.su/blog/685	nerf	test		Korabli #685
-Washington	Washington		美国	VIII	战列舰	Заметность с кораблей	15,2	15,4 км	26.6	官方公告：https://blog.korabli.su/blog/685	nerf	test		Korabli #685
-Indiana	Indiana		美国	IX	战列舰	Время перезарядки орудий ПМК	4,8	5 с	26.6	官方公告：https://blog.korabli.su/blog/685	nerf	test		Korabli #685
-Indiana	Indiana		美国	IX	战列舰	Время перезарядки снаряжения «Ремонтная команда»	60	80 с	26.6	官方公告：https://blog.korabli.su/blog/685	nerf	test		Korabli #685
-Indiana	Indiana		美国	IX	战列舰	Максимальная скорость хода	28	30 уз	26.6	官方公告：https://blog.korabli.su/blog/685	buff	test		Korabli #685
-Northampton	Northampton		美国	X	巡洋舰	В отдельный слот добавлено снаряжение «Дымогенератор», аналогичное по характеристикам «Дымогенератору» Rochester	—	—	26.6	官方公告：https://blog.korabli.su/blog/685	adjustment	test		Korabli #685
-Kaimon	Kaimon		日本	X	巡洋舰	Время перезарядки орудий ГК	18,5	20 с	26.6	官方公告：https://blog.korabli.su/blog/685	nerf	test		Korabli #685
-Kaimon	Kaimon		日本	X	巡洋舰	Параметр сигма орудий ГК	2,05	1,9	26.6	官方公告：https://blog.korabli.su/blog/685	nerf	test		Korabli #685
+Akagi	Akagi		日本	8	航空母舰	Количество снаряжения эскадрилий «Ремонт»	4	5	26.6	官方公告：https://blog.korabli.su/blog/685	buff	test		Korabli #685
+Akagi	Akagi		日本	8	航空母舰	Скорость стандартных и тактических штурмовиков	125	135 уз	26.6	官方公告：https://blog.korabli.su/blog/685	buff	test		Korabli #685
+Akagi	Akagi		日本	8	航空母舰	Скорость стандартных и тактических бомбардировщиков	110	120 уз	26.6	官方公告：https://blog.korabli.su/blog/685	buff	test		Korabli #685
+Akagi	Akagi		日本	8	航空母舰	Разброс бомб тактических бомбардировщиков уменьшен на ~28%	—	—	26.6	官方公告：https://blog.korabli.su/blog/685	adjustment	test		Korabli #685
+Akagi	Akagi		日本	8	航空母舰	Изменены параметры стандартных бомбардировщиков: Изменена формация: теперь эскадрилья состоит из двух атакующих звеньев по 5 самолётов	—	—	26.6	官方公告：https://blog.korabli.su/blog/685	adjustment	test		Korabli #685
+Akagi	Akagi		日本	8	航空母舰	Количество самолётов на палубе	23	26	26.6	官方公告：https://blog.korabli.su/blog/685	buff	test		Korabli #685
+Akagi	Akagi		日本	8	航空母舰	Максимальный урон ББ-бомбы	6200	5900 ед	26.6	官方公告：https://blog.korabli.su/blog/685	nerf	test		Korabli #685
+крейсер Wotan	крейсер Wotan		德国	10	战列舰	Параметр сигма орудий ГК	2,05	2,15	26.6	官方公告：https://blog.korabli.su/blog/685	buff	test		Korabli #685
+крейсер Wotan	крейсер Wotan		德国	10	战列舰	Время перезарядки орудий ГК	28	30 с	26.6	官方公告：https://blog.korabli.su/blog/685	nerf	test		Korabli #685
+крейсер Wotan	крейсер Wotan		德国	10	战列舰	Изменены параметры ББ-снарядов: Пробитие увеличено на ~5%	—	—	26.6	官方公告：https://blog.korabli.su/blog/685	adjustment	test		Korabli #685
+крейсер Wotan	крейсер Wotan		德国	10	战列舰	Минимальный угол, при котором начинается проверка на рикошет, увеличен на 5 градусов. Теперь по этому показателю ББ-снаряды Wotan аналогичны снарядам крейсера «Сталинград»	—	—	26.6	官方公告：https://blog.korabli.su/blog/685	adjustment	test		Korabli #685
+крейсер Wotan	крейсер Wotan		德国	10	战列舰	Максимальный урон	11000	10500 ед	26.6	官方公告：https://blog.korabli.su/blog/685	nerf	test		Korabli #685
+«ГДР»	«ГДР»		苏联	10	战列舰	Углы поворота носовой башни ГК увеличены 9 градусов в каждом направлении. Таким образом углы поворота этой башни станут аналогичны крейсеру Wotan	—	—	26.6	官方公告：https://blog.korabli.su/blog/685	adjustment	test		Korabli #685
+«ГДР»	«ГДР»		苏联	10	战列舰	Заметность с кораблей	6,6	7,1 км	26.6	官方公告：https://blog.korabli.su/blog/685	nerf	test		Korabli #685
+«ГДР»	«ГДР»		苏联	10	战列舰	Изменены параметры глубинных бомб: Количество зарядов	3	2	26.6	官方公告：https://blog.korabli.su/blog/685	nerf	test		Korabli #685
+«ГДР»	«ГДР»		苏联	10	战列舰	Время перезарядки уменьшено со 120 до 90 с	—	—	26.6	官方公告：https://blog.korabli.su/blog/685	adjustment	test		Korabli #685
+Oregon	Oregon		美国	8	战列舰	Параметр сигма орудий ГК	1,9	1,8	26.6	官方公告：https://blog.korabli.su/blog/685	nerf	test		Korabli #685
+Connecticut	Connecticut		美国	7	战列舰	Бонус к скорости у снаряжения «Форсаж»	15	8%	26.6	官方公告：https://blog.korabli.su/blog/685	nerf	test		Korabli #685
+Washington	Washington		美国	8	战列舰	Бонус к скорости у снаряжения «Форсаж»	15	8%	26.6	官方公告：https://blog.korabli.su/blog/685	nerf	test		Korabli #685
+Washington	Washington		美国	8	战列舰	Время перезарядки орудий ПМК	5,1	5,5 с	26.6	官方公告：https://blog.korabli.su/blog/685	nerf	test		Korabli #685
+Washington	Washington		美国	8	战列舰	Заметность с кораблей	15,2	15,4 км	26.6	官方公告：https://blog.korabli.su/blog/685	nerf	test		Korabli #685
+Indiana	Indiana		美国	9	战列舰	Время перезарядки орудий ПМК	4,8	5 с	26.6	官方公告：https://blog.korabli.su/blog/685	nerf	test		Korabli #685
+Indiana	Indiana		美国	9	战列舰	Время перезарядки снаряжения «Ремонтная команда»	60	80 с	26.6	官方公告：https://blog.korabli.su/blog/685	nerf	test		Korabli #685
+Indiana	Indiana		美国	9	战列舰	Максимальная скорость хода	28	30 уз	26.6	官方公告：https://blog.korabli.su/blog/685	buff	test		Korabli #685
+Northampton	Northampton		美国	10	巡洋舰	В отдельный слот добавлено снаряжение «Дымогенератор», аналогичное по характеристикам «Дымогенератору» Rochester	—	—	26.6	官方公告：https://blog.korabli.su/blog/685	adjustment	test		Korabli #685
+Kaimon	Kaimon		日本	10	巡洋舰	Время перезарядки орудий ГК	18,5	20 с	26.6	官方公告：https://blog.korabli.su/blog/685	nerf	test		Korabli #685
+Kaimon	Kaimon		日本	10	巡洋舰	Параметр сигма орудий ГК	2,05	1,9	26.6	官方公告：https://blog.korabli.su/blog/685	nerf	test		Korabli #685
 Belfast '43	Belfast '43		英国	8	巡洋舰	Толщина обшивки оконечностей	16	25 мм	26.6	官方公告：https://blog.korabli.su/blog/684	adjustment	released		Korabli #684
 Belfast '43	Belfast '43		英国	8	巡洋舰	Толщина обшивки центральной части верхнего борта	19	25 мм	26.6	官方公告：https://blog.korabli.su/blog/684	adjustment	released		Korabli #684
 Belfast '43	Belfast '43		英国	8	巡洋舰	Толщина обшивки центральной части верхней палубы	19	27 мм	26.6	官方公告：https://blog.korabli.su/blog/684	adjustment	released		Korabli #684
@@ -276,10 +276,10 @@ Ludendorff	Ludendorff		德国	11	战列舰	Время перезарядки о�
 De Grasse '56	De Grasse '56		法国	9	巡洋舰	Максимальный урон ОФ-снаряда	1200	1400	26.2	官方公告：https://blog.korabli.su/blog/668	buff	test		Korabli #668
 De Grasse '56	De Grasse '56		法国	9	巡洋舰	Параметр сигма	1,6	1,8	26.2	官方公告：https://blog.korabli.su/blog/668	buff	test		Korabli #668
 Урал	Урал		苏联	9	战列舰	ББ-снарядам добавлены улучшенные углы рикошета (аналогичны X Слава )	—	—	26.2	官方公告：https://blog.korabli.su/blog/668	adjustment	test		Korabli #668
-De Grasse '56	De Grasse '56		法国	IX	巡洋舰	Бронирование оконечностей и центральной части корпуса	25	16 мм	26.2	官方公告：https://blog.korabli.su/blog/665	adjustment	released		Korabli #665
-De Grasse '56	De Grasse '56		法国	IX	巡洋舰	Бронирование центральной части палубы	27	16 мм	26.2	官方公告：https://blog.korabli.su/blog/665	adjustment	released		Korabli #665
-«Страна советов»	«Страна советов»		苏联	X	战列舰	Бронирование бронепояса каземата	32	60 мм	26.2	官方公告：https://blog.korabli.su/blog/665	adjustment	released		Korabli #665
-«Страна советов»	«Страна советов»		苏联	X	战列舰	Количество снаряжения «Ремонтная команда»	3	4	26.2	官方公告：https://blog.korabli.su/blog/665	buff	released		Korabli #665
+De Grasse '56	De Grasse '56		法国	9	巡洋舰	Бронирование оконечностей и центральной части корпуса	25	16 мм	26.2	官方公告：https://blog.korabli.su/blog/665	adjustment	released		Korabli #665
+De Grasse '56	De Grasse '56		法国	9	巡洋舰	Бронирование центральной части палубы	27	16 мм	26.2	官方公告：https://blog.korabli.su/blog/665	adjustment	released		Korabli #665
+«Страна советов»	«Страна советов»		苏联	10	战列舰	Бронирование бронепояса каземата	32	60 мм	26.2	官方公告：https://blog.korabli.su/blog/665	adjustment	released		Korabli #665
+«Страна советов»	«Страна советов»		苏联	10	战列舰	Количество снаряжения «Ремонтная команда»	3	4	26.2	官方公告：https://blog.korabli.su/blog/665	buff	released		Korabli #665
 Par&aacute;	Par&aacute;		泛美	9	驱逐舰	Время перезарядки «Ремонтной команды»	80	60 с	26.1	官方公告：https://blog.korabli.su/blog/664	buff	test		Korabli #664
 Carvajal	Carvajal		泛美	8	驱逐舰	Время бездействия до потери прогресса накопления Боевой инструкции	30	60 с	26.1	官方公告：https://blog.korabli.su/blog/664	adjustment	test		Korabli #664
 Acre	Acre		泛美	7	驱逐舰	Бронепробитие ББ-снарядов увеличено примерно на 25%	—	—	26.1	官方公告：https://blog.korabli.su/blog/664	adjustment	test		Korabli #664
@@ -295,14 +295,14 @@ Ludendorff	Ludendorff		德国	11	战列舰	Время перекладки ру�
 Шаумян	Шаумян		苏联	6	驱逐舰	Время перезарядки ТА	95	105 с	26.1	官方公告：https://blog.korabli.su/blog/664	nerf	test		Korabli #664
 Шаумян	Шаумян		苏联	6	驱逐舰	Заметность с кораблей	6,4	6,5 км	26.1	官方公告：https://blog.korabli.su/blog/664	nerf	test		Korabli #664
 Independence	Independence		美国	6		Скорость торпед	50	40 узлов (При этом дистанция взведения не изменилась )	26.1	官方公告：https://blog.korabli.su/blog/661	nerf	test		Korabli #661
-Independence	Independence		美国	6		Время перезарядки разведчиков	120	150 с	26.1	官方公告：https://blog.korabli.su/blog/661	nerf	test		Korabli #661
-Independence	Independence		美国	6		Количество снаряжения «Перехватчик» у эскадрильи торпедоносцев	3	5	26.1	官方公告：https://blog.korabli.su/blog/661	buff	test		Korabli #661
-Yorktown	Yorktown		美国	8		Максимальный урон торпед	4089	3990	26.1	官方公告：https://blog.korabli.su/blog/661	nerf	test		Korabli #661
-Yorktown	Yorktown		美国	8		Количество снаряжения «Перехватчик» у эскадрильи торпедоносцев	3	5	26.1	官方公告：https://blog.korabli.su/blog/661	buff	test		Korabli #661
-Essex	Essex		美国	10		Количество торпедоносцев в эскадрилье	12	10	26.1	官方公告：https://blog.korabli.su/blog/661	nerf	test		Korabli #661
-Essex	Essex		美国	10		Количество торпедоносцев на палубе	48	42	26.1	官方公告：https://blog.korabli.su/blog/661	nerf	test		Korabli #661
-Essex	Essex		美国	10		Боеспособность торпедоносцев	3410	3250	26.1	官方公告：https://blog.korabli.su/blog/661	nerf	test		Korabli #661
-Essex	Essex		美国	10		Количество снаряжения «Перехватчик» у эскадрильи торпедоносцев	3	5	26.1	官方公告：https://blog.korabli.su/blog/661	buff	test		Korabli #661
+Independence	Independence		美国	6	航空母舰	Время перезарядки разведчиков	120	150 с	26.1	官方公告：https://blog.korabli.su/blog/661	nerf	test		Korabli #661
+Independence	Independence		美国	6	航空母舰	Количество снаряжения «Перехватчик» у эскадрильи торпедоносцев	3	5	26.1	官方公告：https://blog.korabli.su/blog/661	buff	test		Korabli #661
+Yorktown	Yorktown		美国	8	航空母舰	Максимальный урон торпед	4089	3990	26.1	官方公告：https://blog.korabli.su/blog/661	nerf	test		Korabli #661
+Yorktown	Yorktown		美国	8	航空母舰	Количество снаряжения «Перехватчик» у эскадрильи торпедоносцев	3	5	26.1	官方公告：https://blog.korabli.su/blog/661	buff	test		Korabli #661
+Essex	Essex		美国	10	航空母舰	Количество торпедоносцев в эскадрилье	12	10	26.1	官方公告：https://blog.korabli.su/blog/661	nerf	test		Korabli #661
+Essex	Essex		美国	10	航空母舰	Количество торпедоносцев на палубе	48	42	26.1	官方公告：https://blog.korabli.su/blog/661	nerf	test		Korabli #661
+Essex	Essex		美国	10	航空母舰	Боеспособность торпедоносцев	3410	3250	26.1	官方公告：https://blog.korabli.su/blog/661	nerf	test		Korabli #661
+Essex	Essex		美国	10	航空母舰	Количество снаряжения «Перехватчик» у эскадрильи торпедоносцев	3	5	26.1	官方公告：https://blog.korabli.su/blog/661	buff	test		Korabli #661
 Liguria	Liguria		意大利	11	巡洋舰	Максимальный урон ПББ снаряда	3900	5200	26.1	官方公告：https://blog.korabli.su/blog/661	buff	test		Korabli #661
 Liguria	Liguria		意大利	11	巡洋舰	Время перезарядки орудий ГК	14	19 с	26.1	官方公告：https://blog.korabli.su/blog/661	nerf	test		Korabli #661
 Шаумян	Шаумян		苏联	6	驱逐舰	Максимальный урон торпед	9306	8976	26.1	官方公告：https://blog.korabli.su/blog/661	nerf	test		Korabli #661
@@ -313,11 +313,11 @@ Liguria	Liguria		意大利	11	巡洋舰	Время перезарядки ору
 Огненный	Огненный		苏联	9	驱逐舰	Время перезарядки ГК	3,5	3,3 с	26.1	官方公告：https://blog.korabli.su/blog/660	buff	test		Korabli #660
 Огненный	Огненный		苏联	9	驱逐舰	Время перезарядки ТА	90	85 с	26.1	官方公告：https://blog.korabli.su/blog/660	buff	test		Korabli #660
 Sim&oacute;n Bol&iacute;var	Sim&oacute;n Bol&iacute;var		泛美	10	巡洋舰	Уменьшен разброс снарядов ГК. Он станет равен разбросу снарядов ГК San Mart&iacute;n	—	—	26.1	官方公告：https://blog.korabli.su/blog/660	adjustment	test		Korabli #660
-Independence	Independence		美国	6		Количество торпедоносцев на палубе	24	28	26.1	官方公告：https://blog.korabli.su/blog/660	buff	test		Korabli #660
-Yorktown	Yorktown		美国	8		Максимальный урон торпеды у торпедоносцев	3894	4089 ед	26.1	官方公告：https://blog.korabli.su/blog/660	buff	test		Korabli #660
-Yorktown	Yorktown		美国	8		Максимальная скорость полёта тактических штурмовиков	209	231 уз	26.1	官方公告：https://blog.korabli.su/blog/660	buff	test		Korabli #660
-Essex	Essex		美国	10		Скорость полёта торпедоносцев	119	131 уз	26.1	官方公告：https://blog.korabli.su/blog/660	buff	test		Korabli #660
-Essex	Essex		美国	10		Максимальная скорость полёта торпедоносцев	144	166 уз	26.1	官方公告：https://blog.korabli.su/blog/660	buff	test		Korabli #660
+Independence	Independence		美国	6	航空母舰	Количество торпедоносцев на палубе	24	28	26.1	官方公告：https://blog.korabli.su/blog/660	buff	test		Korabli #660
+Yorktown	Yorktown		美国	8	航空母舰	Максимальный урон торпеды у торпедоносцев	3894	4089 ед	26.1	官方公告：https://blog.korabli.su/blog/660	buff	test		Korabli #660
+Yorktown	Yorktown		美国	8	航空母舰	Максимальная скорость полёта тактических штурмовиков	209	231 уз	26.1	官方公告：https://blog.korabli.su/blog/660	buff	test		Korabli #660
+Essex	Essex		美国	10	航空母舰	Скорость полёта торпедоносцев	119	131 уз	26.1	官方公告：https://blog.korabli.su/blog/660	buff	test		Korabli #660
+Essex	Essex		美国	10	航空母舰	Максимальная скорость полёта торпедоносцев	144	166 уз	26.1	官方公告：https://blog.korabli.su/blog/660	buff	test		Korabli #660
 Адмирал Нахимов	Адмирал Нахимов		苏联	10		Бонус ко времени работы ракетных ускорителей	+60	+150%	26.1	官方公告：https://blog.korabli.su/blog/660	adjustment	test		Korabli #660
 Адмирал Нахимов	Адмирал Нахимов		苏联	10		Штраф к урону вооружения эскадрилий	-10	-20%	26.1	官方公告：https://blog.korabli.su/blog/660	nerf	test		Korabli #660
 Грем	Грем		苏联	8	巡洋舰	Время перезарядки орудий ГК	12,5	11 с	25.12	官方公告：https://blog.korabli.su/blog/656	buff	test		Korabli #656
@@ -336,12 +336,12 @@ Oregon	Oregon		美国	8	战列舰	Время перезарядки орудий
 Шаумян	Шаумян		苏联	6	驱逐舰	Заметность с кораблей	6,3	6,4 км	25.12	官方公告：https://blog.korabli.su/blog/656	nerf	test		Korabli #656
 President	President		美国	10	战列舰	Время перезарядки 127-мм орудий ПМК	3,8	3 с	25.12	官方公告：https://blog.korabli.su/blog/656	buff	test		Korabli #656
 President	President		美国	10	战列舰	Время перезарядки 152-мм орудий ПМК	5,5	5 с	25.12	官方公告：https://blog.korabli.su/blog/656	buff	test		Korabli #656
-Independence	Independence		美国	6		Время восстановления тактических штурмовиков (ОФ)	200	230 секунд	25.12	官方公告：https://blog.korabli.su/blog/656	nerf	test		Korabli #656
-Independence	Independence		美国	6		Боеспособность торпедоносцев	1510	1340	25.12	官方公告：https://blog.korabli.su/blog/656	nerf	test		Korabli #656
-Yorktown	Yorktown		美国	8		Время восстановления тактических штурмовиков (ОФ)	200	230 секунд	25.12	官方公告：https://blog.korabli.su/blog/656	nerf	test		Korabli #656
-Yorktown	Yorktown		美国	8		Боеспособность торпедоносцев	2580	2090	25.12	官方公告：https://blog.korabli.su/blog/656	nerf	test		Korabli #656
-Yorktown	Yorktown		美国	8		Урон торпед	4653	3894	25.12	官方公告：https://blog.korabli.su/blog/656	nerf	test		Korabli #656
-Essex	Essex		美国	10		Урон торпед	5844	6429	25.12	官方公告：https://blog.korabli.su/blog/656	buff	test		Korabli #656
+Independence	Independence		美国	6	航空母舰	Время восстановления тактических штурмовиков (ОФ)	200	230 секунд	25.12	官方公告：https://blog.korabli.su/blog/656	nerf	test		Korabli #656
+Independence	Independence		美国	6	航空母舰	Боеспособность торпедоносцев	1510	1340	25.12	官方公告：https://blog.korabli.su/blog/656	nerf	test		Korabli #656
+Yorktown	Yorktown		美国	8	航空母舰	Время восстановления тактических штурмовиков (ОФ)	200	230 секунд	25.12	官方公告：https://blog.korabli.su/blog/656	nerf	test		Korabli #656
+Yorktown	Yorktown		美国	8	航空母舰	Боеспособность торпедоносцев	2580	2090	25.12	官方公告：https://blog.korabli.su/blog/656	nerf	test		Korabli #656
+Yorktown	Yorktown		美国	8	航空母舰	Урон торпед	4653	3894	25.12	官方公告：https://blog.korabli.su/blog/656	nerf	test		Korabli #656
+Essex	Essex		美国	10	航空母舰	Урон торпед	5844	6429	25.12	官方公告：https://blog.korabli.su/blog/656	buff	test		Korabli #656
 Грем	Грем		苏联	8	巡洋舰	Время перезарядки ГК	13,5	12,5 с	25.11	官方公告：https://blog.korabli.su/blog/655	buff	test		Korabli #655
 Грем	Грем		苏联	8	巡洋舰	Заметность с кораблей	13,8	13,3 км	25.11	官方公告：https://blog.korabli.su/blog/655	buff	test		Korabli #655
 President	President		美国	10	战列舰	Заметность с кораблей	14,8	14,3 км	25.11	官方公告：https://blog.korabli.su/blog/655	buff	test		Korabli #655
@@ -350,16 +350,16 @@ President	President		美国	10	战列舰	Заметность с корабле�
 Страна Советов	Страна Советов		苏联	10	战列舰	Время перезарядки орудий ГК	33	31,5 с	25.11	官方公告：https://blog.korabli.su/blog/655	buff	test		Korabli #655
 Aquitaine	Aquitaine		法国	11	战列舰	Время перезарядки орудий ГК	24	26,5 с	25.11	官方公告：https://blog.korabli.su/blog/655	nerf	test		Korabli #655
 Aquitaine	Aquitaine		法国	11	战列舰	Добавлен альтернативный режим стрельбы (переключаемая серия залпов) со следующими характеристиками: Количество залпов — 2	—	—	25.11	官方公告：https://blog.korabli.su/blog/655	adjustment	test		Korabli #655
-Independence	Independence		美国	6		ПТЗ	24	3%	25.11	官方公告：https://blog.korabli.su/blog/655	adjustment	test		Korabli #655
+Independence	Independence		美国	6	航空母舰	ПТЗ	24	3%	25.11	官方公告：https://blog.korabli.su/blog/655	adjustment	test		Korabli #655
 Independence	Independence		美国	6		Время перезарядки Аваиаудара (ГБ) уменьшено со 120 до 60 с	—	—	25.11	官方公告：https://blog.korabli.su/blog/655	adjustment	test		Korabli #655
-Yorktown	Yorktown		美国	8		ПТЗ	15	27%	25.11	官方公告：https://blog.korabli.su/blog/655	adjustment	test		Korabli #655
+Yorktown	Yorktown		美国	8	航空母舰	ПТЗ	15	27%	25.11	官方公告：https://blog.korabli.su/blog/655	adjustment	test		Korabli #655
 Yorktown	Yorktown		美国	8		Время перезарядки Аваиаудара (ГБ) уменьшено со 120 до 60 с	—	—	25.11	官方公告：https://blog.korabli.su/blog/655	adjustment	test		Korabli #655
-Essex	Essex		美国	10		ПТЗ	24	33%	25.11	官方公告：https://blog.korabli.su/blog/655	adjustment	test		Korabli #655
+Essex	Essex		美国	10	航空母舰	ПТЗ	24	33%	25.11	官方公告：https://blog.korabli.su/blog/655	adjustment	test		Korabli #655
 Essex	Essex		美国	10		Время перезарядки Аваиаудара (ГБ) уменьшено со 120 до 60 с	—	—	25.11	官方公告：https://blog.korabli.su/blog/655	adjustment	test		Korabli #655
-Shinano	Shinano		日本	10		Количество бомбардировщиков на палубе	9	13	25.12	官方公告：https://blog.korabli.su/blog/654	buff	released		Korabli #654
-Shinano	Shinano		日本	10		Количество штурмовиков на палубе	12	16	25.12	官方公告：https://blog.korabli.su/blog/654	buff	released		Korabli #654
-Shinano	Shinano		日本	10		Уменьшена высота полёта штурмовиков во время подготовки к атаке и атаки. Это позволит эффективнее уклоняться от огня ПВО	—	—	25.12	官方公告：https://blog.korabli.su/blog/654	adjustment	released		Korabli #654
-Shinano	Shinano		日本	10		Время стрельбы пулемётов перед атакой у штурмовиков	2,6	1,8 с	25.12	官方公告：https://blog.korabli.su/blog/654	adjustment	released		Korabli #654
+Shinano	Shinano		日本	10	航空母舰	Количество бомбардировщиков на палубе	9	13	25.12	官方公告：https://blog.korabli.su/blog/654	buff	released		Korabli #654
+Shinano	Shinano		日本	10	航空母舰	Количество штурмовиков на палубе	12	16	25.12	官方公告：https://blog.korabli.su/blog/654	buff	released		Korabli #654
+Shinano	Shinano		日本	10	航空母舰	Уменьшена высота полёта штурмовиков во время подготовки к атаке и атаки. Это позволит эффективнее уклоняться от огня ПВО	—	—	25.12	官方公告：https://blog.korabli.su/blog/654	adjustment	released		Korabli #654
+Shinano	Shinano		日本	10	航空母舰	Время стрельбы пулемётов перед атакой у штурмовиков	2,6	1,8 с	25.12	官方公告：https://blog.korabli.su/blog/654	adjustment	released		Korabli #654
 Gibraltar	Gibraltar		英国	10	巡洋舰	Дальность стрельбы ГК	16,9	18,5 км	25.12	官方公告：https://blog.korabli.su/blog/654	buff	released		Korabli #654
 Gibraltar	Gibraltar		英国	10	巡洋舰	Бронепробитие ББ-снарядов увеличено примерно на 20%	—	—	25.12	官方公告：https://blog.korabli.su/blog/654	adjustment	released		Korabli #654
 Brisbane	Brisbane		英联邦	10	巡洋舰	Дальность хода торпед	13,5	15 км	25.12	官方公告：https://blog.korabli.su/blog/654	buff	released		Korabli #654
@@ -378,7 +378,7 @@ Z-33	Z-33		德国	8	驱逐舰	Время перезарядки орудий Г�
 Z-33	Z-33		德国	8	驱逐舰	Время перезарядки ТА	96	106 с	25.12	官方公告：https://blog.korabli.su/blog/654	nerf	released		Korabli #654
 Z-38	Z-38		德国	8	驱逐舰	Время перезарядки ТА	73	80 с	25.12	官方公告：https://blog.korabli.su/blog/654	nerf	released		Korabli #654
 Błyskawica '63	Błyskawica '63		欧洲	8	驱逐舰	Заметность с кораблей	7,3	7,4 км Соответственно увеличены другие виды заметности	25.12	官方公告：https://blog.korabli.su/blog/654	nerf	released		Korabli #654
-Xian Deng	Xian Deng		泛亚	8		Максимальный урон ББ-бомбы	8800	6300 ед	25.12	官方公告：https://blog.korabli.su/blog/654	nerf	released		Korabli #654
+Xian Deng	Xian Deng		泛亚	8	航空母舰	Максимальный урон ББ-бомбы	8800	6300 ед	25.12	官方公告：https://blog.korabli.su/blog/654	nerf	released		Korabli #654
 Marlborough	Marlborough		英国	9	战列舰	Изменены характеристики ОФ-снарядов (они стали более «британскими», аналогичными по характеристикам фугасам линкора VII Duke of York ) Максимальный урон	4800	6100 ед	25.12	官方公告：https://blog.korabli.su/blog/654	buff	released		Korabli #654
 Marlborough	Marlborough		英国	9	战列舰	Шанс поджога	24	41%	25.12	官方公告：https://blog.korabli.su/blog/654	buff	released		Korabli #654
 Слава	Слава		苏联	10	战列舰	Время перезарядки орудий ГК	33,5	32 с	25.12	官方公告：https://blog.korabli.su/blog/654	buff	released		Korabli #654
@@ -436,12 +436,12 @@ Karl von Sch&ouml;nberg	Karl von Sch&ouml;nberg		德国	6	驱逐舰	Время �
 Constitution	Constitution		美国	8	巡洋舰	Время перезарядки орудий ГК	20	22 с	25.11	官方公告：https://blog.korabli.su/blog/650	nerf	test		Korabli #650
 Constitution	Constitution		美国	8	巡洋舰	Дальность хода торпед	6,7	8,5 км	25.11	官方公告：https://blog.korabli.su/blog/650	buff	test		Korabli #650
 Constitution	Constitution		美国	8	巡洋舰	Увеличены углы пуска торпед: На 10 градусов в направлении носа	—	—	25.11	官方公告：https://blog.korabli.su/blog/650	adjustment	test		Korabli #650
-Essex	Essex		美国	10		Максимальный урон торпед	7095	5844 ед	25.11	官方公告：https://blog.korabli.su/blog/650	nerf	test		Korabli #650
+Essex	Essex		美国	10	航空母舰	Максимальный урон торпед	7095	5844 ед	25.11	官方公告：https://blog.korabli.su/blog/650	nerf	test		Korabli #650
 Essex	Essex		美国	10		Время перезарядки разведчиков уменьшено со 180 до 120 с	—	—	25.11	官方公告：https://blog.korabli.su/blog/650	adjustment	test		Korabli #650
-Yorktown	Yorktown		美国	8		Максимальный урон торпед	6369	4458 ед	25.11	官方公告：https://blog.korabli.su/blog/650	nerf	test		Korabli #650
+Yorktown	Yorktown		美国	8	航空母舰	Максимальный урон торпед	6369	4458 ед	25.11	官方公告：https://blog.korabli.su/blog/650	nerf	test		Korabli #650
 Yorktown	Yorktown		美国	8		Время перезарядки разведчиков уменьшено со 180 до 120 с	—	—	25.11	官方公告：https://blog.korabli.su/blog/650	adjustment	test		Korabli #650
-Independence	Independence		美国	6		Изменены параметры торпедоносцев: Максимальный урон торпед	4653	3300	25.11	官方公告：https://blog.korabli.su/blog/650	nerf	test		Korabli #650
-Independence	Independence		美国	6		Боеспособность самолётов	1710	1510 ед	25.11	官方公告：https://blog.korabli.su/blog/650	nerf	test		Korabli #650
+Independence	Independence		美国	6	航空母舰	Изменены параметры торпедоносцев: Максимальный урон торпед	4653	3300	25.11	官方公告：https://blog.korabli.su/blog/650	nerf	test		Korabli #650
+Independence	Independence		美国	6	航空母舰	Боеспособность самолётов	1710	1510 ед	25.11	官方公告：https://blog.korabli.su/blog/650	nerf	test		Korabli #650
 Independence	Independence		美国	6		Уменьшено количество самолётов: В эскадрилье: с 8 до 6	—	—	25.11	官方公告：https://blog.korabli.su/blog/650	adjustment	test		Korabli #650
 Independence	Independence		美国	6		Время перезарядки разведчиков уменьшено со 180 до 120 с	—	—	25.11	官方公告：https://blog.korabli.su/blog/650	adjustment	test		Korabli #650
 Defence	Defence		英国	10	巡洋舰	«Ремонтная команда» заменена на «Ремонтный дивизион», аналогичный по характеристикам дивизиону Goliath	—	—	25.10	官方公告：https://blog.korabli.su/blog/648	adjustment	test		Korabli #648
@@ -453,16 +453,16 @@ William R. Rush	William R. Rush		美国	10	驱逐舰	Шанс вызвать з�
 Constitution	Constitution		美国	8	巡洋舰	Время перезарядки «Ремонтной команды»	80	40 с	25.10	官方公告：https://blog.korabli.su/blog/648	buff	test		Korabli #648
 President	President		美国	10	战列舰	Заметность с кораблей	15,8	14,8 км	25.10	官方公告：https://blog.korabli.su/blog/648	buff	test		Korabli #648
 President	President		美国	10	战列舰	Соответственно, уменьшены другие виды заметности	—	—	25.10	官方公告：https://blog.korabli.su/blog/648	adjustment	test		Korabli #648
-Essex	Essex		美国	10		Максимальный урон торпеды	8349	7095	25.10	官方公告：https://blog.korabli.su/blog/648	nerf	test		Korabli #648
+Essex	Essex		美国	10	航空母舰	Максимальный урон торпеды	8349	7095	25.10	官方公告：https://blog.korabli.su/blog/648	nerf	test		Korabli #648
 Essex	Essex		美国	10		Время перезарядки разведчиков увеличено со 100 до 180 с	—	—	25.10	官方公告：https://blog.korabli.su/blog/648	adjustment	test		Korabli #648
-Essex	Essex		美国	10		Время работы разведчиков	60	45 с	25.10	官方公告：https://blog.korabli.su/blog/648	nerf	test		Korabli #648
-Essex	Essex		美国	10		Боеспособность самолёта-разведчика	3000	1500	25.10	官方公告：https://blog.korabli.su/blog/648	nerf	test		Korabli #648
+Essex	Essex		美国	10	航空母舰	Время работы разведчиков	60	45 с	25.10	官方公告：https://blog.korabli.su/blog/648	nerf	test		Korabli #648
+Essex	Essex		美国	10	航空母舰	Боеспособность самолёта-разведчика	3000	1500	25.10	官方公告：https://blog.korabli.su/blog/648	nerf	test		Korabli #648
 Yorktown	Yorktown		美国	8		Время перезарядки разведчиков увеличено со 100 до 180 с	—	—	25.10	官方公告：https://blog.korabli.su/blog/648	adjustment	test		Korabli #648
-Yorktown	Yorktown		美国	8		Время работы разведчиков	60	45 с	25.10	官方公告：https://blog.korabli.su/blog/648	nerf	test		Korabli #648
-Yorktown	Yorktown		美国	8		Боеспособность самолёта-разведчика	2500	1250	25.10	官方公告：https://blog.korabli.su/blog/648	nerf	test		Korabli #648
+Yorktown	Yorktown		美国	8	航空母舰	Время работы разведчиков	60	45 с	25.10	官方公告：https://blog.korabli.su/blog/648	nerf	test		Korabli #648
+Yorktown	Yorktown		美国	8	航空母舰	Боеспособность самолёта-разведчика	2500	1250	25.10	官方公告：https://blog.korabli.su/blog/648	nerf	test		Korabli #648
 Independence	Independence		美国	6		Время перезарядки разведчиков увеличено со 100 до 180 с	—	—	25.10	官方公告：https://blog.korabli.su/blog/648	adjustment	test		Korabli #648
-Independence	Independence		美国	6		Время работы разведчиков	60	45 с	25.10	官方公告：https://blog.korabli.su/blog/648	nerf	test		Korabli #648
-Independence	Independence		美国	6		Боеспособность самолёта-разведчика	2000	1000	25.10	官方公告：https://blog.korabli.su/blog/648	nerf	test		Korabli #648
+Independence	Independence		美国	6	航空母舰	Время работы разведчиков	60	45 с	25.10	官方公告：https://blog.korabli.su/blog/648	nerf	test		Korabli #648
+Independence	Independence		美国	6	航空母舰	Боеспособность самолёта-разведчика	2000	1000	25.10	官方公告：https://blog.korabli.su/blog/648	nerf	test		Korabli #648
 Marco Aurelio	Marco Aurelio		意大利	8	巡洋舰	Максимальный урон ПББ-снаряда	2550	2350 ед	25.10	官方公告：https://blog.korabli.su/blog/646	nerf	test		Korabli #646
 Marco Aurelio	Marco Aurelio		意大利	8	巡洋舰	Заметность с кораблей	10,2	10,6 км	25.10	官方公告：https://blog.korabli.su/blog/646	nerf	test		Korabli #646
 Elio Adriano	Elio Adriano		意大利	9	巡洋舰	Максимальный урон ПББ-снаряда	2550	2350 ед	25.10	官方公告：https://blog.korabli.su/blog/646	nerf	test		Korabli #646
@@ -566,42 +566,42 @@ U-2501	U-2501		德国	10	潜艇	Время перезарядки базовог
 U-2501	U-2501		德国	10	潜艇	Время перезарядки исследуемого модуля ТА	50	40 с	25.9	官方公告：https://blog.korabli.su/blog/637	buff	released		Korabli #637
 Б-4	Б-4		苏联	11	潜艇	Удалено снаряжение «Ремонтная команда»	—	—	25.9	官方公告：https://blog.korabli.su/blog/637	adjustment	released		Korabli #637
 Б-4	Б-4		苏联	11	潜艇	Радиус поражения глубинных бомб, сбрасываемых с кораблей, увеличен на две трети	—	—	25.9	官方公告：https://blog.korabli.su/blog/637	adjustment	released		Korabli #637
-Chikugo	Chikugo		日本	X	巡洋舰	Время перезарядки орудий ГК	3	3,3 с	2025.08	官方公告：https://blog.korabli.su/blog/636	nerf	test		Korabli #636
-«Лазарев Test»	«Лазарев Test»		日本	X	战列舰	Время поворота орудий на 180 градусов	60	50 с	2025.08	官方公告：https://blog.korabli.su/blog/636	buff	test		Korabli #636
-«Лазарев Test»	«Лазарев Test»		日本	X	战列舰	Время перезарядки снаряжения «Боевой форсаж»	120	90 с	2025.08	官方公告：https://blog.korabli.su/blog/636	buff	test		Korabli #636
-«Лазарев Test»	«Лазарев Test»		日本	X	战列舰	Время перезарядки орудий ГК	16	15,5 с	2025.08	官方公告：https://blog.korabli.su/blog/636	buff	test		Korabli #636
-«Лазарев Test»	«Лазарев Test»		日本	X	战列舰	Изменены параметры снаряжения «Поисковая РЛС»: Время работы	10	12 с	2025.08	官方公告：https://blog.korabli.su/blog/636	buff	test		Korabli #636
-«Лазарев Test»	«Лазарев Test»		日本	X	战列舰	Количество снаряжения	3	4	2025.08	官方公告：https://blog.korabli.su/blog/636	buff	test		Korabli #636
-«Лазарев Test»	«Лазарев Test»		日本	X	战列舰	Время перезарядки	120	90 с	2025.08	官方公告：https://blog.korabli.su/blog/636	buff	test		Korabli #636
-Halland Test	Halland Test		法国	X	驱逐舰	Дальность хода торпед	8	9 км	2025.08	官方公告：https://blog.korabli.su/blog/636	buff	test		Korabli #636
-Impero	Impero		意大利	IX	战列舰	Время перезарядки орудий ГК	25	26 с	2025.08	官方公告：https://blog.korabli.su/blog/636	nerf	test		Korabli #636
-A. Diocleziano	A. Diocleziano		意大利	VI	巡洋舰	Время действия снаряжения «Дымогенератор полного хода»	45	30 с	2025.08	官方公告：https://blog.korabli.su/blog/636	nerf	test		Korabli #636
-A. Diocleziano	A. Diocleziano		意大利	VI	巡洋舰	Время действия снаряжения «Боевой Форсаж»	50	35 с	2025.08	官方公告：https://blog.korabli.su/blog/636	nerf	test		Korabli #636
-A. Diocleziano	A. Diocleziano		意大利	VI	巡洋舰	Время перезарядки ГК	6,5	7,5 с	2025.08	官方公告：https://blog.korabli.su/blog/636	nerf	test		Korabli #636
-V. Constantino	V. Constantino		意大利	VII	巡洋舰	Время действия снаряжения «Дымогенератор полного хода»	45	30 с	2025.08	官方公告：https://blog.korabli.su/blog/636	nerf	test		Korabli #636
-V. Constantino	V. Constantino		意大利	VII	巡洋舰	Время действия снаряжения «Боевой Форсаж»	50	35 с	2025.08	官方公告：https://blog.korabli.su/blog/636	nerf	test		Korabli #636
-V. Constantino	V. Constantino		意大利	VII	巡洋舰	Время перезарядки орудий ГК	6,5	7,5 с	2025.08	官方公告：https://blog.korabli.su/blog/636	nerf	test		Korabli #636
-I-2	I-2		日本	X	潜艇	Время перезарядки торпед	35	45 с	2025.08	官方公告：https://blog.korabli.su/blog/636	nerf	test		Korabli #636
-I-2	I-2		日本	X	潜艇	Время перезарядки сонара	5	6 с	2025.08	官方公告：https://blog.korabli.su/blog/636	nerf	test		Korabli #636
-I-2	I-2		日本	X	潜艇	Ширина сектора пуска торпед увеличена на 55 градусов в обе стороны	—	—	2025.08	官方公告：https://blog.korabli.su/blog/636	adjustment	test		Korabli #636
-I-2	I-2		日本	X	潜艇	Дальность акустических торпед	6	9 км	2025.08	官方公告：https://blog.korabli.su/blog/636	buff	test		Korabli #636
-I-2	I-2		日本	X	潜艇	Урон акустических торпед	7805	11055	2025.08	官方公告：https://blog.korabli.su/blog/636	buff	test		Korabli #636
-I-2	I-2		日本	X	潜艇	Обычные торпеды заменены на термические и получили следующие характеристики: Дальность хода — 17 км	—	—	2025.08	官方公告：https://blog.korabli.su/blog/636	adjustment	test		Korabli #636
-I-2	I-2		日本	X	潜艇	Шанс затопления	26	170%	2025.08	官方公告：https://blog.korabli.su/blog/636	buff	test		Korabli #636
-I-2	I-2		日本	X	潜艇	Дальность действия шумопеленгатора	8	9 км	2025.08	官方公告：https://blog.korabli.su/blog/636	buff	test		Korabli #636
-I-2	I-2		日本	X	潜艇	Дальность взведения всех типов торпед	360	750 м	2025.08	官方公告：https://blog.korabli.su/blog/636	buff	test		Korabli #636
-President	President		美国	X	战列舰	Максимальная дальность авиаудара (ГБ)	11	10 км	2025.08	官方公告：https://blog.korabli.su/blog/636	nerf	test		Korabli #636
-«Лазарев Test»	«Лазарев Test»		日本	X	战列舰	Количество очков боеспособности	84300	96600	25.8	官方公告：https://blog.korabli.su/blog/628	buff	test		Korabli #628
-«Лазарев Test»	«Лазарев Test»		日本	X	战列舰	Время перезарядки орудий ГК	33	31,5 с	25.8	官方公告：https://blog.korabli.su/blog/628	buff	test		Korabli #628
-«Лазарев Test»	«Лазарев Test»		日本	X	战列舰	Дальность стрельбы ГК	21,6	23 км	25.8	官方公告：https://blog.korabli.su/blog/628	buff	test		Korabli #628
-Venezia Test	Venezia Test		欧洲	X	巡洋舰	Время перезарядки орудий ГК	15	16 с	25.8	官方公告：https://blog.korabli.su/blog/628	nerf	test		Korabli #628
-Venezia Test	Venezia Test		欧洲	X	巡洋舰	Время перезарядки снаряжения «Боевой форсаж»	90	120 с	25.8	官方公告：https://blog.korabli.su/blog/628	nerf	test		Korabli #628
-Venezia Test	Venezia Test		欧洲	X	巡洋舰	Время работы снаряжения «Боевой форсаж»	60	45 с	25.8	官方公告：https://blog.korabli.su/blog/628	nerf	test		Korabli #628
-Halland Test	Halland Test		法国	X	驱逐舰	Дальность стрельбы ГК	12	12.8 км	25.8	官方公告：https://blog.korabli.su/blog/628	buff	test		Korabli #628
-Halland Test	Halland Test		法国	X	驱逐舰	Время перезарядки орудий ГК	28,6	24 с	25.8	官方公告：https://blog.korabli.su/blog/628	buff	test		Korabli #628
-Danzig	Danzig		德国	IX	巡洋舰	Минимальный интервал между залпами	3	4 с	25.8	官方公告：https://blog.korabli.su/blog/628	adjustment	test		Korabli #628
-Impero	Impero		意大利	IX	战列舰	Время перезарядки орудий ГК	24	25 с	25.8	官方公告：https://blog.korabli.su/blog/628	nerf	test		Korabli #628
-Chancellorsville	Chancellorsville		美国	VII	巡洋舰	Время перезарядки орудий ГК	14,5	13,5 с	25.8	官方公告：https://blog.korabli.su/blog/628	buff	test		Korabli #628
+Chikugo	Chikugo		日本	10	巡洋舰	Время перезарядки орудий ГК	3	3,3 с	待确认	官方公告：https://blog.korabli.su/blog/636	nerf	test		Korabli #636
+«Лазарев Test»	«Лазарев Test»		日本	10	战列舰	Время поворота орудий на 180 градусов	60	50 с	待确认	官方公告：https://blog.korabli.su/blog/636	buff	test		Korabli #636
+«Лазарев Test»	«Лазарев Test»		日本	10	战列舰	Время перезарядки снаряжения «Боевой форсаж»	120	90 с	待确认	官方公告：https://blog.korabli.su/blog/636	buff	test		Korabli #636
+«Лазарев Test»	«Лазарев Test»		日本	10	战列舰	Время перезарядки орудий ГК	16	15,5 с	待确认	官方公告：https://blog.korabli.su/blog/636	buff	test		Korabli #636
+«Лазарев Test»	«Лазарев Test»		日本	10	战列舰	Изменены параметры снаряжения «Поисковая РЛС»: Время работы	10	12 с	待确认	官方公告：https://blog.korabli.su/blog/636	buff	test		Korabli #636
+«Лазарев Test»	«Лазарев Test»		日本	10	战列舰	Количество снаряжения	3	4	待确认	官方公告：https://blog.korabli.su/blog/636	buff	test		Korabli #636
+«Лазарев Test»	«Лазарев Test»		日本	10	战列舰	Время перезарядки	120	90 с	待确认	官方公告：https://blog.korabli.su/blog/636	buff	test		Korabli #636
+Halland Test	Halland Test		法国	10	驱逐舰	Дальность хода торпед	8	9 км	待确认	官方公告：https://blog.korabli.su/blog/636	buff	test		Korabli #636
+Impero	Impero		意大利	9	战列舰	Время перезарядки орудий ГК	25	26 с	待确认	官方公告：https://blog.korabli.su/blog/636	nerf	test		Korabli #636
+A. Diocleziano	A. Diocleziano		意大利	6	巡洋舰	Время действия снаряжения «Дымогенератор полного хода»	45	30 с	待确认	官方公告：https://blog.korabli.su/blog/636	nerf	test		Korabli #636
+A. Diocleziano	A. Diocleziano		意大利	6	巡洋舰	Время действия снаряжения «Боевой Форсаж»	50	35 с	待确认	官方公告：https://blog.korabli.su/blog/636	nerf	test		Korabli #636
+A. Diocleziano	A. Diocleziano		意大利	6	巡洋舰	Время перезарядки ГК	6,5	7,5 с	待确认	官方公告：https://blog.korabli.su/blog/636	nerf	test		Korabli #636
+V. Constantino	V. Constantino		意大利	7	巡洋舰	Время действия снаряжения «Дымогенератор полного хода»	45	30 с	待确认	官方公告：https://blog.korabli.su/blog/636	nerf	test		Korabli #636
+V. Constantino	V. Constantino		意大利	7	巡洋舰	Время действия снаряжения «Боевой Форсаж»	50	35 с	待确认	官方公告：https://blog.korabli.su/blog/636	nerf	test		Korabli #636
+V. Constantino	V. Constantino		意大利	7	巡洋舰	Время перезарядки орудий ГК	6,5	7,5 с	待确认	官方公告：https://blog.korabli.su/blog/636	nerf	test		Korabli #636
+I-2	I-2		日本	10	潜艇	Время перезарядки торпед	35	45 с	待确认	官方公告：https://blog.korabli.su/blog/636	nerf	test		Korabli #636
+I-2	I-2		日本	10	潜艇	Время перезарядки сонара	5	6 с	待确认	官方公告：https://blog.korabli.su/blog/636	nerf	test		Korabli #636
+I-2	I-2		日本	10	潜艇	Ширина сектора пуска торпед увеличена на 55 градусов в обе стороны	—	—	待确认	官方公告：https://blog.korabli.su/blog/636	adjustment	test		Korabli #636
+I-2	I-2		日本	10	潜艇	Дальность акустических торпед	6	9 км	待确认	官方公告：https://blog.korabli.su/blog/636	buff	test		Korabli #636
+I-2	I-2		日本	10	潜艇	Урон акустических торпед	7805	11055	待确认	官方公告：https://blog.korabli.su/blog/636	buff	test		Korabli #636
+I-2	I-2		日本	10	潜艇	Обычные торпеды заменены на термические и получили следующие характеристики: Дальность хода — 17 км	—	—	待确认	官方公告：https://blog.korabli.su/blog/636	adjustment	test		Korabli #636
+I-2	I-2		日本	10	潜艇	Шанс затопления	26	170%	待确认	官方公告：https://blog.korabli.su/blog/636	buff	test		Korabli #636
+I-2	I-2		日本	10	潜艇	Дальность действия шумопеленгатора	8	9 км	待确认	官方公告：https://blog.korabli.su/blog/636	buff	test		Korabli #636
+I-2	I-2		日本	10	潜艇	Дальность взведения всех типов торпед	360	750 м	待确认	官方公告：https://blog.korabli.su/blog/636	buff	test		Korabli #636
+President	President		美国	10	战列舰	Максимальная дальность авиаудара (ГБ)	11	10 км	待确认	官方公告：https://blog.korabli.su/blog/636	nerf	test		Korabli #636
+«Лазарев Test»	«Лазарев Test»		日本	10	战列舰	Количество очков боеспособности	84300	96600	25.8	官方公告：https://blog.korabli.su/blog/628	buff	test		Korabli #628
+«Лазарев Test»	«Лазарев Test»		日本	10	战列舰	Время перезарядки орудий ГК	33	31,5 с	25.8	官方公告：https://blog.korabli.su/blog/628	buff	test		Korabli #628
+«Лазарев Test»	«Лазарев Test»		日本	10	战列舰	Дальность стрельбы ГК	21,6	23 км	25.8	官方公告：https://blog.korabli.su/blog/628	buff	test		Korabli #628
+Venezia Test	Venezia Test		欧洲	10	巡洋舰	Время перезарядки орудий ГК	15	16 с	25.8	官方公告：https://blog.korabli.su/blog/628	nerf	test		Korabli #628
+Venezia Test	Venezia Test		欧洲	10	巡洋舰	Время перезарядки снаряжения «Боевой форсаж»	90	120 с	25.8	官方公告：https://blog.korabli.su/blog/628	nerf	test		Korabli #628
+Venezia Test	Venezia Test		欧洲	10	巡洋舰	Время работы снаряжения «Боевой форсаж»	60	45 с	25.8	官方公告：https://blog.korabli.su/blog/628	nerf	test		Korabli #628
+Halland Test	Halland Test		法国	10	驱逐舰	Дальность стрельбы ГК	12	12.8 км	25.8	官方公告：https://blog.korabli.su/blog/628	buff	test		Korabli #628
+Halland Test	Halland Test		法国	10	驱逐舰	Время перезарядки орудий ГК	28,6	24 с	25.8	官方公告：https://blog.korabli.su/blog/628	buff	test		Korabli #628
+Danzig	Danzig		德国	9	巡洋舰	Минимальный интервал между залпами	3	4 с	25.8	官方公告：https://blog.korabli.su/blog/628	adjustment	test		Korabli #628
+Impero	Impero		意大利	9	战列舰	Время перезарядки орудий ГК	24	25 с	25.8	官方公告：https://blog.korabli.su/blog/628	nerf	test		Korabli #628
+Chancellorsville	Chancellorsville		美国	7	巡洋舰	Время перезарядки орудий ГК	14,5	13,5 с	25.8	官方公告：https://blog.korabli.su/blog/628	buff	test		Korabli #628
 Gato	Gato		美国	10	潜艇	Дальность хода акустических торпед	6	8 км	25.8	官方公告：https://blog.korabli.su/blog/626	buff	released		Korabli #626
 Gato	Gato		美国	10	潜艇	Максимальный урон акустических торпед	8283	17820	25.8	官方公告：https://blog.korabli.su/blog/626	buff	released		Korabli #626
 Undine	Undine		英国	6	潜艇	Время поворота орудий ГК на 180 градусов	18	9 с	25.8	官方公告：https://blog.korabli.su/blog/626	buff	released		Korabli #626
@@ -647,10 +647,10 @@ I-56	I-56		日本	8	潜艇	Заметность термических торп�
 Pasopati	Pasopati		泛亚	8	潜艇	Максимальный урон акустических торпед	12441	15378	25.8	官方公告：https://blog.korabli.su/blog/626	buff	released		Korabli #626
 Giacomo Nani	Giacomo Nani		意大利	8	潜艇	Максимальный урон акустических торпед	8910	12771	25.8	官方公告：https://blog.korabli.su/blog/626	buff	released		Korabli #626
 Robespierre	Robespierre		法国	11	驱逐舰	Дальность стрельбы ГК	14	14,5 км	25.7	官方公告：https://blog.korabli.su/blog/625	buff	test		Korabli #625
-Lazio	Lazio		意大利	10		Количество зарядов снаряжения «Дымогенератор полного хода»	1	2	25.7	官方公告：https://blog.korabli.su/blog/625	buff	test		Korabli #625
-Lazio	Lazio		意大利	10		Время перезарядки орудий ГК	5	4,5 с	25.7	官方公告：https://blog.korabli.su/blog/625	buff	test		Korabli #625
-Lazio	Lazio		意大利	10		Дальность стрельбы ГК	10	10,8 км	25.7	官方公告：https://blog.korabli.su/blog/625	buff	test		Korabli #625
-Lazio	Lazio		意大利	10		Замедлено увеличение прицела торпедоносцев при маневрировании во время атаки примерно на четверть	—	—	25.7	官方公告：https://blog.korabli.su/blog/625	adjustment	test		Korabli #625
+Lazio	Lazio		意大利	10	航空母舰	Количество зарядов снаряжения «Дымогенератор полного хода»	1	2	25.7	官方公告：https://blog.korabli.su/blog/625	buff	test		Korabli #625
+Lazio	Lazio		意大利	10	航空母舰	Время перезарядки орудий ГК	5	4,5 с	25.7	官方公告：https://blog.korabli.su/blog/625	buff	test		Korabli #625
+Lazio	Lazio		意大利	10	航空母舰	Дальность стрельбы ГК	10	10,8 км	25.7	官方公告：https://blog.korabli.su/blog/625	buff	test		Korabli #625
+Lazio	Lazio		意大利	10	航空母舰	Замедлено увеличение прицела торпедоносцев при маневрировании во время атаки примерно на четверть	—	—	25.7	官方公告：https://blog.korabli.su/blog/625	adjustment	test		Korabli #625
 Impero	Impero		意大利	9	战列舰	Параметр сигма	2	1,7	25.7	官方公告：https://blog.korabli.su/blog/625	nerf	test		Korabli #625
 Venezia Test	Venezia Test		欧洲	10	巡洋舰	Время действия снаряжения «Поисковая РЛС»	30	10 с	25.7	官方公告：https://blog.korabli.su/blog/625	nerf	test		Korabli #625
 Halland Test	Halland Test		法国	10	驱逐舰	Время перезарядки орудий ГК	2,3	2 с	25.7	官方公告：https://blog.korabli.su/blog/625	buff	test		Korabli #625
@@ -746,19 +746,19 @@ Forbin	Forbin		法国	9	驱逐舰	Увеличены углы пуска тор�
 Robespierre	Robespierre		法国	11	驱逐舰	Дальность стрельбы орудий ГК	13,8	14 км;	25.6	官方公告：https://blog.korabli.su/blog/612	buff	test		Korabli #612
 Robespierre	Robespierre		法国	11	驱逐舰	Заметность с кораблей	9,6	9,4 км	25.6	官方公告：https://blog.korabli.su/blog/612	buff	test		Korabli #612
 Красное Знамя	Красное Знамя		苏联	10	战列舰	Максимальный урон ББ-снаряда	14500	13800 ед	25.6	官方公告：https://blog.korabli.su/blog/612	nerf	test		Korabli #612
-Forbin	Forbin		法国	9	驱逐舰	Время перезарядки ТА	81	70 с	2025.05	官方公告：https://blog.korabli.su/blog/611	buff	test		Korabli #611
-Forbin	Forbin		法国	9	驱逐舰	Время перезарядки снаряжения «Ускорение перезарядки торпед» уменьшено со 180 до 160 с	—	—	2025.05	官方公告：https://blog.korabli.su/blog/611	adjustment	test		Korabli #611
-Robespierre	Robespierre		法国	11	驱逐舰	Заметность с кораблей	9,8	9,6 км	2025.05	官方公告：https://blog.korabli.su/blog/611	buff	test		Korabli #611
-Robespierre	Robespierre		法国	11	驱逐舰	Время перезарядки 1-го залпа	6,2	6 с	2025.05	官方公告：https://blog.korabli.su/blog/611	buff	test		Korabli #611
-Robespierre	Robespierre		法国	11	驱逐舰	Время перезарядки 2-го залпа	12,4	12 с	2025.05	官方公告：https://blog.korabli.su/blog/611	buff	test		Korabli #611
-Красное Знамя	Красное Знамя		苏联	10	战列舰	Параметр сигма	1,8	1,7	2025.05	官方公告：https://blog.korabli.su/blog/611	nerf	test		Korabli #611
-Diane	Diane		法国	6	潜艇	Добавлено снаряжение «Ускорение перезарядки ГК» со следующими характеристиками: Количество снаряжения — 2	—	—	2025.05	官方公告：https://blog.korabli.su/blog/611	adjustment	test		Korabli #611
-Diane	Diane		法国	6	潜艇	Добавлено снаряжение «Форсаж» со следующими характеристиками: Количество снаряжения — 2	—	—	2025.05	官方公告：https://blog.korabli.su/blog/611	adjustment	test		Korabli #611
-L'Africaine	L'Africaine		法国	8	潜艇	Добавлено снаряжение «Ускорение перезарядки ГК» со следующими характеристиками: Количество снаряжения — 2	—	—	2025.05	官方公告：https://blog.korabli.su/blog/611	adjustment	test		Korabli #611
-L'Africaine	L'Africaine		法国	8	潜艇	Время работы снаряжения «Форсаж»	90	60 с	2025.05	官方公告：https://blog.korabli.su/blog/611	nerf	test		Korabli #611
-L'Africaine	L'Africaine		法国	8	潜艇	Количество снаряжения «Форсаж»	5	3	2025.05	官方公告：https://blog.korabli.su/blog/611	nerf	test		Korabli #611
-Casabianca	Casabianca		法国	10	潜艇	Добавлено снаряжение «Ускорение перезарядки ГК» со следующими характеристиками: Количество снаряжения — 2	—	—	2025.05	官方公告：https://blog.korabli.su/blog/611	adjustment	test		Korabli #611
-Casabianca	Casabianca		法国	10	潜艇	Время работы снаряжения «Форсаж»	90	60 с	2025.05	官方公告：https://blog.korabli.su/blog/611	nerf	test		Korabli #611
+Forbin	Forbin		法国	9	驱逐舰	Время перезарядки ТА	81	70 с	待确认	官方公告：https://blog.korabli.su/blog/611	buff	test		Korabli #611
+Forbin	Forbin		法国	9	驱逐舰	Время перезарядки снаряжения «Ускорение перезарядки торпед» уменьшено со 180 до 160 с	—	—	待确认	官方公告：https://blog.korabli.su/blog/611	adjustment	test		Korabli #611
+Robespierre	Robespierre		法国	11	驱逐舰	Заметность с кораблей	9,8	9,6 км	待确认	官方公告：https://blog.korabli.su/blog/611	buff	test		Korabli #611
+Robespierre	Robespierre		法国	11	驱逐舰	Время перезарядки 1-го залпа	6,2	6 с	待确认	官方公告：https://blog.korabli.su/blog/611	buff	test		Korabli #611
+Robespierre	Robespierre		法国	11	驱逐舰	Время перезарядки 2-го залпа	12,4	12 с	待确认	官方公告：https://blog.korabli.su/blog/611	buff	test		Korabli #611
+Красное Знамя	Красное Знамя		苏联	10	战列舰	Параметр сигма	1,8	1,7	待确认	官方公告：https://blog.korabli.su/blog/611	nerf	test		Korabli #611
+Diane	Diane		法国	6	潜艇	Добавлено снаряжение «Ускорение перезарядки ГК» со следующими характеристиками: Количество снаряжения — 2	—	—	待确认	官方公告：https://blog.korabli.su/blog/611	adjustment	test		Korabli #611
+Diane	Diane		法国	6	潜艇	Добавлено снаряжение «Форсаж» со следующими характеристиками: Количество снаряжения — 2	—	—	待确认	官方公告：https://blog.korabli.su/blog/611	adjustment	test		Korabli #611
+L'Africaine	L'Africaine		法国	8	潜艇	Добавлено снаряжение «Ускорение перезарядки ГК» со следующими характеристиками: Количество снаряжения — 2	—	—	待确认	官方公告：https://blog.korabli.su/blog/611	adjustment	test		Korabli #611
+L'Africaine	L'Africaine		法国	8	潜艇	Время работы снаряжения «Форсаж»	90	60 с	待确认	官方公告：https://blog.korabli.su/blog/611	nerf	test		Korabli #611
+L'Africaine	L'Africaine		法国	8	潜艇	Количество снаряжения «Форсаж»	5	3	待确认	官方公告：https://blog.korabli.su/blog/611	nerf	test		Korabli #611
+Casabianca	Casabianca		法国	10	潜艇	Добавлено снаряжение «Ускорение перезарядки ГК» со следующими характеристиками: Количество снаряжения — 2	—	—	待确认	官方公告：https://blog.korabli.su/blog/611	adjustment	test		Korabli #611
+Casabianca	Casabianca		法国	10	潜艇	Время работы снаряжения «Форсаж»	90	60 с	待确认	官方公告：https://blog.korabli.su/blog/611	nerf	test		Korabli #611
 Diane	Diane		法国	6	潜艇	В отдельный слот добавлено снаряжение «Резервный блок батарей» со стандартными для их уровней характеристиками	—	—	25.5	官方公告：https://blog.korabli.su/blog/606	adjustment	test		Korabli #606
 Forbin	Forbin		法国	9	驱逐舰	Время перезарядки торпед	90	81 с	25.5	官方公告：https://blog.korabli.su/blog/606	buff	test		Korabli #606
 Forbin	Forbin		法国	9	驱逐舰	Время перезарядки снаряжения «Ускорение перезарядки торпед»	240	180 с	25.5	官方公告：https://blog.korabli.su/blog/606	buff	test		Korabli #606
@@ -776,14 +776,14 @@ Falkenhayn	Falkenhayn		德国	10	巡洋舰	Время перезарядки о�
 Falkenhayn	Falkenhayn		德国	10	巡洋舰	Время перезарядки орудий ГК	9	9,6 с	25.4	官方公告：https://blog.korabli.su/blog/605	nerf	test		Korabli #605
 Duperr&eacute;	Duperr&eacute;		法国	9	驱逐舰	Время перезарядки орудий ГК	3,7	4,4 с	25.4	官方公告：https://blog.korabli.su/blog/605	nerf	test		Korabli #605
 Chancellorsville	Chancellorsville		美国	7	巡洋舰	Время перезарядки орудий ГК	15	14,5 с	25.4	官方公告：https://blog.korabli.su/blog/605	buff	test		Korabli #605
-Casabianca	Casabianca		法国	X	潜艇	Время перезарядки снаряжения «Аварийная команда»	40	20 с;	25.4	官方公告：https://blog.korabli.su/blog/600	buff	test		Korabli #600
-Casabianca	Casabianca		法国	X	潜艇	Дальность пеленгации кораблей снаряжением «Шумопеленгатор»	6	10 км	25.4	官方公告：https://blog.korabli.su/blog/600	buff	test		Korabli #600
-«Опытный»	«Опытный»		苏联	VIII	驱逐舰	Дальность хода торпед	10	9 км	25.4	官方公告：https://blog.korabli.su/blog/600	nerf	test		Korabli #600
-Madrid	Madrid		西班牙	X	巡洋舰	Дальность стрельбы орудий ГК	16,4	17,0 км;	25.4	官方公告：https://blog.korabli.su/blog/600	buff	test		Korabli #600
-Madrid	Madrid		西班牙	X	巡洋舰	Изменены параметры серии залпов: интервал между залпами	2	1,5 с;	25.4	官方公告：https://blog.korabli.su/blog/600	adjustment	test		Korabli #600
-Madrid	Madrid		西班牙	X	巡洋舰	время полной перезарядки орудий ГК	30	27 с	25.4	官方公告：https://blog.korabli.su/blog/600	buff	test		Korabli #600
-Madrid	Madrid		西班牙	X	巡洋舰	Параметр сигма орудий ГК	2,05	2,15;	25.4	官方公告：https://blog.korabli.su/blog/600	buff	test		Korabli #600
-Madrid	Madrid		西班牙	X	巡洋舰	Количество полученного в цитадель урона, восстанавливаемого «Ремонтной командой»,	33	50%	25.4	官方公告：https://blog.korabli.su/blog/600	buff	test		Korabli #600
+Casabianca	Casabianca		法国	10	潜艇	Время перезарядки снаряжения «Аварийная команда»	40	20 с;	25.4	官方公告：https://blog.korabli.su/blog/600	buff	test		Korabli #600
+Casabianca	Casabianca		法国	10	潜艇	Дальность пеленгации кораблей снаряжением «Шумопеленгатор»	6	10 км	25.4	官方公告：https://blog.korabli.su/blog/600	buff	test		Korabli #600
+«Опытный»	«Опытный»		苏联	8	驱逐舰	Дальность хода торпед	10	9 км	25.4	官方公告：https://blog.korabli.su/blog/600	nerf	test		Korabli #600
+Madrid	Madrid		西班牙	10	巡洋舰	Дальность стрельбы орудий ГК	16,4	17,0 км;	25.4	官方公告：https://blog.korabli.su/blog/600	buff	test		Korabli #600
+Madrid	Madrid		西班牙	10	巡洋舰	Изменены параметры серии залпов: интервал между залпами	2	1,5 с;	25.4	官方公告：https://blog.korabli.su/blog/600	adjustment	test		Korabli #600
+Madrid	Madrid		西班牙	10	巡洋舰	время полной перезарядки орудий ГК	30	27 с	25.4	官方公告：https://blog.korabli.su/blog/600	buff	test		Korabli #600
+Madrid	Madrid		西班牙	10	巡洋舰	Параметр сигма орудий ГК	2,05	2,15;	25.4	官方公告：https://blog.korabli.su/blog/600	buff	test		Korabli #600
+Madrid	Madrid		西班牙	10	巡洋舰	Количество полученного в цитадель урона, восстанавливаемого «Ремонтной командой»,	33	50%	25.4	官方公告：https://blog.korabli.su/blog/600	buff	test		Korabli #600
 Сообразительный	Сообразительный		苏联	6	驱逐舰	Дальность хода торпед	8,5	7,5 км	25.3	官方公告：https://blog.korabli.su/blog/598	nerf	test		Korabli #598
 Сообразительный	Сообразительный		苏联	6	驱逐舰	Время перезарядки одной торпеды	29	31 с	25.3	官方公告：https://blog.korabli.su/blog/598	nerf	test		Korabli #598
 Осмотрительный	Осмотрительный		苏联	7	驱逐舰	Дальность хода торпед	9,5	8,5 км	25.3	官方公告：https://blog.korabli.su/blog/598	nerf	test		Korabli #598
@@ -793,16 +793,16 @@ Madrid	Madrid		西班牙	X	巡洋舰	Количество полученного
 Опытный	Опытный		苏联	8	驱逐舰	Время перекладки руля	3,1	5,4 с	25.3	官方公告：https://blog.korabli.su/blog/598	nerf	test		Korabli #598
 Anson	Anson		英国	8	战列舰	Улучшены параметры снаряжения «Ремонтная команда»: Количество восстанавливаемых в секунду очков боеспособности	0,5%	0,6%	25.3	官方公告：https://blog.korabli.su/blog/598	buff	test		Korabli #598
 Anson	Anson		英国	8	战列舰	Время перезарядки снаряжения	80	60 с	25.3	官方公告：https://blog.korabli.su/blog/598	buff	test		Korabli #598
-Diane	Diane		法国	VI	潜艇	Заметность с кораблей	4,4	5,5 км	25.4	官方公告：https://blog.korabli.su/blog/597	nerf	test		Korabli #597
-L`Africaine	L`Africaine		法国	VIII	潜艇	Заметность с кораблей	4,6	5,7 км	25.4	官方公告：https://blog.korabli.su/blog/597	nerf	test		Korabli #597
-Casabianca	Casabianca		法国	X	潜艇	Заметность с кораблей	5,2	5,9 км	25.4	官方公告：https://blog.korabli.su/blog/597	nerf	test		Korabli #597
+Diane	Diane		法国	6	潜艇	Заметность с кораблей	4,4	5,5 км	25.4	官方公告：https://blog.korabli.su/blog/597	nerf	test		Korabli #597
+L`Africaine	L`Africaine		法国	8	潜艇	Заметность с кораблей	4,6	5,7 км	25.4	官方公告：https://blog.korabli.su/blog/597	nerf	test		Korabli #597
+Casabianca	Casabianca		法国	10	潜艇	Заметность с кораблей	5,2	5,9 км	25.4	官方公告：https://blog.korabli.su/blog/597	nerf	test		Korabli #597
 Сообразительный	Сообразительный		苏联	6	驱逐舰	Заметность с кораблей	6,5	6,7 км	25.3	官方公告：https://blog.korabli.su/blog/594	nerf	test		Korabli #594
 Осмотрительный	Осмотрительный		苏联	7	驱逐舰	Заметность с кораблей	6,4	6,6 км	25.3	官方公告：https://blog.korabli.su/blog/594	nerf	test		Korabli #594
 Смелый	Смелый		苏联	8	驱逐舰	Заметность с кораблей	7	7,1 км	25.3	官方公告：https://blog.korabli.su/blog/594	nerf	test		Korabli #594
 Anson	Anson		英国	8	战列舰	Дальность стрельбы ГК	18,5	19,9 км	25.3	官方公告：https://blog.korabli.su/blog/594	buff	test		Korabli #594
 Anson	Anson		英国	8	战列舰	Параметр сигма	1,9	2	25.3	官方公告：https://blog.korabli.su/blog/594	buff	test		Korabli #594
 Madrid	Madrid		西班牙	10	巡洋舰	Время поворота орудий ГК на 180 градусов	30	25,7 с	25.3	官方公告：https://blog.korabli.su/blog/594	buff	test		Korabli #594
-Ульяновск	Ульяновск		苏联	11		Время взведения торпед у тактической эскадрильи торпедоносцев	3	6 с	25.2	官方公告：https://blog.korabli.su/blog/593	adjustment	test		Korabli #593
+Ульяновск	Ульяновск		苏联	11	航空母舰	Время взведения торпед у тактической эскадрильи торпедоносцев	3	6 с	25.2	官方公告：https://blog.korabli.su/blog/593	adjustment	test		Korabli #593
 Опытный	Опытный		苏联	8	驱逐舰	Время перезарядки орудий ГК	5,5	6 с	25.2	官方公告：https://blog.korabli.su/blog/593	nerf	test		Korabli #593
 Опытный	Опытный		苏联	8	驱逐舰	Заметность с кораблей	7,4	7,7 км	25.2	官方公告：https://blog.korabli.su/blog/593	nerf	test		Korabli #593
 Юрий Долгорукий	Юрий Долгорукий		苏联	9	巡洋舰	Увеличение разброса стреляющих по крейсеру противников во время действия боевых инструкций	50%	35%	25.2	官方公告：https://blog.korabli.su/blog/593	buff	test		Korabli #593
@@ -860,28 +860,28 @@ Anson	Anson		英国	8	战列舰	Толщина обшивки носовой и 
 Mayo	Mayo		美国	7	驱逐舰	Процент полученного частями корабля урона, который можно восстановить «Ремонтной командой»,	50	65%	25.2	官方公告：https://blog.korabli.su/blog/588	buff	test		Korabli #588
 Dou Jian	Dou Jian		泛亚	8	巡洋舰	Время перезарядки орудий ГК	9	8,5 с	25.2	官方公告：https://blog.korabli.su/blog/588	buff	test		Korabli #588
 Kuzuryū	Kuzuryū		日本	10	巡洋舰	Время подготовки постановщиков мин	140	155 с	25.2	官方公告：https://blog.korabli.su/blog/588	nerf	test		Korabli #588
-Ташкент '39	Ташкент '39		苏联	7	驱逐舰	Заметность с кораблей	8,4	8,1 км	2025.01	官方公告：https://blog.korabli.su/blog/587	buff	test		Korabli #587
-Ташкент '39	Ташкент '39		苏联	7	驱逐舰	Время перезарядки ТА	100	95 с	2025.01	官方公告：https://blog.korabli.su/blog/587	buff	test		Korabli #587
-Ташкент '39	Ташкент '39		苏联	7	驱逐舰	Изменены параметры снаряжения «Ускорение перезарядки торпед»: Время перезарядки	300	240 с;	2025.01	官方公告：https://blog.korabli.su/blog/587	buff	test		Korabli #587
-Ташкент '39	Ташкент '39		苏联	7	驱逐舰	Время перезарядки ТА после использования снаряжения	8	5 с	2025.01	官方公告：https://blog.korabli.su/blog/587	buff	test		Korabli #587
-Ташкент '39	Ташкент '39		苏联	7	驱逐舰	Количество глубинных бомб в заряде	6	12	2025.01	官方公告：https://blog.korabli.su/blog/587	buff	test		Korabli #587
-Спокойный	Спокойный		苏联	9	驱逐舰	Время перезарядки одной торпеды	20	24 с	2025.01	官方公告：https://blog.korabli.su/blog/587	nerf	test		Korabli #587
-Спокойный	Спокойный		苏联	9	驱逐舰	Время перезарядки орудий ГК	3,3	3,1 с	2025.01	官方公告：https://blog.korabli.su/blog/587	buff	test		Korabli #587
-Горделивый	Горделивый		苏联	10	驱逐舰	Время перезарядки одной торпеды	23	26 с	2025.01	官方公告：https://blog.korabli.su/blog/587	nerf	test		Korabli #587
-Горделивый	Горделивый		苏联	10	驱逐舰	Время перезарядки орудий ГК	2,9	2,8 с	2025.01	官方公告：https://blog.korabli.su/blog/587	buff	test		Korabli #587
-Современный	Современный		苏联	9	驱逐舰	Бронирование центральной части борта	30	19 мм	2025.01	官方公告：https://blog.korabli.su/blog/587	adjustment	test		Korabli #587
-Современный	Современный		苏联	9	驱逐舰	Бронирование центральной части палубы	25	19 мм	2025.01	官方公告：https://blog.korabli.su/blog/587	adjustment	test		Korabli #587
-Юрий Долгорукий	Юрий Долгорукий		苏联	9	巡洋舰	Изменены параметры «Боевых инструкций»: Время бездействия до потери прогресса	10	30 с;	2025.01	官方公告：https://blog.korabli.su/blog/587	adjustment	test		Korabli #587
-Юрий Долгорукий	Юрий Долгорукий		苏联	9	巡洋舰	Потеря прогресса в секунду при бездействии	20%	4%	2025.01	官方公告：https://blog.korabli.su/blog/587	adjustment	test		Korabli #587
-Юрий Долгорукий	Юрий Долгорукий		苏联	9	巡洋舰	Время перезарядки орудий ГК	9,3	9,0 с	2025.01	官方公告：https://blog.korabli.su/blog/587	buff	test		Korabli #587
-Madrid	Madrid		西班牙	10	巡洋舰	Время перезарядки снаряжения «Ремонтная команда»	80	40 с	2025.01	官方公告：https://blog.korabli.su/blog/587	buff	test		Korabli #587
-Madrid	Madrid		西班牙	10	巡洋舰	Количество зарядов снаряжения «Ремонтная команда»	3	4	2025.01	官方公告：https://blog.korabli.su/blog/587	buff	test		Korabli #587
-Kuzuryū	Kuzuryū		日本	10	巡洋舰	Время перезарядки орудий ГК	6,5	6,7 с	2025.01	官方公告：https://blog.korabli.su/blog/587	nerf	test		Korabli #587
-Kuzuryū	Kuzuryū		日本	10	巡洋舰	Дальность стрельбы орудий ГК	17,4	17,2 км	2025.01	官方公告：https://blog.korabli.su/blog/587	nerf	test		Korabli #587
-Giacomo Nani	Giacomo Nani		意大利	8	潜艇	Максимальная скорость хода под водой	15	21 уз	2025.01	官方公告：https://blog.korabli.su/blog/587	buff	test		Korabli #587
-Dou Jian	Dou Jian		泛亚	8	巡洋舰	Время перезарядки орудий ГК	11	9 с	2025.01	官方公告：https://blog.korabli.su/blog/587	buff	test		Korabli #587
-Dou Jian	Dou Jian		泛亚	8	巡洋舰	Изменена траектория полёта снарядов — она стала более настильной. За счёт этого бронепробитие ББ-снарядов увеличено примерно на 19% (в зависимости от дистанции)	—	—	2025.01	官方公告：https://blog.korabli.su/blog/587	adjustment	test		Korabli #587
-Xian Deng	Xian Deng		泛亚	8		Урон ОФ-бомб	6300	5040 ед	2025.01	官方公告：https://blog.korabli.su/blog/587	nerf	test		Korabli #587
+Ташкент '39	Ташкент '39		苏联	7	驱逐舰	Заметность с кораблей	8,4	8,1 км	待确认	官方公告：https://blog.korabli.su/blog/587	buff	test		Korabli #587
+Ташкент '39	Ташкент '39		苏联	7	驱逐舰	Время перезарядки ТА	100	95 с	待确认	官方公告：https://blog.korabli.su/blog/587	buff	test		Korabli #587
+Ташкент '39	Ташкент '39		苏联	7	驱逐舰	Изменены параметры снаряжения «Ускорение перезарядки торпед»: Время перезарядки	300	240 с;	待确认	官方公告：https://blog.korabli.su/blog/587	buff	test		Korabli #587
+Ташкент '39	Ташкент '39		苏联	7	驱逐舰	Время перезарядки ТА после использования снаряжения	8	5 с	待确认	官方公告：https://blog.korabli.su/blog/587	buff	test		Korabli #587
+Ташкент '39	Ташкент '39		苏联	7	驱逐舰	Количество глубинных бомб в заряде	6	12	待确认	官方公告：https://blog.korabli.su/blog/587	buff	test		Korabli #587
+Спокойный	Спокойный		苏联	9	驱逐舰	Время перезарядки одной торпеды	20	24 с	待确认	官方公告：https://blog.korabli.su/blog/587	nerf	test		Korabli #587
+Спокойный	Спокойный		苏联	9	驱逐舰	Время перезарядки орудий ГК	3,3	3,1 с	待确认	官方公告：https://blog.korabli.su/blog/587	buff	test		Korabli #587
+Горделивый	Горделивый		苏联	10	驱逐舰	Время перезарядки одной торпеды	23	26 с	待确认	官方公告：https://blog.korabli.su/blog/587	nerf	test		Korabli #587
+Горделивый	Горделивый		苏联	10	驱逐舰	Время перезарядки орудий ГК	2,9	2,8 с	待确认	官方公告：https://blog.korabli.su/blog/587	buff	test		Korabli #587
+Современный	Современный		苏联	9	驱逐舰	Бронирование центральной части борта	30	19 мм	待确认	官方公告：https://blog.korabli.su/blog/587	adjustment	test		Korabli #587
+Современный	Современный		苏联	9	驱逐舰	Бронирование центральной части палубы	25	19 мм	待确认	官方公告：https://blog.korabli.su/blog/587	adjustment	test		Korabli #587
+Юрий Долгорукий	Юрий Долгорукий		苏联	9	巡洋舰	Изменены параметры «Боевых инструкций»: Время бездействия до потери прогресса	10	30 с;	待确认	官方公告：https://blog.korabli.su/blog/587	adjustment	test		Korabli #587
+Юрий Долгорукий	Юрий Долгорукий		苏联	9	巡洋舰	Потеря прогресса в секунду при бездействии	20%	4%	待确认	官方公告：https://blog.korabli.su/blog/587	adjustment	test		Korabli #587
+Юрий Долгорукий	Юрий Долгорукий		苏联	9	巡洋舰	Время перезарядки орудий ГК	9,3	9,0 с	待确认	官方公告：https://blog.korabli.su/blog/587	buff	test		Korabli #587
+Madrid	Madrid		西班牙	10	巡洋舰	Время перезарядки снаряжения «Ремонтная команда»	80	40 с	待确认	官方公告：https://blog.korabli.su/blog/587	buff	test		Korabli #587
+Madrid	Madrid		西班牙	10	巡洋舰	Количество зарядов снаряжения «Ремонтная команда»	3	4	待确认	官方公告：https://blog.korabli.su/blog/587	buff	test		Korabli #587
+Kuzuryū	Kuzuryū		日本	10	巡洋舰	Время перезарядки орудий ГК	6,5	6,7 с	待确认	官方公告：https://blog.korabli.su/blog/587	nerf	test		Korabli #587
+Kuzuryū	Kuzuryū		日本	10	巡洋舰	Дальность стрельбы орудий ГК	17,4	17,2 км	待确认	官方公告：https://blog.korabli.su/blog/587	nerf	test		Korabli #587
+Giacomo Nani	Giacomo Nani		意大利	8	潜艇	Максимальная скорость хода под водой	15	21 уз	待确认	官方公告：https://blog.korabli.su/blog/587	buff	test		Korabli #587
+Dou Jian	Dou Jian		泛亚	8	巡洋舰	Время перезарядки орудий ГК	11	9 с	待确认	官方公告：https://blog.korabli.su/blog/587	buff	test		Korabli #587
+Dou Jian	Dou Jian		泛亚	8	巡洋舰	Изменена траектория полёта снарядов — она стала более настильной. За счёт этого бронепробитие ББ-снарядов увеличено примерно на 19% (в зависимости от дистанции)	—	—	待确认	官方公告：https://blog.korabli.su/blog/587	adjustment	test		Korabli #587
+Xian Deng	Xian Deng		泛亚	8		Урон ОФ-бомб	6300	5040 ед	待确认	官方公告：https://blog.korabli.su/blog/587	nerf	test		Korabli #587
 Chakri	Chakri		泛亚	6	战列舰	Время перезарядки орудий ГК	20,5	19,5 с	25.1	官方公告：https://blog.korabli.su/blog/584	buff	test		Korabli #584
 Hanoi	Hanoi		泛亚	8	战列舰	Время перезарядки орудий ГК	19	20 с	25.1	官方公告：https://blog.korabli.su/blog/584	nerf	test		Korabli #584
 Tiangong	Tiangong		泛亚	10	战列舰	Время перезарядки орудий ГК	18,5	19,5 с	25.1	官方公告：https://blog.korabli.su/blog/584	nerf	test		Korabli #584
@@ -891,25 +891,25 @@ Giacomo Nani	Giacomo Nani		意大利	8	潜艇	Дальность хода тор
 Dou Jian	Dou Jian		泛亚	8	巡洋舰	Время перезарядки орудий ГК	12,5	11 с	25.1	官方公告：https://blog.korabli.su/blog/584	buff	test		Korabli #584
 Dou Jian	Dou Jian		泛亚	8	巡洋舰	Добавлено снаряжение «Ремонтная команда» со стандартными для крейсеров характеристиками	—	—	25.1	官方公告：https://blog.korabli.su/blog/584	adjustment	test		Korabli #584
 Dou Jian	Dou Jian		泛亚	8	巡洋舰	Количество восстанавливаемого урона, полученного в цитадель,	33%	50%	25.1	官方公告：https://blog.korabli.su/blog/584	buff	test		Korabli #584
-Xian Deng	Xian Deng		泛亚	8		Максимальный урон ОФ-бомб	7400	6300	25.1	官方公告：https://blog.korabli.su/blog/584	nerf	test		Korabli #584
-Xian Deng	Xian Deng		泛亚	8		Максимальный урон торпед	4587	4026	25.1	官方公告：https://blog.korabli.su/blog/584	nerf	test		Korabli #584
-Xian Deng	Xian Deng		泛亚	8		Скорость хода торпед	35	42 узлов	25.1	官方公告：https://blog.korabli.su/blog/584	buff	test		Korabli #584
-Chakri	Chakri		泛亚	6	战列舰	«Ремонтный дивизион» заменён на «Ремонтную команду». По характеристикам она аналогична этому снаряжению у VIII Monarch : Время работы: 28 с	—	—	2024.12	官方公告：https://blog.korabli.su/blog/582	adjustment	test		Korabli #582
-Chakri	Chakri		泛亚	6	战列舰	Повышена точность орудий ГК. Разброс снарядов станет таким же, как у V Микоян 	—	—	2024.12	官方公告：https://blog.korabli.su/blog/582	adjustment	test		Korabli #582
-Zulfiqar	Zulfiqar		泛亚	7	战列舰	Время работы снаряжения «Ремонтный дивизион»	20	15 с;	2024.12	官方公告：https://blog.korabli.su/blog/582	nerf	test		Korabli #582
-Zulfiqar	Zulfiqar		泛亚	7	战列舰	Повышена точность орудий ГК. Разброс снарядов станет таким же, как у V Микоян 	—	—	2024.12	官方公告：https://blog.korabli.su/blog/582	adjustment	test		Korabli #582
-Tiangong	Tiangong		泛亚	10	战列舰	Время работы снаряжения «Ремонтный дивизион»	20	15 с	2024.12	官方公告：https://blog.korabli.su/blog/582	nerf	test		Korabli #582
-Юрий Долгорукий	Юрий Долгорукий		苏联	9	巡洋舰	Время перезарядки орудий ГК	8,3	9,3 с;	2024.12	官方公告：https://blog.korabli.su/blog/582	nerf	test		Korabli #582
-Юрий Долгорукий	Юрий Долгорукий		苏联	9	巡洋舰	Значения углов рикошета ББ-снарядов изменены до стандартных для класса и уровня	—	—	2024.12	官方公告：https://blog.korabli.su/blog/582	adjustment	test		Korabli #582
-Kuzuryū	Kuzuryū		日本	10	巡洋舰	Время перезарядки орудий ГК	6,2	6,5 с;	2024.12	官方公告：https://blog.korabli.su/blog/582	nerf	test		Korabli #582
-Kuzuryū	Kuzuryū		日本	10	巡洋舰	Время подготовки постановщиков мин	130	140 с	2024.12	官方公告：https://blog.korabli.su/blog/582	nerf	test		Korabli #582
-Xian Deng	Xian Deng		泛亚	8		Время подготовки торпедоносцев и бомбардировщиков (ОФ)	70	90 с;	2024.12	官方公告：https://blog.korabli.su/blog/582	nerf	test		Korabli #582
-Xian Deng	Xian Deng		泛亚	8		Размер прицела бомбардировщиков (ОФ) уменьшен примерно на 27%;	—	—	2024.12	官方公告：https://blog.korabli.su/blog/582	adjustment	test		Korabli #582
-Xian Deng	Xian Deng		泛亚	8		Изменены параметры тактических бомбардировщиков (ББ): Улучшена манёвренность: примерно на 25% во время подготовки к атаке;	—	—	2024.12	官方公告：https://blog.korabli.su/blog/582	adjustment	test		Korabli #582
-Xian Deng	Xian Deng		泛亚	8		Размер прицела уменьшен примерно на 12%. При этом минимальный размер прицела (после полного сведения) также уменьшился примерно на 20%	—	—	2024.12	官方公告：https://blog.korabli.su/blog/582	adjustment	test		Korabli #582
-Xian Deng	Xian Deng		泛亚	8		Время подготовки	180	200 с	2024.12	官方公告：https://blog.korabli.su/blog/582	nerf	test		Korabli #582
-Xian Deng	Xian Deng		泛亚	8		ББ-бомба заменена на аналогичную бомбе исследуемых бомбардировщиков M. Richthofen	—	—	2024.12	官方公告：https://blog.korabli.su/blog/582	adjustment	test		Korabli #582
-Xian Deng	Xian Deng		泛亚	8		Боеспособность самолёта	2457	2703 ед	2024.12	官方公告：https://blog.korabli.su/blog/582	buff	test		Korabli #582
+Xian Deng	Xian Deng		泛亚	8	航空母舰	Максимальный урон ОФ-бомб	7400	6300	25.1	官方公告：https://blog.korabli.su/blog/584	nerf	test		Korabli #584
+Xian Deng	Xian Deng		泛亚	8	航空母舰	Максимальный урон торпед	4587	4026	25.1	官方公告：https://blog.korabli.su/blog/584	nerf	test		Korabli #584
+Xian Deng	Xian Deng		泛亚	8	航空母舰	Скорость хода торпед	35	42 узлов	25.1	官方公告：https://blog.korabli.su/blog/584	buff	test		Korabli #584
+Chakri	Chakri		泛亚	6	战列舰	«Ремонтный дивизион» заменён на «Ремонтную команду». По характеристикам она аналогична этому снаряжению у VIII Monarch : Время работы: 28 с	—	—	待确认	官方公告：https://blog.korabli.su/blog/582	adjustment	test		Korabli #582
+Chakri	Chakri		泛亚	6	战列舰	Повышена точность орудий ГК. Разброс снарядов станет таким же, как у V Микоян 	—	—	待确认	官方公告：https://blog.korabli.su/blog/582	adjustment	test		Korabli #582
+Zulfiqar	Zulfiqar		泛亚	7	战列舰	Время работы снаряжения «Ремонтный дивизион»	20	15 с;	待确认	官方公告：https://blog.korabli.su/blog/582	nerf	test		Korabli #582
+Zulfiqar	Zulfiqar		泛亚	7	战列舰	Повышена точность орудий ГК. Разброс снарядов станет таким же, как у V Микоян 	—	—	待确认	官方公告：https://blog.korabli.su/blog/582	adjustment	test		Korabli #582
+Tiangong	Tiangong		泛亚	10	战列舰	Время работы снаряжения «Ремонтный дивизион»	20	15 с	待确认	官方公告：https://blog.korabli.su/blog/582	nerf	test		Korabli #582
+Юрий Долгорукий	Юрий Долгорукий		苏联	9	巡洋舰	Время перезарядки орудий ГК	8,3	9,3 с;	待确认	官方公告：https://blog.korabli.su/blog/582	nerf	test		Korabli #582
+Юрий Долгорукий	Юрий Долгорукий		苏联	9	巡洋舰	Значения углов рикошета ББ-снарядов изменены до стандартных для класса и уровня	—	—	待确认	官方公告：https://blog.korabli.su/blog/582	adjustment	test		Korabli #582
+Kuzuryū	Kuzuryū		日本	10	巡洋舰	Время перезарядки орудий ГК	6,2	6,5 с;	待确认	官方公告：https://blog.korabli.su/blog/582	nerf	test		Korabli #582
+Kuzuryū	Kuzuryū		日本	10	巡洋舰	Время подготовки постановщиков мин	130	140 с	待确认	官方公告：https://blog.korabli.su/blog/582	nerf	test		Korabli #582
+Xian Deng	Xian Deng		泛亚	8		Время подготовки торпедоносцев и бомбардировщиков (ОФ)	70	90 с;	待确认	官方公告：https://blog.korabli.su/blog/582	nerf	test		Korabli #582
+Xian Deng	Xian Deng		泛亚	8		Размер прицела бомбардировщиков (ОФ) уменьшен примерно на 27%;	—	—	待确认	官方公告：https://blog.korabli.su/blog/582	adjustment	test		Korabli #582
+Xian Deng	Xian Deng		泛亚	8		Изменены параметры тактических бомбардировщиков (ББ): Улучшена манёвренность: примерно на 25% во время подготовки к атаке;	—	—	待确认	官方公告：https://blog.korabli.su/blog/582	adjustment	test		Korabli #582
+Xian Deng	Xian Deng		泛亚	8		Размер прицела уменьшен примерно на 12%. При этом минимальный размер прицела (после полного сведения) также уменьшился примерно на 20%	—	—	待确认	官方公告：https://blog.korabli.su/blog/582	adjustment	test		Korabli #582
+Xian Deng	Xian Deng		泛亚	8		Время подготовки	180	200 с	待确认	官方公告：https://blog.korabli.su/blog/582	nerf	test		Korabli #582
+Xian Deng	Xian Deng		泛亚	8		ББ-бомба заменена на аналогичную бомбе исследуемых бомбардировщиков M. Richthofen	—	—	待确认	官方公告：https://blog.korabli.su/blog/582	adjustment	test		Korabli #582
+Xian Deng	Xian Deng		泛亚	8		Боеспособность самолёта	2457	2703 ед	待确认	官方公告：https://blog.korabli.su/blog/582	buff	test		Korabli #582
 Chakri	Chakri		泛亚	6	战列舰	Параметр сигма орудий ГК	2,0	1,9	13.11	官方公告：https://blog.korabli.su/blog/578	nerf	test		Korabli #578
 Chakri	Chakri		泛亚	6	战列舰	Время перезарядки орудий ГК	20	20,5 с	13.11	官方公告：https://blog.korabli.su/blog/578	nerf	test		Korabli #578
 Zulfiqar	Zulfiqar		泛亚	7	战列舰	Время перезарядки орудий ГК	19	18,5 с	13.11	官方公告：https://blog.korabli.su/blog/578	buff	test		Korabli #578
@@ -921,16 +921,16 @@ Dongfeng	Dongfeng		泛亚	9	战列舰	Параметр сигма орудий �
 Dongfeng	Dongfeng		泛亚	9	战列舰	Время перезарядки орудий ГК	17	18 с	13.11	官方公告：https://blog.korabli.su/blog/578	nerf	test		Korabli #578
 Hengshui	Hengshui		泛亚	9	巡洋舰	Время перезарядки снаряжения «Ремонтная команда»	80	40 с	13.11	官方公告：https://blog.korabli.su/blog/578	buff	test		Korabli #578
 Hengshui	Hengshui		泛亚	9	巡洋舰	Восстановление полученного в цитадель урона	33	50%	13.11	官方公告：https://blog.korabli.su/blog/578	buff	test		Korabli #578
-Shinano	Shinano		日本	10		Количество очков боеспособности бомбардировщиков	1800	1850 ед	13.11	官方公告：https://blog.korabli.su/blog/578	buff	test		Korabli #578
-Shinano	Shinano		日本	10		Количество очков боеспособности штурмовиков	1550	1600 ед	13.11	官方公告：https://blog.korabli.su/blog/578	buff	test		Korabli #578
-Shinano	Shinano		日本	10		Время взведения торпед эскадрильи тактических торпедоносцев	8	6 с	13.11	官方公告：https://blog.korabli.su/blog/578	adjustment	test		Korabli #578
+Shinano	Shinano		日本	10	航空母舰	Количество очков боеспособности бомбардировщиков	1800	1850 ед	13.11	官方公告：https://blog.korabli.su/blog/578	buff	test		Korabli #578
+Shinano	Shinano		日本	10	航空母舰	Количество очков боеспособности штурмовиков	1550	1600 ед	13.11	官方公告：https://blog.korabli.su/blog/578	buff	test		Korabli #578
+Shinano	Shinano		日本	10	航空母舰	Время взведения торпед эскадрильи тактических торпедоносцев	8	6 с	13.11	官方公告：https://blog.korabli.su/blog/578	adjustment	test		Korabli #578
 Kuzuryū	Kuzuryū		日本	10	巡洋舰	Время перезарядки орудий ГК	6	6,2 с	13.11	官方公告：https://blog.korabli.su/blog/578	nerf	test		Korabli #578
 Kuzuryū	Kuzuryū		日本	10	巡洋舰	Время подготовки постановщиков мин	120	130 с	13.11	官方公告：https://blog.korabli.su/blog/578	nerf	test		Korabli #578
 Kuzuryū	Kuzuryū		日本	10	巡洋舰	Время рассеивания дымов у снаряжения «Авиационный дымогенератор»	90	97 с	13.11	官方公告：https://blog.korabli.su/blog/578	adjustment	test		Korabli #578
-Shinano	Shinano		日本	X	航空母舰	Боеспособность штурмовиков	1450	1550 ед	2024.11	官方公告：https://blog.korabli.su/blog/577	buff	test		Korabli #577
-Shinano	Shinano		日本	X	航空母舰	Размер эллипса разброса штурмовиков в начале атаки уменьшен на треть	—	—	2024.11	官方公告：https://blog.korabli.su/blog/577	adjustment	test		Korabli #577
-Shinano	Shinano		日本	X	航空母舰	Боеспособность бомбардировщиков	1650	1800 ед	2024.11	官方公告：https://blog.korabli.su/blog/577	buff	test		Korabli #577
-Xian Deng	Xian Deng		泛亚	VIII	航空母舰	Максимальный урон ОФ-бомбы	8300	7400	2024.11	官方公告：https://blog.korabli.su/blog/577	nerf	test		Korabli #577
+Shinano	Shinano		日本	10	航空母舰	Боеспособность штурмовиков	1450	1550 ед	待确认	官方公告：https://blog.korabli.su/blog/577	buff	test		Korabli #577
+Shinano	Shinano		日本	10	航空母舰	Размер эллипса разброса штурмовиков в начале атаки уменьшен на треть	—	—	待确认	官方公告：https://blog.korabli.su/blog/577	adjustment	test		Korabli #577
+Shinano	Shinano		日本	10	航空母舰	Боеспособность бомбардировщиков	1650	1800 ед	待确认	官方公告：https://blog.korabli.su/blog/577	buff	test		Korabli #577
+Xian Deng	Xian Deng		泛亚	8	航空母舰	Максимальный урон ОФ-бомбы	8300	7400	待确认	官方公告：https://blog.korabli.su/blog/577	nerf	test		Korabli #577
 Annapolis	Annapolis		美国	11	巡洋舰	Время перезарядки орудий ГК	5,5	5,8 с	13.11	官方公告：https://blog.korabli.su/blog/574	nerf	released		Korabli #574
 Annapolis	Annapolis		美国	11	巡洋舰	Изменены параметры «Серии залпов»: Количество залпов	3	2	13.11	官方公告：https://blog.korabli.su/blog/574	nerf	released		Korabli #574
 Annapolis	Annapolis		美国	11	巡洋舰	Время перезарядки после всех залпов	40	26 с	13.11	官方公告：https://blog.korabli.su/blog/574	buff	released		Korabli #574
@@ -956,16 +956,16 @@ Joshua Humphreys	Joshua Humphreys		美国	11	驱逐舰	Максимальный 
 Joshua Humphreys	Joshua Humphreys		美国	11	驱逐舰	Вероятность затопления торпедой	301%	323%	13.11	官方公告：https://blog.korabli.su/blog/574	adjustment	released		Korabli #574
 Błyskawica '63	Błyskawica '63		欧洲	8	驱逐舰	Время перезарядки орудий ГК	3,6	3,8 с	13.10	官方公告：https://blog.korabli.su/blog/573	nerf	test		Korabli #573
 Hengshui	Hengshui		泛亚	9	巡洋舰	Время перезарядки 1–2-го залпов	8,5	5,5 с	13.10	官方公告：https://blog.korabli.su/blog/573	buff	test		Korabli #573
-Shinano	Shinano		日本	10		Время подготовки штурмовиков к атаке	2,5	2 с	13.10	官方公告：https://blog.korabli.su/blog/573	buff	test		Korabli #573
-Shinano	Shinano		日本	10		Увеличен угол атаки штурмовиков. Благодаря изменению станет проще атаковать цели с хорошей маскировкой	—	—	13.10	官方公告：https://blog.korabli.su/blog/573	adjustment	test		Korabli #573
+Shinano	Shinano		日本	10	航空母舰	Время подготовки штурмовиков к атаке	2,5	2 с	13.10	官方公告：https://blog.korabli.su/blog/573	buff	test		Korabli #573
+Shinano	Shinano		日本	10	航空母舰	Увеличен угол атаки штурмовиков. Благодаря изменению станет проще атаковать цели с хорошей маскировкой	—	—	13.10	官方公告：https://blog.korabli.su/blog/573	adjustment	test		Korabli #573
 Shinano	Shinano		日本	10		Размер прицела штурмовиков уменьшен примерно на 11%	—	—	13.10	官方公告：https://blog.korabli.su/blog/573	adjustment	test		Korabli #573
-Shinano	Shinano		日本	10		Уменьшена высота полёта бомбардировщиков	—	—	13.10	官方公告：https://blog.korabli.su/blog/573	adjustment	test		Korabli #573
+Shinano	Shinano		日本	10	航空母舰	Уменьшена высота полёта бомбардировщиков	—	—	13.10	官方公告：https://blog.korabli.su/blog/573	adjustment	test		Korabli #573
 Свердловск	Свердловск		苏联	9	巡洋舰	Время перезарядки орудий ГК	17	16 с	13.9	官方公告：https://blog.korabli.su/blog/572	buff	test		Korabli #572
 Свердловск	Свердловск		苏联	9	巡洋舰	Параметр сигма орудий ГК	2,05	2,15	13.9	官方公告：https://blog.korabli.su/blog/572	buff	test		Korabli #572
 Shinano	Shinano		日本	10		Размер прицела штурмовиков уменьшен на 10%	—	—	13.9	官方公告：https://blog.korabli.su/blog/572	adjustment	test		Korabli #572
-Shinano	Shinano		日本	10		Время восстановления штурмовиков	35	31 с	13.9	官方公告：https://blog.korabli.su/blog/572	buff	test		Korabli #572
-Shinano	Shinano		日本	10		Изменены параметры бомбардировщиков: Время восстановления самолёта	40	36 с	13.9	官方公告：https://blog.korabli.su/blog/572	buff	test		Korabli #572
-Shinano	Shinano		日本	10		Максимальный урон ББ-бомбы	5000	5500	13.9	官方公告：https://blog.korabli.su/blog/572	buff	test		Korabli #572
+Shinano	Shinano		日本	10	航空母舰	Время восстановления штурмовиков	35	31 с	13.9	官方公告：https://blog.korabli.su/blog/572	buff	test		Korabli #572
+Shinano	Shinano		日本	10	航空母舰	Изменены параметры бомбардировщиков: Время восстановления самолёта	40	36 с	13.9	官方公告：https://blog.korabli.su/blog/572	buff	test		Korabli #572
+Shinano	Shinano		日本	10	航空母舰	Максимальный урон ББ-бомбы	5000	5500	13.9	官方公告：https://blog.korabli.su/blog/572	buff	test		Korabli #572
 Shinano	Shinano		日本	10		Увеличено бронепробитие ББ-бомбы. Теперь оно аналогично бронепробитию бомб Hakuryū	—	—	13.9	官方公告：https://blog.korabli.su/blog/572	adjustment	test		Korabli #572
 Archerfish	Archerfish		美国	10	潜艇	Ширина торпедного веера	10	7,5 градусов	13.9	官方公告：https://blog.korabli.su/blog/572	adjustment	test		Korabli #572
 Archerfish	Archerfish		美国	10	潜艇	Дистанция взведения акустических торпед	1	0,6 км	13.9	官方公告：https://blog.korabli.su/blog/572	adjustment	test		Korabli #572
@@ -1051,11 +1051,11 @@ Surcouf	Surcouf		法国	10	潜艇	Время перезарядки 1-го за�
 Surcouf	Surcouf		法国	10	潜艇	Время перезарядки 2–4-го залпов	12	8 с	13.8	官方公告：https://blog.korabli.su/blog/566	buff	test		Korabli #566
 Surcouf	Surcouf		法国	10	潜艇	Время перекладки рулей глубины	31,4	21 с	13.8	官方公告：https://blog.korabli.su/blog/566	buff	test		Korabli #566
 Surcouf	Surcouf		法国	10	潜艇	Скорость хода торпед	62	66 узлов	13.8	官方公告：https://blog.korabli.su/blog/566	buff	test		Korabli #566
-Piemonte	Piemonte		意大利	11	巡洋舰	ПББ-снаряды заменены на фугасы со следующими характеристиками: максимальный урон: 3450 ед	—	—	2024.09	官方公告：https://blog.korabli.su/blog/564	adjustment	released		Korabli #564
-Piemonte	Piemonte		意大利	11	巡洋舰	Время перезарядки орудий ГК	21	16 с	2024.09	官方公告：https://blog.korabli.su/blog/564	buff	released		Korabli #564
-Piemonte	Piemonte		意大利	11	巡洋舰	Количество зарядов снаряжения «Дымогенератор полного хода» увеличено c 2 до 4	—	—	2024.09	官方公告：https://blog.korabli.su/blog/564	adjustment	released		Korabli #564
-Piemonte	Piemonte		意大利	11	巡洋舰	Время перезарядки снаряжения «Дымогенератор полного хода»	160	120 с	2024.09	官方公告：https://blog.korabli.su/blog/564	buff	released		Korabli #564
-Piemonte	Piemonte		意大利	11	巡洋舰	Добавлено снаряжение «Гидроакустический поиск» со следующими характеристиками: количество зарядов: 2	—	—	2024.09	官方公告：https://blog.korabli.su/blog/564	adjustment	released		Korabli #564
+Piemonte	Piemonte		意大利	11	巡洋舰	ПББ-снаряды заменены на фугасы со следующими характеристиками: максимальный урон: 3450 ед	—	—	待确认	官方公告：https://blog.korabli.su/blog/564	adjustment	released		Korabli #564
+Piemonte	Piemonte		意大利	11	巡洋舰	Время перезарядки орудий ГК	21	16 с	待确认	官方公告：https://blog.korabli.su/blog/564	buff	released		Korabli #564
+Piemonte	Piemonte		意大利	11	巡洋舰	Количество зарядов снаряжения «Дымогенератор полного хода» увеличено c 2 до 4	—	—	待确认	官方公告：https://blog.korabli.su/blog/564	adjustment	released		Korabli #564
+Piemonte	Piemonte		意大利	11	巡洋舰	Время перезарядки снаряжения «Дымогенератор полного хода»	160	120 с	待确认	官方公告：https://blog.korabli.su/blog/564	buff	released		Korabli #564
+Piemonte	Piemonte		意大利	11	巡洋舰	Добавлено снаряжение «Гидроакустический поиск» со следующими характеристиками: количество зарядов: 2	—	—	待确认	官方公告：https://blog.korabli.su/blog/564	adjustment	released		Korabli #564
 Tiger '59	Tiger '59		英国	8	巡洋舰	Добавлена «Серия залпов» по типу «барабана полного цикла» (перезарядка начнётся, только когда произведены все залпы) со следующими характеристиками: Время перезарядки: 17 с	—	—	13.8	官方公告：https://blog.korabli.su/blog/560	adjustment	test		Korabli #560
 Vineta	Vineta		德国	7	巡洋舰	Изменена баллистика снарядов ГК: теперь они летят по более настильной траектории	—	—	13.8	官方公告：https://blog.korabli.su/blog/560	adjustment	test		Korabli #560
 Hertha	Hertha		德国	8	巡洋舰	Изменена баллистика снарядов ГК: теперь они летят по более настильной траектории	—	—	13.8	官方公告：https://blog.korabli.su/blog/560	adjustment	test		Korabli #560
@@ -1153,90 +1153,155 @@ Preussen	Preussen		德国	10	战列舰	Урон от разрывов снаря
 民主德国	民主德国		苏联	10	战列舰	鱼雷发射器机制	装填手和单点发射能力	移除；改为常规鱼雷发射器机制	26.8	人工录入：用户提供，待官方公告核验	adjustment	test		Manual 26.8
 民主德国	民主德国		苏联	10	战列舰	鱼雷装填时间	—	80秒	26.8	人工录入：用户提供，待官方公告核验	adjustment	test		Manual 26.8
 民主德国	民主德国		苏联	10	战列舰	“维修小组”可用数量	3	4	26.8	人工录入：用户提供，待官方公告核验	buff	test		Manual 26.8
-迪米特里·顿斯科伊	迪米特里·顿斯科伊		苏联	9	巡洋舰	主炮装填时间	12.5秒	10.5秒	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-塔尔萨	塔尔萨		美国	9	巡洋舰	主炮精度	—	提升至同级驱逐舰平均水平	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-里加	里加		苏联	9	巡洋舰	对海隐蔽	14.9公里	14.5公里	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-欧根亲王	欧根亲王		德国	8	巡洋舰	主炮精度	—	提升至同级驱逐舰平均水平	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-欧根亲王	欧根亲王		德国	8	巡洋舰	主炮装填时间	13秒	12秒	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-新罕布什尔	新罕布什尔		美国	10	战列舰	主炮第1、4座炮塔旋转角度	受限	全角度旋转	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-新罕布什尔	新罕布什尔		美国	10	战列舰	穿甲弹参数	—	与得梅因穿甲弹相同	26.9	人工录入：用户提供，待官方公告核验	adjustment	released		Manual 26.9
+迪米特里·顿斯科伊	迪米特里·顿斯科伊		苏联	9	巡洋舰	主炮装填时间	12.5秒	10.5秒	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+塔尔萨	塔尔萨		美国	9	巡洋舰	主炮精度	—	提升至同级驱逐舰平均水平	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+里加	里加		苏联	9	巡洋舰	对海隐蔽	14.9公里	14.5公里	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+欧根亲王	欧根亲王		德国	8	巡洋舰	主炮精度	—	提升至同级驱逐舰平均水平	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+欧根亲王	欧根亲王		德国	8	巡洋舰	主炮装填时间	13秒	12秒	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+新罕布什尔	新罕布什尔		美国	10	战列舰	主炮第1、4座炮塔旋转角度	受限	全角度旋转	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+新罕布什尔	新罕布什尔		美国	10	战列舰	穿甲弹参数	—	与得梅因穿甲弹相同	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	adjustment	released		Manual 26.9
 让·巴尔 '43	让·巴尔 '43		法国	9	战列舰	副炮（127毫米）射程	13公里	14公里	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
 让·巴尔 '43	让·巴尔 '43		法国	9	战列舰	副炮（127毫米）弹道	—	更平直，最大射程飞行时间不变	26.9	人工录入：用户提供，待官方公告核验	adjustment	released		Manual 26.9
-祖国	祖国		法国	11	战列舰	“引擎增压”消耗品作用时间	120秒	180秒	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-肥前	肥前		日本	9	战列舰	穿甲弹参数	—	与出云穿甲弹相同	26.9	人工录入：用户提供，待官方公告核验	adjustment	released		Manual 26.9
-肥前	肥前		日本	9	战列舰	主炮装填时间	35秒	34秒	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-八戒	八戒		泛亚	9	战列舰	主炮装填时间	32秒	31秒	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-萨摩	萨摩		日本	11	战列舰	主炮装填时间	35秒	34秒	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-波多黎各	波多黎各		美国	10	巡洋舰	主炮装填时间	22秒	20.5秒	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-奥丁	奥丁		德国	8	战列舰	血量	52800	58700	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-白龙	白龙		日本	10	航空母舰	可研发轰炸机血量	1790	2000	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-射水鱼	射水鱼		美国	10	潜艇	声导鱼雷最大伤害	11913	13497	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-U-4501	U-4501		德国	10	潜艇	声导鱼雷最大伤害	11055	12540	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-乌拉尔	乌拉尔		苏联	9	巡洋舰	“主炮装填助推器”可用次数	—	增加1次	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-乌拉尔	乌拉尔		苏联	9	巡洋舰	“主炮装填助推器”作用时间	15秒	20秒	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-柴郡	柴郡		英国	8	巡洋舰	主炮射程	16.1公里	16.9公里	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-柴郡	柴郡		英国	8	巡洋舰	主炮精度	—	提升至炽热水平	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-乌尔皮乌斯·图拉真	乌尔皮乌斯·图拉真		意大利	10	巡洋舰	“维修小组”可用次数	—	增加1次	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-乌尔皮乌斯·图拉真	乌尔皮乌斯·图拉真		意大利	10	巡洋舰	主炮炮弹弹道	—	更平直	26.9	人工录入：用户提供，待官方公告核验	adjustment	released		Manual 26.9
-乌尔皮乌斯·图拉真	乌尔皮乌斯·图拉真		意大利	10	巡洋舰	主炮射程	14.8公里	15.5公里	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-哈巴罗夫斯克	哈巴罗夫斯克		苏联	10	驱逐舰	鱼雷射程	6公里	8.5公里	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-哈巴罗夫斯克	哈巴罗夫斯克		苏联	10	驱逐舰	鱼雷装填时间	127秒	145秒	26.9	人工录入：用户提供，待官方公告核验	nerf	released		Manual 26.9
-哈巴罗夫斯克	哈巴罗夫斯克		苏联	10	驱逐舰	方向舵换挡时间	11.1秒	6.7秒	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-巨浪	巨浪		泛亚	9	战列舰	主炮射程	18.4公里	19.2公里	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-巨浪	巨浪		泛亚	9	战列舰	主炮装填时间	24秒	22秒	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-巴塔哥尼亚	巴塔哥尼亚		泛美	9	巡洋舰	主炮炮弹弹着群系数	1.6	1.7	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-卡瓦哈尔	卡瓦哈尔		泛美	8	巡洋舰	“维修小组”可用次数	—	增加1次	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-新埃斯帕塔	新埃斯帕塔		泛美	10	驱逐舰	消耗品栏位	“鱼雷装填助推器”	新增“监视雷达”，参数与七月二十日相同	26.9	人工录入：用户提供，待官方公告核验	adjustment	released		Manual 26.9
-黎塞留	黎塞留		法国	8	战列舰	“引擎增压”航速加成	8%	15%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-阿尔萨斯	阿尔萨斯		法国	9	战列舰	“引擎增压”航速加成	8%	15%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-悟净	悟净		泛亚	9	战列舰	“引擎增压”航速加成	8%	15%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-共和国	共和国		法国	10	战列舰	“引擎增压”航速加成	8%	15%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-香槟	香槟		法国	8	战列舰	“引擎增压”航速加成	8%	15%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-加斯科涅	加斯科涅		法国	8	战列舰	“引擎增压”航速加成	8%	15%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-让·巴尔	让·巴尔		法国	9	战列舰	“引擎增压”航速加成	8%	15%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-让·巴尔 '43	让·巴尔 '43		法国	9	战列舰	“引擎增压”航速加成	8%	15%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-河内	河内		日本	3	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-妙义	妙义		日本	4	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-金刚	金刚		日本	5	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-扶桑	扶桑		日本	6	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-长门	长门		日本	7	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-天城	天城		日本	8	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-出云	出云		日本	9	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-八戒	八戒		泛亚	9	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-弓张	弓张		日本	8	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-安达太良	安达太良		日本	9	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-丰后	丰后		日本	10	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-三笠	三笠		日本	2	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-石槌	石槌		日本	4	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-陆奥	陆奥		日本	6	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-伊势	伊势		日本	6	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-日向	日向		日本	7	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-天城	天城		日本	7	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-纪伊	纪伊		日本	8	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-武藏	武藏		日本	9	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-肥前	肥前		日本	9	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-大山	大山		日本	9	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-石见	石见		日本	9	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-大和	大和		日本	10	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-敷岛	敷岛		日本	10	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-雷兽	雷兽		日本	10	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-萨摩	萨摩		日本	11	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-天城	天城		日本	8	战列舰	主炮装填时间	30秒	29秒	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-出云	出云		日本	9	战列舰	主炮装填时间	30秒	29秒	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-大和	大和		日本	10	战列舰	主炮装填时间	30秒	29秒	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-西雅图	西雅图		美国	9	巡洋舰	主炮炮弹弹道	—	更平直	26.9	人工录入：用户提供，待官方公告核验	adjustment	released		Manual 26.9
-伍斯特	伍斯特		美国	10	巡洋舰	主炮炮弹弹道	—	更平直	26.9	人工录入：用户提供，待官方公告核验	adjustment	released		Manual 26.9
-翔鹤	翔鹤		日本	8	航空母舰	基础鱼雷机血量	1600	1730	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-翔鹤	翔鹤		日本	8	航空母舰	可研发鱼雷机血量	1670	1800	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-翔鹤	翔鹤		日本	8	航空母舰	基础轰炸机血量	1580	1710	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-翔鹤	翔鹤		日本	8	航空母舰	可研发轰炸机血量	1650	1780	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-天龙	天龙		日本	3	巡洋舰	装甲区甲板装甲	—	增加至40毫米	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-卡利登	卡利登		英国	3	巡洋舰	装甲区甲板装甲	—	增加至40毫米	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-岩木A	岩木A		日本	4	巡洋舰	装甲区甲板装甲	—	增加至40毫米	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-夕张	夕张		日本	4	巡洋舰	装甲区甲板装甲	—	增加至40毫米	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-球磨	球磨		日本	4	巡洋舰	装甲区甲板装甲	—	增加至40毫米	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-达娜厄	达娜厄		英国	4	巡洋舰	装甲区甲板装甲	—	增加至40毫米	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-翡翠	翡翠		英国	5	巡洋舰	装甲区甲板装甲	—	增加至40毫米	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-科尔多瓦	科尔多瓦		泛美	4	巡洋舰	装甲区甲板装甲	—	增加至40毫米	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-塞尔韦拉上将	塞尔韦拉上将		泛美	4	巡洋舰	装甲区甲板装甲	—	增加至40毫米	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
-加利西亚	加利西亚		泛美	5	巡洋舰	装甲区甲板装甲	—	增加至40毫米	26.9	人工录入：用户提供，待官方公告核验	buff	released		Manual 26.9
+祖国	祖国		法国	11	战列舰	“引擎增压”消耗品作用时间	120秒	180秒	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+肥前	肥前		日本	9	战列舰	穿甲弹参数	—	与出云穿甲弹相同	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	adjustment	released		Manual 26.9
+肥前	肥前		日本	9	战列舰	主炮装填时间	35秒	34秒	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+八戒	八戒		泛亚	9	战列舰	主炮装填时间	32秒	31秒	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+萨摩	萨摩		日本	11	战列舰	主炮装填时间	35秒	34秒	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+波多黎各	波多黎各		美国	10	巡洋舰	主炮装填时间	22秒	20.5秒	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+奥丁	奥丁		德国	8	战列舰	血量	52800	58700	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+白龙	白龙		日本	10	航空母舰	可研发轰炸机血量	1790	2000	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+射水鱼	射水鱼		美国	10	潜艇	声导鱼雷最大伤害	11913	13497	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+U-4501	U-4501		德国	10	潜艇	声导鱼雷最大伤害	11055	12540	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+乌拉尔	乌拉尔		苏联	9	巡洋舰	“主炮装填助推器”可用次数	—	增加1次	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+乌拉尔	乌拉尔		苏联	9	巡洋舰	“主炮装填助推器”作用时间	15秒	20秒	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+柴郡	柴郡		英国	8	巡洋舰	主炮射程	16.1公里	16.9公里	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+柴郡	柴郡		英国	8	巡洋舰	主炮精度	—	提升至炽热水平	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+乌尔皮乌斯·图拉真	乌尔皮乌斯·图拉真		意大利	10	巡洋舰	“维修小组”可用次数	—	增加1次	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+乌尔皮乌斯·图拉真	乌尔皮乌斯·图拉真		意大利	10	巡洋舰	主炮炮弹弹道	—	更平直	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	adjustment	released		Manual 26.9
+乌尔皮乌斯·图拉真	乌尔皮乌斯·图拉真		意大利	10	巡洋舰	主炮射程	14.8公里	15.5公里	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+哈巴罗夫斯克	哈巴罗夫斯克		苏联	10	驱逐舰	鱼雷射程	6公里	8.5公里	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+哈巴罗夫斯克	哈巴罗夫斯克		苏联	10	驱逐舰	鱼雷装填时间	127秒	145秒	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	nerf	released		Manual 26.9
+哈巴罗夫斯克	哈巴罗夫斯克		苏联	10	驱逐舰	方向舵换挡时间	11.1秒	6.7秒	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+巨浪	巨浪		泛亚	9	战列舰	主炮射程	18.4公里	19.2公里	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+巨浪	巨浪		泛亚	9	战列舰	主炮装填时间	24秒	22秒	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+巴塔哥尼亚	巴塔哥尼亚		泛美	9	巡洋舰	主炮炮弹弹着群系数	1.6	1.7	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+卡瓦哈尔	卡瓦哈尔		泛美	8	巡洋舰	“维修小组”可用次数	—	增加1次	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+新埃斯帕塔	新埃斯帕塔		泛美	10	驱逐舰	消耗品栏位	“鱼雷装填助推器”	新增“监视雷达”，参数与七月二十日相同	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	adjustment	released		Manual 26.9
+黎塞留	黎塞留		法国	8	战列舰	“引擎增压”航速加成	8%	15%	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+阿尔萨斯	阿尔萨斯		法国	9	战列舰	“引擎增压”航速加成	8%	15%	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+悟净	悟净		泛亚	9	战列舰	“引擎增压”航速加成	8%	15%	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+共和国	共和国		法国	10	战列舰	“引擎增压”航速加成	8%	15%	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+香槟	香槟		法国	8	战列舰	“引擎增压”航速加成	8%	15%	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+加斯科涅	加斯科涅		法国	8	战列舰	“引擎增压”航速加成	8%	15%	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+让·巴尔	让·巴尔		法国	9	战列舰	“引擎增压”航速加成	8%	15%	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+让·巴尔 '43	让·巴尔 '43		法国	9	战列舰	“引擎增压”航速加成	8%	15%	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+河内	河内		日本	3	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+妙义	妙义		日本	4	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+金刚	金刚		日本	5	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+扶桑	扶桑		日本	6	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+长门	长门		日本	7	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+天城	天城		日本	8	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+出云	出云		日本	9	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+八戒	八戒		泛亚	9	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+弓张	弓张		日本	8	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+安达太良	安达太良		日本	9	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+丰后	丰后		日本	10	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+三笠	三笠		日本	2	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+石槌	石槌		日本	4	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+陆奥	陆奥		日本	6	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+伊势	伊势		日本	6	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+日向	日向		日本	7	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+天城	天城		日本	7	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+纪伊	纪伊		日本	8	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+武藏	武藏		日本	9	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+肥前	肥前		日本	9	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+大山	大山		日本	9	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+石见	石见		日本	9	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+大和	大和		日本	10	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+敷岛	敷岛		日本	10	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+雷兽	雷兽		日本	10	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+萨摩	萨摩		日本	11	战列舰	主炮炮弹散布投影面积	—	减少约10%	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+天城	天城		日本	8	战列舰	主炮装填时间	30秒	29秒	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+出云	出云		日本	9	战列舰	主炮装填时间	30秒	29秒	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+大和	大和		日本	10	战列舰	主炮装填时间	30秒	29秒	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+西雅图	西雅图		美国	9	巡洋舰	主炮炮弹弹道	—	更平直	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	adjustment	released		Manual 26.9
+伍斯特	伍斯特		美国	10	巡洋舰	主炮炮弹弹道	—	更平直	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	adjustment	released		Manual 26.9
+翔鹤	翔鹤		日本	8	航空母舰	基础鱼雷机血量	1600	1730	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+翔鹤	翔鹤		日本	8	航空母舰	可研发鱼雷机血量	1670	1800	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+翔鹤	翔鹤		日本	8	航空母舰	基础轰炸机血量	1580	1710	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+翔鹤	翔鹤		日本	8	航空母舰	可研发轰炸机血量	1650	1780	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+天龙	天龙		日本	3	巡洋舰	装甲区甲板装甲	—	增加至40毫米	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+卡利登	卡利登		英国	3	巡洋舰	装甲区甲板装甲	—	增加至40毫米	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+岩木A	岩木A		日本	4	巡洋舰	装甲区甲板装甲	—	增加至40毫米	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+夕张	夕张		日本	4	巡洋舰	装甲区甲板装甲	—	增加至40毫米	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+球磨	球磨		日本	4	巡洋舰	装甲区甲板装甲	—	增加至40毫米	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+达娜厄	达娜厄		英国	4	巡洋舰	装甲区甲板装甲	—	增加至40毫米	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+翡翠	翡翠		英国	5	巡洋舰	装甲区甲板装甲	—	增加至40毫米	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+科尔多瓦	科尔多瓦		泛美	4	巡洋舰	装甲区甲板装甲	—	增加至40毫米	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+塞尔韦拉上将	塞尔韦拉上将		泛美	4	巡洋舰	装甲区甲板装甲	—	增加至40毫米	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+加利西亚	加利西亚		泛美	5	巡洋舰	装甲区甲板装甲	—	增加至40毫米	26.9	人工录入：用户提供，已与官方公告核对 官网核验：https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/	buff	released		Manual 26.9
+Иван Грозный	Иван Грозный		苏联	11	巡洋舰	Время перезарядки первого залпа	23	26 с	26.10	官方公告：https://blog.korabli.su/blog/696 Теперь у двух залпов серии разное время перезарядки. Подобным образом настроена серия залпов у X Conquistador.	nerf	test		blog 696
+Моонзунд	Моонзунд		苏联	10	巡洋舰	Изменены параметры точности ГК — она станет лучше на средней дистанции	—	—	26.10	官方公告：https://blog.korabli.su/blog/696	adjustment	test		blog 696
+Моонзунд	Моонзунд		苏联	10	巡洋舰	Время перезарядки орудий ГК	19	18 с	26.10	官方公告：https://blog.korabli.su/blog/696	buff	test		blog 696
+Моонзунд	Моонзунд		苏联	10	巡洋舰	Восстановление повреждений, полученных частями корабля (без учёта цитадели),	50	60%	26.10	官方公告：https://blog.korabli.su/blog/696	buff	test		blog 696
+Княгиня Ольга	Княгиня Ольга		苏联	8	巡洋舰	Время перезарядки орудий ГК	9,5	9,8 с	26.10	官方公告：https://blog.korabli.su/blog/696	nerf	test		blog 696
+Ханко	Ханко		苏联	7	巡洋舰	Время перезарядки орудий ГК	10,4	8 с	26.10	官方公告：https://blog.korabli.su/blog/696	buff	test		blog 696
+Бородино '04	Бородино '04		苏联	3	战列舰	Время перезарядки орудий ГК	20	22 с	26.10	官方公告：https://blog.korabli.su/blog/696	nerf	test		blog 696
+Бородино '04	Бородино '04		苏联	3	战列舰	Параметр сигма орудий СК	1,9	1,8	26.10	官方公告：https://blog.korabli.su/blog/696	nerf	test		blog 696
+Бородино '04	Бородино '04		苏联	3	战列舰	Интервал между выстрелами серии залпов СК	1,5	2 с	26.10	官方公告：https://blog.korabli.su/blog/696	nerf	test		blog 696
+Mikasa '04	Mikasa '04		日本	3	战列舰	Время перезарядки орудий ГК	19	17 с	26.10	官方公告：https://blog.korabli.su/blog/696	buff	test		blog 696
+Mikasa '04	Mikasa '04		日本	3	战列舰	Время перезарядки орудий СК	9	8 с	26.10	官方公告：https://blog.korabli.su/blog/696	buff	test		blog 696
+Mikasa '04	Mikasa '04		日本	3	战列舰	Время перезарядки орудий ПМК	12	7 с	26.10	官方公告：https://blog.korabli.su/blog/696	buff	test		blog 696
+Mikasa '04	Mikasa '04		日本	3	战列舰	Бронепробитие снаряда ПМК	19	13 мм (является не балансной правкой, а исправлением ошибки с настройками корабля)	26.10	官方公告：https://blog.korabli.su/blog/696	adjustment	test		blog 696
+Schwaben	Schwaben		德国	11	战列舰	Параметр сигма орудий ГК	1,9	2,0	26.10	官方公告：https://blog.korabli.su/blog/696	buff	test		blog 696
+Schwaben	Schwaben		德国	11	战列舰	Время перезарядки орудий ГК	36	37 с	26.10	官方公告：https://blog.korabli.su/blog/696	nerf	test		blog 696
+Schwaben	Schwaben		德国	11	战列舰	Задержка до потери прогресса боевых инструкций	60	75 с	26.10	官方公告：https://blog.korabli.su/blog/696	buff	test		blog 696
+Waterloo	Waterloo		英国	11	驱逐舰	Время перезарядки орудий ГК	4	3,6 с	26.10	官方公告：https://blog.korabli.su/blog/696	buff	test		blog 696
+Waterloo	Waterloo		英国	11	驱逐舰	Время поворота орудий ГК на 180 градусов	7,2	6 с	26.10	官方公告：https://blog.korabli.su/blog/696	buff	test		blog 696
+Waterloo	Waterloo		英国	11	驱逐舰	Теперь глубинные бомбы приземляются ближе к кораблю после их сброса	—	—	26.10	官方公告：https://blog.korabli.su/blog/696	adjustment	test		blog 696
+San Giorgio	San Giorgio		意大利	9	战列舰	Дальность стрельбы орудий ГК	18,5	19,3 км	26.10	官方公告：https://blog.korabli.su/blog/696	buff	test		blog 696
+San Giorgio	San Giorgio		意大利	9	战列舰	Параметр сигма орудий ГК	1,7	1,75	26.10	官方公告：https://blog.korabli.su/blog/696	buff	test		blog 696
+San Giorgio	San Giorgio		意大利	9	战列舰	Время перезарядки первого залпа орудий СК	9	9,5 с	26.10	官方公告：https://blog.korabli.su/blog/696	nerf	test		blog 696
+Isonzo	Isonzo		意大利	9	巡洋舰	Время перезарядки орудий ГК	27	26 с	26.10	官方公告：https://blog.korabli.su/blog/696	buff	test		blog 696
+Isonzo	Isonzo		意大利	9	巡洋舰	Восстановление повреждений цитадели	33	50%	26.10	官方公告：https://blog.korabli.su/blog/696	buff	test		blog 696
+Isonzo	Isonzo		意大利	9	巡洋舰	Боеспособность бомбардировщиков	1840	2100 ед	26.10	官方公告：https://blog.korabli.su/blog/696	buff	test		blog 696
+Jenkins	Jenkins		美国	11	驱逐舰	Время перезарядки торпед при активации снаряжения «Ускорение перезарядки торпед»	30	25 с	26.9	官方公告：https://blog.korabli.su/blog/694	buff	test		blog 694
+Isonzo	Isonzo		意大利	9	巡洋舰	Время поворота орудий ГК на 180 градусов	45	27,7 с	26.9	官方公告：https://blog.korabli.su/blog/694	buff	test		blog 694
+Isonzo	Isonzo		意大利	9	巡洋舰	Бронирование обшивки и палубы каземата	27	30 мм	26.9	官方公告：https://blog.korabli.su/blog/694	buff	test		blog 694
+San Giorgio	San Giorgio		意大利	9	战列舰	Параметр сигма орудий среднего калибра (СК)	1,7	1,6	26.9	官方公告：https://blog.korabli.su/blog/694	nerf	test		blog 694
+Akagi	Akagi		日本	8	航空母舰	Максимальный урон ББ-бомбы	4700	4500 ед	26.9	官方公告：https://blog.korabli.su/blog/694	nerf	test		blog 694
+ГДР	ГДР		苏联	10	战列舰	Запас боеспособности	86300	90300 ед	26.9	官方公告：https://blog.korabli.su/blog/694	buff	test		blog 694
+Иван Грозный	Иван Грозный		苏联	11	巡洋舰	Время перезарядки залпов ГК	21	23 с	26.9	官方公告：https://blog.korabli.su/blog/694	nerf	test		blog 694
+Иван Грозный	Иван Грозный		苏联	11	巡洋舰	Минимальный интервал между залпами ГК	6	7 с	26.9	官方公告：https://blog.korabli.su/blog/694	nerf	test		blog 694
+Иван Грозный	Иван Грозный		苏联	11	巡洋舰	Запас боеспособности	84600	80600 ед	26.9	官方公告：https://blog.korabli.su/blog/694	nerf	test		blog 694
+Budapest	Budapest		欧洲	9	战列舰	Время перезарядки орудий ГК	20	21 с	26.9	官方公告：https://blog.korabli.su/blog/694	nerf	test		blog 694
+Schwaben	Schwaben		德国	11	战列舰	战斗指令：作战组	—	新增“作战组协同指挥”	26.9	官方公告：https://blog.korabli.su/blog/695 每场最多激活四次，效果叠加并持续至战斗结束；主炮命中积累进度，达到100%自动激活。机制名称为暂译。	adjustment	test		blog 695
+Schwaben	Schwaben		德国	11	战列舰	战斗指令：每次主炮命中积累进度	—	17%	26.9	官方公告：https://blog.korabli.su/blog/695 	adjustment	test		blog 695
+Schwaben	Schwaben		德国	11	战列舰	战斗指令：进度衰减前延迟	—	60 秒	26.9	官方公告：https://blog.korabli.su/blog/695 	adjustment	test		blog 695
+Schwaben	Schwaben		德国	11	战列舰	战斗指令：每秒进度衰减	—	17%	26.9	官方公告：https://blog.korabli.su/blog/695 	adjustment	test		blog 695
+Schwaben	Schwaben		德国	11	战列舰	战斗指令：每次激活主炮最大散布半径	—	-2.5%	26.9	官方公告：https://blog.korabli.su/blog/695 四次累计：-10%。	buff	test		blog 695
+Schwaben	Schwaben		德国	11	战列舰	战斗指令：每次激活主炮转速	—	+5%	26.9	官方公告：https://blog.korabli.su/blog/695 四次累计：+20%。	buff	test		blog 695
+Schwaben	Schwaben		德国	11	战列舰	战斗指令：每次激活方向舵换挡时间	—	-5%	26.9	官方公告：https://blog.korabli.su/blog/695 四次累计：-20%。	buff	test		blog 695
+Schwaben	Schwaben		德国	11	战列舰	战斗指令：每次激活主炮装填时间	—	-1.5%	26.9	官方公告：https://blog.korabli.su/blog/695 四次累计：-6%。	buff	test		blog 695
+Schwaben	Schwaben		德国	11	战列舰	主炮180度旋转时间	60 秒	50 秒	26.9	官方公告：https://blog.korabli.su/blog/695 	buff	test		blog 695
+Schwaben	Schwaben		德国	11	战列舰	主炮装填时间	35 秒	36 秒	26.9	官方公告：https://blog.korabli.su/blog/695 	nerf	test		blog 695
+Б-4	Б-4		苏联	11	潜艇	基础船体潜航能力	234	162	26.10	26.10 公测，正式服是否采用以最终公告为准。 官方公告：https://korabli.su/ru/news/public-test/public-test-2610/	nerf	released		portal-public-test-2610
+Б-4	Б-4		苏联	11	潜艇	水听器作用距离	10 千米	8 千米	26.10	26.10 公测，正式服是否采用以最终公告为准。 官方公告：https://korabli.su/ru/news/public-test/public-test-2610/	nerf	released		portal-public-test-2610
+К-1	К-1		苏联	10	潜艇	基础及可研发鱼雷发射管的鱼雷航速	85 节	80 节	26.10	26.10 公测，正式服是否采用以最终公告为准。 官方公告：https://korabli.su/ru/news/public-test/public-test-2610/	nerf	released		portal-public-test-2610
+К-1	К-1		苏联	10	潜艇	基础船体潜航能力	221	153	26.10	26.10 公测，正式服是否采用以最终公告为准。 官方公告：https://korabli.su/ru/news/public-test/public-test-2610/	nerf	released		portal-public-test-2610
+К-1	К-1		苏联	10	潜艇	水听器作用距离	10 千米	8 千米	26.10	26.10 公测，正式服是否采用以最终公告为准。 官方公告：https://korabli.su/ru/news/public-test/public-test-2610/	nerf	released		portal-public-test-2610
+К-1	К-1		苏联	10	潜艇	最大航速	32.5 节	34 节	26.10	26.10 公测，正式服是否采用以最终公告为准。 官方公告：https://korabli.su/ru/news/public-test/public-test-2610/	buff	released		portal-public-test-2610
+Л-20	Л-20		苏联	8	潜艇	基础及可研发鱼雷发射管的鱼雷航速	85 节	80 节	26.10	26.10 公测，正式服是否采用以最终公告为准。 官方公告：https://korabli.su/ru/news/public-test/public-test-2610/	nerf	released		portal-public-test-2610
+Л-20	Л-20		苏联	8	潜艇	基础船体潜航能力	177	122	26.10	26.10 公测，正式服是否采用以最终公告为准。 官方公告：https://korabli.su/ru/news/public-test/public-test-2610/	nerf	released		portal-public-test-2610
+Л-20	Л-20		苏联	8	潜艇	可研发船体潜航能力	208	144	26.10	26.10 公测，正式服是否采用以最终公告为准。 官方公告：https://korabli.su/ru/news/public-test/public-test-2610/	nerf	released		portal-public-test-2610
+С-1	С-1		苏联	6	潜艇	基础及可研发鱼雷发射管的鱼雷航速	85 节	80 节	26.10	26.10 公测，正式服是否采用以最终公告为准。 官方公告：https://korabli.su/ru/news/public-test/public-test-2610/	nerf	released		portal-public-test-2610
+С-1	С-1		苏联	6	潜艇	基础船体潜航能力	166	115	26.10	26.10 公测，正式服是否采用以最终公告为准。 官方公告：https://korabli.su/ru/news/public-test/public-test-2610/	nerf	released		portal-public-test-2610
+С-1	С-1		苏联	6	潜艇	可研发船体潜航能力	195	135	26.10	26.10 公测，正式服是否采用以最终公告为准。 官方公告：https://korabli.su/ru/news/public-test/public-test-2610/	nerf	released		portal-public-test-2610
+U-796	U-796		德国	11	潜艇	水底搜索：舰船发现距离	6 千米	5.5 千米	26.10	26.10 公测，正式服是否采用以最终公告为准。 官方公告：https://korabli.su/ru/news/public-test/public-test-2610/	nerf	released		portal-public-test-2610
+U-796	U-796		德国	11	潜艇	水底搜索：鱼雷发现距离	4 千米	3.8 千米	26.10	26.10 公测，正式服是否采用以最终公告为准。 官方公告：https://korabli.su/ru/news/public-test/public-test-2610/	nerf	released		portal-public-test-2610
+U-796	U-796		德国	11	潜艇	水底搜索：水雷发现距离	1 千米	0.95 千米	26.10	26.10 公测，正式服是否采用以最终公告为准。 官方公告：https://korabli.su/ru/news/public-test/public-test-2610/	nerf	released		portal-public-test-2610
+U-796	U-796		德国	11	潜艇	最大航速	34 节	32 节	26.10	26.10 公测，正式服是否采用以最终公告为准。 官方公告：https://korabli.su/ru/news/public-test/public-test-2610/	nerf	released		portal-public-test-2610
+U-796	U-796		德国	11	潜艇	最大下潜及上浮速度	4.1 米/秒	3.7 米/秒	26.10	26.10 公测，正式服是否采用以最终公告为准。 官方公告：https://korabli.su/ru/news/public-test/public-test-2610/	nerf	released		portal-public-test-2610
+U-2501	U-2501		德国	10	潜艇	航速	27 节	29 节	26.10	26.10 公测，正式服是否采用以最终公告为准。 官方公告：https://korabli.su/ru/news/public-test/public-test-2610/	buff	released		portal-public-test-2610
+L'Africaine	L'Africaine		法国	8	潜艇	鱼雷航速	90 节	85 节	26.10	26.10 公测，正式服是否采用以最终公告为准。 官方公告：https://korabli.su/ru/news/public-test/public-test-2610/	nerf	released		portal-public-test-2610
+Casabianca	Casabianca		法国	10	潜艇	鱼雷航速	90 节	85 节	26.10	26.10 公测，正式服是否采用以最终公告为准。 官方公告：https://korabli.su/ru/news/public-test/public-test-2610/	nerf	unknown		portal-public-test-2610
