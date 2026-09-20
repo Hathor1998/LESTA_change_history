@@ -3,6 +3,17 @@ import { createHash } from 'node:crypto';
 import type { BalanceChange, OfficialBalanceRecord, ShipStatus } from '../src/types.ts';
 
 const norm=(s:string)=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^\p{L}\p{N}]/gu,'').toUpperCase();
+export function currentShipStatuses(history: Array<{shipId: string; shipStatus: ShipStatus; releaseEvidence: string[]; changeStage?: 'public-test'}>): Map<string, ShipStatus> {
+  const facts = new Map<string, { tested: boolean; released: boolean }>();
+  for (const row of history) {
+    const previous = facts.get(row.shipId);
+    facts.set(row.shipId, {
+      tested: !!previous?.tested || row.shipStatus === 'test',
+      released: !!previous?.released || row.releaseEvidence.length > 0,
+    });
+  }
+  return new Map([...facts].map(([id, fact]) => [id, fact.released ? 'released' : fact.tested ? 'test' : 'released']));
+}
 export function readMo(buffer:Buffer):Record<string,string> {
   if(buffer.length<28) throw new Error('Invalid MO header');
   const magic=buffer.readUInt32LE(0);
@@ -31,6 +42,7 @@ export async function enrichShips(records:BalanceChange[], official:OfficialBala
   }
   const lookup=(name:string)=>{const values=names.get(norm(name));return values?.size===1?[...values][0]:undefined;};
   const registry=new Map<string,{shipId:string;name:string;originalNames:string[];searchAliases:string[];currentShipStatus:ShipStatus;releaseEvidence:string[]}>();
+  const statusHistory: Parameters<typeof currentShipStatuses>[0] = [];
   const output=records.map(record=>{
     if(record.category!=='ship')return record;
     const sourceNames=[record.targetName,record.canonicalName,...record.previousNames];
@@ -48,12 +60,16 @@ export async function enrichShips(records:BalanceChange[], official:OfficialBala
     const identity=override?`code:${override.gameCode}`:entityIds.length===1?`entity:${entityIds[0]}`:[norm(originals[0]??record.canonicalName),record.nation,record.tier,record.type].join('|');
     const shipId=createHash('sha256').update(identity).digest('hex').slice(0,16);
     const releaseEvidence=peers.flatMap(r=>r.shipStatus==='released'&&r.changeStage!=='public-test'?(r.sources??[]).filter(s=>s.url.includes('korabli.su/ru/news/game-updates/')).map(s=>s.url):[]);
+    statusHistory.push({shipId, shipStatus: record.shipStatus, releaseEvidence});
+    for (const peer of peers) statusHistory.push({shipId, shipStatus: peer.shipStatus, releaseEvidence: []});
     const currentShipStatus:ShipStatus=releaseEvidence.length?'released':record.shipStatus==='test'?'test':'unknown';
     const aliases=[...new Set([...sourceNames.map(translate),...sourceNames])].filter(n=>n!==localized);
     const previous=registry.get(shipId);
     registry.set(shipId,{shipId,name:localized,originalNames:[...new Set([...(previous?.originalNames??[]),...originals])],searchAliases:[...new Set([...(previous?.searchAliases??[]),...aliases])],currentShipStatus:previous?.currentShipStatus==='released'||currentShipStatus==='released'?'released':previous?.currentShipStatus==='test'||currentShipStatus==='test'?'test':'unknown',releaseEvidence:[...new Set([...(previous?.releaseEvidence??[]),...releaseEvidence])]});
     return {...record,shipId,canonicalName:localized,targetName:localized,originalNames:originals,searchAliases:aliases,currentShipStatus};
   });
+  const statuses = currentShipStatuses(statusHistory);
+  for (const entry of registry.values()) entry.currentShipStatus = statuses.get(entry.shipId)!;
   await writeFile('data/database/ship-identities.json',JSON.stringify([...registry.values()],null,2)+'\n');
   return output.map(r=>r.shipId?{...r,...registry.get(r.shipId),canonicalName:registry.get(r.shipId)!.name}:r);
 }

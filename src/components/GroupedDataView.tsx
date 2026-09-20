@@ -145,7 +145,7 @@ export default function GroupedDataView({ data, category, navigation }: GroupedD
       <dialog ref={dialog} className="filter-dialog glass" onClick={e => {if(e.target === dialog.current) dialog.current.close();}} onClose={() => trigger.current?.focus()} aria-label="搜索与筛选">
       <div className="p-4">
         <div className="panel-heading"><strong>搜索与筛选 · {filteredData.length} 条</strong><button className="text-button" onClick={() => dialog.current?.close()}>完成</button></div>
-        <div className="flex flex-col lg:flex-row gap-4">
+        <div className="filter-fields">
           <div className="flex-1 relative">
             <Search className="h-5 w-5 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
             <input
@@ -158,7 +158,7 @@ export default function GroupedDataView({ data, category, navigation }: GroupedD
             />
           </div>
 
-          <div className="flex gap-2 flex-wrap pb-2 lg:pb-0">
+          <div className="filter-selects">
             {nations.length > 0 && (
               <select aria-label="国籍" className="block w-32 border border-slate-300 rounded-lg px-3 py-2 text-sm bg-white" value={nationFilter} onChange={(event) => setNationFilter(event.target.value)}>
                 <option value="">全部国籍</option>

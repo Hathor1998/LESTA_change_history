@@ -128,3 +128,28 @@ test('failed acquisition leaves database, TSVs and site config unchanged',async(
     await rm(temp,{recursive:true,force:true});
   }
 });
+import { currentShipStatuses } from './ship-localization.ts';
+
+test('current ship status aggregates identity history without inventing release evidence', () => {
+  const rows: Parameters<typeof currentShipStatuses>[0] = [
+    {shipId:'no-test',shipStatus:'unknown',releaseEvidence:[]},
+    {shipId:'test-only',shipStatus:'test',releaseEvidence:[]},
+    {shipId:'converted',shipStatus:'test',releaseEvidence:[]},
+    {shipId:'converted',shipStatus:'released',releaseEvidence:['https://korabli.su/ru/news/game-updates/example/']},
+    {shipId:'public-test-released',shipStatus:'released',changeStage:'public-test',releaseEvidence:[]},
+    {shipId:'same-name-other-ship',shipStatus:'unknown',releaseEvidence:[]},
+    {shipId:'test-only',shipStatus:'released',releaseEvidence:[]},
+  ];
+  const before = JSON.stringify(rows);
+  const statuses = currentShipStatuses(rows);
+  assert.equal(statuses.get('no-test'),'released');
+  assert.equal(statuses.get('test-only'),'test');
+  assert.equal(statuses.get('converted'),'released');
+  assert.equal(statuses.get('public-test-released'),'released');
+  assert.equal(statuses.get('same-name-other-ship'),'released');
+  assert.deepEqual(currentShipStatuses([...rows].reverse()), new Map([...statuses].reverse()));
+  assert.equal(JSON.stringify(rows), before);
+  // Filtering must consume the already enriched status, not recompute from visible history.
+  const enriched = rows.map(row => ({...row,currentShipStatus:statuses.get(row.shipId)}));
+  assert.equal(enriched.filter(row=>row.shipId==='converted'&&row.shipStatus==='test')[0].currentShipStatus,'released');
+});

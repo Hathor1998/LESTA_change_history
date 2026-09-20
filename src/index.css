@@ -53,9 +53,13 @@ body { margin: 0; color: var(--text); font-family: "Avenir Next", "Segoe UI", "P
 .app-shell { min-height: 100vh; background: radial-gradient(ellipse at 0 0, var(--accent-soft), transparent 65%), var(--page); }
 .page-width { max-width: 1280px; width: 100%; margin-inline: auto; padding-inline: clamp(12px, 3vw, 32px); }
 .main-content { padding-top: 24px; padding-bottom: calc(var(--dock-clearance) + env(safe-area-inset-bottom)); min-height: 65vh; }
-.site-header { position: sticky; top: 0; z-index: 20; background: var(--surface-muted); border-bottom: 1px solid var(--line); box-shadow: 0 4px 20px #10243e08; }
+.site-header { position: fixed; top: 0; width: 100%; z-index: 20; background: var(--surface-muted); border-bottom: 1px solid var(--line); box-shadow: 0 4px 20px #10243e08; }
+.is-compact .meta-grid, .is-compact .brand-copy p { display: none; }
+.filter-fields { display: grid; gap: 16px; }
+.filter-selects { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; }
+.filter-selects select { width: 100%; min-width: 0; }
 .brand-row { display: flex; align-items: center; gap: 16px; padding-block: 18px; }
-.brand-logo { width: clamp(76px, 8vw, 100px); height: auto; flex-shrink: 0; clip-path: inset(1.6% round 5px); }
+.brand-logo { width: clamp(76px, 8vw, 100px); height: auto; aspect-ratio: 1; flex-shrink: 0; clip-path: inset(1.6% round 5px); }
 .brand-logo.compact { width: 52px; }
 .brand-copy { flex: 1; min-width: 0; }
 .brand-title { font-size: clamp(17px, 2.3vw, 29px); line-height: 1.18; letter-spacing: -.035em; font-weight: 750; text-wrap: balance; }
@@ -139,6 +143,7 @@ button.bg-slate-800, button.bg-slate-900, .bg-blue-600, .bg-blue-700 { backgroun
 .hover\:text-red-700:hover { color: var(--nerf); }
 
 @media(max-width:767px) {
+  .filter-selects { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   :root { --dock-clearance: 170px; }
   .header-actions { flex-direction: column; gap: 4px; }
   .is-compact .header-actions { flex-direction: row; }
