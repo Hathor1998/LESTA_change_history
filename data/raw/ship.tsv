@@ -1019,60 +1019,6 @@ Hertha	Hertha		德国	8	巡洋舰	Изменены параметры снаря
 Hertha	Hertha		德国	8	巡洋舰	Количество восстанавливаемых в секунду очков боеспособности	0.6%	1.2%	13.9	官方公告：https://blog.korabli.su/blog/568	buff	test		Korabli #568
 Otto Weddigen	Otto Weddigen		德国	11	驱逐舰	Время перезарядки орудий ГК	4	4.2 с	13.9	官方公告：https://blog.korabli.su/blog/568	nerf	test		Korabli #568
 Kortenaer	Kortenaer		荷兰	6	驱逐舰	Показатели дальности хода торпед, стрельбы орудий ГК и применения авиаудара	8	9 км	13.9	官方公告：https://blog.korabli.su/blog/568	buff	test		Korabli #568
-Новик	Новик		苏联	2	巡洋舰	Время перезарядки орудий ГК	5	4,5 с	13.10	官方公告：https://blog.korabli.su/blog/567	buff	released		Korabli #567
-Богатырь	Богатырь		苏联	3	巡洋舰	Время перезарядки орудий ГК	8	7,5 с	13.10	官方公告：https://blog.korabli.su/blog/567	buff	released		Korabli #567
-Богатырь	Богатырь		苏联	3	巡洋舰	Добавлено снаряжение «Ремонтная команда»	—	—	13.10	官方公告：https://blog.korabli.su/blog/567	adjustment	released		Korabli #567
-Светлана	Светлана		苏联	4	巡洋舰	Время перезарядки орудий ГК	8,5	7,5 с	13.10	官方公告：https://blog.korabli.su/blog/567	buff	released		Korabli #567
-Светлана	Светлана		苏联	4	巡洋舰	Добавлено снаряжение «Ремонтная команда»	—	—	13.10	官方公告：https://blog.korabli.su/blog/567	adjustment	released		Korabli #567
-Котовский	Котовский		苏联	5	巡洋舰	Время перезарядки орудий ГК	8,2	7,5 с	13.10	官方公告：https://blog.korabli.su/blog/567	buff	released		Korabli #567
-Котовский	Котовский		苏联	5	巡洋舰	Добавлено снаряжение «Ремонтная команда» с увеличенным восстановлением повреждений цитадели и всего корпуса	—	—	13.10	官方公告：https://blog.korabli.su/blog/567	adjustment	released		Korabli #567
-Будённый	Будённый		苏联	6	巡洋舰	Добавлено снаряжение «Ремонтная команда» с увеличенным восстановлением повреждений цитадели и всего корпуса	—	—	13.10	官方公告：https://blog.korabli.su/blog/567	adjustment	released		Korabli #567
-Сторожевой	Сторожевой		苏联	2	驱逐舰	Время поворота орудий ГК на 180 градусов	15,7	10 с	13.10	官方公告：https://blog.korabli.su/blog/567	buff	released		Korabli #567
-Сторожевой	Сторожевой		苏联	2	驱逐舰	Дальность хода торпед	4	6 км	13.10	官方公告：https://blog.korabli.su/blog/567	buff	released		Korabli #567
-Дерзкий	Дерзкий		苏联	3	驱逐舰	Время поворота орудий ГК на 180 градусов	15,7	10 с	13.10	官方公告：https://blog.korabli.su/blog/567	buff	released		Korabli #567
-Дерзкий	Дерзкий		苏联	3	驱逐舰	Дальность хода торпед	4	6 км	13.10	官方公告：https://blog.korabli.su/blog/567	buff	released		Korabli #567
-Изяслав	Изяслав		苏联	4	驱逐舰	Время поворота орудий ГК на 180 градусов	15,7	10 с	13.10	官方公告：https://blog.korabli.su/blog/567	buff	released		Korabli #567
-Изяслав	Изяслав		苏联	4	驱逐舰	Дальность хода торпед	5	6,5 км	13.10	官方公告：https://blog.korabli.su/blog/567	buff	released		Korabli #567
-Подвойский	Подвойский		苏联	5	驱逐舰	Дальность хода торпед	4	7 км	13.10	官方公告：https://blog.korabli.su/blog/567	buff	released		Korabli #567
-Подвойский	Подвойский		苏联	5	驱逐舰	Скорость хода торпед	65	55 узлов	13.10	官方公告：https://blog.korabli.su/blog/567	nerf	released		Korabli #567
-Подвойский	Подвойский		苏联	5	驱逐舰	Заметность торпед	1,3	1,1 км	13.10	官方公告：https://blog.korabli.su/blog/567	buff	released		Korabli #567
-Подвойский	Подвойский		苏联	5	驱逐舰	Время поворота орудий ГК на 180 градусов	18,6	10 с	13.10	官方公告：https://blog.korabli.su/blog/567	buff	released		Korabli #567
-Подвойский	Подвойский		苏联	5	驱逐舰	Время перезарядки орудий ГК	7,5	6,5 с	13.10	官方公告：https://blog.korabli.su/blog/567	buff	released		Korabli #567
-Подвойский	Подвойский		苏联	5	驱逐舰	Добавлено снаряжение «Ремонтная команда»	—	—	13.10	官方公告：https://blog.korabli.su/blog/567	adjustment	released		Korabli #567
-Подвойский	Подвойский		苏联	5	驱逐舰	Количество снаряжения «Форсаж» уменьшено на 1	—	—	13.10	官方公告：https://blog.korabli.su/blog/567	adjustment	released		Korabli #567
-Подвойский	Подвойский		苏联	5	驱逐舰	Количество снаряжения «Дымогенератор» уменьшено на 1	—	—	13.10	官方公告：https://blog.korabli.su/blog/567	adjustment	released		Korabli #567
-Гневный	Гневный		苏联	6	驱逐舰	Дальность хода торпед	4	7 км	13.10	官方公告：https://blog.korabli.su/blog/567	buff	released		Korabli #567
-Гневный	Гневный		苏联	6	驱逐舰	Скорость хода торпед	70	55 узлов	13.10	官方公告：https://blog.korabli.su/blog/567	nerf	released		Korabli #567
-Гневный	Гневный		苏联	6	驱逐舰	Заметность торпед	1,3	1,1 км	13.10	官方公告：https://blog.korabli.su/blog/567	buff	released		Korabli #567
-Гневный	Гневный		苏联	6	驱逐舰	Максимальный урон торпеды	13860	13266	13.10	官方公告：https://blog.korabli.su/blog/567	nerf	released		Korabli #567
-Гневный	Гневный		苏联	6	驱逐舰	Шанс вызвать затопление торпеды	250%	240%	13.10	官方公告：https://blog.korabli.su/blog/567	nerf	released		Korabli #567
-Гневный	Гневный		苏联	6	驱逐舰	Время поворота орудий ГК на 180 градусов	18,6	10 с	13.10	官方公告：https://blog.korabli.su/blog/567	buff	released		Korabli #567
-Гневный	Гневный		苏联	6	驱逐舰	Добавлено снаряжение «Ремонтная команда»	—	—	13.10	官方公告：https://blog.korabli.su/blog/567	adjustment	released		Korabli #567
-Гневный	Гневный		苏联	6	驱逐舰	Количество снаряжения «Форсаж» уменьшено на 1	—	—	13.10	官方公告：https://blog.korabli.su/blog/567	adjustment	released		Korabli #567
-Гневный	Гневный		苏联	6	驱逐舰	Количество снаряжения «Дымогенератор» уменьшено на 1	—	—	13.10	官方公告：https://blog.korabli.su/blog/567	adjustment	released		Korabli #567
-Минск	Минск		苏联	7	驱逐舰	Дальность хода торпед	4	7,5 км	13.10	官方公告：https://blog.korabli.su/blog/567	buff	released		Korabli #567
-Минск	Минск		苏联	7	驱逐舰	Скорость хода торпед	65	55 узлов	13.10	官方公告：https://blog.korabli.su/blog/567	nerf	released		Korabli #567
-Минск	Минск		苏联	7	驱逐舰	Заметность торпед	1,3	1,1 км	13.10	官方公告：https://blog.korabli.su/blog/567	buff	released		Korabli #567
-Минск	Минск		苏联	7	驱逐舰	Максимальный урон торпеды	16566	13266	13.10	官方公告：https://blog.korabli.su/blog/567	nerf	released		Korabli #567
-Минск	Минск		苏联	7	驱逐舰	Шанс вызвать затопление торпеды	302%	240%	13.10	官方公告：https://blog.korabli.su/blog/567	nerf	released		Korabli #567
-Минск	Минск		苏联	7	驱逐舰	Время поворота орудий ГК на 180 градусов	18,6	9 с	13.10	官方公告：https://blog.korabli.su/blog/567	buff	released		Korabli #567
-Минск	Минск		苏联	7	驱逐舰	Добавлено снаряжение «Ремонтная команда»	—	—	13.10	官方公告：https://blog.korabli.su/blog/567	adjustment	released		Korabli #567
-Минск	Минск		苏联	7	驱逐舰	Количество снаряжения «Форсаж» уменьшено на 1	—	—	13.10	官方公告：https://blog.korabli.su/blog/567	adjustment	released		Korabli #567
-Минск	Минск		苏联	7	驱逐舰	Количество снаряжения «Дымогенератор» уменьшено на 1	—	—	13.10	官方公告：https://blog.korabli.su/blog/567	adjustment	released		Korabli #567
-Киев	Киев		苏联	8	驱逐舰	Бронирование центральной части обшивки борта	19	30 мм	13.10	官方公告：https://blog.korabli.su/blog/567	adjustment	released		Korabli #567
-Киев	Киев		苏联	8	驱逐舰	Бронирование центральной части палубы	19	25 мм	13.10	官方公告：https://blog.korabli.su/blog/567	adjustment	released		Korabli #567
-Киев	Киев		苏联	8	驱逐舰	Время поворота орудий ГК на 180 градусов	18,6	9 с	13.10	官方公告：https://blog.korabli.su/blog/567	buff	released		Korabli #567
-Ташкент	Ташкент		苏联	9	驱逐舰	Бронирование центральной части обшивки борта	19	30 мм	13.10	官方公告：https://blog.korabli.su/blog/567	adjustment	released		Korabli #567
-Ташкент	Ташкент		苏联	9	驱逐舰	Бронирование центральной части палубы	19	25 мм	13.10	官方公告：https://blog.korabli.su/blog/567	adjustment	released		Korabli #567
-Ташкент	Ташкент		苏联	9	驱逐舰	Время поворота орудий ГК на 180 градусов	9	8 с	13.10	官方公告：https://blog.korabli.su/blog/567	buff	released		Korabli #567
-Ташкент	Ташкент		苏联	9	驱逐舰	Дальность хода торпед	8	9 км	13.10	官方公告：https://blog.korabli.su/blog/567	buff	released		Korabli #567
-Дельный	Дельный		苏联	10	驱逐舰	Бронирование центральной части палубы	19	25 мм	13.10	官方公告：https://blog.korabli.su/blog/567	adjustment	released		Korabli #567
-Дельный	Дельный		苏联	10	驱逐舰	Время поворота орудий ГК на 180 градусов	9	8 с	13.10	官方公告：https://blog.korabli.su/blog/567	buff	released		Korabli #567
-Дельный	Дельный		苏联	10	驱逐舰	Время перезарядки ТА	129	115 с	13.10	官方公告：https://blog.korabli.su/blog/567	buff	released		Korabli #567
-Пётр Великий	Пётр Великий		苏联	5	战列舰	Время перезарядки орудий ГК	33	30 с	13.10	官方公告：https://blog.korabli.su/blog/567	buff	released		Korabli #567
-Измаил	Измаил		苏联	6	战列舰	Время поворота орудий ГК на 180 градусов	60	45 с	13.10	官方公告：https://blog.korabli.su/blog/567	buff	released		Korabli #567
-Ленинград	Ленинград		苏联	7	驱逐舰	Время поворота орудий ГК на 180 градусов	27,7	15,7 с	13.10	官方公告：https://blog.korabli.su/blog/567	buff	released		Korabli #567
-Таллин	Таллин		苏联	8	巡洋舰	Добавлено снаряжение «Ремонтная команда»	—	—	13.10	官方公告：https://blog.korabli.su/blog/567	adjustment	released		Korabli #567
 布达佩斯	布达佩斯		欧洲	9	战列舰	鱼雷发射角度（每侧）	—	减少3度	26.8	人工录入：用户提供，待官方公告核验	nerf	test		Manual 26.8
 白山	白山		日本	9	战列舰	鱼雷发射角度（每侧）	—	增加10度	26.8	人工录入：用户提供，待官方公告核验	buff	test		Manual 26.8
 民主德国	民主德国		苏联	10	战列舰	主炮射击模式	常规射击	仅连发射击：连发2次，单轮装填27秒，开火间隔6秒	26.8	人工录入：用户提供，待官方公告核验	adjustment	test		Manual 26.8
