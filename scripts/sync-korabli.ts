@@ -9,6 +9,7 @@ import { parseOfficial, clean, type Article, type ParseIssue } from './official-
 import { reviewedTranslations } from './official-vocabulary.ts';
 import { reconcile } from './reconcile-official.ts';
 import { coverage } from './coverage.ts';
+import { collectSources, type SyncFailure } from './sync-sources.ts';
 import { explicitVersion, normalizeTier } from '../src/utils/normalization.ts';
 import type { OfficialBalanceDatabase, ChineseTranslationDatabase, ChangeCategory } from '../src/types.ts';
 
@@ -87,7 +88,16 @@ async function main() {
   const since=new Date(now.getTime()-days*86400000);
   const replay=process.argv.includes('--replay');
   const replayDir=process.env.KORABLI_REPLAY_DIR ?? output;
-  const articles:Article[]=replay ? JSON.parse(await readFile(path.join(replayDir,'articles.json'),'utf8')) : [...await discoverBlog(since),...await discoverPortal()];
+  await mkdir(output,{recursive:true});
+  const discovery = replay ? {items:JSON.parse(await readFile(path.join(replayDir,'articles.json'),'utf8')) as Article[],failures:[] as SyncFailure[]} : await collectSources([
+    {name:'blog',read:()=>discoverBlog(since)}, {name:'portal',read:discoverPortal},
+  ]);
+  const articles = discovery.items;
+  const failures = discovery.failures;
+  const saveFailures = () => writeFile(path.join(output,'sync-status.json'),JSON.stringify({generatedAt:now.toISOString(),partial:failures.length>0,failures},null,2)+'\n','utf8');
+  await saveFailures();
+  if(!articles.length) throw new Error('No sources available; historical data unchanged. See sync-status.json.');
+  failures.forEach(f=>console.warn(`Source unavailable: ${f.source}: ${f.error}`));
   console.log(`Discovered ${articles.length} blog/portal announcements.`);
   const announcements=new Map(original.announcements.map(a=>[a.id,{...a,sourceKind:a.sourceKind ?? (a.url.startsWith('manual:')?'manual' as const:'blog' as const)}]));
   const baseline=original.records.map(r=>({...r,tier:normalizeTier(r.tier),version:/^\d{4}\./.test(r.version)?explicitVersion(announcements.get(r.announcementId)?.title ?? '') ?? '待确认':r.version}));
@@ -111,6 +121,7 @@ async function main() {
     return;
   }
   for(const article of articles) {
+    try {
     // Keep historical reviewed blog records. Portal corrections are always rechecked.
     const url=article.sourceKind==='portal'?`${article.url}?pjax=1&consumer=pc-browser`:article.url;
     const html=replay ? await readFile(path.join(replayDir,'snapshots',`${article.id}.html`),'utf8') : await fetchText(url);
@@ -120,11 +131,19 @@ async function main() {
     announcements.set(article.id,{...parsed.announcement,sourceKind:article.sourceKind,parserVersion:3});
     incoming.push(...parsed.records); issues.push(...parsed.issues);
     console.log(`${article.id}: ${parsed.records.length} candidate records, ${parsed.issues.length} issues`);
+    } catch(error) {
+      failures.push({source:article.url,error:String(error)});
+      await saveFailures();
+      console.warn(`Preserving historical article ${article.id}: ${String(error)}`);
+      if(replay) throw error;
+    }
   }
+  if(!coverageReport.length) throw new Error('Every article failed; historical data unchanged. See sync-status.json.');
   const result=reconcile(baseline,incoming,translations);
   await writeFile(path.join(output,'coverage.json'),JSON.stringify(coverageReport,null,2)+'\n','utf8');
   if(process.argv.includes('--review-only')) {
     await writeFile(path.join(output,'audit-candidates.json'),JSON.stringify(result,null,2)+'\n','utf8');
+    await writeFile(path.join(output,'parse-issues.json'),JSON.stringify(issues,null,2)+'\n','utf8');
     console.log(`Review only: ${result.added.length} new candidates; ${result.conflicts.length} conflicts. Source unchanged.`);
     return;
   }
@@ -139,7 +158,7 @@ async function main() {
     a.recordIds=result.records.filter(r=>r.announcementId===a.id || r.sources?.some(s=>s.announcementId===a.id)).map(r=>r.id);
   }
   const database:OfficialBalanceDatabase={...original,schemaVersion:2,source:'korabli-multi-source',syncedAt:now.toISOString(),rangeEnd:now.toISOString(),announcements:[...announcements.values()],records:result.records};
-  const report={generatedAt:now.toISOString(),scope:'Portal 26.9+; blog existing two-year range; local only',baselineCount:original.records.length,recordCount:result.records.length,added:result.added,merged:result.merged,conflicts:result.conflicts,pending:result.pending,parseIssues:issues,analysisReview:result.added.filter(r=>r.analysisConfidence!=='high'),legacyUnknownVersions:baseline.filter(r=>r.version==='待确认').map(r=>r.id)};
+  const report={generatedAt:now.toISOString(),failures,scope:'Portal 26.9+; blog existing two-year range',baselineCount:original.records.length,recordCount:result.records.length,added:result.added,merged:result.merged,conflicts:result.conflicts,pending:result.pending,parseIssues:issues,analysisReview:result.added.filter(r=>r.analysisConfidence!=='high'),legacyUnknownVersions:baseline.filter(r=>r.version==='待确认').map(r=>r.id)};
   // Finish every network read and reconciliation before replacing source files.
   await writeFile(path.join(output,'review.json'),JSON.stringify(report,null,2)+'\n','utf8');
   await writeFile(dbPath,JSON.stringify(database,null,2)+'\n','utf8');

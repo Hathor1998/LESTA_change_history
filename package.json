@@ -13,6 +13,7 @@
     "data:translate:zh": "node --experimental-strip-types scripts/translate-korabli.ts",
     "data:import:localization": "node --experimental-strip-types scripts/import-localization.ts",
     "data:import:public-test": "node --experimental-strip-types scripts/import-public-test-2610.ts",
+    "data:import:nga": "node --experimental-strip-types scripts/import-nga.ts",
     "data:validate": "node --experimental-strip-types scripts/validate-data.ts",
     "data:build": "node --experimental-strip-types scripts/build-data.ts",
     "data:bundle": "node --experimental-strip-types scripts/bundle-update.ts",

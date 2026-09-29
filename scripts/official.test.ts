@@ -14,8 +14,46 @@ import { schwaben695 } from './schwaben.ts';
 import { readMo } from './ship-localization.ts';
 import { coverage } from './coverage.ts';
 import { parsePublicTest2610 } from './import-public-test-2610.ts';
+import { reviewedNgaRecords } from './nga-47645187.ts';
+import { mergeReviewedNga, verifyOfficial } from './import-nga.ts';
+
+test('NGA reviewed batch retains layers, resolved discrepancy and is idempotent', () => {
+  const rows = reviewedNgaRecords();
+  assert.equal(rows.length,22);
+  assert.equal(new Set(rows.map(r=>r.targetName)).size,8);
+  const schwaben = rows.filter(r=>r.targetName==='Schwaben');
+  assert.equal(schwaben.length,9);
+  assert.equal(schwaben.filter(r=>r.trend==='buff').length,8);
+  assert.equal(schwaben.filter(r=>r.attribute.includes('第三层')).length,4);
+  assert.equal(schwaben.filter(r=>r.attribute.includes('第四层')).length,4);
+  const mikasa = rows.find(r=>r.targetName==="Mikasa '04"&&r.attribute.includes('系数'))!;
+  assert.equal(mikasa.oldValue,'1.9');
+  assert.equal(mikasa.newValue,'1.8');
+  assert.match(mikasa.sources![1].originalText,/1.8 → 1.65/);
+  assert.equal(rows.find(r=>r.attribute==='穿甲弹跳弹角度')!.oldValue,'—');
+  const first = mergeReviewedNga([],rows);
+  const second = mergeReviewedNga(first.records,rows);
+  assert.equal(second.added.length,0);
+  assert.deepEqual(second.records,first.records);
+  const changed = structuredClone(rows); changed[0].newValue='999';
+  assert.throws(()=>mergeReviewedNga(first.records,changed),/conflict/);
+  assert.deepEqual(first.records,rows);
+  assert.throws(()=>verifyOfficial('<html>Access denied</html>'),/Wrong/);
+  const html = `<body>Обновление 26.10 29.09.2026<div class="article__content">${[...new Set(rows.map(r=>r.targetName))].map(name=>`<p><span class="ship">${name}</span></p><ul>${rows.filter(r=>r.targetName===name).map(r=>`<li>${r.originalText}</li>`).join('')}</ul>`).join('')}</div></body>`;
+  verifyOfficial(html);
+  assert.throws(()=>verifyOfficial(html.replace("Mikasa '04",'Wrong ship')),/ship section/);
+  const older = {...rows[0],id:'older',announcementId:'696',oldValue:'2',newValue:'1.8'};
+  assert.equal(mergeReviewedNga([older],rows).records.length,23);
+});
 
 const article:Article={id:'portal-test',sourceKind:'portal',url:'https://korabli.su/ru/news/game-updates/test/',title:'Обновление 26.9',publishedAt:'2026-09-01T00:00:00Z'};
+
+test('mixed article sections reset stage and publication date is not a ship change',()=>{
+  const a={...article,sourceKind:'blog' as const};
+  const ship=(name:string)=>`<p><span class="ship" data-level="10" data-nation="usa" data-type="cruiser">X ${name}</span></p>`;
+  const result=parseOfficial(a,`<div class="article__content"><h4>Изменения тестовых кораблей</h4>${ship('Test')}<ul><li>Время перезарядки уменьшено с 10 до 9 с.</li></ul><h4>Изменения Release</h4>${ship('Release')}<ul><li>Время перезарядки уменьшено с 10 до 9 с.</li></ul><p>Изменения вступят в силу на основном сервере 30 сентября.</p></div>`,[],{});
+  assert.deepEqual(result.records.map(r=>r.shipStatus),['test','released']);
+});
 
 test('26.10 public-test dataset has 20 ship and 5 system changes with independent phase',async()=>{
   const database=JSON.parse(await readFile('data/database/korabli-official.json','utf8'));
@@ -129,6 +167,20 @@ test('failed acquisition leaves database, TSVs and site config unchanged',async(
   }
 });
 import { currentShipStatuses } from './ship-localization.ts';
+import { collectSources } from './sync-sources.ts';
+
+test('source failures are isolated and explicitly reported', async () => {
+  const result = await collectSources([
+    {name:'blog',read:async()=>['697']},
+    {name:'portal',read:async()=>{throw new Error('network unavailable');}},
+  ]);
+  assert.deepEqual(result.items,['697']);
+  assert.equal(result.failures[0].source,'portal');
+  assert.match(result.failures[0].error,/network unavailable/);
+  const failed = await collectSources([{name:'blog',read:async()=>{throw new Error('timeout');}}]);
+  assert.equal(failed.items.length,0);
+  assert.equal(failed.failures.length,1);
+});
 
 test('current ship status aggregates identity history without inventing release evidence', () => {
   const rows: Parameters<typeof currentShipStatuses>[0] = [

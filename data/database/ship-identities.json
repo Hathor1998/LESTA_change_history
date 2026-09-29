@@ -12,6 +12,18 @@
     "releaseEvidence": []
   },
   {
+    "shipId": "9cb9059cc800aa8d",
+    "name": "白山",
+    "originalNames": [
+      "Hakusan"
+    ],
+    "searchAliases": [
+      "Hakusan"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
     "shipId": "6da98aee51f2168b",
     "name": "伊松佐",
     "originalNames": [
@@ -46,6 +58,18 @@
     "searchAliases": [
       "三笠 '04",
       "Mikasa '04"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "34529f3d0c82edf6",
+    "name": "霹雳",
+    "originalNames": [
+      "Piorun"
+    ],
+    "searchAliases": [
+      "Piorun"
     ],
     "currentShipStatus": "test",
     "releaseEvidence": []
@@ -970,18 +994,6 @@
     "releaseEvidence": []
   },
   {
-    "shipId": "9cb9059cc800aa8d",
-    "name": "白山",
-    "originalNames": [
-      "Hakusan"
-    ],
-    "searchAliases": [
-      "Hakusan"
-    ],
-    "currentShipStatus": "test",
-    "releaseEvidence": []
-  },
-  {
     "shipId": "234d6f7770a1a8c5",
     "name": "鸟海",
     "originalNames": [
@@ -1054,15 +1066,13 @@
     "releaseEvidence": []
   },
   {
-    "shipId": "c09375c55b897962",
-    "name": "西蒙·玻利瓦尔",
+    "shipId": "3e2756ba0fa46a9c",
+    "name": "Simón Bolívar",
     "originalNames": [
-      "Sim&oacute;n Bol&iacute;var"
+      "Simón Bolívar"
     ],
-    "searchAliases": [
-      "Sim&oacute;n Bol&iacute;var"
-    ],
-    "currentShipStatus": "test",
+    "searchAliases": [],
+    "currentShipStatus": "released",
     "releaseEvidence": []
   },
   {
@@ -1098,7 +1108,7 @@
     "searchAliases": [
       "Наварин"
     ],
-    "currentShipStatus": "test",
+    "currentShipStatus": "released",
     "releaseEvidence": []
   },
   {
@@ -1829,6 +1839,18 @@
     "searchAliases": [
       "萨尔迪雷",
       "Saldıray"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "c09375c55b897962",
+    "name": "西蒙·玻利瓦尔",
+    "originalNames": [
+      "Sim&oacute;n Bol&iacute;var"
+    ],
+    "searchAliases": [
+      "Sim&oacute;n Bol&iacute;var"
     ],
     "currentShipStatus": "test",
     "releaseEvidence": []

@@ -117,7 +117,7 @@ export type OfficialAnalysisConfidence = 'high' | 'medium' | 'low';
 
 export interface OfficialAnnouncement {
   parserVersion?: number;
-  sourceKind?: 'blog' | 'portal' | 'manual';
+  sourceKind?: 'blog' | 'portal' | 'manual' | 'nga';
   id: string;
   url: string;
   title: string;

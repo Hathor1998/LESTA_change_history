@@ -31,6 +31,161 @@
       "releaseEvidence": []
     },
     {
+      "id": "0c1acfc9947b",
+      "category": "ship",
+      "targetName": "白山",
+      "canonicalName": "白山",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "100mm副炮装填时间",
+      "oldValue": "3.3 秒",
+      "newValue": "3.5 秒",
+      "version": "26.10",
+      "notes": "中文译名：白山；译者：ViisasSusi NGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187 官方公告：https://blog.korabli.su/blog/697",
+      "trend": "nerf",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "shipId": "9cb9059cc800aa8d",
+      "originalNames": [
+        "Hakusan"
+      ],
+      "searchAliases": [
+        "Hakusan"
+      ],
+      "currentShipStatus": "test",
+      "name": "白山",
+      "releaseEvidence": []
+    },
+    {
+      "id": "06669d267bb6",
+      "category": "ship",
+      "targetName": "白山",
+      "canonicalName": "白山",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "鱼雷最大伤害",
+      "oldValue": "19668",
+      "newValue": "14718",
+      "version": "26.10",
+      "notes": "中文译名：白山；译者：ViisasSusi NGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187 官方公告：https://blog.korabli.su/blog/697",
+      "trend": "nerf",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "shipId": "9cb9059cc800aa8d",
+      "originalNames": [
+        "Hakusan"
+      ],
+      "searchAliases": [
+        "Hakusan"
+      ],
+      "currentShipStatus": "test",
+      "name": "白山",
+      "releaseEvidence": []
+    },
+    {
+      "id": "af2349a24d29",
+      "category": "ship",
+      "targetName": "白山",
+      "canonicalName": "白山",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "主炮射程",
+      "oldValue": "19.4 千米",
+      "newValue": "18.9 千米",
+      "version": "26.10",
+      "notes": "中文译名：白山；译者：ViisasSusi NGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187 官方公告：https://blog.korabli.su/blog/697",
+      "trend": "nerf",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "shipId": "9cb9059cc800aa8d",
+      "originalNames": [
+        "Hakusan"
+      ],
+      "searchAliases": [
+        "Hakusan"
+      ],
+      "currentShipStatus": "test",
+      "name": "白山",
+      "releaseEvidence": []
+    },
+    {
+      "id": "4cfc87359513",
+      "category": "ship",
+      "targetName": "白山",
+      "canonicalName": "白山",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "主炮装填时间",
+      "oldValue": "32 秒",
+      "newValue": "32.5 秒",
+      "version": "26.10",
+      "notes": "中文译名：白山；译者：ViisasSusi NGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187 官方公告：https://blog.korabli.su/blog/697",
+      "trend": "nerf",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "shipId": "9cb9059cc800aa8d",
+      "originalNames": [
+        "Hakusan"
+      ],
+      "searchAliases": [
+        "Hakusan"
+      ],
+      "currentShipStatus": "test",
+      "name": "白山",
+      "releaseEvidence": []
+    },
+    {
+      "id": "1feb1b21bffd",
+      "category": "ship",
+      "targetName": "伊松佐",
+      "canonicalName": "伊松佐",
+      "previousNames": [],
+      "nation": "意大利",
+      "tier": "9",
+      "type": "巡洋舰",
+      "attribute": "主炮炮弹初速",
+      "oldValue": "775 米/秒",
+      "newValue": "805 米/秒",
+      "version": "26.10",
+      "notes": "弹道更加平缓。 中文译名：伊松佐；译者：ViisasSusi NGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187 官方公告：https://blog.korabli.su/blog/697",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "shipId": "6da98aee51f2168b",
+      "originalNames": [
+        "Isonzo"
+      ],
+      "searchAliases": [
+        "Isonzo"
+      ],
+      "currentShipStatus": "test",
+      "name": "伊松佐",
+      "releaseEvidence": []
+    },
+    {
       "id": "489bfdaa8f89",
       "category": "ship",
       "targetName": "伊松佐",
@@ -156,6 +311,102 @@
       ],
       "currentShipStatus": "test",
       "name": "阿芙利加人",
+      "releaseEvidence": []
+    },
+    {
+      "id": "e4bb6fadfd54",
+      "category": "ship",
+      "targetName": "三笠1904",
+      "canonicalName": "三笠1904",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "3",
+      "type": "战列舰",
+      "attribute": "鱼雷装填时间",
+      "oldValue": "90 秒",
+      "newValue": "75 秒",
+      "version": "26.10",
+      "notes": "中文译名：三笠04；译者：ViisasSusi NGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187 官方公告：https://blog.korabli.su/blog/697",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "shipId": "4e9c03dbb8872ba0",
+      "originalNames": [
+        "Mikasa '04"
+      ],
+      "searchAliases": [
+        "三笠 '04",
+        "Mikasa '04"
+      ],
+      "currentShipStatus": "test",
+      "name": "三笠1904",
+      "releaseEvidence": []
+    },
+    {
+      "id": "4b010f228db8",
+      "category": "ship",
+      "targetName": "三笠1904",
+      "canonicalName": "三笠1904",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "3",
+      "type": "战列舰",
+      "attribute": "中口径火炮弹着群系数",
+      "oldValue": "1.9",
+      "newValue": "1.8",
+      "version": "26.10",
+      "notes": "用户确认采用官网三笠04段落；NGA译文为1.8→1.65，保留差异供追溯。 中文译名：三笠04；译者：ViisasSusi NGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187 官方公告：https://blog.korabli.su/blog/697",
+      "trend": "nerf",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "shipId": "4e9c03dbb8872ba0",
+      "originalNames": [
+        "Mikasa '04"
+      ],
+      "searchAliases": [
+        "三笠 '04",
+        "Mikasa '04"
+      ],
+      "currentShipStatus": "test",
+      "name": "三笠1904",
+      "releaseEvidence": []
+    },
+    {
+      "id": "541251669a71",
+      "category": "ship",
+      "targetName": "三笠1904",
+      "canonicalName": "三笠1904",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "3",
+      "type": "战列舰",
+      "attribute": "中口径火炮装填时间",
+      "oldValue": "8 秒",
+      "newValue": "7.5 秒",
+      "version": "26.10",
+      "notes": "中文译名：三笠04；译者：ViisasSusi NGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187 官方公告：https://blog.korabli.su/blog/697",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "shipId": "4e9c03dbb8872ba0",
+      "originalNames": [
+        "Mikasa '04"
+      ],
+      "searchAliases": [
+        "三笠 '04",
+        "Mikasa '04"
+      ],
+      "currentShipStatus": "test",
+      "name": "三笠1904",
       "releaseEvidence": []
     },
     {
@@ -287,6 +538,68 @@
       "releaseEvidence": []
     },
     {
+      "id": "548606531712",
+      "category": "ship",
+      "targetName": "霹雳",
+      "canonicalName": "霹雳",
+      "previousNames": [],
+      "nation": "欧洲",
+      "tier": "7",
+      "type": "驱逐舰",
+      "attribute": "穿甲弹跳弹角度",
+      "oldValue": "—",
+      "newValue": "提升至果敢（Daring）水准",
+      "version": "26.10",
+      "notes": "旧值未公布；官网明确为改进跳弹角度，不猜测具体角度。 中文译名：霹雳；译者：ViisasSusi NGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187 官方公告：https://blog.korabli.su/blog/697",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "shipId": "34529f3d0c82edf6",
+      "originalNames": [
+        "Piorun"
+      ],
+      "searchAliases": [
+        "Piorun"
+      ],
+      "currentShipStatus": "test",
+      "name": "霹雳",
+      "releaseEvidence": []
+    },
+    {
+      "id": "3bd6c9441861",
+      "category": "ship",
+      "targetName": "霹雳",
+      "canonicalName": "霹雳",
+      "previousNames": [],
+      "nation": "欧洲",
+      "tier": "7",
+      "type": "驱逐舰",
+      "attribute": "对海隐蔽",
+      "oldValue": "7.1 千米",
+      "newValue": "6.9 千米",
+      "version": "26.10",
+      "notes": "其他类型的隐蔽也将进行相应调整。 中文译名：霹雳；译者：ViisasSusi NGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187 官方公告：https://blog.korabli.su/blog/697",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "shipId": "34529f3d0c82edf6",
+      "originalNames": [
+        "Piorun"
+      ],
+      "searchAliases": [
+        "Piorun"
+      ],
+      "currentShipStatus": "test",
+      "name": "霹雳",
+      "releaseEvidence": []
+    },
+    {
       "id": "a1207a40f86b",
       "category": "ship",
       "targetName": "圣乔治奥",
@@ -380,6 +693,285 @@
       ],
       "currentShipStatus": "test",
       "name": "圣乔治奥",
+      "releaseEvidence": []
+    },
+    {
+      "id": "63ff6ffe1d21",
+      "category": "ship",
+      "targetName": "施瓦本",
+      "canonicalName": "施瓦本",
+      "previousNames": [],
+      "nation": "德国",
+      "tier": "11",
+      "type": "战列舰",
+      "attribute": "战斗指令第三层-方向舵换挡时间加成",
+      "oldValue": "-15%",
+      "newValue": "-18%",
+      "version": "26.10",
+      "notes": "保留 NGA 的负数减益表示；官网用正数表示加成幅度，幅度增大判为增强。 中文译名：施瓦本；译者：ViisasSusi NGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187 官方公告：https://blog.korabli.su/blog/697",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "shipId": "7c351e849414aa2b",
+      "originalNames": [
+        "Schwaben"
+      ],
+      "searchAliases": [
+        "Schwaben"
+      ],
+      "currentShipStatus": "test",
+      "name": "施瓦本",
+      "releaseEvidence": []
+    },
+    {
+      "id": "eb60d6f8feda",
+      "category": "ship",
+      "targetName": "施瓦本",
+      "canonicalName": "施瓦本",
+      "previousNames": [],
+      "nation": "德国",
+      "tier": "11",
+      "type": "战列舰",
+      "attribute": "战斗指令第三层-炮弹最大误差加成",
+      "oldValue": "-7.5%",
+      "newValue": "-8%",
+      "version": "26.10",
+      "notes": "保留 NGA 的负数减益表示；官网用正数表示加成幅度，幅度增大判为增强。 中文译名：施瓦本；译者：ViisasSusi NGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187 官方公告：https://blog.korabli.su/blog/697",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "shipId": "7c351e849414aa2b",
+      "originalNames": [
+        "Schwaben"
+      ],
+      "searchAliases": [
+        "Schwaben"
+      ],
+      "currentShipStatus": "test",
+      "name": "施瓦本",
+      "releaseEvidence": []
+    },
+    {
+      "id": "aa03f0b3c071",
+      "category": "ship",
+      "targetName": "施瓦本",
+      "canonicalName": "施瓦本",
+      "previousNames": [],
+      "nation": "德国",
+      "tier": "11",
+      "type": "战列舰",
+      "attribute": "战斗指令第三层-主炮180度回转时间加成",
+      "oldValue": "-15%",
+      "newValue": "-17%",
+      "version": "26.10",
+      "notes": "保留 NGA 的负数减益表示；官网用正数表示加成幅度，幅度增大判为增强。 中文译名：施瓦本；译者：ViisasSusi NGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187 官方公告：https://blog.korabli.su/blog/697",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "shipId": "7c351e849414aa2b",
+      "originalNames": [
+        "Schwaben"
+      ],
+      "searchAliases": [
+        "Schwaben"
+      ],
+      "currentShipStatus": "test",
+      "name": "施瓦本",
+      "releaseEvidence": []
+    },
+    {
+      "id": "edf562074e18",
+      "category": "ship",
+      "targetName": "施瓦本",
+      "canonicalName": "施瓦本",
+      "previousNames": [],
+      "nation": "德国",
+      "tier": "11",
+      "type": "战列舰",
+      "attribute": "战斗指令第三层-主炮装填时间加成",
+      "oldValue": "-4.5%",
+      "newValue": "-6.5%",
+      "version": "26.10",
+      "notes": "保留 NGA 的负数减益表示；官网用正数表示加成幅度，幅度增大判为增强。 中文译名：施瓦本；译者：ViisasSusi NGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187 官方公告：https://blog.korabli.su/blog/697",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "shipId": "7c351e849414aa2b",
+      "originalNames": [
+        "Schwaben"
+      ],
+      "searchAliases": [
+        "Schwaben"
+      ],
+      "currentShipStatus": "test",
+      "name": "施瓦本",
+      "releaseEvidence": []
+    },
+    {
+      "id": "abb28b75a371",
+      "category": "ship",
+      "targetName": "施瓦本",
+      "canonicalName": "施瓦本",
+      "previousNames": [],
+      "nation": "德国",
+      "tier": "11",
+      "type": "战列舰",
+      "attribute": "战斗指令第四层-方向舵换挡时间加成",
+      "oldValue": "-20%",
+      "newValue": "-25%",
+      "version": "26.10",
+      "notes": "保留 NGA 的负数减益表示；官网用正数表示加成幅度，幅度增大判为增强。 中文译名：施瓦本；译者：ViisasSusi NGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187 官方公告：https://blog.korabli.su/blog/697",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "shipId": "7c351e849414aa2b",
+      "originalNames": [
+        "Schwaben"
+      ],
+      "searchAliases": [
+        "Schwaben"
+      ],
+      "currentShipStatus": "test",
+      "name": "施瓦本",
+      "releaseEvidence": []
+    },
+    {
+      "id": "e3bc109a216e",
+      "category": "ship",
+      "targetName": "施瓦本",
+      "canonicalName": "施瓦本",
+      "previousNames": [],
+      "nation": "德国",
+      "tier": "11",
+      "type": "战列舰",
+      "attribute": "战斗指令第四层-炮弹最大误差加成",
+      "oldValue": "-10%",
+      "newValue": "-15%",
+      "version": "26.10",
+      "notes": "保留 NGA 的负数减益表示；官网用正数表示加成幅度，幅度增大判为增强。 中文译名：施瓦本；译者：ViisasSusi NGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187 官方公告：https://blog.korabli.su/blog/697",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "shipId": "7c351e849414aa2b",
+      "originalNames": [
+        "Schwaben"
+      ],
+      "searchAliases": [
+        "Schwaben"
+      ],
+      "currentShipStatus": "test",
+      "name": "施瓦本",
+      "releaseEvidence": []
+    },
+    {
+      "id": "11b3306c3df4",
+      "category": "ship",
+      "targetName": "施瓦本",
+      "canonicalName": "施瓦本",
+      "previousNames": [],
+      "nation": "德国",
+      "tier": "11",
+      "type": "战列舰",
+      "attribute": "战斗指令第四层-主炮180度回转时间加成",
+      "oldValue": "-20%",
+      "newValue": "-25%",
+      "version": "26.10",
+      "notes": "保留 NGA 的负数减益表示；官网用正数表示加成幅度，幅度增大判为增强。 中文译名：施瓦本；译者：ViisasSusi NGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187 官方公告：https://blog.korabli.su/blog/697",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "shipId": "7c351e849414aa2b",
+      "originalNames": [
+        "Schwaben"
+      ],
+      "searchAliases": [
+        "Schwaben"
+      ],
+      "currentShipStatus": "test",
+      "name": "施瓦本",
+      "releaseEvidence": []
+    },
+    {
+      "id": "ef2b9cc5c9dc",
+      "category": "ship",
+      "targetName": "施瓦本",
+      "canonicalName": "施瓦本",
+      "previousNames": [],
+      "nation": "德国",
+      "tier": "11",
+      "type": "战列舰",
+      "attribute": "战斗指令第四层-主炮装填时间加成",
+      "oldValue": "-6%",
+      "newValue": "-12%",
+      "version": "26.10",
+      "notes": "保留 NGA 的负数减益表示；官网用正数表示加成幅度，幅度增大判为增强。 中文译名：施瓦本；译者：ViisasSusi NGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187 官方公告：https://blog.korabli.su/blog/697",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "shipId": "7c351e849414aa2b",
+      "originalNames": [
+        "Schwaben"
+      ],
+      "searchAliases": [
+        "Schwaben"
+      ],
+      "currentShipStatus": "test",
+      "name": "施瓦本",
+      "releaseEvidence": []
+    },
+    {
+      "id": "c3c6e5755626",
+      "category": "ship",
+      "targetName": "施瓦本",
+      "canonicalName": "施瓦本",
+      "previousNames": [],
+      "nation": "德国",
+      "tier": "11",
+      "type": "战列舰",
+      "attribute": "主炮命中推进的战斗指令进度",
+      "oldValue": "17%",
+      "newValue": "13%",
+      "version": "26.10",
+      "notes": "中文译名：施瓦本；译者：ViisasSusi NGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187 官方公告：https://blog.korabli.su/blog/697",
+      "trend": "nerf",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "shipId": "7c351e849414aa2b",
+      "originalNames": [
+        "Schwaben"
+      ],
+      "searchAliases": [
+        "Schwaben"
+      ],
+      "currentShipStatus": "test",
+      "name": "施瓦本",
       "releaseEvidence": []
     },
     {
@@ -814,6 +1406,37 @@
       "releaseEvidence": []
     },
     {
+      "id": "cde67a00fb81",
+      "category": "ship",
+      "targetName": "博罗季诺 '04",
+      "canonicalName": "博罗季诺 '04",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "3",
+      "type": "战列舰",
+      "attribute": "中口径火炮弹着群系数",
+      "oldValue": "1.8",
+      "newValue": "1.65",
+      "version": "26.10",
+      "notes": "中文译名：博罗季诺04；译者：ViisasSusi NGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187 官方公告：https://blog.korabli.su/blog/697",
+      "trend": "nerf",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "shipId": "04a903b7f164ec7a",
+      "originalNames": [
+        "Бородино '04"
+      ],
+      "searchAliases": [
+        "Бородино '04"
+      ],
+      "currentShipStatus": "test",
+      "name": "博罗季诺 '04",
+      "releaseEvidence": []
+    },
+    {
       "id": "152ff6cd5b90",
       "category": "ship",
       "targetName": "博罗季诺 '04",
@@ -904,6 +1527,37 @@
       ],
       "currentShipStatus": "test",
       "name": "博罗季诺 '04",
+      "releaseEvidence": []
+    },
+    {
+      "id": "c749ba8fa990",
+      "category": "ship",
+      "targetName": "伊凡·格罗兹尼",
+      "canonicalName": "伊凡·格罗兹尼",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "11",
+      "type": "巡洋舰",
+      "attribute": "第一轮齐射装填时间",
+      "oldValue": "26 秒",
+      "newValue": "24.5 秒",
+      "version": "26.10",
+      "notes": "中文译名：伊凡雷帝；译者：ViisasSusi NGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187 官方公告：https://blog.korabli.su/blog/697",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "shipId": "c2b0189c90a5d642",
+      "originalNames": [
+        "Иван Грозный"
+      ],
+      "searchAliases": [
+        "Иван Грозный"
+      ],
+      "currentShipStatus": "test",
+      "name": "伊凡·格罗兹尼",
       "releaseEvidence": []
     },
     {
@@ -1197,6 +1851,37 @@
       ],
       "currentShipStatus": "test",
       "name": "L-20",
+      "releaseEvidence": []
+    },
+    {
+      "id": "8ae5ae861eab",
+      "category": "ship",
+      "targetName": "蒙海峡",
+      "canonicalName": "蒙海峡",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "10",
+      "type": "巡洋舰",
+      "attribute": "转向半径",
+      "oldValue": "1130 米",
+      "newValue": "980 米",
+      "version": "26.10",
+      "notes": "中文译名：莫昂宗德；译者：ViisasSusi NGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187 官方公告：https://blog.korabli.su/blog/697",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "shipId": "04c4a88356355bfc",
+      "originalNames": [
+        "Моонзунд"
+      ],
+      "searchAliases": [
+        "Моонзунд"
+      ],
+      "currentShipStatus": "test",
+      "name": "蒙海峡",
       "releaseEvidence": []
     },
     {
@@ -5136,6 +5821,37 @@
       "releaseEvidence": []
     },
     {
+      "id": "812b19396f40",
+      "category": "ship",
+      "targetName": "赤城",
+      "canonicalName": "赤城",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "8",
+      "type": "航空母舰",
+      "attribute": "常规轰炸机投弹精度",
+      "oldValue": "—",
+      "newValue": "降低约20%",
+      "version": "26.7",
+      "notes": "官方公告：https://blog.korabli.su/blog/690 人工复查补入；未公布的旧值保留为未知，不推断数值增减。",
+      "trend": "nerf",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "blog 690",
+      "shipId": "3eb50709bb7568e6",
+      "originalNames": [
+        "Akagi"
+      ],
+      "searchAliases": [
+        "Akagi"
+      ],
+      "currentShipStatus": "test",
+      "name": "赤城",
+      "releaseEvidence": []
+    },
+    {
       "id": "0d86429162bf",
       "category": "ship",
       "targetName": "赤城",
@@ -5474,6 +6190,37 @@
       ],
       "currentShipStatus": "test",
       "name": "赤城",
+      "releaseEvidence": []
+    },
+    {
+      "id": "cad76dfc3afb",
+      "category": "ship",
+      "targetName": "布达佩斯",
+      "canonicalName": "布达佩斯",
+      "previousNames": [],
+      "nation": "欧洲",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "主炮精度",
+      "oldValue": "—",
+      "newValue": "提升至俄亥俄（Ohio）水准",
+      "version": "26.7",
+      "notes": "官方公告：https://blog.korabli.su/blog/692 人工复查补入；未公布的旧值保留为未知，不推断数值增减。",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "blog 692",
+      "shipId": "d144931d3a8d0d37",
+      "originalNames": [
+        "Budapest"
+      ],
+      "searchAliases": [
+        "Budapest"
+      ],
+      "currentShipStatus": "test",
+      "name": "布达佩斯",
       "releaseEvidence": []
     },
     {
@@ -5973,10 +6720,10 @@
       "releaseEvidence": []
     },
     {
-      "id": "9cba3ad7b24d",
+      "id": "3ad34b921404",
       "category": "ship",
-      "targetName": "西蒙·玻利瓦尔",
-      "canonicalName": "西蒙·玻利瓦尔",
+      "targetName": "Simón Bolívar",
+      "canonicalName": "Simón Bolívar",
       "previousNames": [],
       "nation": "泛美",
       "tier": "10",
@@ -5987,27 +6734,25 @@
       "version": "26.7",
       "notes": "官方公告：https://blog.korabli.su/blog/689",
       "trend": "adjustment",
-      "shipStatus": "test",
+      "shipStatus": "released",
       "tags": [
-        "test-ship"
+        "released-ship"
       ],
       "sourceSheet": "Korabli #689",
-      "shipId": "c09375c55b897962",
+      "shipId": "3e2756ba0fa46a9c",
       "originalNames": [
-        "Sim&oacute;n Bol&iacute;var"
+        "Simón Bolívar"
       ],
-      "searchAliases": [
-        "Sim&oacute;n Bol&iacute;var"
-      ],
-      "currentShipStatus": "test",
-      "name": "西蒙·玻利瓦尔",
+      "searchAliases": [],
+      "currentShipStatus": "released",
+      "name": "Simón Bolívar",
       "releaseEvidence": []
     },
     {
-      "id": "8fbb0f6c8f07",
+      "id": "73c806ab8bf1",
       "category": "ship",
-      "targetName": "西蒙·玻利瓦尔",
-      "canonicalName": "西蒙·玻利瓦尔",
+      "targetName": "Simón Bolívar",
+      "canonicalName": "Simón Bolívar",
       "previousNames": [],
       "nation": "泛美",
       "tier": "10",
@@ -6018,20 +6763,18 @@
       "version": "26.7",
       "notes": "官方公告：https://blog.korabli.su/blog/689",
       "trend": "buff",
-      "shipStatus": "test",
+      "shipStatus": "released",
       "tags": [
-        "test-ship"
+        "released-ship"
       ],
       "sourceSheet": "Korabli #689",
-      "shipId": "c09375c55b897962",
+      "shipId": "3e2756ba0fa46a9c",
       "originalNames": [
-        "Sim&oacute;n Bol&iacute;var"
+        "Simón Bolívar"
       ],
-      "searchAliases": [
-        "Sim&oacute;n Bol&iacute;var"
-      ],
-      "currentShipStatus": "test",
-      "name": "西蒙·玻利瓦尔",
+      "searchAliases": [],
+      "currentShipStatus": "released",
+      "name": "Simón Bolívar",
       "releaseEvidence": []
     },
     {
@@ -6128,6 +6871,39 @@
       "releaseEvidence": []
     },
     {
+      "id": "3c9cd49c6598",
+      "category": "ship",
+      "targetName": "民主德国",
+      "canonicalName": "东德",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "10",
+      "type": "战列舰",
+      "attribute": "主炮精度",
+      "oldValue": "—",
+      "newValue": "提升至吾妻（Azuma）水准",
+      "version": "26.7",
+      "notes": "官方公告：https://blog.korabli.su/blog/692 人工复查补入；未公布的旧值保留为未知，不推断数值增减。",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "blog 692",
+      "shipId": "59f24a38e00836e8",
+      "originalNames": [
+        "ГДР",
+        "«ГДР»"
+      ],
+      "searchAliases": [
+        "ГДР",
+        "«ГДР»"
+      ],
+      "currentShipStatus": "test",
+      "name": "东德",
+      "releaseEvidence": []
+    },
+    {
       "id": "8f711b24abc5",
       "category": "ship",
       "targetName": "民主德国",
@@ -6194,7 +6970,7 @@
       "releaseEvidence": []
     },
     {
-      "id": "4347d96adc4c",
+      "id": "7a2df129058d",
       "category": "ship",
       "targetName": "纳瓦林",
       "canonicalName": "纳瓦林",
@@ -6202,15 +6978,108 @@
       "nation": "苏联",
       "tier": "9",
       "type": "战列舰",
-      "attribute": "修复了导致“纳瓦林”战列舰的不同副炮使用相同炮弹的错误。为此，该舰的双联装130毫米副炮获得了新的高爆弹，参数如下：炮弹伤害：1900点",
+      "attribute": "双联130毫米副炮高爆弹初速",
       "oldValue": "—",
-      "newValue": "—",
+      "newValue": "950 米/秒",
       "version": "26.7",
-      "notes": "官方公告：https://blog.korabli.su/blog/689",
+      "notes": "官方公告：https://blog.korabli.su/blog/689 人工复查补入；未公布的旧值保留为未知，不推断数值增减。",
       "trend": "adjustment",
-      "shipStatus": "test",
+      "shipStatus": "released",
       "tags": [
-        "test-ship"
+        "released-ship"
+      ],
+      "sourceSheet": "blog 689",
+      "shipId": "708ed13e6d83e78d",
+      "originalNames": [
+        "Наварин"
+      ],
+      "searchAliases": [
+        "Наварин"
+      ],
+      "currentShipStatus": "released",
+      "name": "纳瓦林",
+      "releaseEvidence": []
+    },
+    {
+      "id": "e0052c497bb6",
+      "category": "ship",
+      "targetName": "纳瓦林",
+      "canonicalName": "纳瓦林",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "双联130毫米副炮高爆弹穿深",
+      "oldValue": "—",
+      "newValue": "22 毫米",
+      "version": "26.7",
+      "notes": "官方公告：https://blog.korabli.su/blog/689 人工复查补入；未公布的旧值保留为未知，不推断数值增减。",
+      "trend": "adjustment",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "blog 689",
+      "shipId": "708ed13e6d83e78d",
+      "originalNames": [
+        "Наварин"
+      ],
+      "searchAliases": [
+        "Наварин"
+      ],
+      "currentShipStatus": "released",
+      "name": "纳瓦林",
+      "releaseEvidence": []
+    },
+    {
+      "id": "e071b93ac6e6",
+      "category": "ship",
+      "targetName": "纳瓦林",
+      "canonicalName": "纳瓦林",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "双联130毫米副炮高爆弹起火率",
+      "oldValue": "—",
+      "newValue": "8%",
+      "version": "26.7",
+      "notes": "官方公告：https://blog.korabli.su/blog/689 人工复查补入；未公布的旧值保留为未知，不推断数值增减。",
+      "trend": "adjustment",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "blog 689",
+      "shipId": "708ed13e6d83e78d",
+      "originalNames": [
+        "Наварин"
+      ],
+      "searchAliases": [
+        "Наварин"
+      ],
+      "currentShipStatus": "released",
+      "name": "纳瓦林",
+      "releaseEvidence": []
+    },
+    {
+      "id": "70c38fe28a9d",
+      "category": "ship",
+      "targetName": "纳瓦林",
+      "canonicalName": "纳瓦林",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "双联130毫米副炮高爆弹伤害",
+      "oldValue": "—",
+      "newValue": "1900",
+      "version": "26.7",
+      "notes": "官方公告：https://blog.korabli.su/blog/689 复查689：替换弹种后的参数，旧值未知；其余三项参数另列。",
+      "trend": "adjustment",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
       ],
       "sourceSheet": "Korabli #689",
       "shipId": "708ed13e6d83e78d",
@@ -6220,7 +7089,7 @@
       "searchAliases": [
         "Наварин"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "纳瓦林",
       "releaseEvidence": []
     },
@@ -40860,33 +41729,33 @@
     }
   ],
   "meta": {
-    "generatedAt": "2026-09-20T19:44:18.606Z",
+    "generatedAt": "2026-09-29T20:09:01.764Z",
     "currentVersion": "26.9",
-    "lastUpdated": "2026-09-21",
-    "recordCount": 1327,
+    "lastUpdated": "2026-09-30",
+    "recordCount": 1355,
     "categoryCounts": {
-      "ship": 1306,
+      "ship": 1334,
       "mechanic": 14,
       "misc": 7
     },
     "shipStatusCounts": {
-      "test": 687,
-      "released": 618,
+      "test": 709,
+      "released": 624,
       "unknown": 22
     },
     "tagCounts": {
-      "test-ship": 687,
-      "released-ship": 618,
+      "test-ship": 709,
+      "released-ship": 624,
       "converted-from-test": 96
     },
     "trendCounts": {
-      "buff": 678,
-      "nerf": 302,
+      "buff": 695,
+      "nerf": 310,
       "neutral": 0,
-      "adjustment": 347
+      "adjustment": 350
     },
     "officialData": {
-      "announcementCount": 139,
+      "announcementCount": 141,
       "rangeStart": "2024-08-16T18:05:27.281Z",
       "rangeEnd": "2026-09-20T18:32:35.461Z",
       "syncedAt": "2026-09-20T18:32:35.461Z"

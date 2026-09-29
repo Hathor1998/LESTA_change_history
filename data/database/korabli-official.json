@@ -46,7 +46,9 @@
         "6844d9b3f88bb6b6",
         "67609e699c88bdbf",
         "52c51b661562bc3d",
-        "ba53fad69d014bcd"
+        "ba53fad69d014bcd",
+        "9638df9e1c30d682",
+        "6c3a4b7488b25d54"
       ],
       "parserVersion": 3
     },
@@ -72,7 +74,8 @@
         "56b76c3f7a4e3920",
         "8f077d3473e09547",
         "50eb01c8b10b3963",
-        "99ee7e93466b8916"
+        "99ee7e93466b8916",
+        "bd4476a130e96af8"
       ],
       "parserVersion": 3
     },
@@ -90,7 +93,10 @@
         "27b4a0606d588d09",
         "917223c0091214e3",
         "5dab17639cfb3489",
-        "b4d6161d4b827cd2"
+        "b4d6161d4b827cd2",
+        "c02ef4bf7806d15b",
+        "a6bb272f4e71642f",
+        "9aaf27a91404af8e"
       ],
       "parserVersion": 3
     },
@@ -2868,6 +2874,70 @@
         "148e684cc1457690",
         "c96efdf2dc4e0dbd"
       ]
+    },
+    {
+      "id": "697",
+      "sourceKind": "blog",
+      "url": "https://blog.korabli.su/blog/697",
+      "title": "Обновление 26.10 — изменения тестовых кораблей",
+      "publishedAt": "2026-09-29T12:00:00.000Z",
+      "contentHash": "19489c0d80420400bdcbc48a92d1ac990069b631bf9d43e473251f1c15b147de",
+      "recordIds": [
+        "86ca978a7e711da1",
+        "80613eed65eca554",
+        "08772a96916d0628",
+        "25da45599863af73",
+        "0f7d258b5bccc20b",
+        "9fbdc5ec89f41e0f",
+        "059ce9b49a147ce3",
+        "338d8776e9c867d1",
+        "97445a19a0cdf5a0",
+        "88a1b2003fd695a3",
+        "7879c4fe66e3338a",
+        "7917df1a5ed5d0af",
+        "68ec85d025dc007a",
+        "fd86281b5a4982dc",
+        "cc97410c133072d1",
+        "666f14de71c15c9b",
+        "7a63dce17e95baba",
+        "8d2698f991181f45",
+        "9b00a0584cfabd7b",
+        "13dd49354fd75ece",
+        "3988ae764da99133",
+        "8bf9e77abdf35e0d"
+      ]
+    },
+    {
+      "id": "nga-47645187",
+      "sourceKind": "nga",
+      "url": "https://bbs.nga.cn/read.php?tid=47645187",
+      "title": "[Lesta服] [WoWS新闻] 26.10版本——测试舰艇平衡性调整",
+      "publishedAt": "2026-09-29T23:58:00+08:00",
+      "contentHash": "69bbed2fb577972cf8fb570eb212374c1c82deb32186d22024f70a676cbd2c18",
+      "recordIds": [
+        "86ca978a7e711da1",
+        "80613eed65eca554",
+        "08772a96916d0628",
+        "25da45599863af73",
+        "0f7d258b5bccc20b",
+        "9fbdc5ec89f41e0f",
+        "059ce9b49a147ce3",
+        "338d8776e9c867d1",
+        "97445a19a0cdf5a0",
+        "88a1b2003fd695a3",
+        "7879c4fe66e3338a",
+        "7917df1a5ed5d0af",
+        "68ec85d025dc007a",
+        "fd86281b5a4982dc",
+        "cc97410c133072d1",
+        "666f14de71c15c9b",
+        "7a63dce17e95baba",
+        "8d2698f991181f45",
+        "9b00a0584cfabd7b",
+        "13dd49354fd75ece",
+        "3988ae764da99133",
+        "8bf9e77abdf35e0d"
+      ]
     }
   ],
   "records": [
@@ -4251,8 +4321,8 @@
       ]
     },
     {
-      "targetName": "Sim&oacute;n Bol&iacute;var",
-      "canonicalName": "Sim&oacute;n Bol&iacute;var",
+      "targetName": "Simón Bolívar",
+      "canonicalName": "Simón Bolívar",
       "previousNames": "",
       "nation": "泛美",
       "tier": "10",
@@ -4263,7 +4333,7 @@
       "version": "26.7",
       "notes": "官方公告：https://blog.korabli.su/blog/689",
       "trend": "adjustment",
-      "shipStatus": "test",
+      "shipStatus": "released",
       "tags": "",
       "sourceSheet": "Korabli #689",
       "id": "917223c0091214e3",
@@ -4276,8 +4346,8 @@
       "analysisConfidence": "medium"
     },
     {
-      "targetName": "Sim&oacute;n Bol&iacute;var",
-      "canonicalName": "Sim&oacute;n Bol&iacute;var",
+      "targetName": "Simón Bolívar",
+      "canonicalName": "Simón Bolívar",
       "previousNames": "",
       "nation": "泛美",
       "tier": "10",
@@ -4288,7 +4358,7 @@
       "version": "26.7",
       "notes": "官方公告：https://blog.korabli.su/blog/689",
       "trend": "buff",
-      "shipStatus": "test",
+      "shipStatus": "released",
       "tags": "",
       "sourceSheet": "Korabli #689",
       "id": "5dab17639cfb3489",
@@ -4307,13 +4377,13 @@
       "nation": "苏联",
       "tier": "9",
       "type": "战列舰",
-      "attribute": "Исправлена ошибка, из-за которой разные типы установок ПМК у линкора «Наварин» имели одинаковые снаряды. В связи с этим спаренные 130-м установки корабля получили новый ОФ-снаряд со следующими настройками: Урон снаряда: 1900 ед",
+      "attribute": "双联130毫米副炮高爆弹伤害",
       "oldValue": "—",
-      "newValue": "—",
+      "newValue": "1900",
       "version": "26.7",
-      "notes": "官方公告：https://blog.korabli.su/blog/689",
+      "notes": "官方公告：https://blog.korabli.su/blog/689\n复查689：替换弹种后的参数，旧值未知；其余三项参数另列。",
       "trend": "adjustment",
-      "shipStatus": "test",
+      "shipStatus": "released",
       "tags": "",
       "sourceSheet": "Korabli #689",
       "id": "b4d6161d4b827cd2",
@@ -42398,6 +42468,1034 @@
           "announcementId": "portal-public-test-2610",
           "url": "https://korabli.su/ru/news/public-test/public-test-2610/",
           "originalText": "Скорость торпед уменьшена с 90 до 85 уз."
+        }
+      ]
+    },
+    {
+      "id": "86ca978a7e711da1",
+      "category": "ship",
+      "targetName": "Бородино '04",
+      "canonicalName": "Бородино '04",
+      "previousNames": "",
+      "nation": "苏联",
+      "tier": "3",
+      "type": "战列舰",
+      "attribute": "中口径火炮弹着群系数",
+      "oldValue": "1.8",
+      "newValue": "1.65",
+      "trend": "nerf",
+      "version": "26.10",
+      "shipStatus": "test",
+      "tags": "test-ship",
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "announcementId": "697",
+      "sourceUrl": "https://blog.korabli.su/blog/697",
+      "publishedAt": "2026-09-29T12:00:00.000Z",
+      "originalText": "Параметр сигма орудий СК уменьшен с 1,8 до 1,65",
+      "analysisRule": "reviewed-nga-47645187",
+      "analysisConfidence": "high",
+      "notes": "中文译名：博罗季诺04；译者：ViisasSusi\nNGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187\n官方公告：https://blog.korabli.su/blog/697",
+      "sources": [
+        {
+          "announcementId": "697",
+          "url": "https://blog.korabli.su/blog/697",
+          "originalText": "Параметр сигма орудий СК уменьшен с 1,8 до 1,65"
+        },
+        {
+          "announcementId": "nga-47645187",
+          "url": "https://bbs.nga.cn/read.php?tid=47645187",
+          "originalText": "博罗季诺04：中口径火炮弹着群系数 1.8 → 1.65",
+          "notes": "结构化转录；译者：ViisasSusi"
+        }
+      ]
+    },
+    {
+      "id": "80613eed65eca554",
+      "category": "ship",
+      "targetName": "Моонзунд",
+      "canonicalName": "Моонзунд",
+      "previousNames": "",
+      "nation": "苏联",
+      "tier": "10",
+      "type": "巡洋舰",
+      "attribute": "转向半径",
+      "oldValue": "1130 米",
+      "newValue": "980 米",
+      "trend": "buff",
+      "version": "26.10",
+      "shipStatus": "test",
+      "tags": "test-ship",
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "announcementId": "697",
+      "sourceUrl": "https://blog.korabli.su/blog/697",
+      "publishedAt": "2026-09-29T12:00:00.000Z",
+      "originalText": "Радиус циркуляции уменьшен с 1130 до 980 м.",
+      "analysisRule": "reviewed-nga-47645187",
+      "analysisConfidence": "high",
+      "notes": "中文译名：莫昂宗德；译者：ViisasSusi\nNGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187\n官方公告：https://blog.korabli.su/blog/697",
+      "sources": [
+        {
+          "announcementId": "697",
+          "url": "https://blog.korabli.su/blog/697",
+          "originalText": "Радиус циркуляции уменьшен с 1130 до 980 м."
+        },
+        {
+          "announcementId": "nga-47645187",
+          "url": "https://bbs.nga.cn/read.php?tid=47645187",
+          "originalText": "莫昂宗德：转向半径 1130 米 → 980 米",
+          "notes": "结构化转录；译者：ViisasSusi"
+        }
+      ]
+    },
+    {
+      "id": "08772a96916d0628",
+      "category": "ship",
+      "targetName": "Иван Грозный",
+      "canonicalName": "Иван Грозный",
+      "previousNames": "",
+      "nation": "苏联",
+      "tier": "11",
+      "type": "巡洋舰",
+      "attribute": "第一轮齐射装填时间",
+      "oldValue": "26 秒",
+      "newValue": "24.5 秒",
+      "trend": "buff",
+      "version": "26.10",
+      "shipStatus": "test",
+      "tags": "test-ship",
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "announcementId": "697",
+      "sourceUrl": "https://blog.korabli.su/blog/697",
+      "publishedAt": "2026-09-29T12:00:00.000Z",
+      "originalText": "Время перезарядки первого залпа уменьшено с 26 до 24,5 с.",
+      "analysisRule": "reviewed-nga-47645187",
+      "analysisConfidence": "high",
+      "notes": "中文译名：伊凡雷帝；译者：ViisasSusi\nNGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187\n官方公告：https://blog.korabli.su/blog/697",
+      "sources": [
+        {
+          "announcementId": "697",
+          "url": "https://blog.korabli.su/blog/697",
+          "originalText": "Время перезарядки первого залпа уменьшено с 26 до 24,5 с."
+        },
+        {
+          "announcementId": "nga-47645187",
+          "url": "https://bbs.nga.cn/read.php?tid=47645187",
+          "originalText": "伊凡雷帝：第一轮齐射装填时间 26 秒 → 24.5 秒",
+          "notes": "结构化转录；译者：ViisasSusi"
+        }
+      ]
+    },
+    {
+      "id": "25da45599863af73",
+      "category": "ship",
+      "targetName": "Isonzo",
+      "canonicalName": "Isonzo",
+      "previousNames": "",
+      "nation": "意大利",
+      "tier": "9",
+      "type": "巡洋舰",
+      "attribute": "主炮炮弹初速",
+      "oldValue": "775 米/秒",
+      "newValue": "805 米/秒",
+      "trend": "buff",
+      "version": "26.10",
+      "shipStatus": "test",
+      "tags": "test-ship",
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "announcementId": "697",
+      "sourceUrl": "https://blog.korabli.su/blog/697",
+      "publishedAt": "2026-09-29T12:00:00.000Z",
+      "originalText": "Баллистика снарядов стала более настильной — начальная скорость полёта снаряда увеличена с 775 до 805 м/с",
+      "analysisRule": "reviewed-nga-47645187",
+      "analysisConfidence": "high",
+      "notes": "弹道更加平缓。\n中文译名：伊松佐；译者：ViisasSusi\nNGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187\n官方公告：https://blog.korabli.su/blog/697",
+      "sources": [
+        {
+          "announcementId": "697",
+          "url": "https://blog.korabli.su/blog/697",
+          "originalText": "Баллистика снарядов стала более настильной — начальная скорость полёта снаряда увеличена с 775 до 805 м/с"
+        },
+        {
+          "announcementId": "nga-47645187",
+          "url": "https://bbs.nga.cn/read.php?tid=47645187",
+          "originalText": "伊松佐：主炮炮弹初速 775 米/秒 → 805 米/秒",
+          "notes": "结构化转录；译者：ViisasSusi"
+        }
+      ]
+    },
+    {
+      "id": "0f7d258b5bccc20b",
+      "category": "ship",
+      "targetName": "Mikasa '04",
+      "canonicalName": "Mikasa '04",
+      "previousNames": "",
+      "nation": "日本",
+      "tier": "3",
+      "type": "战列舰",
+      "attribute": "中口径火炮装填时间",
+      "oldValue": "8 秒",
+      "newValue": "7.5 秒",
+      "trend": "buff",
+      "version": "26.10",
+      "shipStatus": "test",
+      "tags": "test-ship",
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "announcementId": "697",
+      "sourceUrl": "https://blog.korabli.su/blog/697",
+      "publishedAt": "2026-09-29T12:00:00.000Z",
+      "originalText": "Время перезарядки СК уменьшено с 8 до 7,5 с",
+      "analysisRule": "reviewed-nga-47645187",
+      "analysisConfidence": "high",
+      "notes": "中文译名：三笠04；译者：ViisasSusi\nNGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187\n官方公告：https://blog.korabli.su/blog/697",
+      "sources": [
+        {
+          "announcementId": "697",
+          "url": "https://blog.korabli.su/blog/697",
+          "originalText": "Время перезарядки СК уменьшено с 8 до 7,5 с"
+        },
+        {
+          "announcementId": "nga-47645187",
+          "url": "https://bbs.nga.cn/read.php?tid=47645187",
+          "originalText": "三笠04：中口径火炮装填时间 8 秒 → 7.5 秒",
+          "notes": "结构化转录；译者：ViisasSusi"
+        }
+      ]
+    },
+    {
+      "id": "9fbdc5ec89f41e0f",
+      "category": "ship",
+      "targetName": "Mikasa '04",
+      "canonicalName": "Mikasa '04",
+      "previousNames": "",
+      "nation": "日本",
+      "tier": "3",
+      "type": "战列舰",
+      "attribute": "鱼雷装填时间",
+      "oldValue": "90 秒",
+      "newValue": "75 秒",
+      "trend": "buff",
+      "version": "26.10",
+      "shipStatus": "test",
+      "tags": "test-ship",
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "announcementId": "697",
+      "sourceUrl": "https://blog.korabli.su/blog/697",
+      "publishedAt": "2026-09-29T12:00:00.000Z",
+      "originalText": "Время перезарядки ТА уменьшено с 90 до 75 с.",
+      "analysisRule": "reviewed-nga-47645187",
+      "analysisConfidence": "high",
+      "notes": "中文译名：三笠04；译者：ViisasSusi\nNGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187\n官方公告：https://blog.korabli.su/blog/697",
+      "sources": [
+        {
+          "announcementId": "697",
+          "url": "https://blog.korabli.su/blog/697",
+          "originalText": "Время перезарядки ТА уменьшено с 90 до 75 с."
+        },
+        {
+          "announcementId": "nga-47645187",
+          "url": "https://bbs.nga.cn/read.php?tid=47645187",
+          "originalText": "三笠04：鱼雷装填时间 90 秒 → 75 秒",
+          "notes": "结构化转录；译者：ViisasSusi"
+        }
+      ]
+    },
+    {
+      "id": "059ce9b49a147ce3",
+      "category": "ship",
+      "targetName": "Piorun",
+      "canonicalName": "Piorun",
+      "previousNames": "",
+      "nation": "欧洲",
+      "tier": "7",
+      "type": "驱逐舰",
+      "attribute": "穿甲弹跳弹角度",
+      "oldValue": "—",
+      "newValue": "提升至果敢（Daring）水准",
+      "trend": "buff",
+      "version": "26.10",
+      "shipStatus": "test",
+      "tags": "test-ship",
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "announcementId": "697",
+      "sourceUrl": "https://blog.korabli.su/blog/697",
+      "publishedAt": "2026-09-29T12:00:00.000Z",
+      "originalText": "Бронебойным снарядам добавлены улучшенные углы рикошета как у Daring",
+      "analysisRule": "reviewed-nga-47645187",
+      "analysisConfidence": "high",
+      "notes": "旧值未公布；官网明确为改进跳弹角度，不猜测具体角度。\n中文译名：霹雳；译者：ViisasSusi\nNGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187\n官方公告：https://blog.korabli.su/blog/697",
+      "sources": [
+        {
+          "announcementId": "697",
+          "url": "https://blog.korabli.su/blog/697",
+          "originalText": "Бронебойным снарядам добавлены улучшенные углы рикошета как у Daring"
+        },
+        {
+          "announcementId": "nga-47645187",
+          "url": "https://bbs.nga.cn/read.php?tid=47645187",
+          "originalText": "霹雳：穿甲弹跳弹角度 — → 提升至果敢（Daring）水准",
+          "notes": "结构化转录；译者：ViisasSusi"
+        }
+      ]
+    },
+    {
+      "id": "338d8776e9c867d1",
+      "category": "ship",
+      "targetName": "Piorun",
+      "canonicalName": "Piorun",
+      "previousNames": "",
+      "nation": "欧洲",
+      "tier": "7",
+      "type": "驱逐舰",
+      "attribute": "对海隐蔽",
+      "oldValue": "7.1 千米",
+      "newValue": "6.9 千米",
+      "trend": "buff",
+      "version": "26.10",
+      "shipStatus": "test",
+      "tags": "test-ship",
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "announcementId": "697",
+      "sourceUrl": "https://blog.korabli.su/blog/697",
+      "publishedAt": "2026-09-29T12:00:00.000Z",
+      "originalText": "Заметность с кораблей уменьшена с 7,1 до 6,9 км.",
+      "analysisRule": "reviewed-nga-47645187",
+      "analysisConfidence": "high",
+      "notes": "其他类型的隐蔽也将进行相应调整。\n中文译名：霹雳；译者：ViisasSusi\nNGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187\n官方公告：https://blog.korabli.su/blog/697",
+      "sources": [
+        {
+          "announcementId": "697",
+          "url": "https://blog.korabli.su/blog/697",
+          "originalText": "Заметность с кораблей уменьшена с 7,1 до 6,9 км."
+        },
+        {
+          "announcementId": "nga-47645187",
+          "url": "https://bbs.nga.cn/read.php?tid=47645187",
+          "originalText": "霹雳：对海隐蔽 7.1 千米 → 6.9 千米",
+          "notes": "结构化转录；译者：ViisasSusi"
+        }
+      ]
+    },
+    {
+      "id": "97445a19a0cdf5a0",
+      "category": "ship",
+      "targetName": "Schwaben",
+      "canonicalName": "Schwaben",
+      "previousNames": "",
+      "nation": "德国",
+      "tier": "11",
+      "type": "战列舰",
+      "attribute": "主炮命中推进的战斗指令进度",
+      "oldValue": "17%",
+      "newValue": "13%",
+      "trend": "nerf",
+      "version": "26.10",
+      "shipStatus": "test",
+      "tags": "test-ship",
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "announcementId": "697",
+      "sourceUrl": "https://blog.korabli.su/blog/697",
+      "publishedAt": "2026-09-29T12:00:00.000Z",
+      "originalText": "Прогресс боевых инструкций за попадание снарядом ГК уменьшен с 17 до 13%.",
+      "analysisRule": "reviewed-nga-47645187",
+      "analysisConfidence": "high",
+      "notes": "中文译名：施瓦本；译者：ViisasSusi\nNGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187\n官方公告：https://blog.korabli.su/blog/697",
+      "sources": [
+        {
+          "announcementId": "697",
+          "url": "https://blog.korabli.su/blog/697",
+          "originalText": "Прогресс боевых инструкций за попадание снарядом ГК уменьшен с 17 до 13%."
+        },
+        {
+          "announcementId": "nga-47645187",
+          "url": "https://bbs.nga.cn/read.php?tid=47645187",
+          "originalText": "施瓦本：主炮命中推进的战斗指令进度 17% → 13%",
+          "notes": "结构化转录；译者：ViisasSusi"
+        }
+      ]
+    },
+    {
+      "id": "88a1b2003fd695a3",
+      "category": "ship",
+      "targetName": "Schwaben",
+      "canonicalName": "Schwaben",
+      "previousNames": "",
+      "nation": "德国",
+      "tier": "11",
+      "type": "战列舰",
+      "attribute": "战斗指令第三层-炮弹最大误差加成",
+      "oldValue": "-7.5%",
+      "newValue": "-8%",
+      "trend": "buff",
+      "version": "26.10",
+      "shipStatus": "test",
+      "tags": "test-ship",
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "announcementId": "697",
+      "sourceUrl": "https://blog.korabli.su/blog/697",
+      "publishedAt": "2026-09-29T12:00:00.000Z",
+      "originalText": "Бонус к точности увеличен с 7,5 до 8%",
+      "analysisRule": "reviewed-nga-47645187",
+      "analysisConfidence": "high",
+      "notes": "保留 NGA 的负数减益表示；官网用正数表示加成幅度，幅度增大判为增强。\n中文译名：施瓦本；译者：ViisasSusi\nNGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187\n官方公告：https://blog.korabli.su/blog/697",
+      "sources": [
+        {
+          "announcementId": "697",
+          "url": "https://blog.korabli.su/blog/697",
+          "originalText": "Бонус к точности увеличен с 7,5 до 8%"
+        },
+        {
+          "announcementId": "nga-47645187",
+          "url": "https://bbs.nga.cn/read.php?tid=47645187",
+          "originalText": "施瓦本：战斗指令第三层-炮弹最大误差加成 -7.5% → -8%",
+          "notes": "结构化转录；译者：ViisasSusi"
+        }
+      ]
+    },
+    {
+      "id": "7879c4fe66e3338a",
+      "category": "ship",
+      "targetName": "Schwaben",
+      "canonicalName": "Schwaben",
+      "previousNames": "",
+      "nation": "德国",
+      "tier": "11",
+      "type": "战列舰",
+      "attribute": "战斗指令第三层-主炮装填时间加成",
+      "oldValue": "-4.5%",
+      "newValue": "-6.5%",
+      "trend": "buff",
+      "version": "26.10",
+      "shipStatus": "test",
+      "tags": "test-ship",
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "announcementId": "697",
+      "sourceUrl": "https://blog.korabli.su/blog/697",
+      "publishedAt": "2026-09-29T12:00:00.000Z",
+      "originalText": "Бонус ко времени перезарядки ГК увеличен с 4,5 до 6,5%",
+      "analysisRule": "reviewed-nga-47645187",
+      "analysisConfidence": "high",
+      "notes": "保留 NGA 的负数减益表示；官网用正数表示加成幅度，幅度增大判为增强。\n中文译名：施瓦本；译者：ViisasSusi\nNGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187\n官方公告：https://blog.korabli.su/blog/697",
+      "sources": [
+        {
+          "announcementId": "697",
+          "url": "https://blog.korabli.su/blog/697",
+          "originalText": "Бонус ко времени перезарядки ГК увеличен с 4,5 до 6,5%"
+        },
+        {
+          "announcementId": "nga-47645187",
+          "url": "https://bbs.nga.cn/read.php?tid=47645187",
+          "originalText": "施瓦本：战斗指令第三层-主炮装填时间加成 -4.5% → -6.5%",
+          "notes": "结构化转录；译者：ViisasSusi"
+        }
+      ]
+    },
+    {
+      "id": "7917df1a5ed5d0af",
+      "category": "ship",
+      "targetName": "Schwaben",
+      "canonicalName": "Schwaben",
+      "previousNames": "",
+      "nation": "德国",
+      "tier": "11",
+      "type": "战列舰",
+      "attribute": "战斗指令第三层-主炮180度回转时间加成",
+      "oldValue": "-15%",
+      "newValue": "-17%",
+      "trend": "buff",
+      "version": "26.10",
+      "shipStatus": "test",
+      "tags": "test-ship",
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "announcementId": "697",
+      "sourceUrl": "https://blog.korabli.su/blog/697",
+      "publishedAt": "2026-09-29T12:00:00.000Z",
+      "originalText": "Бонус ко времени поворота орудий ГК увеличен с 15 до 17%",
+      "analysisRule": "reviewed-nga-47645187",
+      "analysisConfidence": "high",
+      "notes": "保留 NGA 的负数减益表示；官网用正数表示加成幅度，幅度增大判为增强。\n中文译名：施瓦本；译者：ViisasSusi\nNGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187\n官方公告：https://blog.korabli.su/blog/697",
+      "sources": [
+        {
+          "announcementId": "697",
+          "url": "https://blog.korabli.su/blog/697",
+          "originalText": "Бонус ко времени поворота орудий ГК увеличен с 15 до 17%"
+        },
+        {
+          "announcementId": "nga-47645187",
+          "url": "https://bbs.nga.cn/read.php?tid=47645187",
+          "originalText": "施瓦本：战斗指令第三层-主炮180度回转时间加成 -15% → -17%",
+          "notes": "结构化转录；译者：ViisasSusi"
+        }
+      ]
+    },
+    {
+      "id": "68ec85d025dc007a",
+      "category": "ship",
+      "targetName": "Schwaben",
+      "canonicalName": "Schwaben",
+      "previousNames": "",
+      "nation": "德国",
+      "tier": "11",
+      "type": "战列舰",
+      "attribute": "战斗指令第三层-方向舵换挡时间加成",
+      "oldValue": "-15%",
+      "newValue": "-18%",
+      "trend": "buff",
+      "version": "26.10",
+      "shipStatus": "test",
+      "tags": "test-ship",
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "announcementId": "697",
+      "sourceUrl": "https://blog.korabli.su/blog/697",
+      "publishedAt": "2026-09-29T12:00:00.000Z",
+      "originalText": "Бонус ко времени перекладки руля увеличен с 15 до 18%",
+      "analysisRule": "reviewed-nga-47645187",
+      "analysisConfidence": "high",
+      "notes": "保留 NGA 的负数减益表示；官网用正数表示加成幅度，幅度增大判为增强。\n中文译名：施瓦本；译者：ViisasSusi\nNGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187\n官方公告：https://blog.korabli.su/blog/697",
+      "sources": [
+        {
+          "announcementId": "697",
+          "url": "https://blog.korabli.su/blog/697",
+          "originalText": "Бонус ко времени перекладки руля увеличен с 15 до 18%"
+        },
+        {
+          "announcementId": "nga-47645187",
+          "url": "https://bbs.nga.cn/read.php?tid=47645187",
+          "originalText": "施瓦本：战斗指令第三层-方向舵换挡时间加成 -15% → -18%",
+          "notes": "结构化转录；译者：ViisasSusi"
+        }
+      ]
+    },
+    {
+      "id": "fd86281b5a4982dc",
+      "category": "ship",
+      "targetName": "Schwaben",
+      "canonicalName": "Schwaben",
+      "previousNames": "",
+      "nation": "德国",
+      "tier": "11",
+      "type": "战列舰",
+      "attribute": "战斗指令第四层-炮弹最大误差加成",
+      "oldValue": "-10%",
+      "newValue": "-15%",
+      "trend": "buff",
+      "version": "26.10",
+      "shipStatus": "test",
+      "tags": "test-ship",
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "announcementId": "697",
+      "sourceUrl": "https://blog.korabli.su/blog/697",
+      "publishedAt": "2026-09-29T12:00:00.000Z",
+      "originalText": "Бонус к точности увеличен с 10 до 15%",
+      "analysisRule": "reviewed-nga-47645187",
+      "analysisConfidence": "high",
+      "notes": "保留 NGA 的负数减益表示；官网用正数表示加成幅度，幅度增大判为增强。\n中文译名：施瓦本；译者：ViisasSusi\nNGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187\n官方公告：https://blog.korabli.su/blog/697",
+      "sources": [
+        {
+          "announcementId": "697",
+          "url": "https://blog.korabli.su/blog/697",
+          "originalText": "Бонус к точности увеличен с 10 до 15%"
+        },
+        {
+          "announcementId": "nga-47645187",
+          "url": "https://bbs.nga.cn/read.php?tid=47645187",
+          "originalText": "施瓦本：战斗指令第四层-炮弹最大误差加成 -10% → -15%",
+          "notes": "结构化转录；译者：ViisasSusi"
+        }
+      ]
+    },
+    {
+      "id": "cc97410c133072d1",
+      "category": "ship",
+      "targetName": "Schwaben",
+      "canonicalName": "Schwaben",
+      "previousNames": "",
+      "nation": "德国",
+      "tier": "11",
+      "type": "战列舰",
+      "attribute": "战斗指令第四层-主炮装填时间加成",
+      "oldValue": "-6%",
+      "newValue": "-12%",
+      "trend": "buff",
+      "version": "26.10",
+      "shipStatus": "test",
+      "tags": "test-ship",
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "announcementId": "697",
+      "sourceUrl": "https://blog.korabli.su/blog/697",
+      "publishedAt": "2026-09-29T12:00:00.000Z",
+      "originalText": "Бонус ко времени перезарядки ГК увеличен с 6 до 12%",
+      "analysisRule": "reviewed-nga-47645187",
+      "analysisConfidence": "high",
+      "notes": "保留 NGA 的负数减益表示；官网用正数表示加成幅度，幅度增大判为增强。\n中文译名：施瓦本；译者：ViisasSusi\nNGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187\n官方公告：https://blog.korabli.su/blog/697",
+      "sources": [
+        {
+          "announcementId": "697",
+          "url": "https://blog.korabli.su/blog/697",
+          "originalText": "Бонус ко времени перезарядки ГК увеличен с 6 до 12%"
+        },
+        {
+          "announcementId": "nga-47645187",
+          "url": "https://bbs.nga.cn/read.php?tid=47645187",
+          "originalText": "施瓦本：战斗指令第四层-主炮装填时间加成 -6% → -12%",
+          "notes": "结构化转录；译者：ViisasSusi"
+        }
+      ]
+    },
+    {
+      "id": "666f14de71c15c9b",
+      "category": "ship",
+      "targetName": "Schwaben",
+      "canonicalName": "Schwaben",
+      "previousNames": "",
+      "nation": "德国",
+      "tier": "11",
+      "type": "战列舰",
+      "attribute": "战斗指令第四层-主炮180度回转时间加成",
+      "oldValue": "-20%",
+      "newValue": "-25%",
+      "trend": "buff",
+      "version": "26.10",
+      "shipStatus": "test",
+      "tags": "test-ship",
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "announcementId": "697",
+      "sourceUrl": "https://blog.korabli.su/blog/697",
+      "publishedAt": "2026-09-29T12:00:00.000Z",
+      "originalText": "Бонус ко времени поворота орудий ГК увеличен с 20 до 25%",
+      "analysisRule": "reviewed-nga-47645187",
+      "analysisConfidence": "high",
+      "notes": "保留 NGA 的负数减益表示；官网用正数表示加成幅度，幅度增大判为增强。\n中文译名：施瓦本；译者：ViisasSusi\nNGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187\n官方公告：https://blog.korabli.su/blog/697",
+      "sources": [
+        {
+          "announcementId": "697",
+          "url": "https://blog.korabli.su/blog/697",
+          "originalText": "Бонус ко времени поворота орудий ГК увеличен с 20 до 25%"
+        },
+        {
+          "announcementId": "nga-47645187",
+          "url": "https://bbs.nga.cn/read.php?tid=47645187",
+          "originalText": "施瓦本：战斗指令第四层-主炮180度回转时间加成 -20% → -25%",
+          "notes": "结构化转录；译者：ViisasSusi"
+        }
+      ]
+    },
+    {
+      "id": "7a63dce17e95baba",
+      "category": "ship",
+      "targetName": "Schwaben",
+      "canonicalName": "Schwaben",
+      "previousNames": "",
+      "nation": "德国",
+      "tier": "11",
+      "type": "战列舰",
+      "attribute": "战斗指令第四层-方向舵换挡时间加成",
+      "oldValue": "-20%",
+      "newValue": "-25%",
+      "trend": "buff",
+      "version": "26.10",
+      "shipStatus": "test",
+      "tags": "test-ship",
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "announcementId": "697",
+      "sourceUrl": "https://blog.korabli.su/blog/697",
+      "publishedAt": "2026-09-29T12:00:00.000Z",
+      "originalText": "Бонус ко времени перекладки руля увеличен с 20 до 25%",
+      "analysisRule": "reviewed-nga-47645187",
+      "analysisConfidence": "high",
+      "notes": "保留 NGA 的负数减益表示；官网用正数表示加成幅度，幅度增大判为增强。\n中文译名：施瓦本；译者：ViisasSusi\nNGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187\n官方公告：https://blog.korabli.su/blog/697",
+      "sources": [
+        {
+          "announcementId": "697",
+          "url": "https://blog.korabli.su/blog/697",
+          "originalText": "Бонус ко времени перекладки руля увеличен с 20 до 25%"
+        },
+        {
+          "announcementId": "nga-47645187",
+          "url": "https://bbs.nga.cn/read.php?tid=47645187",
+          "originalText": "施瓦本：战斗指令第四层-方向舵换挡时间加成 -20% → -25%",
+          "notes": "结构化转录；译者：ViisasSusi"
+        }
+      ]
+    },
+    {
+      "id": "8d2698f991181f45",
+      "category": "ship",
+      "targetName": "Hakusan",
+      "canonicalName": "Hakusan",
+      "previousNames": "",
+      "nation": "日本",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "主炮射程",
+      "oldValue": "19.4 千米",
+      "newValue": "18.9 千米",
+      "trend": "nerf",
+      "version": "26.10",
+      "shipStatus": "test",
+      "tags": "test-ship",
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "announcementId": "697",
+      "sourceUrl": "https://blog.korabli.su/blog/697",
+      "publishedAt": "2026-09-29T12:00:00.000Z",
+      "originalText": "Дальность стрельбы ГК уменьшена с 19,4 до 18,9 км.",
+      "analysisRule": "reviewed-nga-47645187",
+      "analysisConfidence": "high",
+      "notes": "中文译名：白山；译者：ViisasSusi\nNGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187\n官方公告：https://blog.korabli.su/blog/697",
+      "sources": [
+        {
+          "announcementId": "697",
+          "url": "https://blog.korabli.su/blog/697",
+          "originalText": "Дальность стрельбы ГК уменьшена с 19,4 до 18,9 км."
+        },
+        {
+          "announcementId": "nga-47645187",
+          "url": "https://bbs.nga.cn/read.php?tid=47645187",
+          "originalText": "白山：主炮射程 19.4 千米 → 18.9 千米",
+          "notes": "结构化转录；译者：ViisasSusi"
+        }
+      ]
+    },
+    {
+      "id": "9b00a0584cfabd7b",
+      "category": "ship",
+      "targetName": "Hakusan",
+      "canonicalName": "Hakusan",
+      "previousNames": "",
+      "nation": "日本",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "主炮装填时间",
+      "oldValue": "32 秒",
+      "newValue": "32.5 秒",
+      "trend": "nerf",
+      "version": "26.10",
+      "shipStatus": "test",
+      "tags": "test-ship",
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "announcementId": "697",
+      "sourceUrl": "https://blog.korabli.su/blog/697",
+      "publishedAt": "2026-09-29T12:00:00.000Z",
+      "originalText": "Время перезарядки орудий ГК увеличено с 32 до 32,5 сек.",
+      "analysisRule": "reviewed-nga-47645187",
+      "analysisConfidence": "high",
+      "notes": "中文译名：白山；译者：ViisasSusi\nNGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187\n官方公告：https://blog.korabli.su/blog/697",
+      "sources": [
+        {
+          "announcementId": "697",
+          "url": "https://blog.korabli.su/blog/697",
+          "originalText": "Время перезарядки орудий ГК увеличено с 32 до 32,5 сек."
+        },
+        {
+          "announcementId": "nga-47645187",
+          "url": "https://bbs.nga.cn/read.php?tid=47645187",
+          "originalText": "白山：主炮装填时间 32 秒 → 32.5 秒",
+          "notes": "结构化转录；译者：ViisasSusi"
+        }
+      ]
+    },
+    {
+      "id": "13dd49354fd75ece",
+      "category": "ship",
+      "targetName": "Hakusan",
+      "canonicalName": "Hakusan",
+      "previousNames": "",
+      "nation": "日本",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "100mm副炮装填时间",
+      "oldValue": "3.3 秒",
+      "newValue": "3.5 秒",
+      "trend": "nerf",
+      "version": "26.10",
+      "shipStatus": "test",
+      "tags": "test-ship",
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "announcementId": "697",
+      "sourceUrl": "https://blog.korabli.su/blog/697",
+      "publishedAt": "2026-09-29T12:00:00.000Z",
+      "originalText": "Время перезарядки 100-мм орудий ПМК увеличено с 3,3 до 3,5 сек.",
+      "analysisRule": "reviewed-nga-47645187",
+      "analysisConfidence": "high",
+      "notes": "中文译名：白山；译者：ViisasSusi\nNGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187\n官方公告：https://blog.korabli.su/blog/697",
+      "sources": [
+        {
+          "announcementId": "697",
+          "url": "https://blog.korabli.su/blog/697",
+          "originalText": "Время перезарядки 100-мм орудий ПМК увеличено с 3,3 до 3,5 сек."
+        },
+        {
+          "announcementId": "nga-47645187",
+          "url": "https://bbs.nga.cn/read.php?tid=47645187",
+          "originalText": "白山：100mm副炮装填时间 3.3 秒 → 3.5 秒",
+          "notes": "结构化转录；译者：ViisasSusi"
+        }
+      ]
+    },
+    {
+      "id": "3988ae764da99133",
+      "category": "ship",
+      "targetName": "Hakusan",
+      "canonicalName": "Hakusan",
+      "previousNames": "",
+      "nation": "日本",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "鱼雷最大伤害",
+      "oldValue": "19668",
+      "newValue": "14718",
+      "trend": "nerf",
+      "version": "26.10",
+      "shipStatus": "test",
+      "tags": "test-ship",
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "announcementId": "697",
+      "sourceUrl": "https://blog.korabli.su/blog/697",
+      "publishedAt": "2026-09-29T12:00:00.000Z",
+      "originalText": "Максимальный урон торпед уменьшен с 19668 до 14718",
+      "analysisRule": "reviewed-nga-47645187",
+      "analysisConfidence": "high",
+      "notes": "中文译名：白山；译者：ViisasSusi\nNGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187\n官方公告：https://blog.korabli.su/blog/697",
+      "sources": [
+        {
+          "announcementId": "697",
+          "url": "https://blog.korabli.su/blog/697",
+          "originalText": "Максимальный урон торпед уменьшен с 19668 до 14718"
+        },
+        {
+          "announcementId": "nga-47645187",
+          "url": "https://bbs.nga.cn/read.php?tid=47645187",
+          "originalText": "白山：鱼雷最大伤害 19668 → 14718",
+          "notes": "结构化转录；译者：ViisasSusi"
+        }
+      ]
+    },
+    {
+      "id": "8bf9e77abdf35e0d",
+      "category": "ship",
+      "targetName": "Mikasa '04",
+      "canonicalName": "Mikasa '04",
+      "previousNames": "",
+      "nation": "日本",
+      "tier": "3",
+      "type": "战列舰",
+      "attribute": "中口径火炮弹着群系数",
+      "oldValue": "1.9",
+      "newValue": "1.8",
+      "trend": "nerf",
+      "version": "26.10",
+      "shipStatus": "test",
+      "tags": "test-ship",
+      "sourceSheet": "NGA 47645187 / blog 697",
+      "announcementId": "697",
+      "sourceUrl": "https://blog.korabli.su/blog/697",
+      "publishedAt": "2026-09-29T12:00:00.000Z",
+      "originalText": "Параметр сигма орудий СК уменьшен с 1,9 до 1,8",
+      "analysisRule": "reviewed-nga-47645187",
+      "analysisConfidence": "high",
+      "notes": "用户确认采用官网三笠04段落；NGA译文为1.8→1.65，保留差异供追溯。\n中文译名：三笠04；译者：ViisasSusi\nNGA 中文来源：https://bbs.nga.cn/read.php?tid=47645187\n官方公告：https://blog.korabli.su/blog/697",
+      "sources": [
+        {
+          "announcementId": "697",
+          "url": "https://blog.korabli.su/blog/697",
+          "originalText": "Параметр сигма орудий СК уменьшен с 1,9 до 1,8"
+        },
+        {
+          "announcementId": "nga-47645187",
+          "url": "https://bbs.nga.cn/read.php?tid=47645187",
+          "originalText": "三笠04：中口径火炮弹着群系数 1.8 → 1.65",
+          "notes": "结构化转录；译者：ViisasSusi"
+        }
+      ]
+    },
+    {
+      "id": "9638df9e1c30d682",
+      "category": "ship",
+      "announcementId": "692",
+      "sourceUrl": "https://blog.korabli.su/blog/692",
+      "publishedAt": "2026-07-22T15:00:00.000Z",
+      "originalText": "Улучшены параметры точности ГК. Теперь они идентичны крейсеру Azuma.",
+      "targetName": "ГДР",
+      "canonicalName": "ГДР",
+      "previousNames": "",
+      "nation": "苏联",
+      "tier": "10",
+      "type": "战列舰",
+      "attribute": "主炮精度",
+      "oldValue": "—",
+      "newValue": "提升至吾妻（Azuma）水准",
+      "version": "26.7",
+      "notes": "官方公告：https://blog.korabli.su/blog/692\n人工复查补入；未公布的旧值保留为未知，不推断数值增减。",
+      "trend": "buff",
+      "analysisRule": "reviewed-2026-09-30",
+      "analysisConfidence": "high",
+      "shipStatus": "test",
+      "tags": "test-ship",
+      "sourceSheet": "blog 692",
+      "sources": [
+        {
+          "announcementId": "692",
+          "url": "https://blog.korabli.su/blog/692",
+          "originalText": "Улучшены параметры точности ГК. Теперь они идентичны крейсеру Azuma."
+        }
+      ]
+    },
+    {
+      "id": "6c3a4b7488b25d54",
+      "category": "ship",
+      "announcementId": "692",
+      "sourceUrl": "https://blog.korabli.su/blog/692",
+      "publishedAt": "2026-07-22T15:00:00.000Z",
+      "originalText": "Улучшены параметры точности ГК. Теперь они идентичны Ohio.",
+      "targetName": "Budapest",
+      "canonicalName": "Budapest",
+      "previousNames": "",
+      "nation": "欧洲",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "主炮精度",
+      "oldValue": "—",
+      "newValue": "提升至俄亥俄（Ohio）水准",
+      "version": "26.7",
+      "notes": "官方公告：https://blog.korabli.su/blog/692\n人工复查补入；未公布的旧值保留为未知，不推断数值增减。",
+      "trend": "buff",
+      "analysisRule": "reviewed-2026-09-30",
+      "analysisConfidence": "high",
+      "shipStatus": "test",
+      "tags": "test-ship",
+      "sourceSheet": "blog 692",
+      "sources": [
+        {
+          "announcementId": "692",
+          "url": "https://blog.korabli.su/blog/692",
+          "originalText": "Улучшены параметры точности ГК. Теперь они идентичны Ohio."
+        }
+      ]
+    },
+    {
+      "id": "bd4476a130e96af8",
+      "category": "ship",
+      "announcementId": "690",
+      "sourceUrl": "https://blog.korabli.su/blog/690",
+      "publishedAt": "2026-07-06T12:00:00.000Z",
+      "originalText": "Снижена точность сброса бомб примерно на 20%.",
+      "targetName": "Akagi",
+      "canonicalName": "Akagi",
+      "previousNames": "",
+      "nation": "日本",
+      "tier": "8",
+      "type": "航空母舰",
+      "attribute": "常规轰炸机投弹精度",
+      "oldValue": "—",
+      "newValue": "降低约20%",
+      "version": "26.7",
+      "notes": "官方公告：https://blog.korabli.su/blog/690\n人工复查补入；未公布的旧值保留为未知，不推断数值增减。",
+      "trend": "nerf",
+      "analysisRule": "reviewed-2026-09-30",
+      "analysisConfidence": "high",
+      "shipStatus": "test",
+      "tags": "test-ship",
+      "sourceSheet": "blog 690",
+      "sources": [
+        {
+          "announcementId": "690",
+          "url": "https://blog.korabli.su/blog/690",
+          "originalText": "Снижена точность сброса бомб примерно на 20%."
+        }
+      ]
+    },
+    {
+      "id": "c02ef4bf7806d15b",
+      "category": "ship",
+      "announcementId": "689",
+      "sourceUrl": "https://blog.korabli.su/blog/689",
+      "publishedAt": "2026-06-25T12:00:00.000Z",
+      "originalText": "Бронепробитие снаряда: 22 мм.",
+      "targetName": "Наварин",
+      "canonicalName": "Наварин",
+      "previousNames": "",
+      "nation": "苏联",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "双联130毫米副炮高爆弹穿深",
+      "oldValue": "—",
+      "newValue": "22 毫米",
+      "version": "26.7",
+      "notes": "官方公告：https://blog.korabli.su/blog/689\n人工复查补入；未公布的旧值保留为未知，不推断数值增减。",
+      "trend": "adjustment",
+      "analysisRule": "reviewed-2026-09-30",
+      "analysisConfidence": "high",
+      "shipStatus": "released",
+      "tags": "released-ship",
+      "sourceSheet": "blog 689",
+      "sources": [
+        {
+          "announcementId": "689",
+          "url": "https://blog.korabli.su/blog/689",
+          "originalText": "Бронепробитие снаряда: 22 мм."
+        }
+      ]
+    },
+    {
+      "id": "a6bb272f4e71642f",
+      "category": "ship",
+      "announcementId": "689",
+      "sourceUrl": "https://blog.korabli.su/blog/689",
+      "publishedAt": "2026-06-25T12:00:00.000Z",
+      "originalText": "Начальная скорость полёта снаряда: 950 м/с.",
+      "targetName": "Наварин",
+      "canonicalName": "Наварин",
+      "previousNames": "",
+      "nation": "苏联",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "双联130毫米副炮高爆弹初速",
+      "oldValue": "—",
+      "newValue": "950 米/秒",
+      "version": "26.7",
+      "notes": "官方公告：https://blog.korabli.su/blog/689\n人工复查补入；未公布的旧值保留为未知，不推断数值增减。",
+      "trend": "adjustment",
+      "analysisRule": "reviewed-2026-09-30",
+      "analysisConfidence": "high",
+      "shipStatus": "released",
+      "tags": "released-ship",
+      "sourceSheet": "blog 689",
+      "sources": [
+        {
+          "announcementId": "689",
+          "url": "https://blog.korabli.su/blog/689",
+          "originalText": "Начальная скорость полёта снаряда: 950 м/с."
+        }
+      ]
+    },
+    {
+      "id": "9aaf27a91404af8e",
+      "category": "ship",
+      "announcementId": "689",
+      "sourceUrl": "https://blog.korabli.su/blog/689",
+      "publishedAt": "2026-06-25T12:00:00.000Z",
+      "originalText": "Шанс поджога: 8%.",
+      "targetName": "Наварин",
+      "canonicalName": "Наварин",
+      "previousNames": "",
+      "nation": "苏联",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "双联130毫米副炮高爆弹起火率",
+      "oldValue": "—",
+      "newValue": "8%",
+      "version": "26.7",
+      "notes": "官方公告：https://blog.korabli.su/blog/689\n人工复查补入；未公布的旧值保留为未知，不推断数值增减。",
+      "trend": "adjustment",
+      "analysisRule": "reviewed-2026-09-30",
+      "analysisConfidence": "high",
+      "shipStatus": "released",
+      "tags": "released-ship",
+      "sourceSheet": "blog 689",
+      "sources": [
+        {
+          "announcementId": "689",
+          "url": "https://blog.korabli.su/blog/689",
+          "originalText": "Шанс поджога: 8%."
         }
       ]
     }

@@ -93,6 +93,7 @@ export function parseOfficial(article: Article, html: string, known: OfficialBal
   let active = article.sourceKind === 'blog';
   let foundSection = active;
   let status: ShipStatus = /тест/i.test(article.title) ? 'test' : 'released';
+  let testSectionHeading: string | null = null;
   let last: OfficialBalanceRecord[] = [];
   let parent = '';
   let parentDepth = 0;
@@ -111,6 +112,8 @@ export function parseOfficial(article: Article, html: string, known: OfficialBal
     const own = el.clone(); own.find('ul,ol').remove();
     const line = clean(own.text());
     if (!line) return;
+    // Publication timing is not a parameter of the last ship in the article.
+    if (/^(?:Указанные |Данные балансные |Данные )?Изменения вступят|^Указанные изменения вступят|^Данные изменения вступят|^Данные балансные изменения вступят/i.test(line)) return;
     if(/^Обращаем ваше внимание|^Обсудить на форуме/.test(line)) return;
     if (/^h[1-5]$/.test(element.tagName)) {
       if (article.sourceKind === 'portal' && el.is('h2')) {
@@ -120,7 +123,12 @@ export function parseOfficial(article: Article, html: string, known: OfficialBal
       // Subheadings (consumables/instructions/balance) retain the current ship.
       if (el.is('h1,h2')) { contexts = article.sourceKind==='blog'?[...titleContexts]:[]; mechanic = ''; }
       parent = ''; last = [];
-      if (/тестов/i.test(line)) status = 'test';
+      if (testSectionHeading===element.tagName && /^Изменения\s/i.test(line)) {
+        status = /тест/i.test(article.title) ? 'test' : 'released';
+        contexts = []; mechanic = '';
+        testSectionHeading = null;
+      }
+      if (/тестов/i.test(line)) {status = 'test';testSectionHeading=element.tagName;}
       if (/основн|релиз/i.test(line)) status = 'released';
       if(!el.find('vue-mk-entity,span.ship').length && !/^(?:[А-ЯЁа-яё]+)\s+(?:подводная лодка|подлодка|авианосец|эсминец|крейсер|линкор)\s/i.test(line)) return;
     }
@@ -155,7 +163,7 @@ export function parseOfficial(article: Article, html: string, known: OfficialBal
     const hasChildren = el.find('li').length > 0;
     const depth = el.parents('ul,ol').length;
     if (!ancestorText && depth<=parentDepth) parent='';
-    if (hasChildren && /характеристик|параметр|следующ|снаряжени/i.test(line) && !/\s(?:с|со)\s+\d.+\sдо\s/.test(line)) {parent = line; parentDepth=depth; return;}
+    if (hasChildren && /характеристик|параметр|следующ|снаряжени|бонусы.*уровня/i.test(line) && !/\s(?:с|со)\s+\d.+\sдо\s/.test(line)) {parent = line; parentDepth=depth; return;}
     if (!contexts.length && !mechanic) {
       issues.push({sourceUrl:article.url,text:line,reason:'缺少可靠舰船/机制上下文'}); return;
     }

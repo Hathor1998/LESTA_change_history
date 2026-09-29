@@ -9,6 +9,7 @@ on:
       - 'src/data/**'
       - 'package.json'
       - 'package-lock.json'
+      - '.github/workflows/refresh-data.yml'
   schedule:
     - cron: '30 3 * * *'
   workflow_dispatch:
@@ -22,13 +23,17 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: refresh-balance-data
+  cancel-in-progress: false
+
 jobs:
   build-and-publish:
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: npm
@@ -37,7 +42,16 @@ jobs:
         if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.sync_official)
         run: npm run data:sync:official
       - run: npm run lint
+      - run: npm run test:data
       - run: npm run build
+      - name: Preserve sync review and failure reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: balance-data-review
+          path: outputs/official-review/*.json
+          if-no-files-found: ignore
+          retention-days: 14
       - name: Commit generated data and Pages output
         run: |
           git config user.name "github-actions[bot]"
