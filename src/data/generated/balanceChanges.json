@@ -41729,7 +41729,7 @@
     }
   ],
   "meta": {
-    "generatedAt": "2026-09-29T20:10:50.087Z",
+    "generatedAt": "2026-09-30T09:53:53.134Z",
     "currentVersion": "26.9",
     "lastUpdated": "2026-09-30",
     "recordCount": 1355,
@@ -41755,10 +41755,10 @@
       "adjustment": 350
     },
     "officialData": {
-      "announcementCount": 141,
+      "announcementCount": 142,
       "rangeStart": "2024-08-16T18:05:27.281Z",
-      "rangeEnd": "2026-09-20T18:32:35.461Z",
-      "syncedAt": "2026-09-20T18:32:35.461Z"
+      "rangeEnd": "2026-09-30T09:53:18.568Z",
+      "syncedAt": "2026-09-30T09:53:18.568Z"
     }
   }
 }

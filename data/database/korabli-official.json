@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
   "source": "korabli-multi-source",
-  "syncedAt": "2026-09-20T18:32:35.461Z",
+  "syncedAt": "2026-09-30T09:53:18.568Z",
   "rangeStart": "2024-08-16T18:05:27.281Z",
-  "rangeEnd": "2026-09-20T18:32:35.461Z",
+  "rangeEnd": "2026-09-30T09:53:18.568Z",
   "announcements": [
     {
       "id": "693",
@@ -2128,7 +2128,7 @@
       "title": "Обновление 26.9. Сюрпризы на день рождения",
       "publishedAt": "2026-09-01T09:00:00.000Z",
       "sourceKind": "portal",
-      "contentHash": "d788cf8005bce59b71bee2a1eca127ee34a648dad7b6a7e2d645c77a0a16f20b",
+      "contentHash": "1cfb7c8b6c5fd683c5d182f1a9c60860398608c41c3154f2bb3ad8bdcffcb871",
       "recordIds": [
         "manual-26.9-1",
         "manual-26.9-2",
@@ -2877,11 +2877,11 @@
     },
     {
       "id": "697",
-      "sourceKind": "blog",
       "url": "https://blog.korabli.su/blog/697",
       "title": "Обновление 26.10 — изменения тестовых кораблей",
       "publishedAt": "2026-09-29T12:00:00.000Z",
-      "contentHash": "19489c0d80420400bdcbc48a92d1ac990069b631bf9d43e473251f1c15b147de",
+      "sourceKind": "blog",
+      "contentHash": "a9c99401763140c8618e8963f811c85e4cd8b1dcd26a3db9c547adbf7cc35fd4",
       "recordIds": [
         "86ca978a7e711da1",
         "80613eed65eca554",
@@ -2905,7 +2905,8 @@
         "13dd49354fd75ece",
         "3988ae764da99133",
         "8bf9e77abdf35e0d"
-      ]
+      ],
+      "parserVersion": 3
     },
     {
       "id": "nga-47645187",
@@ -2938,6 +2939,16 @@
         "3988ae764da99133",
         "8bf9e77abdf35e0d"
       ]
+    },
+    {
+      "id": "portal-16861",
+      "url": "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
+      "title": "Обновление 26.10. Там чудеса, там крейсер бродит…",
+      "publishedAt": "2026-09-29T09:00:44.000Z",
+      "sourceKind": "portal",
+      "contentHash": "8e31157dde7d8082127819825db27a1101a9d4b1925b783d80d45b1bba81014d",
+      "recordIds": [],
+      "parserVersion": 3
     }
   ],
   "records": [
@@ -4343,7 +4354,15 @@
       "publishedAt": "2026-06-25T12:00:00.000Z",
       "originalText": "Исправлена ошибка, из-за которой в редких ситуациях (например, в режиме «Гонка вооружений») крейсер получал слишком пониженный урон в уничтоженные части корабля (то есть даже меньше, чем 1/10 от урона снаряда).",
       "analysisRule": "non-numeric-adjustment",
-      "analysisConfidence": "medium"
+      "analysisConfidence": "medium",
+      "sources": [
+        {
+          "announcementId": "689",
+          "url": "https://blog.korabli.su/blog/689",
+          "originalText": "Исправлена ошибка, из-за которой в редких ситуациях (например, в режиме «Гонка вооружений») крейсер получал слишком пониженный урон в уничтоженные части корабля (то есть даже меньше, чем 1/10 от урона снаряда).",
+          "notes": "官方公告：https://blog.korabli.su/blog/689"
+        }
+      ]
     },
     {
       "targetName": "Simón Bolívar",
@@ -4368,7 +4387,15 @@
       "publishedAt": "2026-06-25T12:00:00.000Z",
       "originalText": "Учёт урона для восстановления боеспособности у снаряжения «Боевой ремонт» увеличен с 50 до 60%. Иными словами, в боеспособность корабля будет идти 60% от наносимого ГК урона во время действия снаряжения.",
       "analysisRule": "numeric-higher-is-better",
-      "analysisConfidence": "high"
+      "analysisConfidence": "high",
+      "sources": [
+        {
+          "announcementId": "689",
+          "url": "https://blog.korabli.su/blog/689",
+          "originalText": "Учёт урона для восстановления боеспособности у снаряжения «Боевой ремонт» увеличен с 50 до 60%. Иными словами, в боеспособность корабля будет идти 60% от наносимого ГК урона во время действия снаряжения.",
+          "notes": "官方公告：https://blog.korabli.su/blog/689"
+        }
+      ]
     },
     {
       "targetName": "Наварин",
@@ -4393,7 +4420,20 @@
       "publishedAt": "2026-06-25T12:00:00.000Z",
       "originalText": "Исправлена ошибка, из-за которой разные типы установок ПМК у линкора «Наварин» имели одинаковые снаряды. В связи с этим спаренные 130-м установки корабля получили новый ОФ-снаряд со следующими настройками: Урон снаряда: 1900 ед.",
       "analysisRule": "non-numeric-adjustment",
-      "analysisConfidence": "medium"
+      "analysisConfidence": "medium",
+      "sources": [
+        {
+          "announcementId": "689",
+          "url": "https://blog.korabli.su/blog/689",
+          "originalText": "Исправлена ошибка, из-за которой разные типы установок ПМК у линкора «Наварин» имели одинаковые снаряды. В связи с этим спаренные 130-м установки корабля получили новый ОФ-снаряд со следующими настройками: Урон снаряда: 1900 ед."
+        },
+        {
+          "announcementId": "689",
+          "url": "https://blog.korabli.su/blog/689",
+          "originalText": "Урон снаряда: 1900 ед.",
+          "notes": "官方公告：https://blog.korabli.su/blog/689"
+        }
+      ]
     },
     {
       "targetName": "Обновление 26.7 — изменения Боевого пропуска",
@@ -42499,7 +42539,8 @@
         {
           "announcementId": "697",
           "url": "https://blog.korabli.su/blog/697",
-          "originalText": "Параметр сигма орудий СК уменьшен с 1,8 до 1,65"
+          "originalText": "Параметр сигма орудий СК уменьшен с 1,8 до 1,65",
+          "notes": "官方公告：https://blog.korabli.su/blog/697"
         },
         {
           "announcementId": "nga-47645187",
@@ -42575,7 +42616,8 @@
         {
           "announcementId": "697",
           "url": "https://blog.korabli.su/blog/697",
-          "originalText": "Время перезарядки первого залпа уменьшено с 26 до 24,5 с."
+          "originalText": "Время перезарядки первого залпа уменьшено с 26 до 24,5 с.",
+          "notes": "官方公告：https://blog.korabli.su/blog/697"
         },
         {
           "announcementId": "nga-47645187",
@@ -42651,7 +42693,8 @@
         {
           "announcementId": "697",
           "url": "https://blog.korabli.su/blog/697",
-          "originalText": "Время перезарядки СК уменьшено с 8 до 7,5 с"
+          "originalText": "Время перезарядки СК уменьшено с 8 до 7,5 с",
+          "notes": "官方公告：https://blog.korabli.su/blog/697"
         },
         {
           "announcementId": "nga-47645187",
@@ -42689,7 +42732,8 @@
         {
           "announcementId": "697",
           "url": "https://blog.korabli.su/blog/697",
-          "originalText": "Время перезарядки ТА уменьшено с 90 до 75 с."
+          "originalText": "Время перезарядки ТА уменьшено с 90 до 75 с.",
+          "notes": "官方公告：https://blog.korabli.su/blog/697"
         },
         {
           "announcementId": "nga-47645187",
@@ -42765,7 +42809,8 @@
         {
           "announcementId": "697",
           "url": "https://blog.korabli.su/blog/697",
-          "originalText": "Заметность с кораблей уменьшена с 7,1 до 6,9 км."
+          "originalText": "Заметность с кораблей уменьшена с 7,1 до 6,9 км.",
+          "notes": "官方公告：https://blog.korabli.su/blog/697\nСоответственно уменьшены другие виды заметности"
         },
         {
           "announcementId": "nga-47645187",
@@ -42803,7 +42848,8 @@
         {
           "announcementId": "697",
           "url": "https://blog.korabli.su/blog/697",
-          "originalText": "Прогресс боевых инструкций за попадание снарядом ГК уменьшен с 17 до 13%."
+          "originalText": "Прогресс боевых инструкций за попадание снарядом ГК уменьшен с 17 до 13%.",
+          "notes": "官方公告：https://blog.korabli.su/blog/697"
         },
         {
           "announcementId": "nga-47645187",
@@ -43145,7 +43191,8 @@
         {
           "announcementId": "697",
           "url": "https://blog.korabli.su/blog/697",
-          "originalText": "Дальность стрельбы ГК уменьшена с 19,4 до 18,9 км."
+          "originalText": "Дальность стрельбы ГК уменьшена с 19,4 до 18,9 км.",
+          "notes": "官方公告：https://blog.korabli.su/blog/697"
         },
         {
           "announcementId": "nga-47645187",
@@ -43259,7 +43306,8 @@
         {
           "announcementId": "697",
           "url": "https://blog.korabli.su/blog/697",
-          "originalText": "Максимальный урон торпед уменьшен с 19668 до 14718"
+          "originalText": "Максимальный урон торпед уменьшен с 19668 до 14718",
+          "notes": "官方公告：https://blog.korabli.su/blog/697"
         },
         {
           "announcementId": "nga-47645187",
@@ -43297,7 +43345,8 @@
         {
           "announcementId": "697",
           "url": "https://blog.korabli.su/blog/697",
-          "originalText": "Параметр сигма орудий СК уменьшен с 1,9 до 1,8"
+          "originalText": "Параметр сигма орудий СК уменьшен с 1,9 до 1,8",
+          "notes": "官方公告：https://blog.korabli.su/blog/697"
         },
         {
           "announcementId": "nga-47645187",
@@ -43431,7 +43480,8 @@
         {
           "announcementId": "689",
           "url": "https://blog.korabli.su/blog/689",
-          "originalText": "Бронепробитие снаряда: 22 мм."
+          "originalText": "Бронепробитие снаряда: 22 мм.",
+          "notes": "官方公告：https://blog.korabli.su/blog/689"
         }
       ]
     },
@@ -43495,7 +43545,8 @@
         {
           "announcementId": "689",
           "url": "https://blog.korabli.su/blog/689",
-          "originalText": "Шанс поджога: 8%."
+          "originalText": "Шанс поджога: 8%.",
+          "notes": "官方公告：https://blog.korabli.su/blog/689"
         }
       ]
     }
