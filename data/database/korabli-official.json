@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
   "source": "korabli-multi-source",
-  "syncedAt": "2026-10-14T08:54:07.556Z",
+  "syncedAt": "2026-10-15T08:29:00.855Z",
   "rangeStart": "2024-08-16T18:05:27.281Z",
-  "rangeEnd": "2026-10-14T08:54:07.556Z",
+  "rangeEnd": "2026-10-15T08:29:00.855Z",
   "announcements": [
     {
       "id": "693",
@@ -2071,7 +2071,7 @@
       "title": "Закрытое тестирование 26.10 — изменения тестовых кораблей",
       "publishedAt": "2026-09-17T09:00:00.000Z",
       "sourceKind": "blog",
-      "contentHash": "5bb7e3b11157781afecf84ecdbbd7daa7f4f1b036d4f8ded8b99ce44a6a5a0e0",
+      "contentHash": "09d3585b4ad7d4cbf2fe4b0d71d6ccee9988760e2fa3fe96e2d0cdd458d966f9",
       "recordIds": [
         "02f4fd314d5ce245",
         "59883b89bb0442e5",
@@ -2128,7 +2128,7 @@
       "title": "Обновление 26.9. Сюрпризы на день рождения",
       "publishedAt": "2026-09-01T09:00:00.000Z",
       "sourceKind": "portal",
-      "contentHash": "545fa539c4aaabc9fd6944530f2de6b3863b98d454906ccd1d4566b9811242bd",
+      "contentHash": "d9942fca9ed5b594d6a1280ddb6de61f438a675552b2432f22457456133977b6",
       "recordIds": [
         "manual-26.9-1",
         "manual-26.9-2",
@@ -2946,7 +2946,7 @@
       "title": "Обновление 26.10. Там чудеса, там крейсер бродит…",
       "publishedAt": "2026-09-29T09:00:44.000Z",
       "sourceKind": "portal",
-      "contentHash": "8471446c69b68a2c30cdbef05720480fef49d11db589fac737c38c789358b5e1",
+      "contentHash": "958d3e54c38248ac8293c5c2b819385f50e0ef1f19f0788b514219eb76da0eaa",
       "recordIds": [],
       "parserVersion": 3
     }
