@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
   "source": "korabli-multi-source",
-  "syncedAt": "2026-10-16T08:21:57.402Z",
+  "syncedAt": "2026-10-17T07:56:39.672Z",
   "rangeStart": "2024-08-16T18:05:27.281Z",
-  "rangeEnd": "2026-10-16T08:21:57.402Z",
+  "rangeEnd": "2026-10-17T07:56:39.672Z",
   "announcements": [
     {
       "id": "693",
@@ -2128,7 +2128,7 @@
       "title": "Обновление 26.9. Сюрпризы на день рождения",
       "publishedAt": "2026-09-01T09:00:00.000Z",
       "sourceKind": "portal",
-      "contentHash": "b44ec7f9d496aad94dbb3ad23b8275676bd724e79b4d22f2bd26dd2e18446d38",
+      "contentHash": "344894126a410a5879361f8c8c2ee4a641f63ea1551f6b32a338c2e416a041a4",
       "recordIds": [
         "manual-26.9-1",
         "manual-26.9-2",
@@ -2946,7 +2946,7 @@
       "title": "Обновление 26.10. Там чудеса, там крейсер бродит…",
       "publishedAt": "2026-09-29T09:00:44.000Z",
       "sourceKind": "portal",
-      "contentHash": "7cb0df088885767d7aed4cf0335cbbf97203c211edde9697da3a294c23b8a6af",
+      "contentHash": "1e2215daf1f0654256eb5ee11a8f9f350e46c7eb56f2d202181f771bdeef88ef",
       "recordIds": [],
       "parserVersion": 3
     },
