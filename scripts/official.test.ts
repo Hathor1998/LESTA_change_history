@@ -16,6 +16,35 @@ import { coverage } from './coverage.ts';
 import { parsePublicTest2610 } from './import-public-test-2610.ts';
 import { reviewedNgaRecords } from './nga-47645187.ts';
 import { mergeReviewedNga, verifyOfficial } from './import-nga.ts';
+import {parseReviewedBlog698,parseReviewedRelease2610,parseReviewedPublicTest2611,mergeReviewed2610} from './reviewed-2610.ts';
+
+test('October 26.10 reviewed sources retain radar context, bonus direction and release phase',async()=>{
+  const blogHtml=await readFile('scripts/fixtures/blog-698.html','utf8');
+  const releaseHtml=await readFile('scripts/fixtures/release-2610-submarines.html','utf8');
+  const blog=parseReviewedBlog698(blogHtml),release=parseReviewedRelease2610(releaseHtml);
+  assert.equal(blog.length,18);assert.equal(new Set(blog.map(r=>r.targetName)).size,6);
+  assert.equal(blog.filter(r=>r.trend==='buff').length,12);
+  assert.equal(blog.filter(r=>r.trend==='nerf').length,5);
+  const radar=blog.filter(r=>r.attribute.startsWith('监视雷达'));
+  assert.deepEqual(radar.map(r=>[r.oldValue,r.newValue,r.trend]),[['7 千米','10 千米','buff'],['60 秒','12 秒','nerf'],['2','3','buff']]);
+  assert.equal(blog.find(r=>r.targetName==='Songun'&&r.oldValue==='50%')?.trend,'buff');
+  assert.equal(release.length,25);assert.equal(release.filter(r=>r.category==='ship').length,20);
+  assert.ok(release.filter(r=>r.category==='ship').every(r=>r.shipStatus==='released'&&!r.changeStage));
+  const database=JSON.parse(await readFile('data/database/korabli-official.json','utf8'));
+  const saved=database.records.filter((r:{announcementId:string})=>r.announcementId==='portal-public-test-2610');
+  const history=parsePublicTest2610(`<div publication-start="1789648135.0" class="news-detail">Балансные изменения подводных лодок ${saved.map((r:{originalText:string})=>r.originalText).join(' ')}</div>`,[]);
+  const first=mergeReviewed2610(history,[...blog,...release]);
+  assert.equal(first.added.length,43);assert.equal(first.records.length,68);
+  assert.equal(mergeReviewed2610(first.records,[...blog,...release]).added.length,0);
+  assert.throws(()=>parseReviewedBlog698(blogHtml.replace('с 60 до 12','с 60 до 14')),/Unreviewed|changed/);
+  assert.throws(()=>parseReviewedRelease2610(releaseHtml.replace('с 375 до 450','с 375 до 460')),/changed/);
+  const bad=structuredClone(blog);bad[0].newValue='99 秒';
+  assert.throws(()=>mergeReviewed2610(first.records,bad),/conflict/);
+  const publicTest=parseReviewedPublicTest2611(await readFile('scripts/fixtures/public-test-2611-balance.html','utf8'));
+  assert.equal(publicTest.length,1);assert.equal(publicTest[0].version,'26.11');
+  assert.equal(publicTest[0].newValue,'2 千米');assert.equal(publicTest[0].oldValue,'—');
+  assert.equal(publicTest[0].changeStage,'public-test');assert.equal(publicTest[0].analysisConfidence,'low');
+});
 
 test('NGA reviewed batch retains layers, resolved discrepancy and is idempotent', () => {
   const rows = reviewedNgaRecords();

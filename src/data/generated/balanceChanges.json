@@ -19,15 +19,82 @@
       "tags": [],
       "sourceSheet": "portal-public-test-2610",
       "changeStage": "public-test",
-      "shipId": "e45b8b48d19ed1f7",
+      "shipId": "6e8a1a9825064a63",
       "originalNames": [
         "Casabianca"
       ],
       "searchAliases": [
         "Casabianca"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "卡萨比安卡",
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
+    },
+    {
+      "id": "6eb8ff1a22df",
+      "category": "ship",
+      "targetName": "卡萨比安卡",
+      "canonicalName": "卡萨比安卡",
+      "previousNames": [],
+      "nation": "法国",
+      "tier": "10",
+      "type": "潜艇",
+      "attribute": "鱼雷航速",
+      "oldValue": "90 节",
+      "newValue": "85 节",
+      "version": "26.10",
+      "notes": "26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
+      "trend": "nerf",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship",
+        "converted-from-test"
+      ],
+      "sourceSheet": "reviewed release 26.10",
+      "shipId": "6e8a1a9825064a63",
+      "originalNames": [
+        "Casabianca"
+      ],
+      "searchAliases": [
+        "Casabianca"
+      ],
+      "currentShipStatus": "released",
+      "name": "卡萨比安卡",
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
+    },
+    {
+      "id": "3e0ec601f6e1",
+      "category": "ship",
+      "targetName": "白山",
+      "canonicalName": "白山",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "100毫米副炮装填时间",
+      "oldValue": "3.5 秒",
+      "newValue": "3.7 秒",
+      "version": "26.10",
+      "notes": "26.10测试舰艇调整，10月15日生效。 官方公告：https://blog.korabli.su/blog/698",
+      "trend": "nerf",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 698",
+      "shipId": "9cb9059cc800aa8d",
+      "originalNames": [
+        "Hakusan"
+      ],
+      "searchAliases": [
+        "Hakusan"
+      ],
+      "currentShipStatus": "test",
+      "name": "白山",
       "releaseEvidence": []
     },
     {
@@ -50,6 +117,37 @@
         "test-ship"
       ],
       "sourceSheet": "NGA 47645187 / blog 697",
+      "shipId": "9cb9059cc800aa8d",
+      "originalNames": [
+        "Hakusan"
+      ],
+      "searchAliases": [
+        "Hakusan"
+      ],
+      "currentShipStatus": "test",
+      "name": "白山",
+      "releaseEvidence": []
+    },
+    {
+      "id": "92694c67169d",
+      "category": "ship",
+      "targetName": "白山",
+      "canonicalName": "白山",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "140毫米副炮装填时间",
+      "oldValue": "5.3 秒",
+      "newValue": "5.5 秒",
+      "version": "26.10",
+      "notes": "26.10测试舰艇调整，10月15日生效。 官方公告：https://blog.korabli.su/blog/698",
+      "trend": "nerf",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 698",
       "shipId": "9cb9059cc800aa8d",
       "originalNames": [
         "Hakusan"
@@ -143,6 +241,37 @@
         "test-ship"
       ],
       "sourceSheet": "NGA 47645187 / blog 697",
+      "shipId": "9cb9059cc800aa8d",
+      "originalNames": [
+        "Hakusan"
+      ],
+      "searchAliases": [
+        "Hakusan"
+      ],
+      "currentShipStatus": "test",
+      "name": "白山",
+      "releaseEvidence": []
+    },
+    {
+      "id": "6bab2ea8d1c7",
+      "category": "ship",
+      "targetName": "白山",
+      "canonicalName": "白山",
+      "previousNames": [],
+      "nation": "日本",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "主炮装填时间",
+      "oldValue": "32.5 秒",
+      "newValue": "33 秒",
+      "version": "26.10",
+      "notes": "26.10测试舰艇调整，10月15日生效。 官方公告：https://blog.korabli.su/blog/698",
+      "trend": "nerf",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 698",
       "shipId": "9cb9059cc800aa8d",
       "originalNames": [
         "Hakusan"
@@ -279,6 +408,68 @@
       "releaseEvidence": []
     },
     {
+      "id": "7466fb177928",
+      "category": "ship",
+      "targetName": "科农",
+      "canonicalName": "科农",
+      "previousNames": [],
+      "nation": "欧洲",
+      "tier": "10",
+      "type": "巡洋舰",
+      "attribute": "主炮射程",
+      "oldValue": "17.4 千米",
+      "newValue": "17.9 千米",
+      "version": "26.10",
+      "notes": "26.10测试舰艇调整，10月15日生效。中文名暂用音译，公告原文名保留供搜索。 官方公告：https://blog.korabli.su/blog/698",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 698",
+      "shipId": "e302f298e4c18769",
+      "originalNames": [
+        "Konung"
+      ],
+      "searchAliases": [
+        "Konung"
+      ],
+      "currentShipStatus": "test",
+      "name": "科农",
+      "releaseEvidence": []
+    },
+    {
+      "id": "742b6fdfa940",
+      "category": "ship",
+      "targetName": "科农",
+      "canonicalName": "科农",
+      "previousNames": [],
+      "nation": "欧洲",
+      "tier": "10",
+      "type": "巡洋舰",
+      "attribute": "主炮装填时间",
+      "oldValue": "13 秒",
+      "newValue": "12 秒",
+      "version": "26.10",
+      "notes": "26.10测试舰艇调整，10月15日生效。中文名暂用音译，公告原文名保留供搜索。 官方公告：https://blog.korabli.su/blog/698",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 698",
+      "shipId": "e302f298e4c18769",
+      "originalNames": [
+        "Konung"
+      ],
+      "searchAliases": [
+        "Konung"
+      ],
+      "currentShipStatus": "test",
+      "name": "科农",
+      "releaseEvidence": []
+    },
+    {
       "id": "d7ed945f839e",
       "category": "ship",
       "targetName": "阿芙利加人",
@@ -300,18 +491,52 @@
       ],
       "sourceSheet": "portal-public-test-2610",
       "changeStage": "public-test",
-      "shipId": "f9faf4f644b283c7",
+      "shipId": "27e894826370de51",
       "originalNames": [
-        "L'Africaine",
-        "L`Africaine"
+        "L'Africaine"
       ],
       "searchAliases": [
-        "L'Africaine",
-        "L`Africaine"
+        "L'Africaine"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "阿芙利加人",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
+    },
+    {
+      "id": "62c33f629c60",
+      "category": "ship",
+      "targetName": "阿芙利加人",
+      "canonicalName": "阿芙利加人",
+      "previousNames": [],
+      "nation": "法国",
+      "tier": "8",
+      "type": "潜艇",
+      "attribute": "鱼雷航速",
+      "oldValue": "90 节",
+      "newValue": "85 节",
+      "version": "26.10",
+      "notes": "26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
+      "trend": "nerf",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship",
+        "converted-from-test"
+      ],
+      "sourceSheet": "reviewed release 26.10",
+      "shipId": "27e894826370de51",
+      "originalNames": [
+        "L'Africaine"
+      ],
+      "searchAliases": [
+        "L'Africaine"
+      ],
+      "currentShipStatus": "released",
+      "name": "阿芙利加人",
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "e4bb6fadfd54",
@@ -1068,6 +1293,192 @@
       "releaseEvidence": []
     },
     {
+      "id": "2f34a36506dd",
+      "category": "ship",
+      "targetName": "先军",
+      "canonicalName": "先军",
+      "previousNames": [],
+      "nation": "泛亚",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "战斗指令-中口径炮高爆弹穿深加成",
+      "oldValue": "—",
+      "newValue": "新增+30%",
+      "version": "26.10",
+      "notes": "26.10测试舰艇调整，10月15日生效。 官方公告：https://blog.korabli.su/blog/698",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 698",
+      "shipId": "0544b10044fd827e",
+      "originalNames": [
+        "Songun"
+      ],
+      "searchAliases": [
+        "Songun"
+      ],
+      "currentShipStatus": "test",
+      "name": "先军",
+      "releaseEvidence": []
+    },
+    {
+      "id": "e664c6224405",
+      "category": "ship",
+      "targetName": "先军",
+      "canonicalName": "先军",
+      "previousNames": [],
+      "nation": "泛亚",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "战斗指令-中口径炮装填时间缩减加成",
+      "oldValue": "50%",
+      "newValue": "65%",
+      "version": "26.10",
+      "notes": "26.10测试舰艇调整，10月15日生效。官网以正数表示装填时间缩减幅度；50%→65%代表增强。 官方公告：https://blog.korabli.su/blog/698",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 698",
+      "shipId": "0544b10044fd827e",
+      "originalNames": [
+        "Songun"
+      ],
+      "searchAliases": [
+        "Songun"
+      ],
+      "currentShipStatus": "test",
+      "name": "先军",
+      "releaseEvidence": []
+    },
+    {
+      "id": "e067b2ab84b7",
+      "category": "ship",
+      "targetName": "先军",
+      "canonicalName": "先军",
+      "previousNames": [],
+      "nation": "泛亚",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "中口径炮装填时间",
+      "oldValue": "9 秒",
+      "newValue": "7.5 秒",
+      "version": "26.10",
+      "notes": "26.10测试舰艇调整，10月15日生效。 官方公告：https://blog.korabli.su/blog/698",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 698",
+      "shipId": "0544b10044fd827e",
+      "originalNames": [
+        "Songun"
+      ],
+      "searchAliases": [
+        "Songun"
+      ],
+      "currentShipStatus": "test",
+      "name": "先军",
+      "releaseEvidence": []
+    },
+    {
+      "id": "8421cd33e27a",
+      "category": "ship",
+      "targetName": "先军",
+      "canonicalName": "先军",
+      "previousNames": [],
+      "nation": "泛亚",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "主炮装填时间",
+      "oldValue": "28 秒",
+      "newValue": "27 秒",
+      "version": "26.10",
+      "notes": "26.10测试舰艇调整，10月15日生效。 官方公告：https://blog.korabli.su/blog/698",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 698",
+      "shipId": "0544b10044fd827e",
+      "originalNames": [
+        "Songun"
+      ],
+      "searchAliases": [
+        "Songun"
+      ],
+      "currentShipStatus": "test",
+      "name": "先军",
+      "releaseEvidence": []
+    },
+    {
+      "id": "4423bcc93b0f",
+      "category": "ship",
+      "targetName": "特罗尔",
+      "canonicalName": "特罗尔",
+      "previousNames": [],
+      "nation": "欧洲",
+      "tier": "11",
+      "type": "巡洋舰",
+      "attribute": "主炮射程",
+      "oldValue": "17.9 千米",
+      "newValue": "18.2 千米",
+      "version": "26.10",
+      "notes": "26.10测试舰艇调整，10月15日生效。中文名暂用音译，公告原文名保留供搜索。 官方公告：https://blog.korabli.su/blog/698",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 698",
+      "shipId": "6885722ecf710a49",
+      "originalNames": [
+        "Troll"
+      ],
+      "searchAliases": [
+        "Troll"
+      ],
+      "currentShipStatus": "test",
+      "name": "特罗尔",
+      "releaseEvidence": []
+    },
+    {
+      "id": "2cae37c48d3e",
+      "category": "ship",
+      "targetName": "特罗尔",
+      "canonicalName": "特罗尔",
+      "previousNames": [],
+      "nation": "欧洲",
+      "tier": "11",
+      "type": "巡洋舰",
+      "attribute": "主炮装填时间",
+      "oldValue": "13.7 秒",
+      "newValue": "13 秒",
+      "version": "26.10",
+      "notes": "26.10测试舰艇调整，10月15日生效。中文名暂用音译，公告原文名保留供搜索。 官方公告：https://blog.korabli.su/blog/698",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 698",
+      "shipId": "6885722ecf710a49",
+      "originalNames": [
+        "Troll"
+      ],
+      "searchAliases": [
+        "Troll"
+      ],
+      "currentShipStatus": "test",
+      "name": "特罗尔",
+      "releaseEvidence": []
+    },
+    {
       "id": "05691ee47d75",
       "category": "ship",
       "targetName": "U-2501",
@@ -1089,14 +1500,48 @@
       ],
       "sourceSheet": "portal-public-test-2610",
       "changeStage": "public-test",
-      "shipId": "da1cbe533c756799",
+      "shipId": "bb9b452914bac6f4",
       "originalNames": [
         "U-2501"
       ],
       "searchAliases": [],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "U-2501",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
+    },
+    {
+      "id": "06f45826a9c8",
+      "category": "ship",
+      "targetName": "U-2501",
+      "canonicalName": "U-2501",
+      "previousNames": [],
+      "nation": "德国",
+      "tier": "10",
+      "type": "潜艇",
+      "attribute": "航速",
+      "oldValue": "27 节",
+      "newValue": "29 节",
+      "version": "26.10",
+      "notes": "26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship",
+        "converted-from-test"
+      ],
+      "sourceSheet": "reviewed release 26.10",
+      "shipId": "bb9b452914bac6f4",
+      "originalNames": [
+        "U-2501"
+      ],
+      "searchAliases": [],
+      "currentShipStatus": "released",
+      "name": "U-2501",
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "27dd97705688",
@@ -1119,14 +1564,47 @@
       ],
       "sourceSheet": "portal-public-test-2610",
       "changeStage": "public-test",
-      "shipId": "1f662010daa2564a",
+      "shipId": "47cc18ac85bc51a1",
       "originalNames": [
         "U-796"
       ],
       "searchAliases": [],
       "currentShipStatus": "released",
       "name": "U-796",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
+    },
+    {
+      "id": "9adace583458",
+      "category": "ship",
+      "targetName": "U-796",
+      "canonicalName": "U-796",
+      "previousNames": [],
+      "nation": "德国",
+      "tier": "11",
+      "type": "潜艇",
+      "attribute": "水底搜索：舰船发现距离",
+      "oldValue": "6 千米",
+      "newValue": "5.5 千米",
+      "version": "26.10",
+      "notes": "26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
+      "trend": "nerf",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "reviewed release 26.10",
+      "shipId": "47cc18ac85bc51a1",
+      "originalNames": [
+        "U-796"
+      ],
+      "searchAliases": [],
+      "currentShipStatus": "released",
+      "name": "U-796",
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "34a47de436dc",
@@ -1149,14 +1627,47 @@
       ],
       "sourceSheet": "portal-public-test-2610",
       "changeStage": "public-test",
-      "shipId": "1f662010daa2564a",
+      "shipId": "47cc18ac85bc51a1",
       "originalNames": [
         "U-796"
       ],
       "searchAliases": [],
       "currentShipStatus": "released",
       "name": "U-796",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
+    },
+    {
+      "id": "8cebf191287b",
+      "category": "ship",
+      "targetName": "U-796",
+      "canonicalName": "U-796",
+      "previousNames": [],
+      "nation": "德国",
+      "tier": "11",
+      "type": "潜艇",
+      "attribute": "水底搜索：水雷发现距离",
+      "oldValue": "1 千米",
+      "newValue": "0.95 千米",
+      "version": "26.10",
+      "notes": "26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
+      "trend": "nerf",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "reviewed release 26.10",
+      "shipId": "47cc18ac85bc51a1",
+      "originalNames": [
+        "U-796"
+      ],
+      "searchAliases": [],
+      "currentShipStatus": "released",
+      "name": "U-796",
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "26f27f4a7487",
@@ -1179,14 +1690,47 @@
       ],
       "sourceSheet": "portal-public-test-2610",
       "changeStage": "public-test",
-      "shipId": "1f662010daa2564a",
+      "shipId": "47cc18ac85bc51a1",
       "originalNames": [
         "U-796"
       ],
       "searchAliases": [],
       "currentShipStatus": "released",
       "name": "U-796",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
+    },
+    {
+      "id": "1c1047544b47",
+      "category": "ship",
+      "targetName": "U-796",
+      "canonicalName": "U-796",
+      "previousNames": [],
+      "nation": "德国",
+      "tier": "11",
+      "type": "潜艇",
+      "attribute": "水底搜索：鱼雷发现距离",
+      "oldValue": "4 千米",
+      "newValue": "3.8 千米",
+      "version": "26.10",
+      "notes": "26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
+      "trend": "nerf",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "reviewed release 26.10",
+      "shipId": "47cc18ac85bc51a1",
+      "originalNames": [
+        "U-796"
+      ],
+      "searchAliases": [],
+      "currentShipStatus": "released",
+      "name": "U-796",
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "69f03c661e02",
@@ -1209,14 +1753,47 @@
       ],
       "sourceSheet": "portal-public-test-2610",
       "changeStage": "public-test",
-      "shipId": "1f662010daa2564a",
+      "shipId": "47cc18ac85bc51a1",
       "originalNames": [
         "U-796"
       ],
       "searchAliases": [],
       "currentShipStatus": "released",
       "name": "U-796",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
+    },
+    {
+      "id": "98875232c135",
+      "category": "ship",
+      "targetName": "U-796",
+      "canonicalName": "U-796",
+      "previousNames": [],
+      "nation": "德国",
+      "tier": "11",
+      "type": "潜艇",
+      "attribute": "最大航速",
+      "oldValue": "34 节",
+      "newValue": "32 节",
+      "version": "26.10",
+      "notes": "26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
+      "trend": "nerf",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "reviewed release 26.10",
+      "shipId": "47cc18ac85bc51a1",
+      "originalNames": [
+        "U-796"
+      ],
+      "searchAliases": [],
+      "currentShipStatus": "released",
+      "name": "U-796",
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "fdc5c6e3a9c0",
@@ -1239,13 +1816,263 @@
       ],
       "sourceSheet": "portal-public-test-2610",
       "changeStage": "public-test",
-      "shipId": "1f662010daa2564a",
+      "shipId": "47cc18ac85bc51a1",
       "originalNames": [
         "U-796"
       ],
       "searchAliases": [],
       "currentShipStatus": "released",
       "name": "U-796",
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
+    },
+    {
+      "id": "cbb234622f35",
+      "category": "ship",
+      "targetName": "U-796",
+      "canonicalName": "U-796",
+      "previousNames": [],
+      "nation": "德国",
+      "tier": "11",
+      "type": "潜艇",
+      "attribute": "最大下潜及上浮速度",
+      "oldValue": "4.1 米/秒",
+      "newValue": "3.7 米/秒",
+      "version": "26.10",
+      "notes": "26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
+      "trend": "nerf",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "reviewed release 26.10",
+      "shipId": "47cc18ac85bc51a1",
+      "originalNames": [
+        "U-796"
+      ],
+      "searchAliases": [],
+      "currentShipStatus": "released",
+      "name": "U-796",
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
+    },
+    {
+      "id": "3e579904cc28",
+      "category": "ship",
+      "targetName": "韦斯特福尔",
+      "canonicalName": "韦斯特福尔",
+      "previousNames": [],
+      "nation": "欧洲",
+      "tier": "9",
+      "type": "巡洋舰",
+      "attribute": "主炮装填时间",
+      "oldValue": "13.2 秒",
+      "newValue": "13.5 秒",
+      "version": "26.10",
+      "notes": "26.10测试舰艇调整，10月15日生效。中文名暂用音译，公告原文名保留供搜索。 官方公告：https://blog.korabli.su/blog/698",
+      "trend": "nerf",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 698",
+      "shipId": "00f8c4cf4b8e6046",
+      "originalNames": [
+        "Vestfold"
+      ],
+      "searchAliases": [
+        "Vestfold"
+      ],
+      "currentShipStatus": "test",
+      "name": "韦斯特福尔",
+      "releaseEvidence": []
+    },
+    {
+      "id": "4738f0d3ea63",
+      "category": "ship",
+      "targetName": "滑铁卢",
+      "canonicalName": "滑铁卢",
+      "previousNames": [],
+      "nation": "英国",
+      "tier": "11",
+      "type": "驱逐舰",
+      "attribute": "监视雷达-舰船发现距离",
+      "oldValue": "7 千米",
+      "newValue": "10 千米",
+      "version": "26.10",
+      "notes": "26.10测试舰艇调整，10月15日生效。 官方公告：https://blog.korabli.su/blog/698",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 698",
+      "shipId": "4251e26114a0a914",
+      "originalNames": [
+        "Waterloo"
+      ],
+      "searchAliases": [
+        "Waterloo"
+      ],
+      "currentShipStatus": "test",
+      "name": "滑铁卢",
+      "releaseEvidence": []
+    },
+    {
+      "id": "b338c26f8a84",
+      "category": "ship",
+      "targetName": "滑铁卢",
+      "canonicalName": "滑铁卢",
+      "previousNames": [],
+      "nation": "英国",
+      "tier": "11",
+      "type": "驱逐舰",
+      "attribute": "监视雷达-可用次数",
+      "oldValue": "2",
+      "newValue": "3",
+      "version": "26.10",
+      "notes": "26.10测试舰艇调整，10月15日生效。 官方公告：https://blog.korabli.su/blog/698",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 698",
+      "shipId": "4251e26114a0a914",
+      "originalNames": [
+        "Waterloo"
+      ],
+      "searchAliases": [
+        "Waterloo"
+      ],
+      "currentShipStatus": "test",
+      "name": "滑铁卢",
+      "releaseEvidence": []
+    },
+    {
+      "id": "079e4e66143b",
+      "category": "ship",
+      "targetName": "滑铁卢",
+      "canonicalName": "滑铁卢",
+      "previousNames": [],
+      "nation": "英国",
+      "tier": "11",
+      "type": "驱逐舰",
+      "attribute": "监视雷达-作用时间",
+      "oldValue": "60 秒",
+      "newValue": "12 秒",
+      "version": "26.10",
+      "notes": "26.10测试舰艇调整，10月15日生效。 官方公告：https://blog.korabli.su/blog/698",
+      "trend": "nerf",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 698",
+      "shipId": "4251e26114a0a914",
+      "originalNames": [
+        "Waterloo"
+      ],
+      "searchAliases": [
+        "Waterloo"
+      ],
+      "currentShipStatus": "test",
+      "name": "滑铁卢",
+      "releaseEvidence": []
+    },
+    {
+      "id": "ae1796fe30a6",
+      "category": "ship",
+      "targetName": "滑铁卢",
+      "canonicalName": "滑铁卢",
+      "previousNames": [],
+      "nation": "英国",
+      "tier": "11",
+      "type": "驱逐舰",
+      "attribute": "深水炸弹投放动画与轨迹",
+      "oldValue": "—",
+      "newValue": "抛射高度提高，落点略远",
+      "version": "26.10",
+      "notes": "26.10测试舰艇调整，10月15日生效。官网说明主要用于修复不正确的投放动画，按中性调整展示。 官方公告：https://blog.korabli.su/blog/698",
+      "trend": "adjustment",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 698",
+      "shipId": "4251e26114a0a914",
+      "originalNames": [
+        "Waterloo"
+      ],
+      "searchAliases": [
+        "Waterloo"
+      ],
+      "currentShipStatus": "test",
+      "name": "滑铁卢",
+      "releaseEvidence": []
+    },
+    {
+      "id": "f16ee21e4da6",
+      "category": "ship",
+      "targetName": "滑铁卢",
+      "canonicalName": "滑铁卢",
+      "previousNames": [],
+      "nation": "英国",
+      "tier": "11",
+      "type": "驱逐舰",
+      "attribute": "主炮射程",
+      "oldValue": "12.8 千米",
+      "newValue": "14 千米",
+      "version": "26.10",
+      "notes": "26.10测试舰艇调整，10月15日生效。 官方公告：https://blog.korabli.su/blog/698",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 698",
+      "shipId": "4251e26114a0a914",
+      "originalNames": [
+        "Waterloo"
+      ],
+      "searchAliases": [
+        "Waterloo"
+      ],
+      "currentShipStatus": "test",
+      "name": "滑铁卢",
+      "releaseEvidence": []
+    },
+    {
+      "id": "730f3373e10a",
+      "category": "ship",
+      "targetName": "滑铁卢",
+      "canonicalName": "滑铁卢",
+      "previousNames": [],
+      "nation": "英国",
+      "tier": "11",
+      "type": "驱逐舰",
+      "attribute": "主炮装填时间",
+      "oldValue": "3.6 秒",
+      "newValue": "3.5 秒",
+      "version": "26.10",
+      "notes": "26.10测试舰艇调整，10月15日生效。 官方公告：https://blog.korabli.su/blog/698",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 698",
+      "shipId": "4251e26114a0a914",
+      "originalNames": [
+        "Waterloo"
+      ],
+      "searchAliases": [
+        "Waterloo"
+      ],
+      "currentShipStatus": "test",
+      "name": "滑铁卢",
       "releaseEvidence": []
     },
     {
@@ -1362,7 +2189,7 @@
       ],
       "sourceSheet": "portal-public-test-2610",
       "changeStage": "public-test",
-      "shipId": "bade1674c9973259",
+      "shipId": "e174a2732e7c98c9",
       "originalNames": [
         "Б-4"
       ],
@@ -1371,7 +2198,42 @@
       ],
       "currentShipStatus": "released",
       "name": "B-4",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
+    },
+    {
+      "id": "9c938377b8a5",
+      "category": "ship",
+      "targetName": "B-4",
+      "canonicalName": "B-4",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "11",
+      "type": "潜艇",
+      "attribute": "基础船体潜航能力",
+      "oldValue": "234",
+      "newValue": "162",
+      "version": "26.10",
+      "notes": "26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
+      "trend": "nerf",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "reviewed release 26.10",
+      "shipId": "e174a2732e7c98c9",
+      "originalNames": [
+        "Б-4"
+      ],
+      "searchAliases": [
+        "Б-4"
+      ],
+      "currentShipStatus": "released",
+      "name": "B-4",
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "3a39198e8748",
@@ -1394,7 +2256,7 @@
       ],
       "sourceSheet": "portal-public-test-2610",
       "changeStage": "public-test",
-      "shipId": "bade1674c9973259",
+      "shipId": "e174a2732e7c98c9",
       "originalNames": [
         "Б-4"
       ],
@@ -1403,7 +2265,42 @@
       ],
       "currentShipStatus": "released",
       "name": "B-4",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
+    },
+    {
+      "id": "18d566ce2a83",
+      "category": "ship",
+      "targetName": "B-4",
+      "canonicalName": "B-4",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "11",
+      "type": "潜艇",
+      "attribute": "水听器作用距离",
+      "oldValue": "10 千米",
+      "newValue": "8 千米",
+      "version": "26.10",
+      "notes": "26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
+      "trend": "nerf",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship"
+      ],
+      "sourceSheet": "reviewed release 26.10",
+      "shipId": "e174a2732e7c98c9",
+      "originalNames": [
+        "Б-4"
+      ],
+      "searchAliases": [
+        "Б-4"
+      ],
+      "currentShipStatus": "released",
+      "name": "B-4",
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "cde67a00fb81",
@@ -1613,16 +2510,52 @@
       ],
       "sourceSheet": "portal-public-test-2610",
       "changeStage": "public-test",
-      "shipId": "4678ecc8cfc9b0c8",
+      "shipId": "0ff53a0ed2a342d1",
       "originalNames": [
         "К-1"
       ],
       "searchAliases": [
         "К-1"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "K-1",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
+    },
+    {
+      "id": "0e9261477551",
+      "category": "ship",
+      "targetName": "K-1",
+      "canonicalName": "K-1",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "10",
+      "type": "潜艇",
+      "attribute": "基础船体潜航能力",
+      "oldValue": "221",
+      "newValue": "153",
+      "version": "26.10",
+      "notes": "26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
+      "trend": "nerf",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship",
+        "converted-from-test"
+      ],
+      "sourceSheet": "reviewed release 26.10",
+      "shipId": "0ff53a0ed2a342d1",
+      "originalNames": [
+        "К-1"
+      ],
+      "searchAliases": [
+        "К-1"
+      ],
+      "currentShipStatus": "released",
+      "name": "K-1",
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "fca393e9cb4f",
@@ -1646,16 +2579,52 @@
       ],
       "sourceSheet": "portal-public-test-2610",
       "changeStage": "public-test",
-      "shipId": "4678ecc8cfc9b0c8",
+      "shipId": "0ff53a0ed2a342d1",
       "originalNames": [
         "К-1"
       ],
       "searchAliases": [
         "К-1"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "K-1",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
+    },
+    {
+      "id": "ed224209336d",
+      "category": "ship",
+      "targetName": "K-1",
+      "canonicalName": "K-1",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "10",
+      "type": "潜艇",
+      "attribute": "基础及可研发鱼雷发射管的鱼雷航速",
+      "oldValue": "85 节",
+      "newValue": "80 节",
+      "version": "26.10",
+      "notes": "26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
+      "trend": "nerf",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship",
+        "converted-from-test"
+      ],
+      "sourceSheet": "reviewed release 26.10",
+      "shipId": "0ff53a0ed2a342d1",
+      "originalNames": [
+        "К-1"
+      ],
+      "searchAliases": [
+        "К-1"
+      ],
+      "currentShipStatus": "released",
+      "name": "K-1",
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "34b5229be9f8",
@@ -1679,16 +2648,52 @@
       ],
       "sourceSheet": "portal-public-test-2610",
       "changeStage": "public-test",
-      "shipId": "4678ecc8cfc9b0c8",
+      "shipId": "0ff53a0ed2a342d1",
       "originalNames": [
         "К-1"
       ],
       "searchAliases": [
         "К-1"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "K-1",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
+    },
+    {
+      "id": "9eda390aacc0",
+      "category": "ship",
+      "targetName": "K-1",
+      "canonicalName": "K-1",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "10",
+      "type": "潜艇",
+      "attribute": "水听器作用距离",
+      "oldValue": "10 千米",
+      "newValue": "8 千米",
+      "version": "26.10",
+      "notes": "26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
+      "trend": "nerf",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship",
+        "converted-from-test"
+      ],
+      "sourceSheet": "reviewed release 26.10",
+      "shipId": "0ff53a0ed2a342d1",
+      "originalNames": [
+        "К-1"
+      ],
+      "searchAliases": [
+        "К-1"
+      ],
+      "currentShipStatus": "released",
+      "name": "K-1",
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "171154cc4947",
@@ -1712,16 +2717,52 @@
       ],
       "sourceSheet": "portal-public-test-2610",
       "changeStage": "public-test",
-      "shipId": "4678ecc8cfc9b0c8",
+      "shipId": "0ff53a0ed2a342d1",
       "originalNames": [
         "К-1"
       ],
       "searchAliases": [
         "К-1"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "K-1",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
+    },
+    {
+      "id": "3fb83e447151",
+      "category": "ship",
+      "targetName": "K-1",
+      "canonicalName": "K-1",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "10",
+      "type": "潜艇",
+      "attribute": "最大航速",
+      "oldValue": "32.5 节",
+      "newValue": "34 节",
+      "version": "26.10",
+      "notes": "26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
+      "trend": "buff",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship",
+        "converted-from-test"
+      ],
+      "sourceSheet": "reviewed release 26.10",
+      "shipId": "0ff53a0ed2a342d1",
+      "originalNames": [
+        "К-1"
+      ],
+      "searchAliases": [
+        "К-1"
+      ],
+      "currentShipStatus": "released",
+      "name": "K-1",
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "2c0189c11201",
@@ -1776,16 +2817,52 @@
       ],
       "sourceSheet": "portal-public-test-2610",
       "changeStage": "public-test",
-      "shipId": "001883f82117ff9c",
+      "shipId": "4a91d80e2f31264d",
       "originalNames": [
         "Л-20"
       ],
       "searchAliases": [
         "Л-20"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "L-20",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
+    },
+    {
+      "id": "5ef948866964",
+      "category": "ship",
+      "targetName": "L-20",
+      "canonicalName": "L-20",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "8",
+      "type": "潜艇",
+      "attribute": "基础船体潜航能力",
+      "oldValue": "177",
+      "newValue": "122",
+      "version": "26.10",
+      "notes": "26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
+      "trend": "nerf",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship",
+        "converted-from-test"
+      ],
+      "sourceSheet": "reviewed release 26.10",
+      "shipId": "4a91d80e2f31264d",
+      "originalNames": [
+        "Л-20"
+      ],
+      "searchAliases": [
+        "Л-20"
+      ],
+      "currentShipStatus": "released",
+      "name": "L-20",
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "3e3610cdcd44",
@@ -1809,16 +2886,52 @@
       ],
       "sourceSheet": "portal-public-test-2610",
       "changeStage": "public-test",
-      "shipId": "001883f82117ff9c",
+      "shipId": "4a91d80e2f31264d",
       "originalNames": [
         "Л-20"
       ],
       "searchAliases": [
         "Л-20"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "L-20",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
+    },
+    {
+      "id": "5cfdf63b0ffe",
+      "category": "ship",
+      "targetName": "L-20",
+      "canonicalName": "L-20",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "8",
+      "type": "潜艇",
+      "attribute": "基础及可研发鱼雷发射管的鱼雷航速",
+      "oldValue": "85 节",
+      "newValue": "80 节",
+      "version": "26.10",
+      "notes": "26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
+      "trend": "nerf",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship",
+        "converted-from-test"
+      ],
+      "sourceSheet": "reviewed release 26.10",
+      "shipId": "4a91d80e2f31264d",
+      "originalNames": [
+        "Л-20"
+      ],
+      "searchAliases": [
+        "Л-20"
+      ],
+      "currentShipStatus": "released",
+      "name": "L-20",
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "107325b2339d",
@@ -1842,16 +2955,52 @@
       ],
       "sourceSheet": "portal-public-test-2610",
       "changeStage": "public-test",
-      "shipId": "001883f82117ff9c",
+      "shipId": "4a91d80e2f31264d",
       "originalNames": [
         "Л-20"
       ],
       "searchAliases": [
         "Л-20"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "L-20",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
+    },
+    {
+      "id": "ae67328bf943",
+      "category": "ship",
+      "targetName": "L-20",
+      "canonicalName": "L-20",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "8",
+      "type": "潜艇",
+      "attribute": "可研发船体潜航能力",
+      "oldValue": "208",
+      "newValue": "144",
+      "version": "26.10",
+      "notes": "26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
+      "trend": "nerf",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship",
+        "converted-from-test"
+      ],
+      "sourceSheet": "reviewed release 26.10",
+      "shipId": "4a91d80e2f31264d",
+      "originalNames": [
+        "Л-20"
+      ],
+      "searchAliases": [
+        "Л-20"
+      ],
+      "currentShipStatus": "released",
+      "name": "L-20",
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "8ae5ae861eab",
@@ -1999,16 +3148,52 @@
       ],
       "sourceSheet": "portal-public-test-2610",
       "changeStage": "public-test",
-      "shipId": "a7a7882e2933a94b",
+      "shipId": "6734ff0e53ab1a54",
       "originalNames": [
         "С-1"
       ],
       "searchAliases": [
         "С-1"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "S-1",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
+    },
+    {
+      "id": "8b4586a1e380",
+      "category": "ship",
+      "targetName": "S-1",
+      "canonicalName": "S-1",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "6",
+      "type": "潜艇",
+      "attribute": "基础船体潜航能力",
+      "oldValue": "166",
+      "newValue": "115",
+      "version": "26.10",
+      "notes": "26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
+      "trend": "nerf",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship",
+        "converted-from-test"
+      ],
+      "sourceSheet": "reviewed release 26.10",
+      "shipId": "6734ff0e53ab1a54",
+      "originalNames": [
+        "С-1"
+      ],
+      "searchAliases": [
+        "С-1"
+      ],
+      "currentShipStatus": "released",
+      "name": "S-1",
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "4bcb7a860ccb",
@@ -2032,16 +3217,52 @@
       ],
       "sourceSheet": "portal-public-test-2610",
       "changeStage": "public-test",
-      "shipId": "a7a7882e2933a94b",
+      "shipId": "6734ff0e53ab1a54",
       "originalNames": [
         "С-1"
       ],
       "searchAliases": [
         "С-1"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "S-1",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
+    },
+    {
+      "id": "d6105035885c",
+      "category": "ship",
+      "targetName": "S-1",
+      "canonicalName": "S-1",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "6",
+      "type": "潜艇",
+      "attribute": "基础及可研发鱼雷发射管的鱼雷航速",
+      "oldValue": "85 节",
+      "newValue": "80 节",
+      "version": "26.10",
+      "notes": "26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
+      "trend": "nerf",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship",
+        "converted-from-test"
+      ],
+      "sourceSheet": "reviewed release 26.10",
+      "shipId": "6734ff0e53ab1a54",
+      "originalNames": [
+        "С-1"
+      ],
+      "searchAliases": [
+        "С-1"
+      ],
+      "currentShipStatus": "released",
+      "name": "S-1",
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "6331f150943c",
@@ -2065,16 +3286,52 @@
       ],
       "sourceSheet": "portal-public-test-2610",
       "changeStage": "public-test",
-      "shipId": "a7a7882e2933a94b",
+      "shipId": "6734ff0e53ab1a54",
       "originalNames": [
         "С-1"
       ],
       "searchAliases": [
         "С-1"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "S-1",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
+    },
+    {
+      "id": "188eb11c4d1e",
+      "category": "ship",
+      "targetName": "S-1",
+      "canonicalName": "S-1",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "6",
+      "type": "潜艇",
+      "attribute": "可研发船体潜航能力",
+      "oldValue": "195",
+      "newValue": "135",
+      "version": "26.10",
+      "notes": "26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
+      "trend": "nerf",
+      "shipStatus": "released",
+      "tags": [
+        "released-ship",
+        "converted-from-test"
+      ],
+      "sourceSheet": "reviewed release 26.10",
+      "shipId": "6734ff0e53ab1a54",
+      "originalNames": [
+        "С-1"
+      ],
+      "searchAliases": [
+        "С-1"
+      ],
+      "currentShipStatus": "released",
+      "name": "S-1",
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "496580f60ffd",
@@ -10629,16 +11886,18 @@
         "converted-from-test"
       ],
       "sourceSheet": "Korabli #684",
-      "shipId": "4678ecc8cfc9b0c8",
+      "shipId": "0ff53a0ed2a342d1",
       "originalNames": [
         "К-1"
       ],
       "searchAliases": [
         "К-1"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "K-1",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "9628c0e58890",
@@ -10661,16 +11920,18 @@
         "converted-from-test"
       ],
       "sourceSheet": "Korabli #682",
-      "shipId": "4678ecc8cfc9b0c8",
+      "shipId": "0ff53a0ed2a342d1",
       "originalNames": [
         "К-1"
       ],
       "searchAliases": [
         "К-1"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "K-1",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "b5465143e7ae",
@@ -10693,16 +11954,18 @@
         "converted-from-test"
       ],
       "sourceSheet": "Korabli #684",
-      "shipId": "4678ecc8cfc9b0c8",
+      "shipId": "0ff53a0ed2a342d1",
       "originalNames": [
         "К-1"
       ],
       "searchAliases": [
         "К-1"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "K-1",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "f232c08423f7",
@@ -10725,16 +11988,18 @@
         "converted-from-test"
       ],
       "sourceSheet": "Korabli #682",
-      "shipId": "4678ecc8cfc9b0c8",
+      "shipId": "0ff53a0ed2a342d1",
       "originalNames": [
         "К-1"
       ],
       "searchAliases": [
         "К-1"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "K-1",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "32f95faaf385",
@@ -10757,16 +12022,18 @@
         "converted-from-test"
       ],
       "sourceSheet": "Korabli #682",
-      "shipId": "4678ecc8cfc9b0c8",
+      "shipId": "0ff53a0ed2a342d1",
       "originalNames": [
         "К-1"
       ],
       "searchAliases": [
         "К-1"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "K-1",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "9adcf3b97a92",
@@ -10789,16 +12056,18 @@
         "converted-from-test"
       ],
       "sourceSheet": "Korabli #684",
-      "shipId": "4678ecc8cfc9b0c8",
+      "shipId": "0ff53a0ed2a342d1",
       "originalNames": [
         "К-1"
       ],
       "searchAliases": [
         "К-1"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "K-1",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "6f6dda1fe8ad",
@@ -10821,16 +12090,18 @@
         "converted-from-test"
       ],
       "sourceSheet": "Korabli #684",
-      "shipId": "4678ecc8cfc9b0c8",
+      "shipId": "0ff53a0ed2a342d1",
       "originalNames": [
         "К-1"
       ],
       "searchAliases": [
         "К-1"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "K-1",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "d3e308a4a19d",
@@ -10853,16 +12124,18 @@
         "converted-from-test"
       ],
       "sourceSheet": "Korabli #682",
-      "shipId": "4678ecc8cfc9b0c8",
+      "shipId": "0ff53a0ed2a342d1",
       "originalNames": [
         "К-1"
       ],
       "searchAliases": [
         "К-1"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "K-1",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "6be241249439",
@@ -10885,16 +12158,18 @@
         "converted-from-test"
       ],
       "sourceSheet": "Korabli #684",
-      "shipId": "4678ecc8cfc9b0c8",
+      "shipId": "0ff53a0ed2a342d1",
       "originalNames": [
         "К-1"
       ],
       "searchAliases": [
         "К-1"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "K-1",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "87492b551c78",
@@ -22930,14 +24205,16 @@
         "converted-from-test"
       ],
       "sourceSheet": "Korabli #637",
-      "shipId": "da1cbe533c756799",
+      "shipId": "bb9b452914bac6f4",
       "originalNames": [
         "U-2501"
       ],
       "searchAliases": [],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "U-2501",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "3cf8747a4433",
@@ -22960,14 +24237,16 @@
         "converted-from-test"
       ],
       "sourceSheet": "Korabli #637",
-      "shipId": "da1cbe533c756799",
+      "shipId": "bb9b452914bac6f4",
       "originalNames": [
         "U-2501"
       ],
       "searchAliases": [],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "U-2501",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "97b817f88500",
@@ -22990,14 +24269,16 @@
         "converted-from-test"
       ],
       "sourceSheet": "Korabli #637",
-      "shipId": "da1cbe533c756799",
+      "shipId": "bb9b452914bac6f4",
       "originalNames": [
         "U-2501"
       ],
       "searchAliases": [],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "U-2501",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "7ccd701a2045",
@@ -23234,7 +24515,7 @@
         "released-ship"
       ],
       "sourceSheet": "Korabli #637",
-      "shipId": "bade1674c9973259",
+      "shipId": "e174a2732e7c98c9",
       "originalNames": [
         "Б-4"
       ],
@@ -23243,7 +24524,9 @@
       ],
       "currentShipStatus": "released",
       "name": "B-4",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "aad6f4f49204",
@@ -23265,7 +24548,7 @@
         "released-ship"
       ],
       "sourceSheet": "Korabli #637",
-      "shipId": "bade1674c9973259",
+      "shipId": "e174a2732e7c98c9",
       "originalNames": [
         "Б-4"
       ],
@@ -23274,7 +24557,9 @@
       ],
       "currentShipStatus": "released",
       "name": "B-4",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "feef84f28922",
@@ -23839,18 +25124,18 @@
         "converted-from-test"
       ],
       "sourceSheet": "Korabli #626",
-      "shipId": "f9faf4f644b283c7",
+      "shipId": "27e894826370de51",
       "originalNames": [
-        "L'Africaine",
-        "L`Africaine"
+        "L'Africaine"
       ],
       "searchAliases": [
-        "L'Africaine",
-        "L`Africaine"
+        "L'Africaine"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "阿芙利加人",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "2d822e027fcf",
@@ -24142,14 +25427,16 @@
         "converted-from-test"
       ],
       "sourceSheet": "Korabli #626",
-      "shipId": "da1cbe533c756799",
+      "shipId": "bb9b452914bac6f4",
       "originalNames": [
         "U-2501"
       ],
       "searchAliases": [],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "U-2501",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "97edb84861bc",
@@ -24172,14 +25459,16 @@
         "converted-from-test"
       ],
       "sourceSheet": "Korabli #626",
-      "shipId": "da1cbe533c756799",
+      "shipId": "bb9b452914bac6f4",
       "originalNames": [
         "U-2501"
       ],
       "searchAliases": [],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "U-2501",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "39e933560cba",
@@ -24202,14 +25491,16 @@
         "converted-from-test"
       ],
       "sourceSheet": "Korabli #626",
-      "shipId": "da1cbe533c756799",
+      "shipId": "bb9b452914bac6f4",
       "originalNames": [
         "U-2501"
       ],
       "searchAliases": [],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "U-2501",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "f4ecf5fa94cd",
@@ -24232,14 +25523,16 @@
         "converted-from-test"
       ],
       "sourceSheet": "Korabli #626",
-      "shipId": "da1cbe533c756799",
+      "shipId": "bb9b452914bac6f4",
       "originalNames": [
         "U-2501"
       ],
       "searchAliases": [],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "U-2501",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "41631b4f2011",
@@ -24262,14 +25555,16 @@
         "converted-from-test"
       ],
       "sourceSheet": "Korabli #626",
-      "shipId": "da1cbe533c756799",
+      "shipId": "bb9b452914bac6f4",
       "originalNames": [
         "U-2501"
       ],
       "searchAliases": [],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "U-2501",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "489844f06389",
@@ -24292,14 +25587,16 @@
         "converted-from-test"
       ],
       "sourceSheet": "Korabli #626",
-      "shipId": "da1cbe533c756799",
+      "shipId": "bb9b452914bac6f4",
       "originalNames": [
         "U-2501"
       ],
       "searchAliases": [],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "U-2501",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "897a23c8b9fa",
@@ -24443,14 +25740,16 @@
         "released-ship"
       ],
       "sourceSheet": "Korabli #626",
-      "shipId": "1f662010daa2564a",
+      "shipId": "47cc18ac85bc51a1",
       "originalNames": [
         "U-796"
       ],
       "searchAliases": [],
       "currentShipStatus": "released",
       "name": "U-796",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "d3e02f6c26fa",
@@ -24596,7 +25895,7 @@
         "released-ship"
       ],
       "sourceSheet": "Korabli #626",
-      "shipId": "bade1674c9973259",
+      "shipId": "e174a2732e7c98c9",
       "originalNames": [
         "Б-4"
       ],
@@ -24605,7 +25904,9 @@
       ],
       "currentShipStatus": "released",
       "name": "B-4",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "ae86124b14ee",
@@ -24628,16 +25929,18 @@
         "converted-from-test"
       ],
       "sourceSheet": "Korabli #626",
-      "shipId": "4678ecc8cfc9b0c8",
+      "shipId": "0ff53a0ed2a342d1",
       "originalNames": [
         "К-1"
       ],
       "searchAliases": [
         "К-1"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "K-1",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "e09f2dce4c0b",
@@ -24660,16 +25963,18 @@
         "converted-from-test"
       ],
       "sourceSheet": "Korabli #626",
-      "shipId": "4678ecc8cfc9b0c8",
+      "shipId": "0ff53a0ed2a342d1",
       "originalNames": [
         "К-1"
       ],
       "searchAliases": [
         "К-1"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "K-1",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "587a463cceb0",
@@ -24692,16 +25997,18 @@
         "converted-from-test"
       ],
       "sourceSheet": "Korabli #626",
-      "shipId": "4678ecc8cfc9b0c8",
+      "shipId": "0ff53a0ed2a342d1",
       "originalNames": [
         "К-1"
       ],
       "searchAliases": [
         "К-1"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "K-1",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "078dfc6c769b",
@@ -24724,16 +26031,18 @@
         "converted-from-test"
       ],
       "sourceSheet": "Korabli #626",
-      "shipId": "4678ecc8cfc9b0c8",
+      "shipId": "0ff53a0ed2a342d1",
       "originalNames": [
         "К-1"
       ],
       "searchAliases": [
         "К-1"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "K-1",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "b423febfcf7d",
@@ -24756,16 +26065,18 @@
         "converted-from-test"
       ],
       "sourceSheet": "Korabli #626",
-      "shipId": "001883f82117ff9c",
+      "shipId": "4a91d80e2f31264d",
       "originalNames": [
         "Л-20"
       ],
       "searchAliases": [
         "Л-20"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "L-20",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "599ec1229288",
@@ -24788,16 +26099,18 @@
         "converted-from-test"
       ],
       "sourceSheet": "Korabli #626",
-      "shipId": "001883f82117ff9c",
+      "shipId": "4a91d80e2f31264d",
       "originalNames": [
         "Л-20"
       ],
       "searchAliases": [
         "Л-20"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "L-20",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "39a2ce849c6f",
@@ -24820,16 +26133,18 @@
         "converted-from-test"
       ],
       "sourceSheet": "Korabli #626",
-      "shipId": "001883f82117ff9c",
+      "shipId": "4a91d80e2f31264d",
       "originalNames": [
         "Л-20"
       ],
       "searchAliases": [
         "Л-20"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "L-20",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "141ccd82fdd1",
@@ -24852,16 +26167,18 @@
         "converted-from-test"
       ],
       "sourceSheet": "Korabli #626",
-      "shipId": "001883f82117ff9c",
+      "shipId": "4a91d80e2f31264d",
       "originalNames": [
         "Л-20"
       ],
       "searchAliases": [
         "Л-20"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "L-20",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "ed789ead0376",
@@ -24884,16 +26201,18 @@
         "converted-from-test"
       ],
       "sourceSheet": "Korabli #626",
-      "shipId": "a7a7882e2933a94b",
+      "shipId": "6734ff0e53ab1a54",
       "originalNames": [
         "С-1"
       ],
       "searchAliases": [
         "С-1"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "S-1",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "0f8775086dc8",
@@ -24916,16 +26235,18 @@
         "converted-from-test"
       ],
       "sourceSheet": "Korabli #626",
-      "shipId": "a7a7882e2933a94b",
+      "shipId": "6734ff0e53ab1a54",
       "originalNames": [
         "С-1"
       ],
       "searchAliases": [
         "С-1"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "S-1",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "51c571376213",
@@ -24948,16 +26269,18 @@
         "converted-from-test"
       ],
       "sourceSheet": "Korabli #626",
-      "shipId": "a7a7882e2933a94b",
+      "shipId": "6734ff0e53ab1a54",
       "originalNames": [
         "С-1"
       ],
       "searchAliases": [
         "С-1"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "S-1",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "24801735c2d5",
@@ -24980,16 +26303,18 @@
         "converted-from-test"
       ],
       "sourceSheet": "Korabli #626",
-      "shipId": "a7a7882e2933a94b",
+      "shipId": "6734ff0e53ab1a54",
       "originalNames": [
         "С-1"
       ],
       "searchAliases": [
         "С-1"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "S-1",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "71e07706d772",
@@ -25416,16 +26741,18 @@
         "test-ship"
       ],
       "sourceSheet": "Korabli #618",
-      "shipId": "e45b8b48d19ed1f7",
+      "shipId": "6e8a1a9825064a63",
       "originalNames": [
         "Casabianca"
       ],
       "searchAliases": [
         "Casabianca"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "卡萨比安卡",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "12bb1e404658",
@@ -25447,16 +26774,18 @@
         "test-ship"
       ],
       "sourceSheet": "Korabli #618",
-      "shipId": "e45b8b48d19ed1f7",
+      "shipId": "6e8a1a9825064a63",
       "originalNames": [
         "Casabianca"
       ],
       "searchAliases": [
         "Casabianca"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "卡萨比安卡",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "6c6c70d7e553",
@@ -25478,16 +26807,18 @@
         "test-ship"
       ],
       "sourceSheet": "Korabli #619",
-      "shipId": "e45b8b48d19ed1f7",
+      "shipId": "6e8a1a9825064a63",
       "originalNames": [
         "Casabianca"
       ],
       "searchAliases": [
         "Casabianca"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "卡萨比安卡",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "3cd636f4b42a",
@@ -25509,16 +26840,18 @@
         "test-ship"
       ],
       "sourceSheet": "Korabli #618",
-      "shipId": "e45b8b48d19ed1f7",
+      "shipId": "6e8a1a9825064a63",
       "originalNames": [
         "Casabianca"
       ],
       "searchAliases": [
         "Casabianca"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "卡萨比安卡",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "a3f5200db8a3",
@@ -25540,16 +26873,18 @@
         "test-ship"
       ],
       "sourceSheet": "Korabli #618",
-      "shipId": "e45b8b48d19ed1f7",
+      "shipId": "6e8a1a9825064a63",
       "originalNames": [
         "Casabianca"
       ],
       "searchAliases": [
         "Casabianca"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "卡萨比安卡",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "391f57cf0010",
@@ -26890,18 +28225,18 @@
         "test-ship"
       ],
       "sourceSheet": "Korabli #619",
-      "shipId": "f9faf4f644b283c7",
+      "shipId": "27e894826370de51",
       "originalNames": [
-        "L'Africaine",
-        "L`Africaine"
+        "L'Africaine"
       ],
       "searchAliases": [
-        "L'Africaine",
-        "L`Africaine"
+        "L'Africaine"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "阿芙利加人",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "0f90d9ae5200",
@@ -27420,14 +28755,16 @@
         "test-ship"
       ],
       "sourceSheet": "Korabli #618",
-      "shipId": "da1cbe533c756799",
+      "shipId": "bb9b452914bac6f4",
       "originalNames": [
         "U-2501"
       ],
       "searchAliases": [],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "U-2501",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "df20869c7176",
@@ -27449,14 +28786,16 @@
         "test-ship"
       ],
       "sourceSheet": "Korabli #618",
-      "shipId": "da1cbe533c756799",
+      "shipId": "bb9b452914bac6f4",
       "originalNames": [
         "U-2501"
       ],
       "searchAliases": [],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "U-2501",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "ea6faf980ca9",
@@ -27602,16 +28941,18 @@
         "test-ship"
       ],
       "sourceSheet": "Korabli #618",
-      "shipId": "4678ecc8cfc9b0c8",
+      "shipId": "0ff53a0ed2a342d1",
       "originalNames": [
         "К-1"
       ],
       "searchAliases": [
         "К-1"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "K-1",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "3159724c64a7",
@@ -27633,16 +28974,18 @@
         "test-ship"
       ],
       "sourceSheet": "Korabli #618",
-      "shipId": "4678ecc8cfc9b0c8",
+      "shipId": "0ff53a0ed2a342d1",
       "originalNames": [
         "К-1"
       ],
       "searchAliases": [
         "К-1"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "K-1",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "32fbb0cd32a4",
@@ -27695,16 +29038,18 @@
         "test-ship"
       ],
       "sourceSheet": "Korabli #618",
-      "shipId": "001883f82117ff9c",
+      "shipId": "4a91d80e2f31264d",
       "originalNames": [
         "Л-20"
       ],
       "searchAliases": [
         "Л-20"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "L-20",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "40e81a8ea837",
@@ -27726,16 +29071,18 @@
         "test-ship"
       ],
       "sourceSheet": "Korabli #618",
-      "shipId": "001883f82117ff9c",
+      "shipId": "4a91d80e2f31264d",
       "originalNames": [
         "Л-20"
       ],
       "searchAliases": [
         "Л-20"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "L-20",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "1d04d17dc40f",
@@ -27757,16 +29104,18 @@
         "test-ship"
       ],
       "sourceSheet": "Korabli #618",
-      "shipId": "a7a7882e2933a94b",
+      "shipId": "6734ff0e53ab1a54",
       "originalNames": [
         "С-1"
       ],
       "searchAliases": [
         "С-1"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "S-1",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "2323c7e37fc7",
@@ -27788,16 +29137,18 @@
         "test-ship"
       ],
       "sourceSheet": "Korabli #618",
-      "shipId": "a7a7882e2933a94b",
+      "shipId": "6734ff0e53ab1a54",
       "originalNames": [
         "С-1"
       ],
       "searchAliases": [
         "С-1"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "S-1",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "3c9327301dda",
@@ -28410,16 +29761,18 @@
         "test-ship"
       ],
       "sourceSheet": "Korabli #600",
-      "shipId": "e45b8b48d19ed1f7",
+      "shipId": "6e8a1a9825064a63",
       "originalNames": [
         "Casabianca"
       ],
       "searchAliases": [
         "Casabianca"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "卡萨比安卡",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "c7a04a435ecb",
@@ -28441,16 +29794,18 @@
         "test-ship"
       ],
       "sourceSheet": "Korabli #600",
-      "shipId": "e45b8b48d19ed1f7",
+      "shipId": "6e8a1a9825064a63",
       "originalNames": [
         "Casabianca"
       ],
       "searchAliases": [
         "Casabianca"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "卡萨比安卡",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "57b46e89751f",
@@ -28472,16 +29827,18 @@
         "test-ship"
       ],
       "sourceSheet": "Korabli #597",
-      "shipId": "e45b8b48d19ed1f7",
+      "shipId": "6e8a1a9825064a63",
       "originalNames": [
         "Casabianca"
       ],
       "searchAliases": [
         "Casabianca"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "卡萨比安卡",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "b78e44ad346e",
@@ -28766,7 +30123,7 @@
       "id": "c613d287b3fd",
       "category": "ship",
       "targetName": "非洲人号",
-      "canonicalName": "阿芙利加人",
+      "canonicalName": "非洲人号",
       "previousNames": [],
       "nation": "法国",
       "tier": "8",
@@ -28784,15 +30141,13 @@
       "sourceSheet": "Korabli #597",
       "shipId": "f9faf4f644b283c7",
       "originalNames": [
-        "L'Africaine",
         "L`Africaine"
       ],
       "searchAliases": [
-        "L'Africaine",
         "L`Africaine"
       ],
       "currentShipStatus": "test",
-      "name": "阿芙利加人",
+      "name": "非洲人号",
       "releaseEvidence": []
     },
     {
@@ -38999,16 +40354,18 @@
         "test-ship"
       ],
       "sourceSheet": "Korabli #611",
-      "shipId": "e45b8b48d19ed1f7",
+      "shipId": "6e8a1a9825064a63",
       "originalNames": [
         "Casabianca"
       ],
       "searchAliases": [
         "Casabianca"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "卡萨比安卡",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "6697ce0bb3ff",
@@ -39030,16 +40387,18 @@
         "test-ship"
       ],
       "sourceSheet": "Korabli #611",
-      "shipId": "e45b8b48d19ed1f7",
+      "shipId": "6e8a1a9825064a63",
       "originalNames": [
         "Casabianca"
       ],
       "searchAliases": [
         "Casabianca"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "卡萨比安卡",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "9561c0ad445a",
@@ -39818,18 +41177,18 @@
         "test-ship"
       ],
       "sourceSheet": "Korabli #611",
-      "shipId": "f9faf4f644b283c7",
+      "shipId": "27e894826370de51",
       "originalNames": [
-        "L'Africaine",
-        "L`Africaine"
+        "L'Africaine"
       ],
       "searchAliases": [
-        "L'Africaine",
-        "L`Africaine"
+        "L'Africaine"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "阿芙利加人",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "10dd1f0c2912",
@@ -39851,18 +41210,18 @@
         "test-ship"
       ],
       "sourceSheet": "Korabli #611",
-      "shipId": "f9faf4f644b283c7",
+      "shipId": "27e894826370de51",
       "originalNames": [
-        "L'Africaine",
-        "L`Africaine"
+        "L'Africaine"
       ],
       "searchAliases": [
-        "L'Africaine",
-        "L`Africaine"
+        "L'Africaine"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "阿芙利加人",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "0a958d3017b3",
@@ -39884,18 +41243,18 @@
         "test-ship"
       ],
       "sourceSheet": "Korabli #611",
-      "shipId": "f9faf4f644b283c7",
+      "shipId": "27e894826370de51",
       "originalNames": [
-        "L'Africaine",
-        "L`Africaine"
+        "L'Africaine"
       ],
       "searchAliases": [
-        "L'Africaine",
-        "L`Africaine"
+        "L'Africaine"
       ],
-      "currentShipStatus": "test",
+      "currentShipStatus": "released",
       "name": "阿芙利加人",
-      "releaseEvidence": []
+      "releaseEvidence": [
+        "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+      ]
     },
     {
       "id": "d244be312472",
@@ -41324,6 +42683,26 @@
       "releaseEvidence": []
     },
     {
+      "id": "093d9162c003",
+      "category": "mechanic",
+      "targetName": "所有潜艇",
+      "canonicalName": "所有潜艇",
+      "previousNames": [],
+      "nation": "",
+      "tier": "",
+      "type": "",
+      "attribute": "潜望镜深度的对空被发现距离",
+      "oldValue": "—",
+      "newValue": "2 千米",
+      "version": "26.11",
+      "notes": "26.11公测。公告未给出旧距离；不同潜艇的原参数可能不同，暂不统一判为增强或削弱。 官方公告：https://korabli.su/ru/news/public-test/public-test-2611/",
+      "trend": "adjustment",
+      "shipStatus": "unknown",
+      "tags": [],
+      "sourceSheet": "portal-public-test-2611",
+      "changeStage": "public-test"
+    },
+    {
       "id": "c8b009b50151",
       "category": "mechanic",
       "targetName": "法国潜艇常规鱼雷",
@@ -41342,6 +42721,25 @@
       "tags": [],
       "sourceSheet": "portal-public-test-2610",
       "changeStage": "public-test"
+    },
+    {
+      "id": "af242426b661",
+      "category": "mechanic",
+      "targetName": "法国潜艇常规鱼雷",
+      "canonicalName": "法国潜艇常规鱼雷",
+      "previousNames": [],
+      "nation": "",
+      "tier": "",
+      "type": "",
+      "attribute": "鱼雷起爆距离",
+      "oldValue": "—",
+      "newValue": "1.2 千米",
+      "version": "26.10",
+      "notes": "26.10正式版本公告确认采用。公测阶段记录另行保留。通用机制，不重复展开到每艘潜艇。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
+      "trend": "nerf",
+      "shipStatus": "unknown",
+      "tags": [],
+      "sourceSheet": "reviewed release 26.10"
     },
     {
       "id": "7bfec51136f1",
@@ -41364,6 +42762,25 @@
       "changeStage": "public-test"
     },
     {
+      "id": "7bf923ee98e0",
+      "category": "mechanic",
+      "targetName": "舰载深水炸弹",
+      "canonicalName": "舰载深水炸弹",
+      "previousNames": [],
+      "nation": "",
+      "tier": "",
+      "type": "",
+      "attribute": "对水面舰与潜艇的杀伤半径（不含空袭）",
+      "oldValue": "375 米",
+      "newValue": "450 米",
+      "version": "26.10",
+      "notes": "26.10正式版本公告确认采用。公测阶段记录另行保留。通用机制，不重复展开到每艘潜艇。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
+      "trend": "buff",
+      "shipStatus": "unknown",
+      "tags": [],
+      "sourceSheet": "reviewed release 26.10"
+    },
+    {
       "id": "56354de3d8c8",
       "category": "mechanic",
       "targetName": "潜艇常规鱼雷（法国除外）",
@@ -41382,6 +42799,25 @@
       "tags": [],
       "sourceSheet": "portal-public-test-2610",
       "changeStage": "public-test"
+    },
+    {
+      "id": "fa2227ce2028",
+      "category": "mechanic",
+      "targetName": "潜艇常规鱼雷（法国除外）",
+      "canonicalName": "潜艇常规鱼雷（法国除外）",
+      "previousNames": [],
+      "nation": "",
+      "tier": "",
+      "type": "",
+      "attribute": "鱼雷起爆距离",
+      "oldValue": "—",
+      "newValue": "1.5 千米",
+      "version": "26.10",
+      "notes": "26.10正式版本公告确认采用。公测阶段记录另行保留。通用机制，不重复展开到每艘潜艇。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
+      "trend": "nerf",
+      "shipStatus": "unknown",
+      "tags": [],
+      "sourceSheet": "reviewed release 26.10"
     },
     {
       "id": "c5f6c493ffcc",
@@ -41404,6 +42840,25 @@
       "changeStage": "public-test"
     },
     {
+      "id": "f9732b8a853e",
+      "category": "mechanic",
+      "targetName": "苏联及法国潜艇常规鱼雷",
+      "canonicalName": "苏联及法国潜艇常规鱼雷",
+      "previousNames": [],
+      "nation": "",
+      "tier": "",
+      "type": "",
+      "attribute": "鱼雷被发现距离",
+      "oldValue": "—",
+      "newValue": "1.4 千米",
+      "version": "26.10",
+      "notes": "26.10正式版本公告确认采用。公测阶段记录另行保留。通用机制，不重复展开到每艘潜艇。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
+      "trend": "nerf",
+      "shipStatus": "unknown",
+      "tags": [],
+      "sourceSheet": "reviewed release 26.10"
+    },
+    {
       "id": "c6f444f27a7c",
       "category": "mechanic",
       "targetName": "所有潜艇",
@@ -41422,6 +42877,25 @@
       "tags": [],
       "sourceSheet": "portal-public-test-2610",
       "changeStage": "public-test"
+    },
+    {
+      "id": "5735492d14f3",
+      "category": "mechanic",
+      "targetName": "所有潜艇",
+      "canonicalName": "所有潜艇",
+      "previousNames": [],
+      "nation": "",
+      "tier": "",
+      "type": "",
+      "attribute": "最大深度受到的伤害（原始伤害占比）",
+      "oldValue": "10%",
+      "newValue": "20%",
+      "version": "26.10",
+      "notes": "26.10正式版本公告确认采用。公测阶段记录另行保留。通用机制，不重复展开到每艘潜艇。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
+      "trend": "nerf",
+      "shipStatus": "unknown",
+      "tags": [],
+      "sourceSheet": "reviewed release 26.10"
     },
     {
       "id": "49334ca8b53a",
@@ -41729,33 +43203,33 @@
     }
   ],
   "meta": {
-    "generatedAt": "2026-10-17T07:57:20.522Z",
-    "currentVersion": "26.9",
+    "generatedAt": "2026-10-17T13:51:10.186Z",
+    "currentVersion": "26.10",
     "lastUpdated": "2026-10-17",
-    "recordCount": 1355,
+    "recordCount": 1399,
     "categoryCounts": {
-      "ship": 1334,
-      "mechanic": 14,
+      "ship": 1372,
+      "mechanic": 20,
       "misc": 7
     },
     "shipStatusCounts": {
-      "test": 709,
-      "released": 624,
-      "unknown": 22
+      "test": 727,
+      "released": 644,
+      "unknown": 28
     },
     "tagCounts": {
-      "test-ship": 709,
-      "released-ship": 624,
-      "converted-from-test": 96
+      "released-ship": 644,
+      "converted-from-test": 109,
+      "test-ship": 727
     },
     "trendCounts": {
-      "buff": 695,
-      "nerf": 310,
+      "buff": 710,
+      "nerf": 337,
       "neutral": 0,
-      "adjustment": 350
+      "adjustment": 352
     },
     "officialData": {
-      "announcementCount": 143,
+      "announcementCount": 144,
       "rangeStart": "2024-08-16T18:05:27.281Z",
       "rangeEnd": "2026-10-17T07:56:39.672Z",
       "syncedAt": "2026-10-17T07:56:39.672Z"

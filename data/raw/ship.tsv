@@ -1333,3 +1333,41 @@ Akagi	Akagi		日本	8	航空母舰	常规轰炸机投弹精度	—	降低约20%	
 Наварин	Наварин		苏联	9	战列舰	双联130毫米副炮高爆弹穿深	—	22 毫米	26.7	官方公告：https://blog.korabli.su/blog/689 人工复查补入；未公布的旧值保留为未知，不推断数值增减。	adjustment	released	released-ship	blog 689
 Наварин	Наварин		苏联	9	战列舰	双联130毫米副炮高爆弹初速	—	950 米/秒	26.7	官方公告：https://blog.korabli.su/blog/689 人工复查补入；未公布的旧值保留为未知，不推断数值增减。	adjustment	released	released-ship	blog 689
 Наварин	Наварин		苏联	9	战列舰	双联130毫米副炮高爆弹起火率	—	8%	26.7	官方公告：https://blog.korabli.su/blog/689 人工复查补入；未公布的旧值保留为未知，不推断数值增减。	adjustment	released	released-ship	blog 689
+Vestfold	Vestfold		欧洲	9	巡洋舰	主炮装填时间	13.2 秒	13.5 秒	26.10	26.10测试舰艇调整，10月15日生效。中文名暂用音译，公告原文名保留供搜索。 官方公告：https://blog.korabli.su/blog/698	nerf	test	test-ship	reviewed blog 698
+Konung	Konung		欧洲	10	巡洋舰	主炮装填时间	13 秒	12 秒	26.10	26.10测试舰艇调整，10月15日生效。中文名暂用音译，公告原文名保留供搜索。 官方公告：https://blog.korabli.su/blog/698	buff	test	test-ship	reviewed blog 698
+Konung	Konung		欧洲	10	巡洋舰	主炮射程	17.4 千米	17.9 千米	26.10	26.10测试舰艇调整，10月15日生效。中文名暂用音译，公告原文名保留供搜索。 官方公告：https://blog.korabli.su/blog/698	buff	test	test-ship	reviewed blog 698
+Troll	Troll		欧洲	11	巡洋舰	主炮装填时间	13.7 秒	13 秒	26.10	26.10测试舰艇调整，10月15日生效。中文名暂用音译，公告原文名保留供搜索。 官方公告：https://blog.korabli.su/blog/698	buff	test	test-ship	reviewed blog 698
+Troll	Troll		欧洲	11	巡洋舰	主炮射程	17.9 千米	18.2 千米	26.10	26.10测试舰艇调整，10月15日生效。中文名暂用音译，公告原文名保留供搜索。 官方公告：https://blog.korabli.su/blog/698	buff	test	test-ship	reviewed blog 698
+Waterloo	Waterloo		英国	11	驱逐舰	主炮射程	12.8 千米	14 千米	26.10	26.10测试舰艇调整，10月15日生效。 官方公告：https://blog.korabli.su/blog/698	buff	test	test-ship	reviewed blog 698
+Waterloo	Waterloo		英国	11	驱逐舰	主炮装填时间	3.6 秒	3.5 秒	26.10	26.10测试舰艇调整，10月15日生效。 官方公告：https://blog.korabli.su/blog/698	buff	test	test-ship	reviewed blog 698
+Waterloo	Waterloo		英国	11	驱逐舰	监视雷达-舰船发现距离	7 千米	10 千米	26.10	26.10测试舰艇调整，10月15日生效。 官方公告：https://blog.korabli.su/blog/698	buff	test	test-ship	reviewed blog 698
+Waterloo	Waterloo		英国	11	驱逐舰	监视雷达-作用时间	60 秒	12 秒	26.10	26.10测试舰艇调整，10月15日生效。 官方公告：https://blog.korabli.su/blog/698	nerf	test	test-ship	reviewed blog 698
+Waterloo	Waterloo		英国	11	驱逐舰	监视雷达-可用次数	2	3	26.10	26.10测试舰艇调整，10月15日生效。 官方公告：https://blog.korabli.su/blog/698	buff	test	test-ship	reviewed blog 698
+Waterloo	Waterloo		英国	11	驱逐舰	深水炸弹投放动画与轨迹	—	抛射高度提高，落点略远	26.10	26.10测试舰艇调整，10月15日生效。官网说明主要用于修复不正确的投放动画，按中性调整展示。 官方公告：https://blog.korabli.su/blog/698	adjustment	test	test-ship	reviewed blog 698
+Songun	Songun		泛亚	9	战列舰	主炮装填时间	28 秒	27 秒	26.10	26.10测试舰艇调整，10月15日生效。 官方公告：https://blog.korabli.su/blog/698	buff	test	test-ship	reviewed blog 698
+Songun	Songun		泛亚	9	战列舰	中口径炮装填时间	9 秒	7.5 秒	26.10	26.10测试舰艇调整，10月15日生效。 官方公告：https://blog.korabli.su/blog/698	buff	test	test-ship	reviewed blog 698
+Songun	Songun		泛亚	9	战列舰	战斗指令-中口径炮装填时间缩减加成	50%	65%	26.10	26.10测试舰艇调整，10月15日生效。官网以正数表示装填时间缩减幅度；50%→65%代表增强。 官方公告：https://blog.korabli.su/blog/698	buff	test	test-ship	reviewed blog 698
+Songun	Songun		泛亚	9	战列舰	战斗指令-中口径炮高爆弹穿深加成	—	新增+30%	26.10	26.10测试舰艇调整，10月15日生效。 官方公告：https://blog.korabli.su/blog/698	buff	test	test-ship	reviewed blog 698
+Hakusan	Hakusan		日本	9	战列舰	主炮装填时间	32.5 秒	33 秒	26.10	26.10测试舰艇调整，10月15日生效。 官方公告：https://blog.korabli.su/blog/698	nerf	test	test-ship	reviewed blog 698
+Hakusan	Hakusan		日本	9	战列舰	100毫米副炮装填时间	3.5 秒	3.7 秒	26.10	26.10测试舰艇调整，10月15日生效。 官方公告：https://blog.korabli.su/blog/698	nerf	test	test-ship	reviewed blog 698
+Hakusan	Hakusan		日本	9	战列舰	140毫米副炮装填时间	5.3 秒	5.5 秒	26.10	26.10测试舰艇调整，10月15日生效。 官方公告：https://blog.korabli.su/blog/698	nerf	test	test-ship	reviewed blog 698
+Б-4	Б-4		苏联	11	潜艇	基础船体潜航能力	234	162	26.10	26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/	nerf	released	released-ship	reviewed release 26.10
+Б-4	Б-4		苏联	11	潜艇	水听器作用距离	10 千米	8 千米	26.10	26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/	nerf	released	released-ship	reviewed release 26.10
+К-1	К-1		苏联	10	潜艇	基础及可研发鱼雷发射管的鱼雷航速	85 节	80 节	26.10	26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/	nerf	released	released-ship	reviewed release 26.10
+К-1	К-1		苏联	10	潜艇	基础船体潜航能力	221	153	26.10	26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/	nerf	released	released-ship	reviewed release 26.10
+К-1	К-1		苏联	10	潜艇	水听器作用距离	10 千米	8 千米	26.10	26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/	nerf	released	released-ship	reviewed release 26.10
+К-1	К-1		苏联	10	潜艇	最大航速	32.5 节	34 节	26.10	26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/	buff	released	released-ship	reviewed release 26.10
+Л-20	Л-20		苏联	8	潜艇	基础及可研发鱼雷发射管的鱼雷航速	85 节	80 节	26.10	26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/	nerf	released	released-ship	reviewed release 26.10
+Л-20	Л-20		苏联	8	潜艇	基础船体潜航能力	177	122	26.10	26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/	nerf	released	released-ship	reviewed release 26.10
+Л-20	Л-20		苏联	8	潜艇	可研发船体潜航能力	208	144	26.10	26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/	nerf	released	released-ship	reviewed release 26.10
+С-1	С-1		苏联	6	潜艇	基础及可研发鱼雷发射管的鱼雷航速	85 节	80 节	26.10	26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/	nerf	released	released-ship	reviewed release 26.10
+С-1	С-1		苏联	6	潜艇	基础船体潜航能力	166	115	26.10	26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/	nerf	released	released-ship	reviewed release 26.10
+С-1	С-1		苏联	6	潜艇	可研发船体潜航能力	195	135	26.10	26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/	nerf	released	released-ship	reviewed release 26.10
+U-796	U-796		德国	11	潜艇	水底搜索：舰船发现距离	6 千米	5.5 千米	26.10	26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/	nerf	released	released-ship	reviewed release 26.10
+U-796	U-796		德国	11	潜艇	水底搜索：鱼雷发现距离	4 千米	3.8 千米	26.10	26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/	nerf	released	released-ship	reviewed release 26.10
+U-796	U-796		德国	11	潜艇	水底搜索：水雷发现距离	1 千米	0.95 千米	26.10	26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/	nerf	released	released-ship	reviewed release 26.10
+U-796	U-796		德国	11	潜艇	最大航速	34 节	32 节	26.10	26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/	nerf	released	released-ship	reviewed release 26.10
+U-796	U-796		德国	11	潜艇	最大下潜及上浮速度	4.1 米/秒	3.7 米/秒	26.10	26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/	nerf	released	released-ship	reviewed release 26.10
+U-2501	U-2501		德国	10	潜艇	航速	27 节	29 节	26.10	26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/	buff	released	released-ship	reviewed release 26.10
+L'Africaine	L'Africaine		法国	8	潜艇	鱼雷航速	90 节	85 节	26.10	26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/	nerf	released	released-ship	reviewed release 26.10
+Casabianca	Casabianca		法国	10	潜艇	鱼雷航速	90 节	85 节	26.10	26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/	nerf	released	released-ship	reviewed release 26.10

@@ -13,3 +13,9 @@ targetName	canonicalName	previousNames	nation	tier	type	attribute	oldValue	newVa
 法国潜艇常规鱼雷	法国潜艇常规鱼雷					鱼雷起爆距离	—	1.2 千米	26.10	26.10 公测，正式服是否采用以最终公告为准。通用机制，不重复展开到每艘潜艇。 官方公告：https://korabli.su/ru/news/public-test/public-test-2610/	nerf	unknown		portal-public-test-2610
 苏联及法国潜艇常规鱼雷	苏联及法国潜艇常规鱼雷					鱼雷被发现距离	—	1.4 千米	26.10	26.10 公测，正式服是否采用以最终公告为准。通用机制，不重复展开到每艘潜艇。 官方公告：https://korabli.su/ru/news/public-test/public-test-2610/	nerf	unknown		portal-public-test-2610
 舰载深水炸弹	舰载深水炸弹					对水面舰与潜艇的杀伤半径（不含空袭）	375 米	450 米	26.10	26.10 公测，正式服是否采用以最终公告为准。通用机制，不重复展开到每艘潜艇。 官方公告：https://korabli.su/ru/news/public-test/public-test-2610/	buff	unknown		portal-public-test-2610
+所有潜艇	所有潜艇					最大深度受到的伤害（原始伤害占比）	10%	20%	26.10	26.10正式版本公告确认采用。公测阶段记录另行保留。通用机制，不重复展开到每艘潜艇。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/	nerf	unknown		reviewed release 26.10
+潜艇常规鱼雷（法国除外）	潜艇常规鱼雷（法国除外）					鱼雷起爆距离	—	1.5 千米	26.10	26.10正式版本公告确认采用。公测阶段记录另行保留。通用机制，不重复展开到每艘潜艇。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/	nerf	unknown		reviewed release 26.10
+法国潜艇常规鱼雷	法国潜艇常规鱼雷					鱼雷起爆距离	—	1.2 千米	26.10	26.10正式版本公告确认采用。公测阶段记录另行保留。通用机制，不重复展开到每艘潜艇。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/	nerf	unknown		reviewed release 26.10
+苏联及法国潜艇常规鱼雷	苏联及法国潜艇常规鱼雷					鱼雷被发现距离	—	1.4 千米	26.10	26.10正式版本公告确认采用。公测阶段记录另行保留。通用机制，不重复展开到每艘潜艇。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/	nerf	unknown		reviewed release 26.10
+舰载深水炸弹	舰载深水炸弹					对水面舰与潜艇的杀伤半径（不含空袭）	375 米	450 米	26.10	26.10正式版本公告确认采用。公测阶段记录另行保留。通用机制，不重复展开到每艘潜艇。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/	buff	unknown		reviewed release 26.10
+所有潜艇	所有潜艇					潜望镜深度的对空被发现距离	—	2 千米	26.11	26.11公测。公告未给出旧距离；不同潜艇的原参数可能不同，暂不统一判为增强或削弱。 官方公告：https://korabli.su/ru/news/public-test/public-test-2611/	adjustment	unknown		portal-public-test-2611

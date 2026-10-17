@@ -1,6 +1,6 @@
 [
   {
-    "shipId": "e45b8b48d19ed1f7",
+    "shipId": "6e8a1a9825064a63",
     "name": "卡萨比安卡",
     "originalNames": [
       "Casabianca"
@@ -8,8 +8,10 @@
     "searchAliases": [
       "Casabianca"
     ],
-    "currentShipStatus": "test",
-    "releaseEvidence": []
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+    ]
   },
   {
     "shipId": "9cb9059cc800aa8d",
@@ -36,18 +38,30 @@
     "releaseEvidence": []
   },
   {
-    "shipId": "f9faf4f644b283c7",
-    "name": "阿芙利加人",
+    "shipId": "e302f298e4c18769",
+    "name": "科农",
     "originalNames": [
-      "L'Africaine",
-      "L`Africaine"
+      "Konung"
     ],
     "searchAliases": [
-      "L'Africaine",
-      "L`Africaine"
+      "Konung"
     ],
     "currentShipStatus": "test",
     "releaseEvidence": []
+  },
+  {
+    "shipId": "27e894826370de51",
+    "name": "阿芙利加人",
+    "originalNames": [
+      "L'Africaine"
+    ],
+    "searchAliases": [
+      "L'Africaine"
+    ],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+    ]
   },
   {
     "shipId": "4e9c03dbb8872ba0",
@@ -100,23 +114,63 @@
     "releaseEvidence": []
   },
   {
-    "shipId": "da1cbe533c756799",
+    "shipId": "0544b10044fd827e",
+    "name": "先军",
+    "originalNames": [
+      "Songun"
+    ],
+    "searchAliases": [
+      "Songun"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "6885722ecf710a49",
+    "name": "特罗尔",
+    "originalNames": [
+      "Troll"
+    ],
+    "searchAliases": [
+      "Troll"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "bb9b452914bac6f4",
     "name": "U-2501",
     "originalNames": [
       "U-2501"
     ],
     "searchAliases": [],
-    "currentShipStatus": "test",
-    "releaseEvidence": []
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+    ]
   },
   {
-    "shipId": "1f662010daa2564a",
+    "shipId": "47cc18ac85bc51a1",
     "name": "U-796",
     "originalNames": [
       "U-796"
     ],
     "searchAliases": [],
     "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+    ]
+  },
+  {
+    "shipId": "00f8c4cf4b8e6046",
+    "name": "韦斯特福尔",
+    "originalNames": [
+      "Vestfold"
+    ],
+    "searchAliases": [
+      "Vestfold"
+    ],
+    "currentShipStatus": "test",
     "releaseEvidence": []
   },
   {
@@ -132,7 +186,7 @@
     "releaseEvidence": []
   },
   {
-    "shipId": "bade1674c9973259",
+    "shipId": "e174a2732e7c98c9",
     "name": "B-4",
     "originalNames": [
       "Б-4"
@@ -141,7 +195,9 @@
       "Б-4"
     ],
     "currentShipStatus": "released",
-    "releaseEvidence": []
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+    ]
   },
   {
     "shipId": "04a903b7f164ec7a",
@@ -168,7 +224,7 @@
     "releaseEvidence": []
   },
   {
-    "shipId": "4678ecc8cfc9b0c8",
+    "shipId": "0ff53a0ed2a342d1",
     "name": "K-1",
     "originalNames": [
       "К-1"
@@ -176,8 +232,10 @@
     "searchAliases": [
       "К-1"
     ],
-    "currentShipStatus": "test",
-    "releaseEvidence": []
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+    ]
   },
   {
     "shipId": "96f48335eb4e0a9b",
@@ -192,7 +250,7 @@
     "releaseEvidence": []
   },
   {
-    "shipId": "001883f82117ff9c",
+    "shipId": "4a91d80e2f31264d",
     "name": "L-20",
     "originalNames": [
       "Л-20"
@@ -200,8 +258,10 @@
     "searchAliases": [
       "Л-20"
     ],
-    "currentShipStatus": "test",
-    "releaseEvidence": []
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+    ]
   },
   {
     "shipId": "04c4a88356355bfc",
@@ -216,7 +276,7 @@
     "releaseEvidence": []
   },
   {
-    "shipId": "a7a7882e2933a94b",
+    "shipId": "6734ff0e53ab1a54",
     "name": "S-1",
     "originalNames": [
       "С-1"
@@ -224,8 +284,10 @@
     "searchAliases": [
       "С-1"
     ],
-    "currentShipStatus": "test",
-    "releaseEvidence": []
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+    ]
   },
   {
     "shipId": "86ac7865b462fa72",
@@ -3398,6 +3460,18 @@
     ],
     "searchAliases": [
       "Falkenhayn"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "f9faf4f644b283c7",
+    "name": "非洲人号",
+    "originalNames": [
+      "L`Africaine"
+    ],
+    "searchAliases": [
+      "L`Africaine"
     ],
     "currentShipStatus": "test",
     "releaseEvidence": []

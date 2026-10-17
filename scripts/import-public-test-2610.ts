@@ -10,7 +10,7 @@ const url='https://korabli.su/ru/news/public-test/public-test-2610/';
 const announcementId='portal-public-test-2610';
 type Row=[string,string,string,string,string,string,ChangeTrend,string];
 // Reviewed rows are guarded by the actual source text before any writes.
-const rows:Row[]=[
+export const submarine2610Rows:Row[]=[
   ['所有潜艇','','','最大深度受到的伤害（原始伤害占比）','10%','20%','nerf','Урон, получаемый подводными лодками на предельной глубине, увеличен с 10 до 20% от изначального.'],
   ['潜艇常规鱼雷（法国除外）','','','鱼雷起爆距离','—','1.5 千米','nerf','Дальность взведения всех термических торпед подводных лодок (кроме подводных лодок Франции) увеличена до 1,5 км.'],
   ['法国潜艇常规鱼雷','','','鱼雷起爆距离','—','1.2 千米','nerf','Дальность взведения термических торпед французских подводных лодок увеличена до 1,2 км.'],
@@ -44,7 +44,7 @@ export function parsePublicTest2610(html:string,known:OfficialBalanceRecord[]) {
   const timestamp=Number(html.match(/publication-start="([\d.]+)"/)?.[1]);
   if(!timestamp || !body.includes('Балансные изменения подводных лодок')) throw new Error('Missing public-test body/date');
   const publishedAt=new Date(timestamp*1000).toISOString();
-  return rows.map(([targetName,nation,tier,attribute,oldValue,newValue,trend,originalText]):OfficialBalanceRecord=>{
+  return submarine2610Rows.map(([targetName,nation,tier,attribute,oldValue,newValue,trend,originalText]):OfficialBalanceRecord=>{
     if(!body.includes(originalText)) throw new Error(`Source changed: ${targetName}: ${originalText}`);
     const status=known.find(r=>r.targetName===targetName&&r.tier===tier&&r.shipStatus==='released')?.shipStatus??'unknown';
     return {id:digest(`${announcementId}|${targetName}|${attribute}`).slice(0,16),category:tier?'ship':'mechanic',targetName,canonicalName:targetName,previousNames:'',nation,tier,type:tier?'潜艇':'',attribute,oldValue,newValue,trend,version:'26.10',shipStatus:status,changeStage:'public-test',tags:'',sourceSheet:announcementId,announcementId,sourceUrl:url,publishedAt,originalText,analysisRule:'reviewed-public-test-2610',analysisConfidence:'high',notes:`26.10 公测，正式服是否采用以最终公告为准。${tier?'':'通用机制，不重复展开到每艘潜艇。'}\n官方公告：${url}`,sources:[{announcementId,url,originalText}]};

@@ -1,6 +1,7 @@
 // Reviewed against the user's 26.9 translation and the portal announcement.
 // These aliases are for matching only; a shared name never replaces tier/nation identity.
 export const reviewedTranslations: Record<string,string> = {
+  'Vestfold':'韦斯特福尔','Konung':'科农','Troll':'特罗尔','Songun':'先军',
   'ГДР':'民主德国', 'Княгиня Ольга':'奥尔加女大公',
   'Параметр сигма орудий среднего калибра (СК)':'中口径炮弹着群系数',
   'Параметр сигма орудий СК':'中口径炮弹着群系数',
