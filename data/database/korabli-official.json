@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
   "source": "korabli-multi-source",
-  "syncedAt": "2026-10-17T07:56:39.672Z",
+  "syncedAt": "2026-10-18T08:12:26.299Z",
   "rangeStart": "2024-08-16T18:05:27.281Z",
-  "rangeEnd": "2026-10-17T07:56:39.672Z",
+  "rangeEnd": "2026-10-18T08:12:26.299Z",
   "announcements": [
     {
       "id": "693",
@@ -2128,7 +2128,7 @@
       "title": "Обновление 26.9. Сюрпризы на день рождения",
       "publishedAt": "2026-09-01T09:00:00.000Z",
       "sourceKind": "portal",
-      "contentHash": "344894126a410a5879361f8c8c2ee4a641f63ea1551f6b32a338c2e416a041a4",
+      "contentHash": "2207fbb3ce3624ed92ef060e341ad1cc53b567e3ab08c157211b377aecd48d1d",
       "recordIds": [
         "manual-26.9-1",
         "manual-26.9-2",
@@ -2946,7 +2946,7 @@
       "title": "Обновление 26.10. Там чудеса, там крейсер бродит…",
       "publishedAt": "2026-09-29T09:00:44.000Z",
       "sourceKind": "portal",
-      "contentHash": "4653ae2bb79838264f83ec61d78f7853c5e911d1ee8080632351a8ca29e498e8",
+      "contentHash": "31553d8db802067baa2e0f887d424f654a0ad37a1966eb2e8542ca45df24ca39",
       "recordIds": [
         "fe93b14916f8d0f2",
         "4df434a2befd2998",
@@ -2982,7 +2982,7 @@
       "title": "Обновление 26.10 - изменение тестовых кораблей",
       "publishedAt": "2026-10-15T09:00:00.000Z",
       "sourceKind": "blog",
-      "contentHash": "37d53f1f3619a6cf045e67cb6952973d25949cda9af4da88395852e87fb6064b",
+      "contentHash": "f7bae8ea1d4f2c2a30d2ffc43022a1230df2c553c11ef64868b08b1fa4d45754",
       "recordIds": [
         "53a0d1affa6e82fa",
         "1d572c74443ea92a",
@@ -43644,7 +43644,8 @@
         {
           "announcementId": "698",
           "url": "https://blog.korabli.su/blog/698",
-          "originalText": "Время перезарядки орудий ГК увеличено с 13,2 до 13,5 с."
+          "originalText": "Время перезарядки орудий ГК увеличено с 13,2 до 13,5 с.",
+          "notes": "官方公告：https://blog.korabli.su/blog/698"
         }
       ]
     },
@@ -43676,7 +43677,8 @@
         {
           "announcementId": "698",
           "url": "https://blog.korabli.su/blog/698",
-          "originalText": "Время перезарядки орудий ГК уменьшено с 13 до 12 с."
+          "originalText": "Время перезарядки орудий ГК уменьшено с 13 до 12 с.",
+          "notes": "官方公告：https://blog.korabli.su/blog/698"
         }
       ]
     },
@@ -43708,7 +43710,8 @@
         {
           "announcementId": "698",
           "url": "https://blog.korabli.su/blog/698",
-          "originalText": "Дальность стрельбы орудий ГК увеличена с 17,4 до 17,9 км."
+          "originalText": "Дальность стрельбы орудий ГК увеличена с 17,4 до 17,9 км.",
+          "notes": "官方公告：https://blog.korabli.su/blog/698"
         }
       ]
     },
@@ -43740,7 +43743,8 @@
         {
           "announcementId": "698",
           "url": "https://blog.korabli.su/blog/698",
-          "originalText": "Время перезарядки орудий ГК уменьшено с 13,7 до 13 с."
+          "originalText": "Время перезарядки орудий ГК уменьшено с 13,7 до 13 с.",
+          "notes": "官方公告：https://blog.korabli.su/blog/698"
         }
       ]
     },
@@ -43772,7 +43776,8 @@
         {
           "announcementId": "698",
           "url": "https://blog.korabli.su/blog/698",
-          "originalText": "Дальность стрельбы орудий ГК увеличена с 17,9 до 18,2 км."
+          "originalText": "Дальность стрельбы орудий ГК увеличена с 17,9 до 18,2 км.",
+          "notes": "官方公告：https://blog.korabli.su/blog/698"
         }
       ]
     },
@@ -43804,7 +43809,8 @@
         {
           "announcementId": "698",
           "url": "https://blog.korabli.su/blog/698",
-          "originalText": "Дальность стрельбы орудий ГК увеличена с 12,8 до 14 км."
+          "originalText": "Дальность стрельбы орудий ГК увеличена с 12,8 до 14 км.",
+          "notes": "官方公告：https://blog.korabli.su/blog/698"
         }
       ]
     },
@@ -43836,7 +43842,8 @@
         {
           "announcementId": "698",
           "url": "https://blog.korabli.su/blog/698",
-          "originalText": "Время перезарядки орудий ГК уменьшено с 3,6 до 3,5 с."
+          "originalText": "Время перезарядки орудий ГК уменьшено с 3,6 до 3,5 с.",
+          "notes": "官方公告：https://blog.korabli.su/blog/698"
         }
       ]
     },
@@ -43868,7 +43875,8 @@
         {
           "announcementId": "698",
           "url": "https://blog.korabli.su/blog/698",
-          "originalText": "Дальность обнаружения кораблей увеличена с 7 до 10 км."
+          "originalText": "Дальность обнаружения кораблей увеличена с 7 до 10 км.",
+          "notes": "官方公告：https://blog.korabli.su/blog/698"
         }
       ]
     },
@@ -43900,7 +43908,8 @@
         {
           "announcementId": "698",
           "url": "https://blog.korabli.su/blog/698",
-          "originalText": "Время работы уменьшено с 60 до 12 с."
+          "originalText": "Время работы уменьшено с 60 до 12 с.",
+          "notes": "官方公告：https://blog.korabli.su/blog/698"
         }
       ]
     },
@@ -43932,7 +43941,8 @@
         {
           "announcementId": "698",
           "url": "https://blog.korabli.su/blog/698",
-          "originalText": "Количество снаряжения увеличено с 2 до 3."
+          "originalText": "Количество снаряжения увеличено с 2 до 3.",
+          "notes": "官方公告：https://blog.korabli.su/blog/698"
         }
       ]
     },
@@ -43996,7 +44006,8 @@
         {
           "announcementId": "698",
           "url": "https://blog.korabli.su/blog/698",
-          "originalText": "Время перезарядки орудий ГК уменьшено с 28 до 27 с."
+          "originalText": "Время перезарядки орудий ГК уменьшено с 28 до 27 с.",
+          "notes": "官方公告：https://blog.korabli.su/blog/698"
         }
       ]
     },
@@ -44028,7 +44039,8 @@
         {
           "announcementId": "698",
           "url": "https://blog.korabli.su/blog/698",
-          "originalText": "Время перезарядки орудий СК уменьшено с 9 до 7,5 с."
+          "originalText": "Время перезарядки орудий СК уменьшено с 9 до 7,5 с.",
+          "notes": "官方公告：https://blog.korabli.su/blog/698"
         }
       ]
     },
@@ -44060,7 +44072,8 @@
         {
           "announcementId": "698",
           "url": "https://blog.korabli.su/blog/698",
-          "originalText": "Бонус ко времени перезарядки орудий СК при активации боевых инструкций увеличен с 50 до 65%."
+          "originalText": "Бонус ко времени перезарядки орудий СК при активации боевых инструкций увеличен с 50 до 65%.",
+          "notes": "官方公告：https://blog.korabli.su/blog/698"
         }
       ]
     },
@@ -44124,7 +44137,8 @@
         {
           "announcementId": "698",
           "url": "https://blog.korabli.su/blog/698",
-          "originalText": "Время перезарядки орудий ГК увеличено с 32,5 до 33 с."
+          "originalText": "Время перезарядки орудий ГК увеличено с 32,5 до 33 с.",
+          "notes": "官方公告：https://blog.korabli.su/blog/698"
         }
       ]
     },
@@ -44156,7 +44170,8 @@
         {
           "announcementId": "698",
           "url": "https://blog.korabli.su/blog/698",
-          "originalText": "Время перезарядки 100-мм орудий ПМК увеличено с 3,5 до 3,7 с."
+          "originalText": "Время перезарядки 100-мм орудий ПМК увеличено с 3,5 до 3,7 с.",
+          "notes": "官方公告：https://blog.korabli.su/blog/698"
         }
       ]
     },
@@ -44188,7 +44203,8 @@
         {
           "announcementId": "698",
           "url": "https://blog.korabli.su/blog/698",
-          "originalText": "Время перезарядки 140-мм орудий ПМК увеличено с 5.3 до 5.5 с."
+          "originalText": "Время перезарядки 140-мм орудий ПМК увеличено с 5.3 до 5.5 с.",
+          "notes": "官方公告：https://blog.korabli.su/blog/698"
         }
       ]
     },
@@ -44381,7 +44397,8 @@
         {
           "announcementId": "portal-16861",
           "url": "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
-          "originalText": "Запас автономности базового модуля корпуса уменьшен с 234 до 162 ед."
+          "originalText": "Запас автономности базового модуля корпуса уменьшен с 234 до 162 ед.",
+          "notes": "官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
         }
       ]
     },
@@ -44414,7 +44431,8 @@
         {
           "announcementId": "portal-16861",
           "url": "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
-          "originalText": "Дальность ШП уменьшена с 10 до 8 км."
+          "originalText": "Дальность ШП уменьшена с 10 до 8 км.",
+          "notes": "官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
         }
       ]
     },
@@ -44480,7 +44498,8 @@
         {
           "announcementId": "portal-16861",
           "url": "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
-          "originalText": "Запас автономности базового модуля корпуса уменьшен с 221 до 153 ед."
+          "originalText": "Запас автономности базового модуля корпуса уменьшен с 221 до 153 ед.",
+          "notes": "官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
         }
       ]
     },
@@ -44513,7 +44532,8 @@
         {
           "announcementId": "portal-16861",
           "url": "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
-          "originalText": "Дальность шумопеленгатора уменьшена с 10 до 8 км."
+          "originalText": "Дальность шумопеленгатора уменьшена с 10 до 8 км.",
+          "notes": "官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
         }
       ]
     },
@@ -44612,7 +44632,8 @@
         {
           "announcementId": "portal-16861",
           "url": "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
-          "originalText": "Запас автономности базового модуля корпуса уменьшен с 177 до 122 ед."
+          "originalText": "Запас автономности базового модуля корпуса уменьшен с 177 до 122 ед.",
+          "notes": "官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
         }
       ]
     },
@@ -44645,7 +44666,8 @@
         {
           "announcementId": "portal-16861",
           "url": "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
-          "originalText": "Запас автономности исследуемого модуля корпуса уменьшен с 208 до 144 ед."
+          "originalText": "Запас автономности исследуемого модуля корпуса уменьшен с 208 до 144 ед.",
+          "notes": "官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
         }
       ]
     },
@@ -44711,7 +44733,8 @@
         {
           "announcementId": "portal-16861",
           "url": "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
-          "originalText": "Запас автономности базового модуля корпуса уменьшен с 166 до 115 ед."
+          "originalText": "Запас автономности базового модуля корпуса уменьшен с 166 до 115 ед.",
+          "notes": "官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
         }
       ]
     },
@@ -44744,7 +44767,8 @@
         {
           "announcementId": "portal-16861",
           "url": "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
-          "originalText": "Запас автономности исследуемого модуля корпуса уменьшен с 195 до 135 ед."
+          "originalText": "Запас автономности исследуемого модуля корпуса уменьшен с 195 до 135 ед.",
+          "notes": "官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
         }
       ]
     },
@@ -44777,7 +44801,8 @@
         {
           "announcementId": "portal-16861",
           "url": "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
-          "originalText": "Дальность обнаружения кораблей уменьшена с 6 до 5,5 км."
+          "originalText": "Дальность обнаружения кораблей уменьшена с 6 до 5,5 км.",
+          "notes": "官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
         }
       ]
     },
@@ -44810,7 +44835,8 @@
         {
           "announcementId": "portal-16861",
           "url": "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
-          "originalText": "Дальность обнаружения торпед уменьшена с 4 до 3,8 км."
+          "originalText": "Дальность обнаружения торпед уменьшена с 4 до 3,8 км.",
+          "notes": "官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
         }
       ]
     },
@@ -44843,7 +44869,8 @@
         {
           "announcementId": "portal-16861",
           "url": "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/",
-          "originalText": "Дальность обнаружения мин уменьшена с 1 до 0,95 км."
+          "originalText": "Дальность обнаружения мин уменьшена с 1 до 0,95 км.",
+          "notes": "官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
         }
       ]
     },
