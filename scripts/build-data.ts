@@ -44,7 +44,14 @@ try {
     readFile(databasePath, 'utf8').then((source) => JSON.parse(source) as OfficialBalanceDatabase),
     readFile(translationPath, 'utf8').then((source) => JSON.parse(source) as ChineseTranslationDatabase),
   ]);
-  const staged=records.map(r=>({...r,changeStage:officialDatabase.records.find(o=>o.targetName===r.targetName&&o.attribute===r.attribute&&o.version===r.version&&o.sourceSheet===r.sourceSheet)?.changeStage}));
+  const staged = records.map(record => {
+    const source = officialDatabase.records.find(item =>
+      item.targetName === record.targetName && item.attribute === record.attribute &&
+      item.version === record.version && item.sourceSheet === record.sourceSheet &&
+      item.oldValue === record.oldValue && item.newValue === record.newValue);
+    return { ...record, changeStage: source?.changeStage, announcementId: source?.announcementId,
+      publishedAt: source?.publishedAt, sourceUrl: source?.sourceUrl };
+  });
   const enriched=await enrichShips(staged,officialDatabase.records,translationLookup(translationDatabase.translations));
   const data = buildGeneratedData(applyChineseTranslations(enriched, translationDatabase.translations), siteConfig);
   data.meta.officialData = {

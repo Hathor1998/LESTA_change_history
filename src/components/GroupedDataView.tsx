@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useMemo, useState } from 'react';
 import BottomDock from './BottomDock';
+import ChangeTimeline from './ChangeTimeline';
 import { ChevronDown, ChevronUp, Filter, Search } from 'lucide-react';
 import {
   CATEGORY_LABELS,
@@ -43,19 +44,6 @@ function formatTier(tier: string): string {
 
 function isGameVersion(version: string): boolean {
   return /^\d{1,2}\.\d{1,2}$/.test(version) || version === '待确认';
-}
-
-function trendTone(trend: BalanceChange['trend']): string {
-  switch (trend) {
-    case 'buff':
-      return 'text-emerald-600 font-semibold';
-    case 'nerf':
-      return 'text-red-600 font-semibold';
-    case 'neutral':
-      return 'text-slate-600 font-medium';
-    default:
-      return 'text-slate-900 font-medium';
-  }
 }
 
 function filterVisibleTags(tags: ChangeTag[], shipStatus: ShipStatus): ChangeTag[] {
@@ -265,33 +253,7 @@ export default function GroupedDataView({ data, category, navigation }: GroupedD
                 </div>
 
                 {isExpanded && (
-                  <div className="overflow-x-auto">
-                    <table className="min-w-full divide-y divide-slate-200">
-                      <thead className="bg-white">
-                        <tr>
-                          <th className="px-6 py-3 text-left text-xs font-medium text-slate-500 uppercase tracking-wider">属性</th>
-                          <th className="px-6 py-3 text-left text-xs font-medium text-slate-500 uppercase tracking-wider">原始值</th>
-                          <th className="px-6 py-3 text-left text-xs font-medium text-slate-500 uppercase tracking-wider">改后数值</th>
-                        </tr>
-                      </thead>
-                      <tbody className="bg-white divide-y divide-slate-100">
-                        {changes.map((item) => (
-                          <React.Fragment key={item.id}><tr className="hover:bg-slate-50 transition-colors">
-                            <td className="px-6 py-4 text-sm text-slate-900 font-medium">{item.attribute}{item.changeStage==='public-test' && <span className="block mt-1 text-xs font-normal text-amber-700">26.10 公测 · 非正式服生效确认</span>}</td>
-                            <td className="px-6 py-4 text-sm text-slate-500">{item.oldValue}</td>
-                            <td className="px-6 py-4 text-sm">
-                              <div className={trendTone(item.trend)}>{item.newValue}</div>
-                            </td>
-                          </tr>{showDetails && <tr><td colSpan={3} className="px-6 py-3 text-xs text-slate-500 break-words">
-                              <span className="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-blue-50 text-blue-700 border border-blue-100">
-                                {item.version}
-                              </span>
-                              <span className="ml-3">改动阶段：{item.changeStage==='public-test'?'公测':SHIP_STATUS_LABELS[item.shipStatus]}</span><p className="mt-2">{item.notes || '-'}</p>
-                            </td></tr>}</React.Fragment>
-                        ))}
-                      </tbody>
-                    </table>
-                  </div>
+                  <ChangeTimeline changes={changes} showDetails={showDetails} />
                 )}
               </div>
             );

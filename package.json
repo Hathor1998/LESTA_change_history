@@ -7,7 +7,7 @@
     "dev": "vite --port=3000 --host=0.0.0.0",
     "data:import:excel": "node --experimental-strip-types scripts/import-excel.ts",
     "data:sync:official": "node --experimental-strip-types scripts/sync-korabli.ts",
-    "test:data": "node --experimental-strip-types --test scripts/official.test.ts",
+    "test:data": "node --experimental-strip-types --test scripts/official.test.ts scripts/change-batches.test.ts",
     "test:appearance": "node --experimental-strip-types --test scripts/appearance.test.ts",
     "data:review": "node --experimental-strip-types scripts/review-official.ts",
     "data:translate:zh": "node --experimental-strip-types scripts/translate-korabli.ts",

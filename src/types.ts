@@ -5,6 +5,9 @@ export type ChangeTag = 'test-ship' | 'released-ship' | 'converted-from-test' | 
 export type ImportParseMode = 'structured-table' | 'announcement-block';
 
 export interface BalanceChange {
+  announcementId?: string;
+  publishedAt?: string;
+  sourceUrl?: string;
   changeStage?: 'public-test';
   shipId?: string;
   originalNames?: string[];
