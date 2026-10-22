@@ -11,7 +11,7 @@
 ```bash
 npm run data:sync:official -- --audit-only
 npm run data:sync:official -- --replay --review-only
-npm run data:import:localization -- "E:/Download/8863954.0.mo"
+npm run data:import:localization -- "E:/Games/Korabli_PT/bin/8870015/res_mods/texts/ru/LC_MESSAGES/global.mo"
 npm run test:data
 npm run build
 npm run data:review

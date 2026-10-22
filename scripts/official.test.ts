@@ -11,7 +11,21 @@ import path from 'node:path';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 import { schwaben695 } from './schwaben.ts';
-import { readMo } from './ship-localization.ts';
+import { readMo, resolveLocalizedName, isShipName } from './ship-localization.ts';
+
+test('ship localization uses exact constrained keys and rejects equipment and ambiguous rules',()=>{
+  const dict={'IDS_PWSC109':'西福尔','IDS_PWSC110':'君王','IDS_PGSD516':'卡尔·冯·勋伯格','IDS_PJUH105':'三笠 / 中口径炮：穿甲弹'};
+  const rule={sourceNames:['Vestfold'],nation:'欧洲',tier:'9',type:'巡洋舰',localizationKey:'IDS_PWSC109'};
+  assert.equal(resolveLocalizedName(dict,[rule],['Vestfold'],'欧洲','9','巡洋舰'),'西福尔');
+  assert.equal(resolveLocalizedName(dict,[rule],['Vestfold'],'欧洲','10','巡洋舰'),undefined);
+  assert.equal(resolveLocalizedName(dict,[rule],['Vestfold'],'日本','9','巡洋舰'),undefined);
+  assert.equal(resolveLocalizedName(dict,[rule],['Vestfold'],'欧洲','9','战列舰'),undefined);
+  const german={...rule,sourceNames:['Karl von Schönberg'],nation:'德国',tier:'6',type:'驱逐舰',localizationKey:'IDS_PGSD516'};
+  assert.equal(resolveLocalizedName(dict,[german],['Karl von Sch&ouml;nberg'],'德国','6','驱逐舰'),'卡尔·冯·勋伯格');
+  assert.throws(()=>resolveLocalizedName(dict,[rule,{...rule,localizationKey:'IDS_PWSC110'}],['Vestfold'],'欧洲','9','巡洋舰'),/Ambiguous/);
+  assert.equal(isShipName(dict.IDS_PJUH105),false);
+  assert.throws(()=>resolveLocalizedName(dict,[{...rule,localizationKey:'IDS_PJUH105'}],['Vestfold'],'欧洲','9','巡洋舰'),/invalid/);
+});
 import { coverage } from './coverage.ts';
 import { parsePublicTest2610 } from './import-public-test-2610.ts';
 import { reviewedNgaRecords } from './nga-47645187.ts';

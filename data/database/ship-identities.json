@@ -39,11 +39,12 @@
   },
   {
     "shipId": "e302f298e4c18769",
-    "name": "科农",
+    "name": "君王",
     "originalNames": [
       "Konung"
     ],
     "searchAliases": [
+      "科农",
       "Konung"
     ],
     "currentShipStatus": "test",
@@ -51,11 +52,12 @@
   },
   {
     "shipId": "27e894826370de51",
-    "name": "阿芙利加人",
+    "name": "非洲女郎",
     "originalNames": [
       "L'Africaine"
     ],
     "searchAliases": [
+      "阿芙利加人",
       "L'Africaine"
     ],
     "currentShipStatus": "released",
@@ -127,11 +129,12 @@
   },
   {
     "shipId": "6885722ecf710a49",
-    "name": "特罗尔",
+    "name": "巨魔",
     "originalNames": [
       "Troll"
     ],
     "searchAliases": [
+      "特罗尔",
       "Troll"
     ],
     "currentShipStatus": "test",
@@ -163,11 +166,12 @@
   },
   {
     "shipId": "00f8c4cf4b8e6046",
-    "name": "韦斯特福尔",
+    "name": "西福尔",
     "originalNames": [
       "Vestfold"
     ],
     "searchAliases": [
+      "韦斯特福尔",
       "Vestfold"
     ],
     "currentShipStatus": "test",
@@ -201,11 +205,12 @@
   },
   {
     "shipId": "04a903b7f164ec7a",
-    "name": "博罗季诺 '04",
+    "name": "博罗季诺'04",
     "originalNames": [
       "Бородино '04"
     ],
     "searchAliases": [
+      "博罗季诺 '04",
       "Бородино '04"
     ],
     "currentShipStatus": "test",
@@ -213,11 +218,12 @@
   },
   {
     "shipId": "c2b0189c90a5d642",
-    "name": "伊凡·格罗兹尼",
+    "name": "伊凡雷帝",
     "originalNames": [
       "Иван Грозный"
     ],
     "searchAliases": [
+      "伊凡·格罗兹尼",
       "Иван Грозный"
     ],
     "currentShipStatus": "test",
@@ -265,11 +271,12 @@
   },
   {
     "shipId": "04c4a88356355bfc",
-    "name": "蒙海峡",
+    "name": "莫昂宗德",
     "originalNames": [
       "Моонзунд"
     ],
     "searchAliases": [
+      "蒙海峡",
       "Моонзунд"
     ],
     "currentShipStatus": "test",
@@ -603,7 +610,7 @@
     "shipId": "08ff09c2b67ae3e0",
     "name": "科尔多瓦",
     "originalNames": [
-      "C&oacute;rdoba"
+      "Córdoba"
     ],
     "searchAliases": [],
     "currentShipStatus": "released",
@@ -697,11 +704,13 @@
   },
   {
     "shipId": "0f4e95a2cdbb10cd",
-    "name": "让·巴尔 '43",
+    "name": "让·巴尔'43",
     "originalNames": [
       "Jean Bart '43"
     ],
-    "searchAliases": [],
+    "searchAliases": [
+      "让·巴尔 '43"
+    ],
     "currentShipStatus": "released",
     "releaseEvidence": [
       "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
@@ -765,11 +774,13 @@
   },
   {
     "shipId": "424dd367f4fd801e",
-    "name": "石槌",
+    "name": "石锤",
     "originalNames": [
       "Ishizuchi"
     ],
-    "searchAliases": [],
+    "searchAliases": [
+      "石槌"
+    ],
     "currentShipStatus": "released",
     "releaseEvidence": [
       "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
@@ -953,9 +964,11 @@
   },
   {
     "shipId": "ece183a48c5e505c",
-    "name": "岩木A",
+    "name": "岩城Alpha",
     "originalNames": [],
-    "searchAliases": [],
+    "searchAliases": [
+      "岩木A"
+    ],
     "currentShipStatus": "released",
     "releaseEvidence": [
       "https://korabli.su/ru/news/game-updates/update-26-9-mk-birthday/"
@@ -1043,13 +1056,14 @@
   },
   {
     "shipId": "59f24a38e00836e8",
-    "name": "东德",
+    "name": "民主德国",
     "originalNames": [
       "ГДР",
       "«ГДР»"
     ],
     "searchAliases": [
       "ГДР",
+      "东德",
       "«ГДР»"
     ],
     "currentShipStatus": "test",
@@ -1129,11 +1143,13 @@
   },
   {
     "shipId": "3e2756ba0fa46a9c",
-    "name": "Simón Bolívar",
+    "name": "西蒙·玻利瓦尔",
     "originalNames": [
       "Simón Bolívar"
     ],
-    "searchAliases": [],
+    "searchAliases": [
+      "Simón Bolívar"
+    ],
     "currentShipStatus": "released",
     "releaseEvidence": []
   },
@@ -1177,10 +1193,11 @@
     "shipId": "7885d465bbb99431",
     "name": "安达卢西亚",
     "originalNames": [
-      "Andaluc&iacute;a"
+      "Andalucía"
     ],
     "searchAliases": [
-      "Andaluc&iacute;a"
+      "Andaluc&iacute;a",
+      "Andalucía"
     ],
     "currentShipStatus": "released",
     "releaseEvidence": []
@@ -1199,11 +1216,12 @@
   },
   {
     "shipId": "678a14738274c6d1",
-    "name": "贝尔法斯特 '43",
+    "name": "贝尔法斯特'43",
     "originalNames": [
       "Belfast '43"
     ],
     "searchAliases": [
+      "贝尔法斯特 '43",
       "Belfast '43"
     ],
     "currentShipStatus": "released",
@@ -1223,11 +1241,12 @@
   },
   {
     "shipId": "e09d6fc5f81d2eef",
-    "name": "闪电 '63",
+    "name": "闪电'63",
     "originalNames": [
       "Błyskawica '63"
     ],
     "searchAliases": [
+      "闪电 '63",
       "Błyskawica '63"
     ],
     "currentShipStatus": "test",
@@ -1237,10 +1256,11 @@
     "shipId": "e269ea5bd26869c0",
     "name": "科尔多瓦",
     "originalNames": [
-      "C&oacute;rdoba"
+      "Córdoba"
     ],
     "searchAliases": [
-      "C&oacute;rdoba"
+      "C&oacute;rdoba",
+      "Córdoba"
     ],
     "currentShipStatus": "released",
     "releaseEvidence": []
@@ -1261,10 +1281,11 @@
     "shipId": "757b08854c894fb0",
     "name": "加泰罗尼亚",
     "originalNames": [
-      "Catalu&ntilde;a"
+      "Cataluña"
     ],
     "searchAliases": [
-      "Catalu&ntilde;a"
+      "Catalu&ntilde;a",
+      "Cataluña"
     ],
     "currentShipStatus": "released",
     "releaseEvidence": []
@@ -1309,10 +1330,11 @@
     "shipId": "e1e9149fd6f39090",
     "name": "孔代",
     "originalNames": [
-      "Cond&eacute;"
+      "Condé"
     ],
     "searchAliases": [
-      "Cond&eacute;"
+      "Cond&eacute;",
+      "Condé"
     ],
     "currentShipStatus": "released",
     "releaseEvidence": []
@@ -1331,11 +1353,12 @@
   },
   {
     "shipId": "76c215e69842ee75",
-    "name": "博洛涅西上校",
+    "name": "博洛涅西",
     "originalNames": [
       "Coronel Bolognesi"
     ],
     "searchAliases": [
+      "博洛涅西上校",
       "Coronel Bolognesi"
     ],
     "currentShipStatus": "released",
@@ -1586,10 +1609,11 @@
     "shipId": "aa8521b931828134",
     "name": "圣马丁",
     "originalNames": [
-      "San Mart&iacute;n"
+      "San Martín"
     ],
     "searchAliases": [
-      "San Mart&iacute;n"
+      "San Mart&iacute;n",
+      "San Martín"
     ],
     "currentShipStatus": "released",
     "releaseEvidence": []
@@ -1786,11 +1810,12 @@
   },
   {
     "shipId": "cf0e8d4b1cd29963",
-    "name": "7月20日",
+    "name": "七月二十日",
     "originalNames": [
       "20 de Julio"
     ],
     "searchAliases": [
+      "7月20日",
       "20 de Julio"
     ],
     "currentShipStatus": "test",
@@ -1848,10 +1873,11 @@
     "shipId": "fbe4c3f835ae5cc9",
     "name": "帕拉",
     "originalNames": [
-      "Par&aacute;"
+      "Pará"
     ],
     "searchAliases": [
-      "Par&aacute;"
+      "Par&aacute;",
+      "Pará"
     ],
     "currentShipStatus": "test",
     "releaseEvidence": []
@@ -1909,10 +1935,11 @@
     "shipId": "c09375c55b897962",
     "name": "西蒙·玻利瓦尔",
     "originalNames": [
-      "Sim&oacute;n Bol&iacute;var"
+      "Simón Bolívar"
     ],
     "searchAliases": [
-      "Sim&oacute;n Bol&iacute;var"
+      "Sim&oacute;n Bol&iacute;var",
+      "Simón Bolívar"
     ],
     "currentShipStatus": "test",
     "releaseEvidence": []
@@ -2006,11 +2033,12 @@
   },
   {
     "shipId": "50f29640d44cd016",
-    "name": "让·巴尔 '43",
+    "name": "让·巴尔'43",
     "originalNames": [
       "Jean Bart '43"
     ],
     "searchAliases": [
+      "让·巴尔 '43",
       "Jean Bart '43"
     ],
     "currentShipStatus": "test",
@@ -2066,11 +2094,12 @@
   },
   {
     "shipId": "4c75d6c72aab0bef",
-    "name": "绍武勉",
+    "name": "邵武勉",
     "originalNames": [
       "Шаумян"
     ],
     "searchAliases": [
+      "绍武勉",
       "Шаумян"
     ],
     "currentShipStatus": "test",
@@ -2258,12 +2287,14 @@
   },
   {
     "shipId": "7ee5bde94a6f0bd4",
-    "name": "卡尔·冯·舍恩贝格",
+    "name": "卡尔·冯·勋伯格",
     "originalNames": [
-      "Karl von Sch&ouml;nberg"
+      "Karl von Schönberg"
     ],
     "searchAliases": [
-      "Karl von Sch&ouml;nberg"
+      "卡尔·冯·舍恩贝格",
+      "Karl von Sch&ouml;nberg",
+      "Karl von Schönberg"
     ],
     "currentShipStatus": "released",
     "releaseEvidence": []
@@ -2284,10 +2315,11 @@
     "shipId": "a5b4fba62000d2c4",
     "name": "慕尼黑",
     "originalNames": [
-      "M&uuml;nchen"
+      "München"
     ],
     "searchAliases": [
-      "M&uuml;nchen"
+      "M&uuml;nchen",
+      "München"
     ],
     "currentShipStatus": "released",
     "releaseEvidence": []
@@ -2306,11 +2338,12 @@
   },
   {
     "shipId": "1bcf6ad9a2b76fbd",
-    "name": "马可·奥雷利奥",
+    "name": "马可·奥勒留",
     "originalNames": [
       "Marco Aurelio"
     ],
     "searchAliases": [
+      "马可·奥雷利奥",
       "Marco Aurelio"
     ],
     "currentShipStatus": "test",
@@ -2331,11 +2364,12 @@
   },
   {
     "shipId": "d8b97d9994c1c6bd",
-    "name": "海王星",
+    "name": "涅普顿",
     "originalNames": [
       "Neptune"
     ],
     "searchAliases": [
+      "海王星",
       "Neptune"
     ],
     "currentShipStatus": "released",
@@ -2379,11 +2413,12 @@
   },
   {
     "shipId": "daef14b0c02f6ada",
-    "name": "吸血鬼 II",
+    "name": "吸血鬼II",
     "originalNames": [
       "Vampire II"
     ],
     "searchAliases": [
+      "吸血鬼 II",
       "Vampire II"
     ],
     "currentShipStatus": "released",
@@ -2471,11 +2506,12 @@
   },
   {
     "shipId": "762058c14bb593e7",
-    "name": "波德沃伊斯基",
+    "name": "巴铎夫斯基",
     "originalNames": [
       "Подвойский"
     ],
     "searchAliases": [
+      "波德沃伊斯基",
       "Подвойский"
     ],
     "currentShipStatus": "released",
@@ -2555,11 +2591,12 @@
   },
   {
     "shipId": "2aec7132c84c6502",
-    "name": "阿肯色 Beta",
+    "name": "阿肯色Beta",
     "originalNames": [
       "Arkansas Beta"
     ],
     "searchAliases": [
+      "阿肯色 Beta",
       "Arkansas Beta"
     ],
     "currentShipStatus": "released",
@@ -2567,11 +2604,12 @@
   },
   {
     "shipId": "d9c49d48a4b1616e",
-    "name": "贝勒罗丰",
+    "name": "柏勒罗丰",
     "originalNames": [
       "Bellerophon"
     ],
     "searchAliases": [
+      "贝勒罗丰",
       "Bellerophon"
     ],
     "currentShipStatus": "released",
@@ -2639,11 +2677,12 @@
   },
   {
     "shipId": "4fe1f59fa1786d47",
-    "name": "德弗林格尔",
+    "name": "德弗林格",
     "originalNames": [
       "Derfflinger"
     ],
     "searchAliases": [
+      "德弗林格尔",
       "Derfflinger"
     ],
     "currentShipStatus": "released",
@@ -2663,11 +2702,12 @@
   },
   {
     "shipId": "1d2191ce81c5240d",
-    "name": "埃利奥·阿德里亚诺",
+    "name": "埃利乌斯·哈德良",
     "originalNames": [
       "Elio Adriano"
     ],
     "searchAliases": [
+      "埃利奥·阿德里亚诺",
       "Elio Adriano"
     ],
     "currentShipStatus": "test",
@@ -2699,11 +2739,12 @@
   },
   {
     "shipId": "871740aa270c4a6e",
-    "name": "石槌",
+    "name": "石锤",
     "originalNames": [
       "Ishizuchi"
     ],
     "searchAliases": [
+      "石槌",
       "Ishizuchi"
     ],
     "currentShipStatus": "released",
@@ -2713,10 +2754,11 @@
     "shipId": "e2ed5b3169ddb4a0",
     "name": "国王",
     "originalNames": [
-      "K&ouml;nig"
+      "König"
     ],
     "searchAliases": [
-      "K&ouml;nig"
+      "K&ouml;nig",
+      "König"
     ],
     "currentShipStatus": "released",
     "releaseEvidence": []
@@ -2819,11 +2861,12 @@
   },
   {
     "shipId": "3370542f08feb888",
-    "name": "猎户座",
+    "name": "俄里翁",
     "originalNames": [
       "Orion"
     ],
     "searchAliases": [
+      "猎户座",
       "Orion"
     ],
     "currentShipStatus": "released",
@@ -2831,11 +2874,12 @@
   },
   {
     "shipId": "afa508ffd0935cc1",
-    "name": "玛丽女王",
+    "name": "玛丽王后",
     "originalNames": [
       "Queen Mary"
     ],
     "searchAliases": [
+      "玛丽女王",
       "Queen Mary"
     ],
     "currentShipStatus": "released",
@@ -2879,11 +2923,12 @@
   },
   {
     "shipId": "94249e9c3adc695f",
-    "name": "蒂雷纳",
+    "name": "杜伦尼",
     "originalNames": [
       "Turenne"
     ],
     "searchAliases": [
+      "蒂雷纳",
       "Turenne"
     ],
     "currentShipStatus": "released",
@@ -2963,11 +3008,12 @@
   },
   {
     "shipId": "cb237c5802c55b5c",
-    "name": "奥雷利奥·迪奥克莱齐亚诺",
+    "name": "奥理略·戴克里先",
     "originalNames": [
       "Aurelio Diocleziano"
     ],
     "searchAliases": [
+      "奥雷利奥·迪奥克莱齐亚诺",
       "Aurelio Diocleziano"
     ],
     "currentShipStatus": "test",
@@ -3043,11 +3089,12 @@
   },
   {
     "shipId": "d0c238b8b46f5770",
-    "name": "瓦莱里奥·科斯坦蒂诺",
+    "name": "瓦莱里乌斯·君士坦丁",
     "originalNames": [
       "Valerio Constantino"
     ],
     "searchAliases": [
+      "瓦莱里奥·科斯坦蒂诺",
       "Valerio Constantino"
     ],
     "currentShipStatus": "test",
@@ -3118,12 +3165,12 @@
   },
   {
     "shipId": "07a93748c9af73f1",
-    "name": "伊-56",
+    "name": "I-56",
     "originalNames": [
       "I-56"
     ],
     "searchAliases": [
-      "I-56"
+      "伊-56"
     ],
     "currentShipStatus": "released",
     "releaseEvidence": []
@@ -3272,11 +3319,12 @@
   },
   {
     "shipId": "2e562935730fd465",
-    "name": "雷鸣",
+    "name": "雷霆",
     "originalNames": [
       "Grom"
     ],
     "searchAliases": [
+      "雷鸣",
       "Grom"
     ],
     "currentShipStatus": "released",
@@ -3296,12 +3344,12 @@
   },
   {
     "shipId": "ef45ff38fe5920fe",
-    "name": "伊-54",
+    "name": "I-54",
     "originalNames": [
       "I-54"
     ],
     "searchAliases": [
-      "I-54"
+      "伊-54"
     ],
     "currentShipStatus": "test",
     "releaseEvidence": []
@@ -3320,11 +3368,12 @@
   },
   {
     "shipId": "d2f19176c2b91859",
-    "name": "穆阿维内特",
+    "name": "支援",
     "originalNames": [
       "Muavenet"
     ],
     "searchAliases": [
+      "穆阿维内特",
       "Muavenet"
     ],
     "currentShipStatus": "released",
@@ -3416,12 +3465,14 @@
   },
   {
     "shipId": "61d198f37b97a4d1",
-    "name": "迪佩雷",
+    "name": "杜皮尔",
     "originalNames": [
-      "Duperr&eacute;"
+      "Duperré"
     ],
     "searchAliases": [
-      "Duperr&eacute;"
+      "迪佩雷",
+      "Duperr&eacute;",
+      "Duperré"
     ],
     "currentShipStatus": "test",
     "releaseEvidence": []
@@ -3440,13 +3491,15 @@
   },
   {
     "shipId": "e7bb6f6553211271",
-    "name": "老练",
+    "name": "熟练",
     "originalNames": [
       "«Опытный»",
       "Опытный"
     ],
     "searchAliases": [
+      "经验号",
       "«Опытный»",
+      "老练",
       "Опытный"
     ],
     "currentShipStatus": "test",
@@ -3466,11 +3519,12 @@
   },
   {
     "shipId": "f9faf4f644b283c7",
-    "name": "非洲人号",
+    "name": "非洲女郎",
     "originalNames": [
       "L`Africaine"
     ],
     "searchAliases": [
+      "非洲人号",
       "L`Africaine"
     ],
     "currentShipStatus": "test",
@@ -3552,10 +3606,11 @@
     "shipId": "d8ee66babcbd140a",
     "name": "耶格尔",
     "originalNames": [
-      "J&auml;ger"
+      "Jäger"
     ],
     "searchAliases": [
-      "J&auml;ger"
+      "J&auml;ger",
+      "Jäger"
     ],
     "currentShipStatus": "released",
     "releaseEvidence": []
@@ -3574,11 +3629,12 @@
   },
   {
     "shipId": "62fad512de78771e",
-    "name": "莱伯雷希特·马斯",
+    "name": "莱伯勒希特·马斯",
     "originalNames": [
       "Leberecht Maass"
     ],
     "searchAliases": [
+      "莱伯雷希特·马斯",
       "Leberecht Maass"
     ],
     "currentShipStatus": "released",
@@ -3720,11 +3776,12 @@
   },
   {
     "shipId": "03c2661b6fec21a9",
-    "name": "审慎",
+    "name": "缜密",
     "originalNames": [
       "Осмотрительный"
     ],
     "searchAliases": [
+      "审慎",
       "Осмотрительный"
     ],
     "currentShipStatus": "test",
@@ -3744,11 +3801,12 @@
   },
   {
     "shipId": "f87cf7a2ecc86fd6",
-    "name": "勇猛",
+    "name": "英勇",
     "originalNames": [
       "Смелый"
     ],
     "searchAliases": [
+      "勇猛",
       "Смелый"
     ],
     "currentShipStatus": "test",
@@ -3756,11 +3814,12 @@
   },
   {
     "shipId": "811f31898acc77fe",
-    "name": "机敏",
+    "name": "灵敏",
     "originalNames": [
       "Сообразительный"
     ],
     "searchAliases": [
+      "机敏",
       "Сообразительный"
     ],
     "currentShipStatus": "test",
@@ -3804,11 +3863,12 @@
   },
   {
     "shipId": "590c2b94f5fe260b",
-    "name": "高傲",
+    "name": "自豪",
     "originalNames": [
       "Горделивый"
     ],
     "searchAliases": [
+      "高傲",
       "Горделивый"
     ],
     "currentShipStatus": "test",
@@ -3852,11 +3912,12 @@
   },
   {
     "shipId": "55f2b3a76dc5a813",
-    "name": "查克里",
+    "name": "差克里",
     "originalNames": [
       "Chakri"
     ],
     "searchAliases": [
+      "查克里",
       "Chakri"
     ],
     "currentShipStatus": "test",
@@ -4080,11 +4141,12 @@
   },
   {
     "shipId": "4f1236b5ef89d306",
-    "name": "灵巧",
+    "name": "德尔尼",
     "originalNames": [
       "Дельный"
     ],
     "searchAliases": [
+      "灵巧",
       "Дельный"
     ],
     "currentShipStatus": "released",
@@ -4380,11 +4442,12 @@
   },
   {
     "shipId": "c693cc1c026d32a9",
-    "name": "费利克斯·舒尔茨",
+    "name": "菲利克斯·舒尔茨",
     "originalNames": [
       "Felix Schultz"
     ],
     "searchAliases": [
+      "费利克斯·舒尔茨",
       "Felix Schultz"
     ],
     "currentShipStatus": "released",
@@ -4414,11 +4477,12 @@
   },
   {
     "shipId": "b26026ae167b4fc8",
-    "name": "弗蕾亚",
+    "name": "芙蕾雅",
     "originalNames": [
       "Freya"
     ],
     "searchAliases": [
+      "弗蕾亚",
       "Freya"
     ],
     "currentShipStatus": "test",
@@ -4462,11 +4526,12 @@
   },
   {
     "shipId": "bf038ae3a55d0fb7",
-    "name": "衣阿华",
+    "name": "依阿华",
     "originalNames": [
       "Iowa"
     ],
     "searchAliases": [
+      "衣阿华",
       "Iowa"
     ],
     "currentShipStatus": "released",
@@ -4644,11 +4709,12 @@
   },
   {
     "shipId": "e36313d3ee831c6b",
-    "name": "维内塔",
+    "name": "菲内塔",
     "originalNames": [
       "Vineta"
     ],
     "searchAliases": [
+      "维内塔",
       "Vineta"
     ],
     "currentShipStatus": "test",
@@ -4700,11 +4766,12 @@
   },
   {
     "shipId": "8f27b79bfeb6d98a",
-    "name": "彼得·巴格拉季昂",
+    "name": "彼得罗·巴格拉季昂",
     "originalNames": [
       "Пётр Багратион"
     ],
     "searchAliases": [
+      "彼得·巴格拉季昂",
       "Пётр Багратион"
     ],
     "currentShipStatus": "released",
@@ -4724,11 +4791,12 @@
   },
   {
     "shipId": "1102dc124ce9ee7e",
-    "name": "A. 戴克里先",
+    "name": "奥理略·戴克里先",
     "originalNames": [
       "A. Diocleziano"
     ],
     "searchAliases": [
+      "A. 戴克里先",
       "A. Diocleziano"
     ],
     "currentShipStatus": "test",
@@ -4748,11 +4816,12 @@
   },
   {
     "shipId": "8caa952f274a2058",
-    "name": "V. 君士坦丁",
+    "name": "瓦莱里乌斯·君士坦丁",
     "originalNames": [
       "V. Constantino"
     ],
     "searchAliases": [
+      "V. 君士坦丁",
       "V. Constantino"
     ],
     "currentShipStatus": "test",
@@ -4772,11 +4841,12 @@
   },
   {
     "shipId": "694882f6de594b32",
-    "name": "沉着",
+    "name": "平静",
     "originalNames": [
       "Спокойный"
     ],
     "searchAliases": [
+      "沉着",
       "Спокойный"
     ],
     "currentShipStatus": "test",
@@ -4784,11 +4854,12 @@
   },
   {
     "shipId": "9eeb0f8b47bd459e",
-    "name": "塔什干 '39",
+    "name": "塔什干'39",
     "originalNames": [
       "Ташкент '39"
     ],
     "searchAliases": [
+      "塔什干 '39",
       "Ташкент '39"
     ],
     "currentShipStatus": "test",

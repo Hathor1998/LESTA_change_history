@@ -68,6 +68,6 @@ git push origin main
 
 底部悬浮栏提供分类、搜索和筛选；按 Escape 关闭搜索面板。每舰默认只显示属性与前后数值，点击“展开版本与备注”可查看阶段和来源。正式状态需要官网证据，不能仅凭改动公告标题判定。
 
-使用 `npm run data:import:localization -- "E:/Download/8863954.0.mo"` 更新舰船词典快照。`data/database/ship-name-overrides.json` 用国籍、等级、舰种和代码区分同名舰。旧译名仅作为搜索别名。
+使用 `npm run data:import:localization -- "E:/Games/Korabli_PT/bin/8870015/res_mods/texts/ru/LC_MESSAGES/global.mo"` 更新舰船词典快照，也可通过 `WOWS_GLOBAL_MO_PATH` 指定路径。`data/database/ship-localization-map.json` 按原文名、国籍、等级、舰种绑定汉化键；`ship-name-overrides.json` 保留明确身份修正。`ship-localization-meta.json` 记录文件摘要和游戏构建号。随后运行 `npm run data:build`、`npm run build` 生成网站。旧译名仅作为搜索别名，名称规范不会增加游戏内更名标签。
 
 全量采集运行 `npm run data:sync:official -- --audit-only`；只读复查运行 `npm run data:sync:official -- --replay --review-only`。逐块报告位于 `outputs/official-review/coverage.json`，未批准候选不会自动入库。本轮不执行提交、推送或部署。

@@ -70,6 +70,6 @@ The production build does not render import, review, draft, or data-management c
 
 The bottom glass dock contains categories and search/filter controls. Escape closes the filter dialog. Version, phase, notes and sources are collapsed by default. Release status requires official evidence, rather than a test announcement title.
 
-Run `npm run data:import:localization -- "E:/Download/8863954.0.mo"` to refresh the portable ship dictionary. Explicit code/metadata overrides live in `data/database/ship-name-overrides.json`; former translations are search aliases, not in-game renames.
+Run `npm run data:import:localization -- "E:/Games/Korabli_PT/bin/8870015/res_mods/texts/ru/LC_MESSAGES/global.mo"` to refresh the portable ship dictionary, or set `WOWS_GLOBAL_MO_PATH`. `data/database/ship-localization-map.json` binds source names, nation, tier and class to exact localization keys; `ship-name-overrides.json` retains explicit identity corrections. `ship-localization-meta.json` records the file hash and game build. Run `npm run data:build` and `npm run build` afterward. Former translations remain searchable aliases; translation corrections do not add in-game rename tags.
 
 Use `npm run data:sync:official -- --audit-only` to capture all articles, then `npm run data:sync:official -- --replay --review-only` for a non-writing audit. See `outputs/official-review/coverage.json`. Unreviewed candidates are quarantined, not auto-published. This iteration does not commit, push or deploy.

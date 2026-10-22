@@ -26,8 +26,9 @@ function applyChineseTranslations(records: Awaited<ReturnType<typeof loadBalance
   const translate = translationLookup(translations);
   return records.map((record) => ({
     ...record,
-    targetName: translate(record.targetName),
-    canonicalName: translate(record.canonicalName),
+    // Ship names are already resolved against the newest game dictionary.
+    targetName: record.shipId ? record.targetName : translate(record.targetName),
+    canonicalName: record.shipId ? record.canonicalName : translate(record.canonicalName),
     previousNames: record.previousNames.map(translate),
     attribute: translate(record.attribute),
     oldValue: localizeUnits(translate(record.oldValue)),
