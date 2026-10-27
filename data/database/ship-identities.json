@@ -1,26 +1,24 @@
 [
   {
-    "shipId": "6e8a1a9825064a63",
-    "name": "卡萨比安卡",
+    "shipId": "7d534cba57e9a68e",
+    "name": "五月二十五日",
     "originalNames": [
-      "Casabianca"
+      "25 de Mayo"
     ],
     "searchAliases": [
-      "Casabianca"
+      "25 de Mayo"
     ],
-    "currentShipStatus": "released",
-    "releaseEvidence": [
-      "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
-    ]
+    "currentShipStatus": "test",
+    "releaseEvidence": []
   },
   {
-    "shipId": "9cb9059cc800aa8d",
-    "name": "白山",
+    "shipId": "9b9d4b460692c728",
+    "name": "狂战士",
     "originalNames": [
-      "Hakusan"
+      "Bärsärk"
     ],
     "searchAliases": [
-      "Hakusan"
+      "Bärsärk"
     ],
     "currentShipStatus": "test",
     "releaseEvidence": []
@@ -46,6 +44,118 @@
     "searchAliases": [
       "科农",
       "Konung"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "105435e1e047d9bc",
+    "name": "骑士",
+    "originalNames": [
+      "Riddare"
+    ],
+    "searchAliases": [
+      "Riddare"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "0544b10044fd827e",
+    "name": "先军",
+    "originalNames": [
+      "Songun"
+    ],
+    "searchAliases": [
+      "Songun"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "d5519c7258f9ecb7",
+    "name": "三王冠",
+    "originalNames": [
+      "Tre Kronor"
+    ],
+    "searchAliases": [
+      "Tre Kronor"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "6885722ecf710a49",
+    "name": "巨魔",
+    "originalNames": [
+      "Troll"
+    ],
+    "searchAliases": [
+      "特罗尔",
+      "Troll"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "4251e26114a0a914",
+    "name": "滑铁卢",
+    "originalNames": [
+      "Waterloo"
+    ],
+    "searchAliases": [
+      "Waterloo"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "04c4a88356355bfc",
+    "name": "莫昂宗德",
+    "originalNames": [
+      "Моонзунд"
+    ],
+    "searchAliases": [
+      "蒙海峡",
+      "Моонзунд"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "86ac7865b462fa72",
+    "name": "汉科",
+    "originalNames": [
+      "Ханко"
+    ],
+    "searchAliases": [
+      "Ханко"
+    ],
+    "currentShipStatus": "test",
+    "releaseEvidence": []
+  },
+  {
+    "shipId": "6e8a1a9825064a63",
+    "name": "卡萨比安卡",
+    "originalNames": [
+      "Casabianca"
+    ],
+    "searchAliases": [
+      "Casabianca"
+    ],
+    "currentShipStatus": "released",
+    "releaseEvidence": [
+      "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
+    ]
+  },
+  {
+    "shipId": "9cb9059cc800aa8d",
+    "name": "白山",
+    "originalNames": [
+      "Hakusan"
+    ],
+    "searchAliases": [
+      "Hakusan"
     ],
     "currentShipStatus": "test",
     "releaseEvidence": []
@@ -116,31 +226,6 @@
     "releaseEvidence": []
   },
   {
-    "shipId": "0544b10044fd827e",
-    "name": "先军",
-    "originalNames": [
-      "Songun"
-    ],
-    "searchAliases": [
-      "Songun"
-    ],
-    "currentShipStatus": "test",
-    "releaseEvidence": []
-  },
-  {
-    "shipId": "6885722ecf710a49",
-    "name": "巨魔",
-    "originalNames": [
-      "Troll"
-    ],
-    "searchAliases": [
-      "特罗尔",
-      "Troll"
-    ],
-    "currentShipStatus": "test",
-    "releaseEvidence": []
-  },
-  {
     "shipId": "bb9b452914bac6f4",
     "name": "U-2501",
     "originalNames": [
@@ -173,18 +258,6 @@
     "searchAliases": [
       "韦斯特福尔",
       "Vestfold"
-    ],
-    "currentShipStatus": "test",
-    "releaseEvidence": []
-  },
-  {
-    "shipId": "4251e26114a0a914",
-    "name": "滑铁卢",
-    "originalNames": [
-      "Waterloo"
-    ],
-    "searchAliases": [
-      "Waterloo"
     ],
     "currentShipStatus": "test",
     "releaseEvidence": []
@@ -270,19 +343,6 @@
     ]
   },
   {
-    "shipId": "04c4a88356355bfc",
-    "name": "莫昂宗德",
-    "originalNames": [
-      "Моонзунд"
-    ],
-    "searchAliases": [
-      "蒙海峡",
-      "Моонзунд"
-    ],
-    "currentShipStatus": "test",
-    "releaseEvidence": []
-  },
-  {
     "shipId": "6734ff0e53ab1a54",
     "name": "S-1",
     "originalNames": [
@@ -295,18 +355,6 @@
     "releaseEvidence": [
       "https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/"
     ]
-  },
-  {
-    "shipId": "86ac7865b462fa72",
-    "name": "汉科",
-    "originalNames": [
-      "Ханко"
-    ],
-    "searchAliases": [
-      "Ханко"
-    ],
-    "currentShipStatus": "test",
-    "releaseEvidence": []
   },
   {
     "shipId": "54c271e499ebe14c",

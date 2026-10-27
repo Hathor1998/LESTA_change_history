@@ -1371,3 +1371,30 @@ U-796	U-796		德国	11	潜艇	最大下潜及上浮速度	4.1 米/秒	3.7 米/�
 U-2501	U-2501		德国	10	潜艇	航速	27 节	29 节	26.10	26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/	buff	released	released-ship	reviewed release 26.10
 L'Africaine	L'Africaine		法国	8	潜艇	鱼雷航速	90 节	85 节	26.10	26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/	nerf	released	released-ship	reviewed release 26.10
 Casabianca	Casabianca		法国	10	潜艇	鱼雷航速	90 节	85 节	26.10	26.10正式版本公告确认采用。公测阶段记录另行保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-10-lukomorye/	nerf	released	released-ship	reviewed release 26.10
+Riddare	Riddare		欧洲	5	巡洋舰	主炮180度回转时间	20 秒	18 秒	26.11	26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699	buff	test	test-ship	reviewed blog 699
+Riddare	Riddare		欧洲	5	巡洋舰	每轮深水炸弹数量	20 枚	6 枚	26.11	26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699	nerf	test	test-ship	reviewed blog 699
+Tre Kronor	Tre Kronor		欧洲	6	巡洋舰	主炮180度回转时间	22.5 秒	18 秒	26.11	26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699	buff	test	test-ship	reviewed blog 699
+Tre Kronor	Tre Kronor		欧洲	6	巡洋舰	每轮深水炸弹数量	16 枚	8 枚	26.11	26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699	nerf	test	test-ship	reviewed blog 699
+Tre Kronor	Tre Kronor		欧洲	6	巡洋舰	鱼雷射程	10 千米	12 千米	26.11	26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699	buff	test	test-ship	reviewed blog 699
+Tre Kronor	Tre Kronor		欧洲	6	巡洋舰	鱼雷航速	65 节	76 节	26.11	26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699	buff	test	test-ship	reviewed blog 699
+Tre Kronor	Tre Kronor		欧洲	6	巡洋舰	鱼雷被发现距离	1.4 千米	1.6 千米	26.11	26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699	nerf	test	test-ship	reviewed blog 699
+Tre Kronor	Tre Kronor		欧洲	6	巡洋舰	鱼雷装填时间	90 秒	100 秒	26.11	26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699	nerf	test	test-ship	reviewed blog 699
+Bärsärk	Bärsärk		欧洲	7	巡洋舰	主炮180度回转时间	22.5 秒	18 秒	26.11	26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699	buff	test	test-ship	reviewed blog 699
+Konung	Konung		欧洲	10	巡洋舰	主炮180度回转时间	25.7 秒	18 秒	26.11	26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699	buff	test	test-ship	reviewed blog 699
+Troll	Troll		欧洲	11	巡洋舰	主炮180度回转时间	25.7 秒	18 秒	26.11	26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699	buff	test	test-ship	reviewed blog 699
+Моонзунд	Моонзунд		苏联	10	巡洋舰	维修小组-作用时间	28 秒	14 秒	26.11	26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。单次基础总恢复量仍为14%；作用时间与每秒恢复速度分别展示，冷却时间另计。 官方公告：https://blog.korabli.su/blog/699	nerf	test	test-ship	reviewed blog 699
+Моонзунд	Моонзунд		苏联	10	巡洋舰	维修小组-每秒恢复生命值	0.5%	1%	26.11	26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。单次基础总恢复量仍为14%；作用时间与每秒恢复速度分别展示，冷却时间另计。 官方公告：https://blog.korabli.su/blog/699	buff	test	test-ship	reviewed blog 699
+Моонзунд	Моонзунд		苏联	10	巡洋舰	维修小组-冷却时间	80 秒	60 秒	26.11	26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。单次基础总恢复量仍为14%；作用时间与每秒恢复速度分别展示，冷却时间另计。 官方公告：https://blog.korabli.su/blog/699	buff	test	test-ship	reviewed blog 699
+Моонзунд	Моонзунд		苏联	10	巡洋舰	主炮装填时间	18 秒	17.5 秒	26.11	26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699	buff	test	test-ship	reviewed blog 699
+Моонзунд	Моонзунд		苏联	10	巡洋舰	第一座主炮塔向舰艉射界	—	左右舷各扩大5度	26.11	26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699	buff	test	test-ship	reviewed blog 699
+Моонзунд	Моонзунд		苏联	10	巡洋舰	第四座主炮塔向舰艏射界	—	左右舷各扩大5度	26.11	26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699	buff	test	test-ship	reviewed blog 699
+Ханко	Ханко		苏联	7	巡洋舰	主炮散布	—	改善至大多数驱逐舰的散布水平	26.11	26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699	buff	test	test-ship	reviewed blog 699
+Waterloo	Waterloo		英国	11	驱逐舰	监视雷达-作用时间	12 秒	15 秒	26.11	26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699	buff	test	test-ship	reviewed blog 699
+Waterloo	Waterloo		英国	11	驱逐舰	主炮射程	14 千米	13.4 千米	26.11	26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699	nerf	test	test-ship	reviewed blog 699
+Isonzo	Isonzo		意大利	9	巡洋舰	新增全速发烟器：可用次数	—	2 次	26.11	26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。在独立栏位新增全速发烟器；四个子项描述同一项新增消耗品，旧值未提供，增强判定针对新增能力。 官方公告：https://blog.korabli.su/blog/699	buff	test	test-ship	reviewed blog 699
+Isonzo	Isonzo		意大利	9	巡洋舰	新增全速发烟器：作用时间	—	30 秒	26.11	26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。在独立栏位新增全速发烟器；四个子项描述同一项新增消耗品，旧值未提供，增强判定针对新增能力。 官方公告：https://blog.korabli.su/blog/699	buff	test	test-ship	reviewed blog 699
+Isonzo	Isonzo		意大利	9	巡洋舰	新增全速发烟器：烟幕消散时间	—	10 秒	26.11	26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。在独立栏位新增全速发烟器；四个子项描述同一项新增消耗品，旧值未提供，增强判定针对新增能力。 官方公告：https://blog.korabli.su/blog/699	buff	test	test-ship	reviewed blog 699
+Isonzo	Isonzo		意大利	9	巡洋舰	新增全速发烟器：冷却时间	—	180 秒	26.11	26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。在独立栏位新增全速发烟器；四个子项描述同一项新增消耗品，旧值未提供，增强判定针对新增能力。 官方公告：https://blog.korabli.su/blog/699	buff	test	test-ship	reviewed blog 699
+Songun	Songun		泛亚	9	战列舰	战斗指令-每次主炮命中积累进度	5%	6%	26.11	26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699	buff	test	test-ship	reviewed blog 699
+Songun	Songun		泛亚	9	战列舰	主炮装填时间	27 秒	25 秒	26.11	26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699	buff	test	test-ship	reviewed blog 699
+25 de Mayo	25 de Mayo		泛美	7	巡洋舰	维修小组参数	—	与IX–X级巡洋舰的标准维修小组一致	26.11	26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。未列出旧参数及具体新数值，保留平调判定待进一步确认。 官方公告：https://blog.korabli.su/blog/699	adjustment	test	test-ship	reviewed blog 699

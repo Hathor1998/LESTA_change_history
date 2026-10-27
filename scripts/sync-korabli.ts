@@ -5,7 +5,9 @@ import { load } from 'cheerio';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 import { writeCategoryRows, readSiteConfig, writeSiteConfig } from './data-lib.ts';
-import { parseOfficial, clean, type Article, type ParseIssue } from './official-parser.ts';
+import { parseOfficial, clean, digest, type Article, type ParseIssue } from './official-parser.ts';
+import { parseReviewedBlog699 } from './reviewed-699.ts';
+import { parseReviewedRelease2611 } from './reviewed-release-2611.ts';
 import { reviewedTranslations } from './official-vocabulary.ts';
 import { reconcile } from './reconcile-official.ts';
 import { coverage } from './coverage.ts';
@@ -125,7 +127,11 @@ async function main() {
     // Keep historical reviewed blog records. Portal corrections are always rechecked.
     const url=article.sourceKind==='portal'?`${article.url}?pjax=1&consumer=pc-browser`:article.url;
     const html=replay ? await readFile(path.join(replayDir,'snapshots',`${article.id}.html`),'utf8') : await fetchText(url);
-    const parsed=parseOfficial(article,html,baseline,translations);
+    const reviewed = article.id === '699' ? parseReviewedBlog699(html)
+      : article.id === 'portal-16888' ? parseReviewedRelease2611(html) : undefined;
+    const parsed = reviewed ? { records: reviewed, issues: [] as ParseIssue[],
+      announcement: { ...article, contentHash: digest(html), recordIds: reviewed.map(r => r.id) } }
+      : parseOfficial(article,html,baseline,translations);
     coverageReport.push({article,blocks:coverage(article,html,parsed.records)});
     await writeFile(path.join(output,'snapshots',`${article.id}.html`),html,'utf8');
     announcements.set(article.id,{...parsed.announcement,sourceKind:article.sourceKind,parserVersion:3});

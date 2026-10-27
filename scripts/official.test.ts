@@ -31,6 +31,51 @@ import { parsePublicTest2610 } from './import-public-test-2610.ts';
 import { reviewedNgaRecords } from './nga-47645187.ts';
 import { mergeReviewedNga, verifyOfficial } from './import-nga.ts';
 import {parseReviewedBlog698,parseReviewedRelease2610,parseReviewedPublicTest2611,mergeReviewed2610} from './reviewed-2610.ts';
+import { parseReviewedBlog699 } from './reviewed-699.ts';
+import { parseReviewedRelease2611 } from './reviewed-release-2611.ts';
+
+test('26.11 release keeps public test history and unknown submarine old distance', async () => {
+  const html = await readFile('scripts/fixtures/release-2611-balance.html', 'utf8');
+  const release = parseReviewedRelease2611(html);
+  assert.equal(release.length, 4);
+  assert.ok(release.every(r => r.category === 'mechanic' && r.version === '26.11' && !r.changeStage));
+  assert.equal(release[0].oldValue, '—');
+  assert.equal(release[0].newValue, '2 千米');
+  assert.equal(release[0].trend, 'adjustment');
+  const history = parseReviewedPublicTest2611(await readFile('scripts/fixtures/public-test-2611-balance.html', 'utf8'));
+  const combined = mergeReviewed2610(history, release);
+  assert.equal(combined.records.length, 5);
+  assert.equal(mergeReviewed2610(combined.records, release).added.length, 0);
+  assert.equal(combined.records.filter(r => r.changeStage === 'public-test').length, 1);
+  assert.throws(() => parseReviewedRelease2611(html.replace('с двух километров', 'с трёх километров')), /changed/);
+  assert.throws(() => parseReviewedRelease2611(html.replace('28.10.2026, 10:00', '29.10.2026, 10:00')), /changed/);
+});
+
+test('699 covers shared ship headings, repair and new smoke context with idempotent merge', async () => {
+  const html = await readFile('scripts/fixtures/blog-699.html', 'utf8');
+  const rows = parseReviewedBlog699(html);
+  assert.equal(rows.length, 27);
+  assert.equal(new Set(rows.map(r => r.targetName)).size, 11);
+  assert.equal(rows.filter(r => r.trend === 'buff').length, 20);
+  assert.equal(rows.filter(r => r.trend === 'nerf').length, 6);
+  assert.ok(rows.every(r => r.version === '26.11' && r.shipStatus === 'test'));
+  const shared = rows.filter(r => ['Konung', 'Troll'].includes(r.targetName));
+  assert.equal(shared.length, 2);
+  assert.ok(shared.every(r => r.oldValue === '25.7 秒' && r.newValue === '18 秒'));
+  const repair = rows.filter(r => r.attribute.startsWith('维修小组-'));
+  assert.deepEqual(repair.map(r => r.trend), ['nerf', 'buff', 'buff']);
+  assert.ok(repair.every(r => r.originalText.includes('Ремонтная команда')));
+  const smoke = rows.filter(r => r.targetName === 'Isonzo');
+  assert.equal(smoke.length, 4);
+  assert.ok(smoke.every(r => r.oldValue === '—' && r.originalText.includes('В отдельный слот')));
+  assert.equal(rows.find(r => r.targetName === '25 de Mayo')?.analysisConfidence, 'medium');
+  const merged = mergeReviewed2610([], rows);
+  assert.equal(merged.added.length, 27);
+  assert.equal(mergeReviewed2610(merged.records, rows).added.length, 0);
+  assert.throws(() => parseReviewedBlog699(html.replace('с 12 до 15 с.', 'с 12 до 16 с.')), /changed/);
+  assert.throws(() => parseReviewedBlog699(html.replace('Время работы: 30 с.', 'Время работы: 31 с.')), /changed/);
+  assert.throws(() => parseReviewedBlog699(html.replace('data-nation="italy"', 'data-nation="uk"')), /identity/);
+});
 
 test('October 26.10 reviewed sources retain radar context, bonus direction and release phase',async()=>{
   const blogHtml=await readFile('scripts/fixtures/blog-698.html','utf8');

@@ -1,4 +1,8 @@
 [
+  {"sourceNames":["Riddare"],"nation":"欧洲","tier":"5","type":"巡洋舰","localizationKey":"IDS_PWSC105"},
+  {"sourceNames":["Tre Kronor"],"nation":"欧洲","tier":"6","type":"巡洋舰","localizationKey":"IDS_PWSC106"},
+  {"sourceNames":["Bärsärk"],"nation":"欧洲","tier":"7","type":"巡洋舰","localizationKey":"IDS_PWSC107"},
+  {"sourceNames":["25 de Mayo"],"nation":"泛美","tier":"7","type":"巡洋舰","localizationKey":"IDS_PVSC517"},
   {"sourceNames":["Vestfold","韦斯特福尔"],"nation":"欧洲","tier":"9","type":"巡洋舰","localizationKey":"IDS_PWSC109"},
   {"sourceNames":["Konung","科农"],"nation":"欧洲","tier":"10","type":"巡洋舰","localizationKey":"IDS_PWSC110"},
   {"sourceNames":["Troll","特罗尔"],"nation":"欧洲","tier":"11","type":"巡洋舰","localizationKey":"IDS_PWSC111"},

@@ -1,6 +1,932 @@
 {
   "records": [
     {
+      "id": "8cd608b2d967",
+      "category": "ship",
+      "targetName": "五月二十五日",
+      "canonicalName": "五月二十五日",
+      "previousNames": [],
+      "nation": "泛美",
+      "tier": "7",
+      "type": "巡洋舰",
+      "attribute": "维修小组参数",
+      "oldValue": "—",
+      "newValue": "与IX–X级巡洋舰的标准维修小组一致",
+      "version": "26.11",
+      "notes": "26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。未列出旧参数及具体新数值，保留平调判定待进一步确认。 官方公告：https://blog.korabli.su/blog/699",
+      "trend": "adjustment",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 699",
+      "announcementId": "699",
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "sourceUrl": "https://blog.korabli.su/blog/699",
+      "shipId": "7d534cba57e9a68e",
+      "originalNames": [
+        "25 de Mayo"
+      ],
+      "searchAliases": [
+        "25 de Mayo"
+      ],
+      "currentShipStatus": "test",
+      "name": "五月二十五日",
+      "releaseEvidence": []
+    },
+    {
+      "id": "447c036121ee",
+      "category": "ship",
+      "targetName": "狂战士",
+      "canonicalName": "狂战士",
+      "previousNames": [],
+      "nation": "欧洲",
+      "tier": "7",
+      "type": "巡洋舰",
+      "attribute": "主炮180度回转时间",
+      "oldValue": "22.5 秒",
+      "newValue": "18 秒",
+      "version": "26.11",
+      "notes": "26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 699",
+      "announcementId": "699",
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "sourceUrl": "https://blog.korabli.su/blog/699",
+      "shipId": "9b9d4b460692c728",
+      "originalNames": [
+        "Bärsärk"
+      ],
+      "searchAliases": [
+        "Bärsärk"
+      ],
+      "currentShipStatus": "test",
+      "name": "狂战士",
+      "releaseEvidence": []
+    },
+    {
+      "id": "3cd781975fab",
+      "category": "ship",
+      "targetName": "伊松佐",
+      "canonicalName": "伊松佐",
+      "previousNames": [],
+      "nation": "意大利",
+      "tier": "9",
+      "type": "巡洋舰",
+      "attribute": "新增全速发烟器：可用次数",
+      "oldValue": "—",
+      "newValue": "2 次",
+      "version": "26.11",
+      "notes": "26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。在独立栏位新增全速发烟器；四个子项描述同一项新增消耗品，旧值未提供，增强判定针对新增能力。 官方公告：https://blog.korabli.su/blog/699",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 699",
+      "announcementId": "699",
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "sourceUrl": "https://blog.korabli.su/blog/699",
+      "shipId": "6da98aee51f2168b",
+      "originalNames": [
+        "Isonzo"
+      ],
+      "searchAliases": [
+        "Isonzo"
+      ],
+      "currentShipStatus": "test",
+      "name": "伊松佐",
+      "releaseEvidence": []
+    },
+    {
+      "id": "0f2cdddf3dcd",
+      "category": "ship",
+      "targetName": "伊松佐",
+      "canonicalName": "伊松佐",
+      "previousNames": [],
+      "nation": "意大利",
+      "tier": "9",
+      "type": "巡洋舰",
+      "attribute": "新增全速发烟器：冷却时间",
+      "oldValue": "—",
+      "newValue": "180 秒",
+      "version": "26.11",
+      "notes": "26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。在独立栏位新增全速发烟器；四个子项描述同一项新增消耗品，旧值未提供，增强判定针对新增能力。 官方公告：https://blog.korabli.su/blog/699",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 699",
+      "announcementId": "699",
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "sourceUrl": "https://blog.korabli.su/blog/699",
+      "shipId": "6da98aee51f2168b",
+      "originalNames": [
+        "Isonzo"
+      ],
+      "searchAliases": [
+        "Isonzo"
+      ],
+      "currentShipStatus": "test",
+      "name": "伊松佐",
+      "releaseEvidence": []
+    },
+    {
+      "id": "4000c7975a4e",
+      "category": "ship",
+      "targetName": "伊松佐",
+      "canonicalName": "伊松佐",
+      "previousNames": [],
+      "nation": "意大利",
+      "tier": "9",
+      "type": "巡洋舰",
+      "attribute": "新增全速发烟器：烟幕消散时间",
+      "oldValue": "—",
+      "newValue": "10 秒",
+      "version": "26.11",
+      "notes": "26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。在独立栏位新增全速发烟器；四个子项描述同一项新增消耗品，旧值未提供，增强判定针对新增能力。 官方公告：https://blog.korabli.su/blog/699",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 699",
+      "announcementId": "699",
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "sourceUrl": "https://blog.korabli.su/blog/699",
+      "shipId": "6da98aee51f2168b",
+      "originalNames": [
+        "Isonzo"
+      ],
+      "searchAliases": [
+        "Isonzo"
+      ],
+      "currentShipStatus": "test",
+      "name": "伊松佐",
+      "releaseEvidence": []
+    },
+    {
+      "id": "bff31a0860a1",
+      "category": "ship",
+      "targetName": "伊松佐",
+      "canonicalName": "伊松佐",
+      "previousNames": [],
+      "nation": "意大利",
+      "tier": "9",
+      "type": "巡洋舰",
+      "attribute": "新增全速发烟器：作用时间",
+      "oldValue": "—",
+      "newValue": "30 秒",
+      "version": "26.11",
+      "notes": "26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。在独立栏位新增全速发烟器；四个子项描述同一项新增消耗品，旧值未提供，增强判定针对新增能力。 官方公告：https://blog.korabli.su/blog/699",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 699",
+      "announcementId": "699",
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "sourceUrl": "https://blog.korabli.su/blog/699",
+      "shipId": "6da98aee51f2168b",
+      "originalNames": [
+        "Isonzo"
+      ],
+      "searchAliases": [
+        "Isonzo"
+      ],
+      "currentShipStatus": "test",
+      "name": "伊松佐",
+      "releaseEvidence": []
+    },
+    {
+      "id": "de6e3e37d7d2",
+      "category": "ship",
+      "targetName": "君王",
+      "canonicalName": "君王",
+      "previousNames": [],
+      "nation": "欧洲",
+      "tier": "10",
+      "type": "巡洋舰",
+      "attribute": "主炮180度回转时间",
+      "oldValue": "25.7 秒",
+      "newValue": "18 秒",
+      "version": "26.11",
+      "notes": "26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 699",
+      "announcementId": "699",
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "sourceUrl": "https://blog.korabli.su/blog/699",
+      "shipId": "e302f298e4c18769",
+      "originalNames": [
+        "Konung"
+      ],
+      "searchAliases": [
+        "科农",
+        "Konung"
+      ],
+      "currentShipStatus": "test",
+      "name": "君王",
+      "releaseEvidence": []
+    },
+    {
+      "id": "41a324fc4228",
+      "category": "ship",
+      "targetName": "骑士",
+      "canonicalName": "骑士",
+      "previousNames": [],
+      "nation": "欧洲",
+      "tier": "5",
+      "type": "巡洋舰",
+      "attribute": "每轮深水炸弹数量",
+      "oldValue": "20 枚",
+      "newValue": "6 枚",
+      "version": "26.11",
+      "notes": "26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699",
+      "trend": "nerf",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 699",
+      "announcementId": "699",
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "sourceUrl": "https://blog.korabli.su/blog/699",
+      "shipId": "105435e1e047d9bc",
+      "originalNames": [
+        "Riddare"
+      ],
+      "searchAliases": [
+        "Riddare"
+      ],
+      "currentShipStatus": "test",
+      "name": "骑士",
+      "releaseEvidence": []
+    },
+    {
+      "id": "430b54aebeda",
+      "category": "ship",
+      "targetName": "骑士",
+      "canonicalName": "骑士",
+      "previousNames": [],
+      "nation": "欧洲",
+      "tier": "5",
+      "type": "巡洋舰",
+      "attribute": "主炮180度回转时间",
+      "oldValue": "20 秒",
+      "newValue": "18 秒",
+      "version": "26.11",
+      "notes": "26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 699",
+      "announcementId": "699",
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "sourceUrl": "https://blog.korabli.su/blog/699",
+      "shipId": "105435e1e047d9bc",
+      "originalNames": [
+        "Riddare"
+      ],
+      "searchAliases": [
+        "Riddare"
+      ],
+      "currentShipStatus": "test",
+      "name": "骑士",
+      "releaseEvidence": []
+    },
+    {
+      "id": "6a082bb835df",
+      "category": "ship",
+      "targetName": "先军",
+      "canonicalName": "先军",
+      "previousNames": [],
+      "nation": "泛亚",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "战斗指令-每次主炮命中积累进度",
+      "oldValue": "5%",
+      "newValue": "6%",
+      "version": "26.11",
+      "notes": "26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 699",
+      "announcementId": "699",
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "sourceUrl": "https://blog.korabli.su/blog/699",
+      "shipId": "0544b10044fd827e",
+      "originalNames": [
+        "Songun"
+      ],
+      "searchAliases": [
+        "Songun"
+      ],
+      "currentShipStatus": "test",
+      "name": "先军",
+      "releaseEvidence": []
+    },
+    {
+      "id": "f08dd92eaf6d",
+      "category": "ship",
+      "targetName": "先军",
+      "canonicalName": "先军",
+      "previousNames": [],
+      "nation": "泛亚",
+      "tier": "9",
+      "type": "战列舰",
+      "attribute": "主炮装填时间",
+      "oldValue": "27 秒",
+      "newValue": "25 秒",
+      "version": "26.11",
+      "notes": "26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 699",
+      "announcementId": "699",
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "sourceUrl": "https://blog.korabli.su/blog/699",
+      "shipId": "0544b10044fd827e",
+      "originalNames": [
+        "Songun"
+      ],
+      "searchAliases": [
+        "Songun"
+      ],
+      "currentShipStatus": "test",
+      "name": "先军",
+      "releaseEvidence": []
+    },
+    {
+      "id": "277ee02a0c0f",
+      "category": "ship",
+      "targetName": "三王冠",
+      "canonicalName": "三王冠",
+      "previousNames": [],
+      "nation": "欧洲",
+      "tier": "6",
+      "type": "巡洋舰",
+      "attribute": "每轮深水炸弹数量",
+      "oldValue": "16 枚",
+      "newValue": "8 枚",
+      "version": "26.11",
+      "notes": "26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699",
+      "trend": "nerf",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 699",
+      "announcementId": "699",
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "sourceUrl": "https://blog.korabli.su/blog/699",
+      "shipId": "d5519c7258f9ecb7",
+      "originalNames": [
+        "Tre Kronor"
+      ],
+      "searchAliases": [
+        "Tre Kronor"
+      ],
+      "currentShipStatus": "test",
+      "name": "三王冠",
+      "releaseEvidence": []
+    },
+    {
+      "id": "428a25d63d78",
+      "category": "ship",
+      "targetName": "三王冠",
+      "canonicalName": "三王冠",
+      "previousNames": [],
+      "nation": "欧洲",
+      "tier": "6",
+      "type": "巡洋舰",
+      "attribute": "鱼雷被发现距离",
+      "oldValue": "1.4 千米",
+      "newValue": "1.6 千米",
+      "version": "26.11",
+      "notes": "26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699",
+      "trend": "nerf",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 699",
+      "announcementId": "699",
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "sourceUrl": "https://blog.korabli.su/blog/699",
+      "shipId": "d5519c7258f9ecb7",
+      "originalNames": [
+        "Tre Kronor"
+      ],
+      "searchAliases": [
+        "Tre Kronor"
+      ],
+      "currentShipStatus": "test",
+      "name": "三王冠",
+      "releaseEvidence": []
+    },
+    {
+      "id": "b64024e182d8",
+      "category": "ship",
+      "targetName": "三王冠",
+      "canonicalName": "三王冠",
+      "previousNames": [],
+      "nation": "欧洲",
+      "tier": "6",
+      "type": "巡洋舰",
+      "attribute": "鱼雷航速",
+      "oldValue": "65 节",
+      "newValue": "76 节",
+      "version": "26.11",
+      "notes": "26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 699",
+      "announcementId": "699",
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "sourceUrl": "https://blog.korabli.su/blog/699",
+      "shipId": "d5519c7258f9ecb7",
+      "originalNames": [
+        "Tre Kronor"
+      ],
+      "searchAliases": [
+        "Tre Kronor"
+      ],
+      "currentShipStatus": "test",
+      "name": "三王冠",
+      "releaseEvidence": []
+    },
+    {
+      "id": "4ad12d325a65",
+      "category": "ship",
+      "targetName": "三王冠",
+      "canonicalName": "三王冠",
+      "previousNames": [],
+      "nation": "欧洲",
+      "tier": "6",
+      "type": "巡洋舰",
+      "attribute": "鱼雷射程",
+      "oldValue": "10 千米",
+      "newValue": "12 千米",
+      "version": "26.11",
+      "notes": "26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 699",
+      "announcementId": "699",
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "sourceUrl": "https://blog.korabli.su/blog/699",
+      "shipId": "d5519c7258f9ecb7",
+      "originalNames": [
+        "Tre Kronor"
+      ],
+      "searchAliases": [
+        "Tre Kronor"
+      ],
+      "currentShipStatus": "test",
+      "name": "三王冠",
+      "releaseEvidence": []
+    },
+    {
+      "id": "d1f2d904758c",
+      "category": "ship",
+      "targetName": "三王冠",
+      "canonicalName": "三王冠",
+      "previousNames": [],
+      "nation": "欧洲",
+      "tier": "6",
+      "type": "巡洋舰",
+      "attribute": "鱼雷装填时间",
+      "oldValue": "90 秒",
+      "newValue": "100 秒",
+      "version": "26.11",
+      "notes": "26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699",
+      "trend": "nerf",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 699",
+      "announcementId": "699",
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "sourceUrl": "https://blog.korabli.su/blog/699",
+      "shipId": "d5519c7258f9ecb7",
+      "originalNames": [
+        "Tre Kronor"
+      ],
+      "searchAliases": [
+        "Tre Kronor"
+      ],
+      "currentShipStatus": "test",
+      "name": "三王冠",
+      "releaseEvidence": []
+    },
+    {
+      "id": "98c8d41290ef",
+      "category": "ship",
+      "targetName": "三王冠",
+      "canonicalName": "三王冠",
+      "previousNames": [],
+      "nation": "欧洲",
+      "tier": "6",
+      "type": "巡洋舰",
+      "attribute": "主炮180度回转时间",
+      "oldValue": "22.5 秒",
+      "newValue": "18 秒",
+      "version": "26.11",
+      "notes": "26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 699",
+      "announcementId": "699",
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "sourceUrl": "https://blog.korabli.su/blog/699",
+      "shipId": "d5519c7258f9ecb7",
+      "originalNames": [
+        "Tre Kronor"
+      ],
+      "searchAliases": [
+        "Tre Kronor"
+      ],
+      "currentShipStatus": "test",
+      "name": "三王冠",
+      "releaseEvidence": []
+    },
+    {
+      "id": "5c562c2e4092",
+      "category": "ship",
+      "targetName": "巨魔",
+      "canonicalName": "巨魔",
+      "previousNames": [],
+      "nation": "欧洲",
+      "tier": "11",
+      "type": "巡洋舰",
+      "attribute": "主炮180度回转时间",
+      "oldValue": "25.7 秒",
+      "newValue": "18 秒",
+      "version": "26.11",
+      "notes": "26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 699",
+      "announcementId": "699",
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "sourceUrl": "https://blog.korabli.su/blog/699",
+      "shipId": "6885722ecf710a49",
+      "originalNames": [
+        "Troll"
+      ],
+      "searchAliases": [
+        "特罗尔",
+        "Troll"
+      ],
+      "currentShipStatus": "test",
+      "name": "巨魔",
+      "releaseEvidence": []
+    },
+    {
+      "id": "070affdccc84",
+      "category": "ship",
+      "targetName": "滑铁卢",
+      "canonicalName": "滑铁卢",
+      "previousNames": [],
+      "nation": "英国",
+      "tier": "11",
+      "type": "驱逐舰",
+      "attribute": "监视雷达-作用时间",
+      "oldValue": "12 秒",
+      "newValue": "15 秒",
+      "version": "26.11",
+      "notes": "26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 699",
+      "announcementId": "699",
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "sourceUrl": "https://blog.korabli.su/blog/699",
+      "shipId": "4251e26114a0a914",
+      "originalNames": [
+        "Waterloo"
+      ],
+      "searchAliases": [
+        "Waterloo"
+      ],
+      "currentShipStatus": "test",
+      "name": "滑铁卢",
+      "releaseEvidence": []
+    },
+    {
+      "id": "d462f1a8c6e9",
+      "category": "ship",
+      "targetName": "滑铁卢",
+      "canonicalName": "滑铁卢",
+      "previousNames": [],
+      "nation": "英国",
+      "tier": "11",
+      "type": "驱逐舰",
+      "attribute": "主炮射程",
+      "oldValue": "14 千米",
+      "newValue": "13.4 千米",
+      "version": "26.11",
+      "notes": "26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699",
+      "trend": "nerf",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 699",
+      "announcementId": "699",
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "sourceUrl": "https://blog.korabli.su/blog/699",
+      "shipId": "4251e26114a0a914",
+      "originalNames": [
+        "Waterloo"
+      ],
+      "searchAliases": [
+        "Waterloo"
+      ],
+      "currentShipStatus": "test",
+      "name": "滑铁卢",
+      "releaseEvidence": []
+    },
+    {
+      "id": "728e4374b9c1",
+      "category": "ship",
+      "targetName": "莫昂宗德",
+      "canonicalName": "莫昂宗德",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "10",
+      "type": "巡洋舰",
+      "attribute": "第四座主炮塔向舰艏射界",
+      "oldValue": "—",
+      "newValue": "左右舷各扩大5度",
+      "version": "26.11",
+      "notes": "26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 699",
+      "announcementId": "699",
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "sourceUrl": "https://blog.korabli.su/blog/699",
+      "shipId": "04c4a88356355bfc",
+      "originalNames": [
+        "Моонзунд"
+      ],
+      "searchAliases": [
+        "蒙海峡",
+        "Моонзунд"
+      ],
+      "currentShipStatus": "test",
+      "name": "莫昂宗德",
+      "releaseEvidence": []
+    },
+    {
+      "id": "4719bdba8c34",
+      "category": "ship",
+      "targetName": "莫昂宗德",
+      "canonicalName": "莫昂宗德",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "10",
+      "type": "巡洋舰",
+      "attribute": "第一座主炮塔向舰艉射界",
+      "oldValue": "—",
+      "newValue": "左右舷各扩大5度",
+      "version": "26.11",
+      "notes": "26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 699",
+      "announcementId": "699",
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "sourceUrl": "https://blog.korabli.su/blog/699",
+      "shipId": "04c4a88356355bfc",
+      "originalNames": [
+        "Моонзунд"
+      ],
+      "searchAliases": [
+        "蒙海峡",
+        "Моонзунд"
+      ],
+      "currentShipStatus": "test",
+      "name": "莫昂宗德",
+      "releaseEvidence": []
+    },
+    {
+      "id": "2c92033795fd",
+      "category": "ship",
+      "targetName": "莫昂宗德",
+      "canonicalName": "莫昂宗德",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "10",
+      "type": "巡洋舰",
+      "attribute": "维修小组-冷却时间",
+      "oldValue": "80 秒",
+      "newValue": "60 秒",
+      "version": "26.11",
+      "notes": "26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。单次基础总恢复量仍为14%；作用时间与每秒恢复速度分别展示，冷却时间另计。 官方公告：https://blog.korabli.su/blog/699",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 699",
+      "announcementId": "699",
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "sourceUrl": "https://blog.korabli.su/blog/699",
+      "shipId": "04c4a88356355bfc",
+      "originalNames": [
+        "Моонзунд"
+      ],
+      "searchAliases": [
+        "蒙海峡",
+        "Моонзунд"
+      ],
+      "currentShipStatus": "test",
+      "name": "莫昂宗德",
+      "releaseEvidence": []
+    },
+    {
+      "id": "809bdd60c2e9",
+      "category": "ship",
+      "targetName": "莫昂宗德",
+      "canonicalName": "莫昂宗德",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "10",
+      "type": "巡洋舰",
+      "attribute": "维修小组-每秒恢复生命值",
+      "oldValue": "0.5%",
+      "newValue": "1%",
+      "version": "26.11",
+      "notes": "26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。单次基础总恢复量仍为14%；作用时间与每秒恢复速度分别展示，冷却时间另计。 官方公告：https://blog.korabli.su/blog/699",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 699",
+      "announcementId": "699",
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "sourceUrl": "https://blog.korabli.su/blog/699",
+      "shipId": "04c4a88356355bfc",
+      "originalNames": [
+        "Моонзунд"
+      ],
+      "searchAliases": [
+        "蒙海峡",
+        "Моонзунд"
+      ],
+      "currentShipStatus": "test",
+      "name": "莫昂宗德",
+      "releaseEvidence": []
+    },
+    {
+      "id": "176420294269",
+      "category": "ship",
+      "targetName": "莫昂宗德",
+      "canonicalName": "莫昂宗德",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "10",
+      "type": "巡洋舰",
+      "attribute": "维修小组-作用时间",
+      "oldValue": "28 秒",
+      "newValue": "14 秒",
+      "version": "26.11",
+      "notes": "26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。单次基础总恢复量仍为14%；作用时间与每秒恢复速度分别展示，冷却时间另计。 官方公告：https://blog.korabli.su/blog/699",
+      "trend": "nerf",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 699",
+      "announcementId": "699",
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "sourceUrl": "https://blog.korabli.su/blog/699",
+      "shipId": "04c4a88356355bfc",
+      "originalNames": [
+        "Моонзунд"
+      ],
+      "searchAliases": [
+        "蒙海峡",
+        "Моонзунд"
+      ],
+      "currentShipStatus": "test",
+      "name": "莫昂宗德",
+      "releaseEvidence": []
+    },
+    {
+      "id": "062a39fd8d51",
+      "category": "ship",
+      "targetName": "莫昂宗德",
+      "canonicalName": "莫昂宗德",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "10",
+      "type": "巡洋舰",
+      "attribute": "主炮装填时间",
+      "oldValue": "18 秒",
+      "newValue": "17.5 秒",
+      "version": "26.11",
+      "notes": "26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 699",
+      "announcementId": "699",
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "sourceUrl": "https://blog.korabli.su/blog/699",
+      "shipId": "04c4a88356355bfc",
+      "originalNames": [
+        "Моонзунд"
+      ],
+      "searchAliases": [
+        "蒙海峡",
+        "Моонзунд"
+      ],
+      "currentShipStatus": "test",
+      "name": "莫昂宗德",
+      "releaseEvidence": []
+    },
+    {
+      "id": "cba3ac44df2e",
+      "category": "ship",
+      "targetName": "汉科",
+      "canonicalName": "汉科",
+      "previousNames": [],
+      "nation": "苏联",
+      "tier": "7",
+      "type": "巡洋舰",
+      "attribute": "主炮散布",
+      "oldValue": "—",
+      "newValue": "改善至大多数驱逐舰的散布水平",
+      "version": "26.11",
+      "notes": "26.11测试舰艇调整；公告注明随26.11版本在主服务器生效，不改变当前正式版本号。 官方公告：https://blog.korabli.su/blog/699",
+      "trend": "buff",
+      "shipStatus": "test",
+      "tags": [
+        "test-ship"
+      ],
+      "sourceSheet": "reviewed blog 699",
+      "announcementId": "699",
+      "publishedAt": "2026-10-23T12:00:00.000Z",
+      "sourceUrl": "https://blog.korabli.su/blog/699",
+      "shipId": "86ac7865b462fa72",
+      "originalNames": [
+        "Ханко"
+      ],
+      "searchAliases": [
+        "Ханко"
+      ],
+      "currentShipStatus": "test",
+      "name": "汉科",
+      "releaseEvidence": []
+    },
+    {
       "id": "03aa46455031",
       "category": "ship",
       "targetName": "卡萨比安卡",
@@ -47005,6 +47931,72 @@
       "releaseEvidence": []
     },
     {
+      "id": "0af16b0a41e8",
+      "category": "mechanic",
+      "targetName": "具有逐管鱼雷发射能力的舰船",
+      "canonicalName": "具有逐管鱼雷发射能力的舰船",
+      "previousNames": [],
+      "nation": "",
+      "tier": "",
+      "type": "",
+      "attribute": "鱼雷扇区显示、生成位置及方向",
+      "oldValue": "—",
+      "newValue": "改善鱼雷扇区显示和位置，并小幅调整鱼雷生成点与方向",
+      "version": "26.11",
+      "notes": "26.11正式版本公告确认；主服务器维护计划结束于2026-10-28 07:00 UTC。公告仅描述行为调整，旧参数未提供，按中性调整展示。 官方公告：https://korabli.su/ru/news/game-updates/update-26-11-black-friday/",
+      "trend": "adjustment",
+      "shipStatus": "unknown",
+      "tags": [],
+      "sourceSheet": "reviewed release 26.11",
+      "announcementId": "portal-16888",
+      "publishedAt": "2026-10-27T09:00:00.000Z",
+      "sourceUrl": "https://korabli.su/ru/news/game-updates/update-26-11-black-friday/"
+    },
+    {
+      "id": "d7b34e29b8c5",
+      "category": "mechanic",
+      "targetName": "所有舰船",
+      "canonicalName": "所有舰船",
+      "previousNames": [],
+      "nation": "",
+      "tier": "",
+      "type": "",
+      "attribute": "搁浅后的脱浅处理",
+      "oldValue": "—",
+      "newValue": "改善脱浅处理，减少在岛屿附近卡住的情况",
+      "version": "26.11",
+      "notes": "26.11正式版本公告确认；主服务器维护计划结束于2026-10-28 07:00 UTC。公告仅描述行为调整，旧参数未提供，按中性调整展示。 官方公告：https://korabli.su/ru/news/game-updates/update-26-11-black-friday/",
+      "trend": "adjustment",
+      "shipStatus": "unknown",
+      "tags": [],
+      "sourceSheet": "reviewed release 26.11",
+      "announcementId": "portal-16888",
+      "publishedAt": "2026-10-27T09:00:00.000Z",
+      "sourceUrl": "https://korabli.su/ru/news/game-updates/update-26-11-black-friday/"
+    },
+    {
+      "id": "6852a21ab2ca",
+      "category": "mechanic",
+      "targetName": "所有舰船",
+      "canonicalName": "所有舰船",
+      "previousNames": [],
+      "nation": "",
+      "tier": "",
+      "type": "",
+      "attribute": "切换深水炸弹空袭时的目标锁定",
+      "oldValue": "—",
+      "newValue": "保留锁定，主炮及鱼雷发射管继续跟随目标，直至目标隐蔽或被击沉",
+      "version": "26.11",
+      "notes": "26.11正式版本公告确认；主服务器维护计划结束于2026-10-28 07:00 UTC。公告仅描述行为调整，旧参数未提供，按中性调整展示。 官方公告：https://korabli.su/ru/news/game-updates/update-26-11-black-friday/",
+      "trend": "adjustment",
+      "shipStatus": "unknown",
+      "tags": [],
+      "sourceSheet": "reviewed release 26.11",
+      "announcementId": "portal-16888",
+      "publishedAt": "2026-10-27T09:00:00.000Z",
+      "sourceUrl": "https://korabli.su/ru/news/game-updates/update-26-11-black-friday/"
+    },
+    {
       "id": "093d9162c003",
       "category": "mechanic",
       "targetName": "所有潜艇",
@@ -47026,6 +48018,28 @@
       "announcementId": "portal-public-test-2611",
       "publishedAt": "2026-10-15T14:04:51.000Z",
       "sourceUrl": "https://korabli.su/ru/news/public-test/public-test-2611/"
+    },
+    {
+      "id": "297ee5ae9408",
+      "category": "mechanic",
+      "targetName": "所有潜艇",
+      "canonicalName": "所有潜艇",
+      "previousNames": [],
+      "nation": "",
+      "tier": "",
+      "type": "",
+      "attribute": "潜望镜深度的对空被发现距离",
+      "oldValue": "—",
+      "newValue": "2 千米",
+      "version": "26.11",
+      "notes": "26.11正式版本公告确认；主服务器维护计划结束于2026-10-28 07:00 UTC。公告未给出统一旧距离，不能按一个假定旧值判定整个潜艇类别的增强或削弱。26.11公测历史单独保留。 官方公告：https://korabli.su/ru/news/game-updates/update-26-11-black-friday/",
+      "trend": "adjustment",
+      "shipStatus": "unknown",
+      "tags": [],
+      "sourceSheet": "reviewed release 26.11",
+      "announcementId": "portal-16888",
+      "publishedAt": "2026-10-27T09:00:00.000Z",
+      "sourceUrl": "https://korabli.su/ru/news/game-updates/update-26-11-black-friday/"
     },
     {
       "id": "c8b009b50151",
@@ -47606,36 +48620,36 @@
     }
   ],
   "meta": {
-    "generatedAt": "2026-10-27T09:13:49.708Z",
+    "generatedAt": "2026-10-27T18:37:38.224Z",
     "currentVersion": "26.10",
-    "lastUpdated": "2026-10-27",
-    "recordCount": 1399,
+    "lastUpdated": "2026-10-28",
+    "recordCount": 1430,
     "categoryCounts": {
-      "ship": 1372,
-      "mechanic": 20,
+      "ship": 1399,
+      "mechanic": 24,
       "misc": 7
     },
     "shipStatusCounts": {
-      "test": 727,
+      "test": 754,
       "released": 644,
-      "unknown": 28
+      "unknown": 32
     },
     "tagCounts": {
+      "test-ship": 754,
       "released-ship": 644,
-      "converted-from-test": 109,
-      "test-ship": 727
+      "converted-from-test": 109
     },
     "trendCounts": {
-      "buff": 710,
-      "nerf": 337,
+      "buff": 730,
+      "nerf": 343,
       "neutral": 0,
-      "adjustment": 352
+      "adjustment": 357
     },
     "officialData": {
-      "announcementCount": 144,
+      "announcementCount": 146,
       "rangeStart": "2024-08-16T18:05:27.281Z",
-      "rangeEnd": "2026-10-27T09:13:07.066Z",
-      "syncedAt": "2026-10-27T09:13:07.066Z"
+      "rangeEnd": "2026-10-27T18:37:24.327Z",
+      "syncedAt": "2026-10-27T18:37:24.327Z"
     }
   }
 }

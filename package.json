@@ -14,6 +14,8 @@
     "data:import:localization": "node --experimental-strip-types scripts/import-localization.ts",
     "data:import:public-test": "node --experimental-strip-types scripts/import-public-test-2610.ts",
     "data:import:reviewed": "node --experimental-strip-types scripts/import-reviewed-2610.ts",
+    "data:import:699": "node --experimental-strip-types scripts/import-reviewed-699.ts",
+    "data:import:2611": "node --experimental-strip-types scripts/import-reviewed-2611.ts",
     "data:import:nga": "node --experimental-strip-types scripts/import-nga.ts",
     "data:validate": "node --experimental-strip-types scripts/validate-data.ts",
     "data:build": "node --experimental-strip-types scripts/build-data.ts",
