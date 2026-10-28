@@ -48620,7 +48620,7 @@
     }
   ],
   "meta": {
-    "generatedAt": "2026-10-27T18:41:10.933Z",
+    "generatedAt": "2026-10-28T09:54:58.411Z",
     "currentVersion": "26.10",
     "lastUpdated": "2026-10-28",
     "recordCount": 1430,
@@ -48648,8 +48648,8 @@
     "officialData": {
       "announcementCount": 146,
       "rangeStart": "2024-08-16T18:05:27.281Z",
-      "rangeEnd": "2026-10-27T18:37:24.327Z",
-      "syncedAt": "2026-10-27T18:37:24.327Z"
+      "rangeEnd": "2026-10-28T09:54:12.443Z",
+      "syncedAt": "2026-10-28T09:54:12.443Z"
     }
   }
 }
