@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
   "source": "korabli-multi-source",
-  "syncedAt": "2026-11-11T11:17:48.525Z",
+  "syncedAt": "2026-11-12T11:36:40.123Z",
   "rangeStart": "2024-08-16T18:05:27.281Z",
-  "rangeEnd": "2026-11-11T11:17:48.525Z",
+  "rangeEnd": "2026-11-12T11:36:40.123Z",
   "announcements": [
     {
       "id": "693",
@@ -2128,7 +2128,7 @@
       "title": "Обновление 26.9. Сюрпризы на день рождения",
       "publishedAt": "2026-09-01T09:00:00.000Z",
       "sourceKind": "portal",
-      "contentHash": "426d63f92899345a9309429b7817342145856647b04912205eb84226bcf208fe",
+      "contentHash": "fc88f1a1af4ef031b5606054a9c7e9034558706f8756bf1c872546f4910bf714",
       "recordIds": [
         "manual-26.9-1",
         "manual-26.9-2",
@@ -2946,7 +2946,7 @@
       "title": "Обновление 26.10. Там чудеса, там крейсер бродит…",
       "publishedAt": "2026-09-29T09:00:44.000Z",
       "sourceKind": "portal",
-      "contentHash": "03d93f340ca886cb78604ca0c6be170b958b64de7c95aecfd6b22ffe5fd7c29a",
+      "contentHash": "a08af469a52ad24133c574a4356ddc60147ba5faefe343ddc4e649d8a9d55de1",
       "recordIds": [
         "fe93b14916f8d0f2",
         "4df434a2befd2998",
@@ -3022,7 +3022,7 @@
       "title": "Закрытое тестирование 26.11 — изменения тестовых кораблей",
       "publishedAt": "2026-10-23T12:00:00.000Z",
       "sourceKind": "blog",
-      "contentHash": "351b5e985222c4f4ec26ca3c066883ff57f9a580f1cfd9a5a442df19bf36c4b1",
+      "contentHash": "a3e3ec0e5b6087d61d0bdbdb07cee1045ed1b77826406ae7b64ab45b97ee2dc0",
       "recordIds": [
         "1a9ca4a2aa8a790f",
         "0b4aa055f21a9d6e",
@@ -3060,13 +3060,23 @@
       "title": "Обновление 26.11. Странности в Спейд-Сити…",
       "publishedAt": "2026-10-27T09:00:00.000Z",
       "sourceKind": "portal",
-      "contentHash": "c08032d95d18fe87492dd5f552babec0d4df35f73311a7d95ccfbf9070f70cad",
+      "contentHash": "4ad30a66ec0d5391d7a449dae3630a3709551f8439fd5a60cc0f2896b5c509dc",
       "recordIds": [
         "5de292121ba86bfa",
         "79ec0599225ee9d9",
         "e458ffee5fe5e31e",
         "0ca510ea46f65ff3"
       ],
+      "parserVersion": 3
+    },
+    {
+      "id": "700",
+      "url": "https://blog.korabli.su/blog/700",
+      "title": "Закрытое тестирование 26.12 — изменения тестовых кораблей",
+      "publishedAt": "2026-11-12T09:00:00.000Z",
+      "sourceKind": "blog",
+      "contentHash": "e157b530972ace6db6370f7eb3180fd85bbd3f26f0c534ed0b059d0a1ed7ab9a",
+      "recordIds": [],
       "parserVersion": 3
     }
   ],
