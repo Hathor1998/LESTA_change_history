@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
   "source": "korabli-multi-source",
-  "syncedAt": "2026-11-21T11:31:06.839Z",
+  "syncedAt": "2026-11-22T11:45:44.278Z",
   "rangeStart": "2024-08-16T18:05:27.281Z",
-  "rangeEnd": "2026-11-21T11:31:06.839Z",
+  "rangeEnd": "2026-11-22T11:45:44.278Z",
   "announcements": [
     {
       "id": "693",
@@ -2128,7 +2128,7 @@
       "title": "Обновление 26.9. Сюрпризы на день рождения",
       "publishedAt": "2026-09-01T09:00:00.000Z",
       "sourceKind": "portal",
-      "contentHash": "1a1e74ae38a6c93f3670588ccf35a106402063a8e391731f1e174ae775f1170f",
+      "contentHash": "32d7fdc188ad5771ceed22030004d540001ff86ac89d1c9bc35c934d2768c15c",
       "recordIds": [
         "manual-26.9-1",
         "manual-26.9-2",
@@ -2946,7 +2946,7 @@
       "title": "Обновление 26.10. Там чудеса, там крейсер бродит…",
       "publishedAt": "2026-09-29T09:00:44.000Z",
       "sourceKind": "portal",
-      "contentHash": "9df278bbad32f85f328db0de10303dfcaf79d1e0b8453d3302f3e949136bf142",
+      "contentHash": "507853a444ba5b03215bfc1045ecccbe41cf92a847dd44e0e49f18f242a89f4c",
       "recordIds": [
         "fe93b14916f8d0f2",
         "4df434a2befd2998",
@@ -3022,7 +3022,7 @@
       "title": "Закрытое тестирование 26.11 — изменения тестовых кораблей",
       "publishedAt": "2026-10-23T12:00:00.000Z",
       "sourceKind": "blog",
-      "contentHash": "c39ed34e272de8c09da5c6f7dc01c7d282818cc87f2d47d20550a739bb800aa1",
+      "contentHash": "83aa264621997efbe15ea34dbd9e365e068744b7f2ca19a031e51894f455ceb6",
       "recordIds": [
         "1a9ca4a2aa8a790f",
         "0b4aa055f21a9d6e",
@@ -3060,7 +3060,7 @@
       "title": "Обновление 26.11. Странности в Спейд-Сити…",
       "publishedAt": "2026-10-27T09:00:00.000Z",
       "sourceKind": "portal",
-      "contentHash": "84bbe05f94785e05edbbf880b064a6957e1d33c8632aeaaeadb3cb31cbd7eaf0",
+      "contentHash": "450e003c65c439efca72c3b4ced9e487e8072277b04eece995d87020013d76e4",
       "recordIds": [
         "5de292121ba86bfa",
         "79ec0599225ee9d9",
