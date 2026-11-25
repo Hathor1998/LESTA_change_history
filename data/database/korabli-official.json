@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
   "source": "korabli-multi-source",
-  "syncedAt": "2026-11-24T14:03:22.968Z",
+  "syncedAt": "2026-11-25T13:16:41.231Z",
   "rangeStart": "2024-08-16T18:05:27.281Z",
-  "rangeEnd": "2026-11-24T14:03:22.968Z",
+  "rangeEnd": "2026-11-25T13:16:41.231Z",
   "announcements": [
     {
       "id": "693",
@@ -2128,7 +2128,7 @@
       "title": "Обновление 26.9. Сюрпризы на день рождения",
       "publishedAt": "2026-09-01T09:00:00.000Z",
       "sourceKind": "portal",
-      "contentHash": "5f4d99cd8ea7ebafdfbe7b2fa0fb8604ab882b2df21a079b8baa36f89424ef35",
+      "contentHash": "709085afb7904ee23fd059a2a7e1e61743a5b11545670db3383d24a5c4bd81df",
       "recordIds": [
         "manual-26.9-1",
         "manual-26.9-2",
@@ -2946,7 +2946,7 @@
       "title": "Обновление 26.10. Там чудеса, там крейсер бродит…",
       "publishedAt": "2026-09-29T09:00:44.000Z",
       "sourceKind": "portal",
-      "contentHash": "26c318747e3dd81bcf346c5e524e452e08aa2e7a04d0439e988569e042b381b6",
+      "contentHash": "45bfd083924f8d010d16c1d762aa97b6a471385749f29d44a4ecc051220f4165",
       "recordIds": [
         "fe93b14916f8d0f2",
         "4df434a2befd2998",
@@ -3022,7 +3022,7 @@
       "title": "Закрытое тестирование 26.11 — изменения тестовых кораблей",
       "publishedAt": "2026-10-23T12:00:00.000Z",
       "sourceKind": "blog",
-      "contentHash": "06f22f994e518726d6052de8401181aaea1d6b2bac7e4cad8d1eef8029efddb2",
+      "contentHash": "9690e86e926b5a2eecce68a90a6745806a6b247239d828067413ffed27d088fc",
       "recordIds": [
         "1a9ca4a2aa8a790f",
         "0b4aa055f21a9d6e",
@@ -3060,7 +3060,7 @@
       "title": "Обновление 26.11. Странности в Спейд-Сити…",
       "publishedAt": "2026-10-27T09:00:00.000Z",
       "sourceKind": "portal",
-      "contentHash": "b2427e499098d5cc1268cfcdc91d36147fb3b908a04e7d7198e76a87a7676f6b",
+      "contentHash": "d19b4ec408d3cbc5a92f21a2f16c5a5aa9439250e15d2329ccb4197ef5628977",
       "recordIds": [
         "5de292121ba86bfa",
         "79ec0599225ee9d9",
@@ -3076,6 +3076,16 @@
       "publishedAt": "2026-11-12T09:00:00.000Z",
       "sourceKind": "blog",
       "contentHash": "e157b530972ace6db6370f7eb3180fd85bbd3f26f0c534ed0b059d0a1ed7ab9a",
+      "recordIds": [],
+      "parserVersion": 3
+    },
+    {
+      "id": "701",
+      "url": "https://blog.korabli.su/blog/701",
+      "title": "Обновление 26.12 — изменение кораблей",
+      "publishedAt": "2026-11-25T12:00:00.000Z",
+      "sourceKind": "blog",
+      "contentHash": "4c983ce70bef83fef589438683b61b29a271ef14976b63188315fed2844557bd",
       "recordIds": [],
       "parserVersion": 3
     }
